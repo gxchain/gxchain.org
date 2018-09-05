@@ -1,0 +1,21 @@
+*:hover,
+*:focus,
+*:active {
+  outline: none !important;
+}
+
+.navbar-light .navbar-toggler {
+  border-color: transparent;
+}
+
+.fl {
+  float: left;
+}
+
+.fr {
+  float: right;
+}
+
+.blue {
+  color: #004499 !important;
+}
