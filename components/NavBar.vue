@@ -1,6 +1,6 @@
 <template>
   <b-navbar toggleable="md">
-    <b-navbar-brand href="#"><img style="height:30px" src="/gxchain.org.png"></b-navbar-brand>
+    <b-navbar-brand href="/"><img style="height:30px" src="/gxchain.org.png"></b-navbar-brand>
     <b-navbar-toggle target="nav_collapse"></b-navbar-toggle>
     <b-collapse is-nav id="nav_collapse">
 

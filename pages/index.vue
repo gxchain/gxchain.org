@@ -3,17 +3,17 @@
     <section class="header text-center">
       <div class="container">
         <img src="/gxchain.org.png">
-        <h1 class="slogen lead">下一代大数据公链</h1>
+        <h1 class="slogen lead color-theme">下一代大数据公链</h1>
         <p>
-          <a href="https://docs.gxchain.org" target="_blank" class="btn btn-lg btn-primary">Getting Started</a>
+          <a href="https://docs.gxchain.org" target="_blank" class="btn btn-lg btn-theme">Getting Started</a>
         </p>
       </div>
     </section>
-    <section class="introduction section">
+    <section class="introduction section-padding">
       <div class="container">
-        <h2>简介</h2>
-        <div class="content">
-          <div class="left">
+        <h2 class="gxc-border-left padding-left-w">简介</h2>
+        <div class="content content-margin-top">
+          <div class="left-content">
             <h5>公信链（GXChain）是一条主要面向海量数据交换和应用开发的公有链</h5>
             <h6>用于建立基于区块链的可信任的全领域数据交换价值网络</h6>
             <div class="des">公信链具有基于DPoS共识机制的石墨烯底层架构的性能优势，同时具备G-ID、GVM、BaaS、Blockcity pay等链上配套功能，方便各类应用开发。基于公信链的Dapp布洛克城已经拥有百万级实名用户，为链上应用和合伙伙伴提供丰富的数据资源；面向企业服务的公信宝数据交易所也已上线，服务企业数量超过百家。公信链通过区块链技术实现了数据的安全、可信、自由、高效交易交换，为更大化发挥数据应用价值提供支撑。公信链由公信宝团队主导开发，主网已于2017年6月上线。</div>
@@ -25,64 +25,61 @@
         </div>
       </div>
     </section>
-    <section class="feature section">
+    <section class="feature section-padding">
        <div class="container">
-          <h2>GXChain可为您带来什么？</h2>
-          <div class="content">
-
+          <h2 class="gxc-border-left padding-left-w color-666">GXChain可为您带来什么？</h2>
+          <div class="content content-margin-top">
             <div class="item">
               <div class="item-img">
                 <img src="../assets/img/home_1.png" alt="">
               </div>
               <div class="item-txt">
-                <h4>更高性能</h4>
-                <p>基于石墨烯技术的DPoS共识机制，交易秒级确认，
+                <h4 class="color-666">更高性能</h4>
+                <p class="color-999">基于石墨烯技术的DPoS共识机制，交易秒级确认，
                 能够让区块链Dapps拥有媲美中心化应用的使用体验。</p>
              </div>
             </div>
-
             <div class="item">  
               <div class="item-img">
                 <img src="../assets/img/home_2.png" alt="">
              </div>
               <div class="item-txt">
-                <h4>智能合约</h4>
-                <p>GXChain生态的身份唯一标识，当前拥有百万级的实名G-ID数字身份用户，可为Dapps引入丰富的自然流量，大大降低获客成本，促进Dapps更好发展。</p>
+                <h4 class="color-666">智能合约</h4>
+                <p class="color-999">GXChain生态的身份唯一标识，当前拥有百万级的实名G-ID数字身份用户，可为Dapps引入丰富的自然流量，大大降低获客成本，促进Dapps更好发展。</p>
              </div>
             </div>
-
             <div class="item">
               <div class="item-img">
                 <img src="../assets/img/home_3.png" alt="">
               </div>
               <div class="item-txt">
-                <h4>通用数字身份G-ID</h4>
-                <p>基于石墨烯技术的DPoS共识机制，交易秒级确认，
+                <h4 class="color-666">通用数字身份G-ID</h4>
+                <p class="color-999">基于石墨烯技术的DPoS共识机制，交易秒级确认，
                 能够让区块链Dapps拥有媲美中心化应用的使用体验。</p>
               </div>
             </div>
 
           </div>
           <p class="text-center entrance">
-             <a href="https://docs.gxchain.org" target="_blank" class="btn btn-lg btn-primary">进入开发者页面 </a>
+             <a href="https://docs.gxchain.org" target="_blank" class="btn btn-lg btn-theme">进入开发者页面 </a>
           </p>
        </div>
     </section>
-    <section class="resource section">
+    <section class="resource section-padding">
         <div class="container">
           <img src="../assets/img/stellate.png" alt="">
           <div class="look-over">
             <div class="down-load">
               <p>供多种客户端下载</p><p>开源多种核心组件代码</p>
             </div>
-            <a href="https://docs.gxchain.org" target="_blank" class="btn btn-lg btn-primary">前往资源页查看 </a> 
+            <a href="https://docs.gxchain.org" target="_blank" class="btn btn-lg btn-theme">前往资源页查看 </a> 
           </div>
         </div>
     </section>
-    <section class="course section">
+    <section class="course section-padding">
         <div class="container">
-          <h2>历程</h2>
-          <div class="col-md-12">
+          <h2  class="gxc-border-left padding-left-w color-666">历程</h2>
+          <div class="col-md-12 content-margin-top">
             <div class="row">
               <div class="timeline timeline-line-dotted">
                 <div class="timeline-item timeline-text-algin">
@@ -216,26 +213,6 @@
           </div>
         </div>
     </section>
-    <section class="contact-us section">
-        <div class="container">
-          <h2>联系我们</h2>
-          <div class="social-list list-wrap">
-            <a class="wechat" href=""></a>
-            <a class="github" href=""></a>
-            <a class="redit" href=""></a>
-            <a class="slack" href=""></a>
-            <a class="weibo" href=""></a>
-            <a class="twitter" href=""></a>
-          </div>
-          <ul class="other-list list-wrap">
-            <a href="">常见问题</a>
-            <a href="">客服联系 kefu@gxb.io </a>
-            <a href="">浙公网安备 33010602008310号</a>
-            <a href="">浙ICP备16042060号-1</a>                 
-          </ul>
-          <p class="copyright">© 2018 GXS Foundation Ltd.</p>
-        </div>
-    </section>
   </div>
 </template>
 
@@ -247,17 +224,7 @@ export default {
 </script>
 
 <style lang="less" scoped>
-.social-logo {
-  background: url("../assets/img/social_icon.png");
-}
 .home-page {
-  .h2 {
-    margin-bottom: 50px;
-  }
-  .section {
-    padding-top: 50px;
-    padding-bottom: 30px;
-  }
   .contact-us {
     padding-top: 40px;
   }
@@ -265,6 +232,7 @@ export default {
     display: flex;
     align-items: center;
     height: 93vh;
+    padding: 0;
   }
   img {
     height: auto;
@@ -276,27 +244,25 @@ export default {
     font-size: 70px;
     letter-spacing: 42px;
     margin: 2rem;
-    color: #6699ff;
   }
 }
 .introduction {
   background: #434750;
   min-height: 500px;
   color: #fff;
-  h2 {
-    padding-left: 24px;
-    border-left: 4px solid #fff;
-  }
   .content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: flex-end;
   }
-  .left {
+  h2 {
+    border-color: #fff;
+  }
+  .left-content {
     width: 620px;
   }
-  .left .des {
+  .left-content .des {
     font-size: 14px;
     line-height: 30px;
     margin-top: 20px;
@@ -318,10 +284,6 @@ export default {
   }
 }
 .feature {
-  h2 {
-    padding-left: 24px;
-    border-left: 4px solid #6699ff;
-  }
   .item {
     display: flex;
     flex-wrap: wrap;
@@ -379,72 +341,8 @@ export default {
 }
 .course {
   padding-bottom: 100px;
-  h2 {
-    padding-left: 24px;
-    border-left: 4px solid #6699ff;
-  }
   .container {
     overflow: hidden;
-  }
-}
-.contact-us {
-  text-align: center;
-  border-top: 1px solid #e5e9ef;
-  color: #666666;
-  h3 {
-    margin-bottom: 25px;
-    font-weight: normal;
-  }
-  .list-wrap {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    margin-bottom: 20px;
-  }
-  .social-list {
-    a {
-      display: inline-block;
-      width: 50px;
-      height: 50px;
-      border-radius: 50%;
-      margin: 0 15px 15px 15px;
-      &:hover {
-        opacity: 0.8;
-      }
-      &:active {
-        opacity: 0.8;
-      }
-    }
-    a.wechat {
-      .social-logo;
-      background-position: 0 -3px;
-    }
-    a.github {
-      .social-logo;
-      background-position: -78px -1px;
-    }
-    a.redit {
-      .social-logo;
-      background-position: -159px -1px;
-    }
-    a.slack {
-      .social-logo;
-      background-position: -237px -1px;
-    }
-    a.weibo {
-      .social-logo;
-      background-position: -313px 0;
-    }
-    a.twitter {
-      .social-logo;
-      background-position: -389px -1px;
-    }
-  }
-  .other-list {
-    a {
-      margin: 0 15px;
-      color: #666666;
-    }
   }
 }
 @media (max-width: 1200px) {
@@ -468,22 +366,6 @@ export default {
   }
 }
 @media (max-width: 768px) {
-  .home-page {
-    padding-top: 25px;
-    h2 {
-      margin-bottom: 25px;
-      font-size: 24px;
-    }
-    h4 {
-      font-size: 20px;
-    }
-    h5 {
-      font-size: 18px;
-    }
-    h6 {
-      font-size: 16px;
-    }
-  }
   .header .slogen {
     letter-spacing: 16px;
     font-size: 34px;

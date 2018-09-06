@@ -71,6 +71,6 @@ module.exports = {
   modules: [
     'bootstrap-vue/nuxt'
   ],
-  css: ['~assets/css/common.css']
+  css: ['~assets/css/common.less']
 
 }
