@@ -1,0 +1,16 @@
+{
+  "links": {
+    "home": "首页",
+    "about": "关于",
+    "english": "英文",
+    "chinese": "中文"
+  },
+  "home": {
+    "title": "欢迎",
+    "introduction": "This is an introduction in English."
+  },
+  "about": {
+    "title": "About",
+    "introduction": "This page is made to give you more informations."
+  }
+}

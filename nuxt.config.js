@@ -71,6 +71,15 @@ module.exports = {
   modules: [
     'bootstrap-vue/nuxt'
   ],
+  /**
+   * plugins
+   */
+  plugins: [
+    '~/plugins/i18n.js'
+  ],
+  router: {
+    middleware: 'i18n'
+  },
   css: ['~assets/css/common.less']
 
 }

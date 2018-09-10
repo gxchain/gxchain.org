@@ -5,7 +5,7 @@
         <img src="/gxchain.org.png">
         <h1 class="slogen lead color-theme">{{$t('home.title')}}</h1>
         <p>
-          <a href="https://docs.gxchain.org" target="_blank" class="btn btn-lg btn-theme">开始</a>
+          <a href="https://docs.gxchain.org" target="_blank" class="btn btn-lg btn-theme">Getting Started</a>
         </p>
       </div>
     </section>
@@ -19,7 +19,7 @@
             <div class="des">公信链具有基于DPoS共识机制的石墨烯底层架构的性能优势，同时具备G-ID、GVM、BaaS、Blockcity pay等链上配套功能，方便各类应用开发。基于公信链的Dapp布洛克城已经拥有百万级实名用户，为链上应用和合伙伙伴提供丰富的数据资源；面向企业服务的公信宝数据交易所也已上线，服务企业数量超过百家。公信链通过区块链技术实现了数据的安全、可信、自由、高效交易交换，为更大化发挥数据应用价值提供支撑。公信链由公信宝团队主导开发，主网已于2017年6月上线。</div>
           </div>
           <div class="white-paper">
-             <img src="../assets/img/white_paper.png" alt="">
+             <img src="../../assets/img/white_paper.png" alt="">
             <p>获取GXChain白皮书</p>
           </div>
         </div>
@@ -31,7 +31,7 @@
           <div class="content content-margin-top">
             <div class="item">
               <div class="item-img">
-                <img src="../assets/img/home_1.png" alt="">
+                <img src="../../assets/img/home_1.png" alt="">
               </div>
               <div class="item-txt">
                 <h4 class="color-666">更高性能</h4>
@@ -41,7 +41,7 @@
             </div>
             <div class="item">  
               <div class="item-img">
-                <img src="../assets/img/home_2.png" alt="">
+                <img src="../../assets/img/home_2.png" alt="">
              </div>
               <div class="item-txt">
                 <h4 class="color-666">智能合约</h4>
@@ -50,7 +50,7 @@
             </div>
             <div class="item">
               <div class="item-img">
-                <img src="../assets/img/home_3.png" alt="">
+                <img src="../../assets/img/home_3.png" alt="">
               </div>
               <div class="item-txt">
                 <h4 class="color-666">通用数字身份G-ID</h4>
@@ -67,7 +67,7 @@
     </section>
     <section class="resource section-padding">
         <div class="container">
-          <img src="../assets/img/stellate.png" alt="">
+          <img src="../../assets/img/stellate.png" alt="">
           <div class="look-over">
             <div class="down-load">
               <p>供多种客户端下载</p><p>开源多种核心组件代码</p>
@@ -217,7 +217,7 @@
 </template>
 
 <script>
-import "../assets/css/timeline.css";
+import "../../assets/css/timeline.css";
 export default {
   components: {}
 };
