@@ -9,21 +9,8 @@
 
       <!-- Right aligned nav items -->
       <b-navbar-nav class="ml-auto">
-        
-        <b-nav-item active v-if="$i18n.locale === 'zh'"  href="/bounty">{{$t('links.bounty')}}</b-nav-item>
-        <b-nav-item v-else href="/en/bounty">{{$t('links.bounty')}}</b-nav-item>
-
-        <b-nav-item v-if="$i18n.locale === 'zh'"  href="/developer">{{$t('links.developer')}}</b-nav-item>
-        <b-nav-item v-else href="/en/developer">{{$t('links.developer')}}</b-nav-item>
-
-
-        <b-nav-item v-if="$i18n.locale === 'zh'" href="/resource">{{$t('links.resource')}}</b-nav-item>
-        <b-nav-item v-else href="/en/resource">{{$t('links.resource')}}</b-nav-item>
-
-        <b-nav-item v-if="$i18n.locale === 'zh'"  href="/dapps">DApps</b-nav-item>
-        <b-nav-item v-else href="/en/dapps">DApps</b-nav-item>
-        
-        <b-nav-item target="_blank"  href="https://block.gxb.io">{{$t('links.blockExplorer')}}</b-nav-item>
+  
+         <b-nav-item v-for="(item,index) in navList" :key="index" :target="item.target" :href="item.path[$store.state.locale]" :class="{'active':navActive(item.name)}">{{$t('links.'+item.name)}}</b-nav-item>
         <!-- <b-button variant="outline-info" size="sm" class="info" type="submit">登录</b-button> -->
 
         <b-nav-item-dropdown :text="$i18n.locale === 'zh' ? $t('links.chinese') : $t('links.english')" right>
@@ -39,13 +26,58 @@
 <script>
 export default {
   data() {
-    return {};
+    return {
+      navList: [
+        {
+          name: "bounty",
+          path: {
+            zh: "/bounty",
+            en: "/en/bounty"
+          },
+          target: "_self"
+        },
+        {
+          name: "developer",
+          path: {
+            zh: "/developer",
+            en: "/en/developer"
+          },
+          target: "_self"
+        },
+        {
+          name: "resource",
+          path: {
+            zh: "/resource",
+            en: "/en/resource"
+          },
+          target: "_self"
+        },
+        {
+          name: "dapps",
+          path: {
+            zh: "/dapps",
+            en: "/en/dapps"
+          },
+          target: "_self"
+        },
+        {
+          name: "blockExplorer",
+          path: {
+            zh: "https://block.gxb.io",
+            en: "https://block.gxb.io"
+          },
+          target: "_blank"
+        }
+      ]
+    };
   },
   created() {
-    // console.log(this._i18n.locale);
+    console.log(this.$route.fullPath.indexOf("resource"));
   },
-
   methods: {
+    navActive(navName) {
+      return this.$route.fullPath.indexOf(navName) != -1;
+    },
     switchLanguage(locale) {
       if (this._i18n.locale === "zh") {
         if (locale === "en") {
@@ -64,8 +96,16 @@ export default {
 .navbar {
   border-bottom: 1px solid #e5e9ef;
 }
+.navbar-nav li.active {
+  border-bottom: 2px solid #6699ff;
+}
 .flag-img {
   width: 20px;
   margin-right: 10px;
+}
+@media (max-width: 768px) {
+  .navbar-nav li.active {
+    border-bottom: none;
+  }
 }
 </style>

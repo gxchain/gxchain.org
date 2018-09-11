@@ -3,7 +3,6 @@ import VueI18n from 'vue-i18n'
 
 Vue.use(VueI18n)
 
-//console.dir(localStorage.getItem('name'))
 export default ({
   app,
   store
