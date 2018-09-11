@@ -78,6 +78,16 @@ module.exports = {
     '~/plugins/i18n.js'
   ],
   router: {
+    scrollBehavior(to, from, savedPosition) {
+      // savedPosition is only available for popstate navigations (back button)
+      if (savedPosition) {
+        return savedPosition
+      }
+      return {
+        x: 0,
+        y: 0
+      }
+    },
     middleware: 'i18n'
   },
   css: ['~assets/css/common.less']

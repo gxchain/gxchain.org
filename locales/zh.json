@@ -2,15 +2,151 @@
   "links": {
     "home": "首页",
     "about": "关于",
+    "bounty": "激励计划",
+    "developer": "开发者",
+    "resource": "资源",
+    "blockExplorer": "区块浏览器",
     "english": "英文",
     "chinese": "中文"
   },
-  "home": {
-    "title": "欢迎",
-    "introduction": "This is an introduction in English."
+  "index": {
+    "slogen": "下一代大数据公链 ",
+    "startBtn": "开始",
+    "introduction": {
+      "title": "简介",
+      "content1": "公信链（GXChain）是一条主要面向海量数据交换和应用开发的公有链，用于建立基于区块链的可信任的全领域数据交换价值网络。",
+      "content2": "公信链具有基于DPoS共识机制的石墨烯底层架构的性能优势，同时具备G-ID、GVM、BaaS、Blockcity pay等链上配套功能，方便各类应用开发。基于公信链的Dapp布洛克城已经拥有百万级实名用户，为链上应用和合伙伙伴提供丰富的数据资源；面向企业服务的公信宝数据交易所也已上线，服务企业数量超过百家。公信链通过区块链技术实现了数据的安全、可信、自由、高效交易交换，为更大化发挥数据应用价值提供支撑。公信链由公信宝团队主导开发，主网已于2017年6月上线。",
+      "getWhitepaper": "获取GXChain白皮书"
+    },
+    "advantages": {
+      "title": "GXChain可为您带来什么？",
+      "list1": {
+        "title": "更高性能",
+        "content": "基于石墨烯技术的DPoS共识机制，交易秒级确认，能够让区块链Dapps拥有媲美中心化应用的使用体验。"
+      },
+      "list2": {
+        "title": "智能合约",
+        "content": "GXChain生态的身份唯一标识，当前拥有百万级的实名G-ID数字身份用户，可为Dapps引入丰富的自然流量，大大降低获客成本，促进Dapps更好发展。"
+      },
+      "list3": {
+        "title": "通用数字身份G-ID",
+        "content": "基于石墨烯技术的DPoS共识机制，交易秒级确认， 能够让区块链Dapps拥有媲美中心化应用的使用体验。"
+      },
+      "developerCenter": "进入开发者页面"
+    },
+    "resource": {
+      "txt1": "提供多种客户端下载",
+      "txt2": "开源多种核心组件代码",
+      "txt3": "前往资源页查看"
+    }
   },
-  "about": {
-    "title": "About",
-    "introduction": "This page is made to give you more informations."
+  "bounty": {
+    "development": {
+      "title": "开发悬赏",
+      "rules": "规则和流程",
+      "tools": "智能合约调试工具",
+      "signUp": "报名",
+      "progressing": "进行中",
+      "finished": "已结束",
+      "people": "人"
+    },
+    "longTerm": {
+      "title": "持续项目",
+      "security": "安全",
+      "dec": "发现安全漏洞，守护GXChain链上资产安全",
+      "highRisk": "高危",
+      "mediumRisk": "中危",
+      "lowRisk": "低危",
+      "mainNet": "主网和测试网",
+      "tools": "合约开发工具"
+    }
+  },
+  "developer": {
+    "slogen": "开发者？那么，开始吧！",
+    "apply": {
+      "title": "申请测试网的GXS",
+      "des": "如果你正在创建 GXChain 生态的项目，需要测试网的 GXS，请点击申请并填写相关信息后提交，申请通过后会收到邮件通知。",
+      "btn": "申请"
+    },
+    "visit": {
+      "title": "GitHub",
+      "des": "访问 GXChain 开源代码",
+      "btn": "访问"
+    }
+  },
+  "dApps": {
+    "bc": {
+      "title": "布洛克城",
+      "des": "布洛克城Dapp于2018年1月12日正式上线，是基于公信链—GXChain上开发的第一个大型个人移动端应用，它致力于解决个人数据管理和数据共享方面的问题。布洛克城让用户可以创建区块链身份，允许用户授权、管理个人数据，让数据所有权真正回归用户自身。其内生激励机制将鼓励用户多维度、更全面的完善身份标签。布洛克城既不缓存用户数据、又保护用户隐私安全，在用户授权的情况下，充分激活数据潜力，丰富数据应用场景。",
+      "btn": "下载布洛克城体验"
+    },
+    "coinGet": {
+      "name": "币得",
+      "des": "币得是一个基于GXChian的去中心化娱乐平台，通过“区块链+智能合约”技术解决信息不对称、信任难问题，确保公平、公正、公开的游戏环境，打造集幸运众筹、预测竞猜、数字竞拍、棋牌游戏、定制化合约的综合娱乐生态。"
+    },
+    "wlm": {
+      "name": "万利马",
+      "des": "万利马是第一款基于Unitopia平台开发的区块链养成游戏应用。基于区块链的“公平、公开、不可篡改”的特性，打造全新的养成模式。游戏中每一匹马都是链上独一无二的存在，可增值、可收藏、可交易，具备丰厚的经济价值。"
+    },
+    "prophet": {
+      "name": "预言家",
+      "des": "预言家Prophet是一个基于公信链的移动社交类预测市场平台。平台利用分布式公开账本增加预测市场的透明度，通过数字代币经济激励开发者在平台发布预测应用，为用户提供不同类型的预测事件，汇聚用户群体的智慧从而有效的预测未来。"
+    }
+  },
+  "resource": {
+    "client": {
+      "title": "客户端",
+      "gxsWallet": {
+        "title": "GXS Wallet",
+        "des": "GXS钱包是一款去中心化移动钱包应用，通过区块链技术实现GXS的接收、发送和钱包管理等功能，并可及时掌握公信宝的最新动态"
+      },
+      "pcWallet": {
+        "title": "PC钱包",
+        "des": "PC钱包是一款去中心化PC钱包应用，通过区块链技术实现GXS的接收、发送和钱包管理等功能，并可及时掌握公信宝的最新动态"
+      },
+      "ide": {
+        "title": "合约IDE",
+        "des": "合约IDE是基于GXChain研发的一种为开发者提供快速开发、部署、调用在GXChain上的合约的工具"
+      }
+    },
+    "github": {
+      "title": "GitHub开源代码",
+      "leaveFor": "前往",
+      "source1": {
+        "title": "主链核心gxb-core",
+        "des": "GXChain核心模块"
+      },
+      "source2": {
+        "title": "轻钱包",
+        "des": "GXChain资产管理PC客户端"
+      },
+      "source3": {
+        "title": "手机钱包",
+        "des": "GXChain资产管理手机端"
+      },
+      "source4": {
+        "title": "主链客户端",
+        "des": "主链交互Client,封装了账户注册，转账，区块查询等常用API"
+      },
+      "source5": {
+        "title": "BaaS客户端",
+        "des": "基于GXChain等数据存储+存证SDK"
+      },
+      "source6": {
+        "title": "DES客户端",
+        "des": "GXChain资产管理PC客户端"
+      },
+      "source7": {
+        "title": "主链核心gxb-core",
+        "des": "GXChain核心模块"
+      },
+      "source8": {
+        "title": "主链核心gxb-core",
+        "des": "GXChain核心模块"
+      }
+    }
+  },
+  "footer": {
+    "contactUs": "联系我们"
   }
 }

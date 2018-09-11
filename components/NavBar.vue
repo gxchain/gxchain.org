@@ -10,26 +10,26 @@
       <!-- Right aligned nav items -->
       <b-navbar-nav class="ml-auto">
         
-        <b-nav-item v-if="$i18n.locale === 'zh'"  href="/bounty">激励计划</b-nav-item>
-        <b-nav-item v-else href="/en/bounty">激励计划</b-nav-item>
+        <b-nav-item active v-if="$i18n.locale === 'zh'"  href="/bounty">{{$t('links.bounty')}}</b-nav-item>
+        <b-nav-item v-else href="/en/bounty">{{$t('links.bounty')}}</b-nav-item>
 
-        <b-nav-item v-if="$i18n.locale === 'zh'"  href="/developer">开发者</b-nav-item>
-        <b-nav-item v-else href="/en/developer">开发者</b-nav-item>
+        <b-nav-item v-if="$i18n.locale === 'zh'"  href="/developer">{{$t('links.developer')}}</b-nav-item>
+        <b-nav-item v-else href="/en/developer">{{$t('links.developer')}}</b-nav-item>
 
 
-        <b-nav-item v-if="$i18n.locale === 'zh'" href="/resource">资源</b-nav-item>
-        <b-nav-item v-else href="/en/resource">开发者</b-nav-item>
+        <b-nav-item v-if="$i18n.locale === 'zh'" href="/resource">{{$t('links.resource')}}</b-nav-item>
+        <b-nav-item v-else href="/en/resource">{{$t('links.resource')}}</b-nav-item>
 
         <b-nav-item v-if="$i18n.locale === 'zh'"  href="/dapps">DApps</b-nav-item>
         <b-nav-item v-else href="/en/dapps">DApps</b-nav-item>
         
-        <b-nav-item target="_blank"  href="https://block.gxb.io">区块浏览器</b-nav-item>
+        <b-nav-item target="_blank"  href="https://block.gxb.io">{{$t('links.blockExplorer')}}</b-nav-item>
         <!-- <b-button variant="outline-info" size="sm" class="info" type="submit">登录</b-button> -->
 
         <b-nav-item-dropdown :text="$i18n.locale === 'zh' ? $t('links.chinese') : $t('links.english')" right>
-          <b-dropdown-item href="#" @click="switchLanguage('zh')"><img class="flag-img" src="../assets/img/zh.png" alt="">中文
+          <b-dropdown-item href="#" @click="switchLanguage('zh')"><img class="flag-img" src="~static/zh.png" alt="">中文
           </b-dropdown-item>
-          <b-dropdown-item href="#" @click="switchLanguage('en')"><img class="flag-img" src="../assets/img/en.png" alt="">English
+          <b-dropdown-item href="#" @click="switchLanguage('en')"><img class="flag-img" src="~static/en.png" alt="">English
           </b-dropdown-item>
         </b-nav-item-dropdown>
       </b-navbar-nav>

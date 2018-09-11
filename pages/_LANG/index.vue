@@ -3,76 +3,73 @@
     <section class="header text-center">
       <div class="container">
         <img src="/gxchain.org.png">
-        <h1 class="slogen lead color-theme">{{$t('home.title')}}</h1>
+        <h1 class="slogen lead color-theme">{{$t('index.slogen')}}</h1>
         <p>
-          <a href="https://docs.gxchain.org" target="_blank" class="btn btn-lg btn-theme">Getting Started</a>
+          <a href="https://docs.gxchain.org" target="_blank" class="btn btn-lg btn-theme">{{$t('index.startBtn')}}</a>
         </p>
       </div>
     </section>
     <section class="introduction section-padding">
       <div class="container">
-        <h2 class="gxc-border-left padding-left-w">简介</h2>
+        <h2 class="gxc-border-left padding-left-w">{{$t('index.introduction.title')}}</h2>
         <div class="content content-margin-top">
           <div class="left-content">
-            <h5>公信链（GXChain）是一条主要面向海量数据交换和应用开发的公有链</h5>
-            <h6>用于建立基于区块链的可信任的全领域数据交换价值网络</h6>
-            <div class="des">公信链具有基于DPoS共识机制的石墨烯底层架构的性能优势，同时具备G-ID、GVM、BaaS、Blockcity pay等链上配套功能，方便各类应用开发。基于公信链的Dapp布洛克城已经拥有百万级实名用户，为链上应用和合伙伙伴提供丰富的数据资源；面向企业服务的公信宝数据交易所也已上线，服务企业数量超过百家。公信链通过区块链技术实现了数据的安全、可信、自由、高效交易交换，为更大化发挥数据应用价值提供支撑。公信链由公信宝团队主导开发，主网已于2017年6月上线。</div>
+            <h5>{{$t('index.introduction.content1')}}</h5>
+            <div class="des">{{$t('index.introduction.content2')}}</div>
           </div>
           <div class="white-paper">
-             <img src="../../assets/img/white_paper.png" alt="">
-            <p>获取GXChain白皮书</p>
+             <img src="~static/index/white_paper.png" alt="">
+            <p>{{$t('index.introduction.getWhitepaper')}}</p>
           </div>
         </div>
       </div>
     </section>
-    <section class="feature section-padding">
+    <section class="advantages section-padding">
        <div class="container">
-          <h2 class="gxc-border-left padding-left-w color-666">GXChain可为您带来什么？</h2>
+          <h2 class="gxc-border-left padding-left-w color-666">{{$t('index.advantages.title')}}</h2>
           <div class="content content-margin-top">
             <div class="item">
               <div class="item-img">
-                <img src="../../assets/img/home_1.png" alt="">
+                <img src="~static/index/home_1.png" alt="">
               </div>
               <div class="item-txt">
-                <h4 class="color-666">更高性能</h4>
-                <p class="color-999">基于石墨烯技术的DPoS共识机制，交易秒级确认，
-                能够让区块链Dapps拥有媲美中心化应用的使用体验。</p>
+                <h4 class="color-666">{{$t('index.advantages.list1.title')}}</h4>
+                <p class="color-999">{{$t('index.advantages.list1.content')}}</p>
              </div>
             </div>
             <div class="item">  
               <div class="item-img">
-                <img src="../../assets/img/home_2.png" alt="">
+                <img src="~static/index/home_2.png" alt="">
              </div>
               <div class="item-txt">
-                <h4 class="color-666">智能合约</h4>
-                <p class="color-999">GXChain生态的身份唯一标识，当前拥有百万级的实名G-ID数字身份用户，可为Dapps引入丰富的自然流量，大大降低获客成本，促进Dapps更好发展。</p>
+                <h4 class="color-666">{{$t('index.advantages.list2.title')}}</h4>
+                <p class="color-999">{{$t('index.advantages.list2.content')}}</p>
              </div>
             </div>
             <div class="item">
               <div class="item-img">
-                <img src="../../assets/img/home_3.png" alt="">
+                <img src="~static/index/home_3.png" alt="">
               </div>
               <div class="item-txt">
-                <h4 class="color-666">通用数字身份G-ID</h4>
-                <p class="color-999">基于石墨烯技术的DPoS共识机制，交易秒级确认，
-                能够让区块链Dapps拥有媲美中心化应用的使用体验。</p>
+                <h4 class="color-666">{{$t('index.advantages.list3.title')}}</h4>
+                <p class="color-999">{{$t('index.advantages.list3.content')}}</p>
               </div>
             </div>
 
           </div>
           <p class="text-center entrance">
-             <a href="https://docs.gxchain.org" target="_blank" class="btn btn-lg btn-theme">进入开发者页面 </a>
+             <a href="https://docs.gxchain.org" target="_blank" class="btn btn-lg btn-theme">{{$t('index.advantages.developerCenter')}} </a>
           </p>
        </div>
     </section>
     <section class="resource section-padding">
         <div class="container">
-          <img src="../../assets/img/stellate.png" alt="">
+          <img src="~static/index/stellate_en.png" alt="">
           <div class="look-over">
             <div class="down-load">
-              <p>供多种客户端下载</p><p>开源多种核心组件代码</p>
+              <p>{{$t('index.resource.txt1')}}</p><p>{{$t('index.resource.txt2')}}</p>
             </div>
-            <a href="https://docs.gxchain.org" target="_blank" class="btn btn-lg btn-theme">前往资源页查看 </a> 
+            <a href="https://docs.gxchain.org" target="_blank" class="btn btn-lg btn-theme">{{$t('index.resource.txt3')}} </a> 
           </div>
         </div>
     </section>
@@ -86,10 +83,10 @@
                   <div class="timeline-point"><i></i></div>
                   <div class="timeline-event">
                     <div class="timeline-heading">
-                      <h4>2019年</h4>
+                      <h4>2019</h4>
                     </div>
                     <div class="timeline-body">
-                      <p>GXChain数据经济生态全面升级</p>
+                      <p> Comprehensively upgrade GXChain data economy ecosystem</p>
                     </div>
                   </div>
                 </div>
@@ -100,7 +97,7 @@
                       <h4 class="blue">2018.Q3-Q4</h4>
                     </div>
                     <div class="timeline-body">
-                      <p>智能合约2.0上线，支持WebAssembly</p>
+                      <p>Smart contract 2.0 launched, supported WebAssembly</p>
                     </div>
                   </div>
                 </div>
@@ -108,11 +105,10 @@
                   <div class="timeline-point"><i></i></div>
                   <div class="timeline-event">
                     <div class="timeline-heading">
-                      <h4>2018年6月</h4>
+                      <h4>Jun. 2018 </h4>
                     </div>
                     <div class="timeline-body">
-                      <p>去中心化数据交易所升级DES,</p>
-                      <p>服务全国百家互金企业</p>
+                      <p>Decentralized data marketplace upgraded DES to serve hundreds of IT-FIN enterprises</p>
                     </div>
                   </div>
                 </div>
@@ -120,10 +116,10 @@
                   <div class="timeline-point"><i></i></div>
                   <div class="timeline-event">
                     <div class="timeline-heading">
-                      <h4>2018年5月</h4>
+                      <h4>May. 2018</h4>
                     </div>
                     <div class="timeline-body">
-                      <p>基于GXChain的存储+存证服务BaaS-Storage上线</p>
+                      <p>BaaS-Storage which is GXChain based storage and witness service launched</p>
                     </div>
                   </div>
                 </div>
@@ -131,10 +127,10 @@
                   <div class="timeline-point"><i></i></div>
                   <div class="timeline-event">
                     <div class="timeline-heading">
-                      <h4>2018年3月</h4>
+                      <h4>Mar. 2018</h4>
                     </div>
                     <div class="timeline-body">
-                      <p>布洛克城用户突破百万</p>
+                      <p>More than 1,000,000 users</p>
                     </div>
                   </div>
                 </div>
@@ -144,11 +140,10 @@
                   </div>
                   <div class="timeline-event">
                     <div class="timeline-heading">
-                      <h4>2018年1月</h4>
+                      <h4>Jan. 2018 </h4>
                     </div>
                     <div class="timeline-body">
-                      <p>GXChain首款Dapp布洛克城上线,</p>
-                      <p>24小时用户突破10万</p>
+                      <p>The first Dapp of GXChain - Blockcity launched, with more than 100,000 users in 24 hours</p>
                     </div>
                   </div>
                 </div>
@@ -156,11 +151,10 @@
                   <div class="timeline-point"><i></i></div>
                   <div class="timeline-event">
                     <div class="timeline-heading">
-                      <h4>2017年11月</h4>
+                      <h4>Nov. 2017 </h4>
                     </div>
                     <div class="timeline-body">
-                      <p>白皮书升级, 主打"CBD"生态,</p>
-                      <p>GXChain定位下一代大数据公链</p>
+                      <p>Whitepaper upgraded, focused on "CBD" ecosystem and positioned GXChain as the next generation big data public blockchain</p>
                     </div>
                   </div>
                 </div>
@@ -168,10 +162,10 @@
                   <div class="timeline-point"><i></i></div>
                   <div class="timeline-event">
                     <div class="timeline-heading">
-                      <h4>2017年9月</h4>
+                      <h4>Sep. 2017</h4>
                     </div>
                     <div class="timeline-body">
-                      <p>去中心化数据交易所正式商业化</p>
+                      <p>Decentralized data marketplace officially commercialized</p>
                     </div>
                   </div>
                 </div>
@@ -179,10 +173,10 @@
                   <div class="timeline-point"><i></i></div>
                   <div class="timeline-event">
                     <div class="timeline-heading">
-                      <h4>2017年8月</h4>
+                      <h4>Aug. 2017</h4>
                     </div>
                     <div class="timeline-body">
-                      <p>主链代码开源</p>
+                      <p>Main chain code open source</p>
                     </div>
                   </div>
                 </div>
@@ -190,10 +184,10 @@
                   <div class="timeline-point"><i></i></div>
                   <div class="timeline-event">
                     <div class="timeline-heading">
-                      <h4>2017年6月</h4>
+                      <h4>Jun. 2017</h4>
                     </div>
                     <div class="timeline-body">
-                      <p>主链上线，去中心化数据交易所1.0版本上线</p>
+                      <p>The Main chain launched, decentralized data marketplace 1.0 launched</p>
                     </div>
                   </div>
                 </div>
@@ -201,10 +195,10 @@
                   <div class="timeline-point"><i></i></div>
                   <div class="timeline-event">
                     <div class="timeline-heading">
-                      <h4>2017年2月</h4>
+                      <h4>Feb. 2017</h4>
                     </div>
                     <div class="timeline-body">
-                      <p>GXChain白皮书发布</p>
+                      <p>GXChain whitepaper released</p>
                     </div>
                   </div>
                 </div>
@@ -222,7 +216,6 @@ export default {
   components: {}
 };
 </script>
-
 <style lang="less" scoped>
 .home-page {
   .contact-us {
@@ -241,9 +234,11 @@ export default {
 }
 .header {
   .slogen {
-    font-size: 70px;
-    letter-spacing: 42px;
+    font-size: 4rem;
     margin: 2rem;
+  }
+  .slogen.zh {
+    letter-spacing: 3rem;
   }
 }
 .introduction {
@@ -283,7 +278,7 @@ export default {
     }
   }
 }
-.feature {
+.advantages {
   .item {
     display: flex;
     flex-wrap: wrap;
@@ -345,17 +340,7 @@ export default {
     overflow: hidden;
   }
 }
-@media (max-width: 1200px) {
-  .header .slogen {
-    letter-spacing: 34px;
-    font-size: 60px;
-  }
-}
 @media (max-width: 1080px) {
-  .header .slogen {
-    letter-spacing: 28px;
-    font-size: 50px;
-  }
   .introduction {
     .content {
       justify-content: center;
@@ -366,14 +351,18 @@ export default {
   }
 }
 @media (max-width: 768px) {
-  .header .slogen {
-    letter-spacing: 16px;
-    font-size: 34px;
+  .header {
+    .slogen {
+      font-size: 3rem;
+    }
+    .slogen.zh {
+      letter-spacing: 0;
+    }
   }
   .introduction .content {
     justify-content: center;
   }
-  .feature {
+  .advantages {
     .item {
       width: 100%;
       display: block;

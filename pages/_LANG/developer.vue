@@ -2,7 +2,7 @@
   <div class="developer-page">
     <section class="developer-begin text-center">
        <div class="container">
-        <h1 class="slogen color-666">开发者？那么，开始吧！</h1>
+        <h1 class="slogen color-666">{{$t('developer.slogen')}}</h1>
         <p>
           <a href="https://docs.gxchain.org" target="_blank" class="btn btn-lg btn-theme">Getting Started</a>
         </p>
@@ -12,16 +12,16 @@
        <div class="container">
          <div class="content text-center">
            <div class="item">
-              <img class="item-bg" src="../../assets/img/developer/gxb.png" alt="">
-              <h3>申请测试网的GXS</h3>
-              <p>如果你正在创建 GXChain 生态的项目，需要测试网的 GXS，请点击申请并填写相关信息后提交，申请通过后会收到邮件通知。</p>
-              <a href="https://docs.gxchain.org" target="_blank" class="btn btn-lg btn-theme">申请</a> 
+              <img class="item-bg" src="~static/developer/gxb.png" alt="">
+              <h3>{{$t('developer.apply.title')}}</h3>
+              <p>{{$t('developer.apply.des')}}</p>
+              <a href="https://docs.gxchain.org" target="_blank" class="btn btn-lg btn-theme">{{$t('developer.apply.btn')}}</a> 
            </div>
            <div class="item gitbub-entrance">
-              <img class="item-bg" src="../../assets/img/developer/github.png" alt="">
-              <h3>GitHub</h3>
-              <p>访问 GXChain 开源代码</p>
-              <a href="https://docs.gxchain.org" target="_blank" class="btn btn-lg btn-theme">访问</a> 
+              <img class="item-bg" src="~static/developer/github.png" alt="">
+              <h3>{{$t('developer.visit.title')}}</h3>
+              <p>{{$t('developer.visit.des')}}</p>
+              <a href="https://docs.gxchain.org" target="_blank" class="btn btn-lg btn-theme">{{$t('developer.apply.btn')}}</a> 
            </div>
          </div>
        </div>

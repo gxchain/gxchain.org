@@ -1,7 +1,7 @@
 <template>
    <div class="footer">
         <div class="container">
-          <p class="title">联系我们</p>
+          <p class="title">{{$t('footer.contactUs')}}</p>
           <div class="social-list list-wrap">
             <a class="wechat" href=""></a>
             <a class="github" href=""></a>
@@ -22,7 +22,7 @@
 </template>
 <style lang="less" scoped>
 .social-logo {
-  background: url("../assets/img/social_icon.png");
+  background: url("~static/index/social_icon.png");
 }
 .footer {
   padding-top: 50px;

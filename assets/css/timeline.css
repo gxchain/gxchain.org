@@ -753,11 +753,11 @@
   display: inline-block;
   width: 100%;
   height: 100%;
-  background: url('../img/circle_1.png') 100% 100%;
+  background: url('~static/index/circle_1.png') 100% 100%;
 }
 
 .timeline .timeline-item>.timeline-point i.active {
-  background: url('../img/circle_2.png') 100% 100%;
+  background: url('~static/index/circle_2.png') 100% 100%;
 }
 
 .timeline .timeline-item>.timeline-point.timeline-point-blank {
