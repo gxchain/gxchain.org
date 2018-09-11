@@ -71,9 +71,6 @@ export default {
       ]
     };
   },
-  created() {
-    console.log(this.$route.fullPath.indexOf("resource"));
-  },
   methods: {
     navActive(navName) {
       return this.$route.fullPath.indexOf(navName) != -1;

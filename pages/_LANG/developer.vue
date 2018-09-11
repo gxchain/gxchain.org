@@ -4,7 +4,7 @@
        <div class="container">
         <h1 class="slogen color-666">{{$t('developer.slogen')}}</h1>
         <p>
-          <a href="https://docs.gxchain.org" target="_blank" class="btn btn-lg btn-theme">Getting Started</a>
+          <a href="https://docs.gxchain.org" target="_blank" class="btn btn-lg btn-theme"><img src="~static/index/start.png" alt=""></a>
         </p>
       </div>  
     </section>

@@ -1,11 +1,11 @@
 <template>
   <div class="home-page">
-    <section class="header text-center">
+    <section class="header m-center">
       <div class="container">
         <img src="/gxchain.org.png">
         <h1 class="slogen zh lead color-theme">{{$t('index.slogen')}}</h1>
         <p>
-          <a href="https://docs.gxchain.org" target="_blank" class="btn btn-lg btn-theme">{{$t('index.startBtn')}}</a>
+          <a href="https://docs.gxchain.org" target="_blank" class="btn btn-lg btn-theme"><img src="~static/index/start.png" alt=""></a>
         </p>
       </div>
     </section>
@@ -29,7 +29,7 @@
           <h2 class="gxc-border-left padding-left-w color-666">{{$t('index.advantages.title')}}</h2>
           <div class="content content-margin-top">
             <div class="item">
-              <div class="item-img">
+              <div class="item-img text-center">
                 <img src="~static/index/home_1.png" alt="">
               </div>
               <div class="item-txt">
@@ -38,7 +38,7 @@
              </div>
             </div>
             <div class="item">  
-              <div class="item-img">
+              <div class="item-img text-center">
                 <img src="~static/index/home_2.png" alt="">
              </div>
               <div class="item-txt">
@@ -47,7 +47,7 @@
              </div>
             </div>
             <div class="item">
-              <div class="item-img">
+              <div class="item-img text-center">
                 <img src="~static/index/home_3.png" alt="">
               </div>
               <div class="item-txt">
@@ -55,7 +55,6 @@
                 <p class="color-999">{{$t('index.advantages.list3.content')}}</p>
               </div>
             </div>
-
           </div>
           <p class="text-center entrance">
              <a href="https://docs.gxchain.org" target="_blank" class="btn btn-lg btn-theme">{{$t('index.advantages.developerCenter')}} </a>
@@ -73,169 +72,83 @@
           </div>
         </div>
     </section>
-    <section class="course section-padding">
+    <section class="road-map section-padding">
         <div class="container">
-          <h2  class="gxc-border-left padding-left-w color-666">历程</h2>
-          <div class="col-md-12 content-margin-top">
-            <div class="row">
-              <div class="timeline timeline-line-dotted">
-                <div class="timeline-item timeline-text-algin">
-                  <div class="timeline-point"><i></i></div>
-                  <div class="timeline-event">
-                    <div class="timeline-heading">
-                      <h4>2019年</h4>
-                    </div>
-                    <div class="timeline-body">
-                      <p>GXChain数据经济生态全面升级</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="timeline-item">
-                  <div class="timeline-point"><i class="active"></i></div>
-                  <div class="timeline-event">
-                    <div class="timeline-heading">
-                      <h4 class="blue">2018.Q3-Q4</h4>
-                    </div>
-                    <div class="timeline-body">
-                      <p>智能合约2.0上线，支持WebAssembly</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="timeline-item timeline-text-algin">
-                  <div class="timeline-point"><i></i></div>
-                  <div class="timeline-event">
-                    <div class="timeline-heading">
-                      <h4>2018年6月</h4>
-                    </div>
-                    <div class="timeline-body">
-                      <p>去中心化数据交易所升级DES,</p>
-                      <p>服务全国百家互金企业</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="timeline-item">
-                  <div class="timeline-point"><i></i></div>
-                  <div class="timeline-event">
-                    <div class="timeline-heading">
-                      <h4>2018年5月</h4>
-                    </div>
-                    <div class="timeline-body">
-                      <p>基于GXChain的存储+存证服务BaaS-Storage上线</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="timeline-item  timeline-text-algin">
-                  <div class="timeline-point"><i></i></div>
-                  <div class="timeline-event">
-                    <div class="timeline-heading">
-                      <h4>2018年3月</h4>
-                    </div>
-                    <div class="timeline-body">
-                      <p>布洛克城用户突破百万</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="timeline-item">
-                  <div class="timeline-point">
-                    <i class="fa fa-times"></i>
-                  </div>
-                  <div class="timeline-event">
-                    <div class="timeline-heading">
-                      <h4>2018年1月</h4>
-                    </div>
-                    <div class="timeline-body">
-                      <p>GXChain首款Dapp布洛克城上线,</p>
-                      <p>24小时用户突破10万</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="timeline-item timeline-text-algin">
-                  <div class="timeline-point"><i></i></div>
-                  <div class="timeline-event">
-                    <div class="timeline-heading">
-                      <h4>2017年11月</h4>
-                    </div>
-                    <div class="timeline-body">
-                      <p>白皮书升级, 主打"CBD"生态,</p>
-                      <p>GXChain定位下一代大数据公链</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="timeline-item">
-                  <div class="timeline-point"><i></i></div>
-                  <div class="timeline-event">
-                    <div class="timeline-heading">
-                      <h4>2017年9月</h4>
-                    </div>
-                    <div class="timeline-body">
-                      <p>去中心化数据交易所正式商业化</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="timeline-item timeline-text-algin">
-                  <div class="timeline-point"><i></i></div>
-                  <div class="timeline-event">
-                    <div class="timeline-heading">
-                      <h4>2017年8月</h4>
-                    </div>
-                    <div class="timeline-body">
-                      <p>主链代码开源</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="timeline-item">
-                  <div class="timeline-point"><i></i></div>
-                  <div class="timeline-event">
-                    <div class="timeline-heading">
-                      <h4>2017年6月</h4>
-                    </div>
-                    <div class="timeline-body">
-                      <p>主链上线，去中心化数据交易所1.0版本上线</p>
-                    </div>
-                  </div>
-                </div>
-                 <div class="timeline-item timeline-text-algin">
-                  <div class="timeline-point"><i></i></div>
-                  <div class="timeline-event">
-                    <div class="timeline-heading">
-                      <h4>2017年2月</h4>
-                    </div>
-                    <div class="timeline-body">
-                      <p>GXChain白皮书发布</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+          <h2  class="gxc-border-left padding-left-w color-666">{{$t('index.roadMap.title')}}</h2>
+          <time-line :roadMap = roadMap></time-line>
         </div>
     </section>
   </div>
 </template>
 
 <script>
-import "../assets/css/timeline.css";
+import TimeLine from "~/components/TimeLine.vue";
 export default {
-  components: {}
+  components: {
+    TimeLine
+  },
+  data() {
+    return {
+      roadMap: [
+        {
+          name: "map1",
+          active: false
+        },
+        {
+          name: "map2",
+          active: true
+        },
+        {
+          name: "map3",
+          active: false
+        },
+        {
+          name: "map4",
+          active: false
+        },
+        {
+          name: "map5",
+          active: false
+        },
+        {
+          name: "map6",
+          active: false
+        },
+        {
+          name: "map7",
+          active: false
+        },
+        {
+          name: "map8",
+          active: false
+        },
+        {
+          name: "map9",
+          active: false
+        },
+        {
+          name: "map10",
+          active: false
+        },
+        {
+          name: "map11",
+          active: false
+        }
+      ]
+    };
+  }
 };
 </script>
 <style lang="less" scoped>
 .home-page {
-  .contact-us {
-    padding-top: 40px;
-  }
-  .header {
-    display: flex;
-    align-items: center;
-    height: 93vh;
-    padding: 0;
-  }
   img {
     height: auto;
-    max-width: 80%;
+    max-width: 90%;
   }
 }
 .header {
+  height: 93vh;
+  padding: 0;
   .slogen {
     font-size: 4rem;
     margin: 2rem;
@@ -246,7 +159,7 @@ export default {
 }
 .introduction {
   background: #434750;
-  min-height: 500px;
+  min-height: 31rem;
   color: #fff;
   .content {
     display: flex;
@@ -258,16 +171,19 @@ export default {
     border-color: #fff;
   }
   .left-content {
-    width: 620px;
-  }
-  .left-content .des {
-    font-size: 14px;
-    line-height: 30px;
-    margin-top: 20px;
+    width: 38rem;
+    line-height: 2rem;
+    h5 {
+      line-height: 2rem;
+    }
+    .des {
+      margin-top: 20px;
+      font-size: 14px;
+    }
   }
   .white-paper {
-    width: 200px;
-    height: 200px;
+    width: 13rem;
+    height: 13rem;
     padding: 50px 10px;
     text-align: center;
     border: solid 2px #ffffff;
@@ -297,11 +213,8 @@ export default {
   .item-txt {
     display: flex;
     flex-direction: column;
-    font-size: 16px;
     justify-content: center;
-  }
-  .item-img {
-    text-align: center;
+    font-size: 16px;
   }
   .entrance {
     margin-top: 20px;
@@ -337,7 +250,7 @@ export default {
     }
   }
 }
-.course {
+.road-map {
   padding-bottom: 100px;
   .container {
     overflow: hidden;
@@ -361,9 +274,6 @@ export default {
     .slogen.zh {
       letter-spacing: 0;
     }
-  }
-  .introduction .content {
-    justify-content: center;
   }
   .advantages {
     .item {

@@ -1,11 +1,11 @@
 <template>
   <div class="home-page">
-    <section class="header text-center">
+    <section class="header m-center">
       <div class="container">
         <img src="/gxchain.org.png">
         <h1 class="slogen lead color-theme">{{$t('index.slogen')}}</h1>
         <p>
-          <a href="https://docs.gxchain.org" target="_blank" class="btn btn-lg btn-theme">{{$t('index.startBtn')}}</a>
+          <a href="https://docs.gxchain.org" target="_blank" class="btn btn-lg btn-theme"><img src="~static/index/start.png" alt=""></a>
         </p>
       </div>
     </section>
@@ -29,7 +29,7 @@
           <h2 class="gxc-border-left padding-left-w color-666">{{$t('index.advantages.title')}}</h2>
           <div class="content content-margin-top">
             <div class="item">
-              <div class="item-img">
+              <div class="item-img text-center">
                 <img src="~static/index/home_1.png" alt="">
               </div>
               <div class="item-txt">
@@ -38,7 +38,7 @@
              </div>
             </div>
             <div class="item">  
-              <div class="item-img">
+              <div class="item-img text-center">
                 <img src="~static/index/home_2.png" alt="">
              </div>
               <div class="item-txt">
@@ -47,7 +47,7 @@
              </div>
             </div>
             <div class="item">
-              <div class="item-img">
+              <div class="item-img text-center">
                 <img src="~static/index/home_3.png" alt="">
               </div>
               <div class="item-txt">
@@ -55,7 +55,6 @@
                 <p class="color-999">{{$t('index.advantages.list3.content')}}</p>
               </div>
             </div>
-
           </div>
           <p class="text-center entrance">
              <a href="https://docs.gxchain.org" target="_blank" class="btn btn-lg btn-theme">{{$t('index.advantages.developerCenter')}} </a>
@@ -64,7 +63,7 @@
     </section>
     <section class="resource section-padding">
         <div class="container">
-          <img src="~static/index/stellate_en.png" alt="">
+          <img src="~static/index/stellate.png" alt="">
           <div class="look-over">
             <div class="down-load">
               <p>{{$t('index.resource.txt1')}}</p><p>{{$t('index.resource.txt2')}}</p>
@@ -73,166 +72,83 @@
           </div>
         </div>
     </section>
-    <section class="course section-padding">
+    <section class="road-map section-padding">
         <div class="container">
-          <h2  class="gxc-border-left padding-left-w color-666">历程</h2>
-          <div class="col-md-12 content-margin-top">
-            <div class="row">
-              <div class="timeline timeline-line-dotted">
-                <div class="timeline-item timeline-text-algin">
-                  <div class="timeline-point"><i></i></div>
-                  <div class="timeline-event">
-                    <div class="timeline-heading">
-                      <h4>2019</h4>
-                    </div>
-                    <div class="timeline-body">
-                      <p> Comprehensively upgrade GXChain data economy ecosystem</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="timeline-item">
-                  <div class="timeline-point"><i class="active"></i></div>
-                  <div class="timeline-event">
-                    <div class="timeline-heading">
-                      <h4 class="blue">2018.Q3-Q4</h4>
-                    </div>
-                    <div class="timeline-body">
-                      <p>Smart contract 2.0 launched, supported WebAssembly</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="timeline-item timeline-text-algin">
-                  <div class="timeline-point"><i></i></div>
-                  <div class="timeline-event">
-                    <div class="timeline-heading">
-                      <h4>Jun. 2018 </h4>
-                    </div>
-                    <div class="timeline-body">
-                      <p>Decentralized data marketplace upgraded DES to serve hundreds of IT-FIN enterprises</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="timeline-item">
-                  <div class="timeline-point"><i></i></div>
-                  <div class="timeline-event">
-                    <div class="timeline-heading">
-                      <h4>May. 2018</h4>
-                    </div>
-                    <div class="timeline-body">
-                      <p>BaaS-Storage which is GXChain based storage and witness service launched</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="timeline-item  timeline-text-algin">
-                  <div class="timeline-point"><i></i></div>
-                  <div class="timeline-event">
-                    <div class="timeline-heading">
-                      <h4>Mar. 2018</h4>
-                    </div>
-                    <div class="timeline-body">
-                      <p>More than 1,000,000 users</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="timeline-item">
-                  <div class="timeline-point">
-                    <i class="fa fa-times"></i>
-                  </div>
-                  <div class="timeline-event">
-                    <div class="timeline-heading">
-                      <h4>Jan. 2018 </h4>
-                    </div>
-                    <div class="timeline-body">
-                      <p>The first Dapp of GXChain - Blockcity launched, with more than 100,000 users in 24 hours</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="timeline-item timeline-text-algin">
-                  <div class="timeline-point"><i></i></div>
-                  <div class="timeline-event">
-                    <div class="timeline-heading">
-                      <h4>Nov. 2017 </h4>
-                    </div>
-                    <div class="timeline-body">
-                      <p>Whitepaper upgraded, focused on "CBD" ecosystem and positioned GXChain as the next generation big data public blockchain</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="timeline-item">
-                  <div class="timeline-point"><i></i></div>
-                  <div class="timeline-event">
-                    <div class="timeline-heading">
-                      <h4>Sep. 2017</h4>
-                    </div>
-                    <div class="timeline-body">
-                      <p>Decentralized data marketplace officially commercialized</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="timeline-item timeline-text-algin">
-                  <div class="timeline-point"><i></i></div>
-                  <div class="timeline-event">
-                    <div class="timeline-heading">
-                      <h4>Aug. 2017</h4>
-                    </div>
-                    <div class="timeline-body">
-                      <p>Main chain code open source</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="timeline-item">
-                  <div class="timeline-point"><i></i></div>
-                  <div class="timeline-event">
-                    <div class="timeline-heading">
-                      <h4>Jun. 2017</h4>
-                    </div>
-                    <div class="timeline-body">
-                      <p>The Main chain launched, decentralized data marketplace 1.0 launched</p>
-                    </div>
-                  </div>
-                </div>
-                 <div class="timeline-item timeline-text-algin">
-                  <div class="timeline-point"><i></i></div>
-                  <div class="timeline-event">
-                    <div class="timeline-heading">
-                      <h4>Feb. 2017</h4>
-                    </div>
-                    <div class="timeline-body">
-                      <p>GXChain whitepaper released</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+          <h2  class="gxc-border-left padding-left-w color-666">{{$t('index.roadMap.title')}}</h2>
+          <time-line :roadMap = roadMap></time-line>
         </div>
     </section>
   </div>
 </template>
 
 <script>
-import "../../assets/css/timeline.css";
+import TimeLine from "~/components/TimeLine.vue";
 export default {
-  components: {}
+  components: {
+    TimeLine
+  },
+  data() {
+    return {
+      roadMap: [
+        {
+          name: "map1",
+          active: false
+        },
+        {
+          name: "map2",
+          active: true
+        },
+        {
+          name: "map3",
+          active: false
+        },
+        {
+          name: "map4",
+          active: false
+        },
+        {
+          name: "map5",
+          active: false
+        },
+        {
+          name: "map6",
+          active: false
+        },
+        {
+          name: "map7",
+          active: false
+        },
+        {
+          name: "map8",
+          active: false
+        },
+        {
+          name: "map9",
+          active: false
+        },
+        {
+          name: "map10",
+          active: false
+        },
+        {
+          name: "map11",
+          active: false
+        }
+      ]
+    };
+  }
 };
 </script>
 <style lang="less" scoped>
 .home-page {
-  .contact-us {
-    padding-top: 40px;
-  }
-  .header {
-    display: flex;
-    align-items: center;
-    height: 93vh;
-    padding: 0;
-  }
   img {
     height: auto;
-    max-width: 80%;
+    max-width: 90%;
   }
 }
 .header {
+  height: 93vh;
+  padding: 0;
   .slogen {
     font-size: 4rem;
     margin: 2rem;
@@ -243,7 +159,7 @@ export default {
 }
 .introduction {
   background: #434750;
-  min-height: 500px;
+  min-height: 31rem;
   color: #fff;
   .content {
     display: flex;
@@ -255,16 +171,19 @@ export default {
     border-color: #fff;
   }
   .left-content {
-    width: 620px;
-  }
-  .left-content .des {
-    font-size: 14px;
-    line-height: 30px;
-    margin-top: 20px;
+    width: 38rem;
+    line-height: 2rem;
+    h5 {
+      line-height: 2rem;
+    }
+    .des {
+      margin-top: 20px;
+      font-size: 14px;
+    }
   }
   .white-paper {
-    width: 200px;
-    height: 200px;
+    width: 13rem;
+    height: 13rem;
     padding: 50px 10px;
     text-align: center;
     border: solid 2px #ffffff;
@@ -294,11 +213,8 @@ export default {
   .item-txt {
     display: flex;
     flex-direction: column;
-    font-size: 16px;
     justify-content: center;
-  }
-  .item-img {
-    text-align: center;
+    font-size: 16px;
   }
   .entrance {
     margin-top: 20px;
@@ -334,7 +250,7 @@ export default {
     }
   }
 }
-.course {
+.road-map {
   padding-bottom: 100px;
   .container {
     overflow: hidden;
@@ -358,9 +274,6 @@ export default {
     .slogen.zh {
       letter-spacing: 0;
     }
-  }
-  .introduction .content {
-    justify-content: center;
   }
   .advantages {
     .item {
@@ -391,4 +304,5 @@ export default {
   }
 }
 </style>
+
 
