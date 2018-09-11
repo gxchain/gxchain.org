@@ -5,42 +5,26 @@
         <h2 class="gxc-border-left padding-left-w color-666">{{$t('bounty.development.title')}}</h2>
         <p class="rule"><a  href="">[{{$t('bounty.development.rules')}}]</a></p>
         <div class="row">
-           <div class="col-lg-3">
-              <div class="card bounty-item text-center">
-                <h6 class="card-title">{{$t('bounty.development.tools')}}</h6>
-                <img class="card-img-top " src="~static/bounty/2.png" alt="" style="width: 50%; margin: 0 auto;">
-                <div class="card-body">
-                  <h5 class="currency">100<span >GXS+</span></h5>
-                  <p class="card-text">2018.09.10-2018.11.01</p>
-                </div>
-                <div class="act-status started">
-                  <span class="col-sm-7">{{$t('bounty.development.signUp')}}</span>
-                  <span class="col-sm-5 number">15{{$t('bounty.development.people')}}</span>
-                </div>
+          <div class="col-lg-3" v-for="(item,index) in bountyList" :key="index">
+            <div class="card bounty-item text-center">
+              <h6 class="card-title">{{$t('bounty.development.bountyList.'+item.ikey)}}</h6>
+              <img class="card-img-top " src="~static/bounty/2.png" alt="" style="width: 50%; margin: 0 auto;">
+              <div class="card-body">
+                <h5 class="currency">{{item.bounty}}<span >{{item.currency}}+</span></h5>
+                <p class="card-text">{{item.time}}</p>
+              </div>
+              <div class="act-status started" v-if="item.status == 0">
+                <span>{{$t('bounty.development.signUp')}}</span>
+                <span class="number">15{{$t('bounty.development.people')}}</span>
+              </div>
+              <div class="act-status pendding" v-if="item.status == 1">
+                {{$t('bounty.development.progressing')}}
+              </div>
+              <div class="act-status finished" v-if="item.status == 2">
+                {{$t('bounty.development.finished')}}
               </div>
             </div>
-            <div class="col-lg-3">
-              <div class="card bounty-item text-center">
-                <h6 class="card-title">{{$t('bounty.development.tools')}}</h6>
-                <img class="card-img-top " src="~static/bounty/2.png" alt="" style="width: 50%; margin: 0 auto;">
-                <div class="card-body">
-                  <h5 class="currency">100<span >GXS+</span></h5>
-                  <p class="card-text">2018.09.10-2018.11.01</p>
-                </div>
-                <div class="act-status pendding">{{$t('bounty.development.progressing')}}</div>
-              </div>
-            </div>
-            <div class="col-lg-3">
-              <div class="card bounty-item text-center">
-                <h6 class="card-title">{{$t('bounty.development.tools')}}</h6>
-                <img class="card-img-top " src="~static/bounty/2.png" alt="" style="width: 50%; margin: 0 auto;">
-                <div class="card-body">
-                  <h5 class="currency">100<span >GXS+</span></h5>
-                  <p class="card-text">2018.09.10-2018.11.01</p>
-                </div>
-                <div class="act-status finished">{{$t('bounty.development.finished')}}</div>
-              </div>
-            </div>
+          </div>
         </div>
       </div>  
     </section>
@@ -54,19 +38,19 @@
                 <img class="mr-3" src="~static/bounty/1.png" alt="Generic placeholder image">
                 <div class="media-body">
                   <h5 class="mt-0 mb-1">{{$t('bounty.longTerm.security')}}</h5>
-                  <p>{{$t('longTerm.longTerm.dec')}}</p>
-                  <div>
-                    <span class="degree-item">
+                  <p>{{$t('bounty.longTerm.dec')}}</p>
+                  <div class="row">
+                    <span class="degree-item col-md-12">
                       <span class="degree-tag high">{{$t('bounty.longTerm.highRisk')}}</span>
                       <span class="bounty-val">150</span>
                       <span class="color-999">GXS+</span>
                     </span>
-                    <span class="degree-item">
+                    <span class="degree-item col-md-12">
                       <span class="degree-tag middle">{{$t('bounty.longTerm.mediumRisk')}}</span>
                       <span class="bounty-val">150</span>
                       <span class="color-999">GXS+</span>
                     </span>
-                     <span class="degree-item">
+                     <span class="degree-item col-md-12">
                       <span class="degree-tag low">{{$t('bounty.longTerm.lowRisk')}}</span>
                       <span class="bounty-val">150</span>
                       <span class="color-999">GXS+</span>
@@ -77,16 +61,8 @@
             </ul>
           </div>
           <div class="col-lg-4">
-            <ul class="project-list">
-              <li>{{$t('bounty.longTerm.mainNet')}}</li>
-              <li>{{$t('bounty.longTerm.tools')}}</li>
-              <li>GXS wallet</li>
-              <li>主网和测试网</li>
-              <li>GXS wallet</li>
-              <li>GXS wallet</li>
-              <li>主网和测试网</li>
-              <li>GXS wallet</li>
-              <li>GXS wallet</li>
+            <ul class="project-list row text-center">
+              <li class="col-sm-4" v-for="(item,index) in longTermList" :key="index">{{$t('bounty.longTerm.longTermList.'+item.ikey)}}</li>
             </ul>
           </div>
         </div>
@@ -94,6 +70,53 @@
     </section>
   </div>
 </template>
+<script>
+export default {
+  data() {
+    return {
+      bountyList: [
+        {
+          ikey: "item1",
+          name: "智能合约调试工具",
+          bounty: "100",
+          currency: "GXS",
+          time: "2018.09.10-2018.11.01",
+          status: 0,
+          number: 15
+        },
+        {
+          ikey: "item1",
+          name: "智能合约调试工具",
+          bounty: "100",
+          currency: "GXS",
+          time: "2018.09.10-2018.11.01",
+          status: 1,
+          number: 15
+        },
+        {
+          ikey: "item1",
+          name: "智能合约调试工具",
+          bounty: "100",
+          currency: "GXS",
+          time: "2018.09.10-2018.11.01",
+          status: 2,
+          number: 15
+        }
+      ],
+      longTermList: [
+        {
+          ikey: "item1",
+          name: "主网和测试网"
+        },
+        {
+          ikey: "item2",
+          name: "合约开发工具"
+        }
+      ]
+    };
+  }
+};
+</script>
 <style lang="less" scoped>
 .bounty-page {
   .bounty {
@@ -113,6 +136,9 @@
     margin-right: 25px;
     margin-bottom: 25px;
   }
+  .card-title {
+    padding: 0 3px;
+  }
   .currency {
     color: #004499;
     span {
@@ -129,6 +155,7 @@
     border-bottom-right-radius: 10px;
     span {
       display: inline-block;
+      width: 50%;
     }
     .number {
       background: #9ba8c3;
@@ -173,15 +200,8 @@
     border-right: 1px solid #e5e9ef;
   }
   .project-list {
-    display: flex;
-    flex-wrap: wrap;
     color: #7188a9;
     margin-top: 10px;
-    text-align: center;
-    li {
-      width: 33.3%;
-      margin-bottom: 10px;
-    }
   }
 }
 @media (max-width: 1080px) {
@@ -193,6 +213,14 @@
   .project {
     .degree-item {
       display: block;
+    }
+    .media-body {
+      border-right: none;
+    }
+    .degree-tag.en {
+      width: 100%;
+      padding: 3px 5px !important;
+      display: inline-block;
     }
   }
 }

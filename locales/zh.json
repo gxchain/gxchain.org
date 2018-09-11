@@ -91,11 +91,13 @@
     "development": {
       "title": "开发悬赏",
       "rules": "规则和流程",
-      "tools": "智能合约调试工具",
       "signUp": "报名",
       "progressing": "进行中",
       "finished": "已结束",
-      "people": "人"
+      "people": "人",
+      "bountyList": {
+        "item1": "智能合约调试工具"
+      }
     },
     "longTerm": {
       "title": "持续项目",
@@ -104,8 +106,10 @@
       "highRisk": "高危",
       "mediumRisk": "中危",
       "lowRisk": "低危",
-      "mainNet": "主网和测试网",
-      "tools": "合约开发工具"
+      "longTermList": {
+        "item1": "主网和测试网",
+        "item2": "合约开发工具"
+      }
     }
   },
   "developer": {

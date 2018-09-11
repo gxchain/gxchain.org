@@ -91,11 +91,13 @@
     "development": {
       "title": "Development Bounties Program",
       "rules": "Rules & Processing",
-      "tools": "Smart contract debugging tool",
       "signUp": "Sign Up",
       "progressing": "Progressing",
       "finished": "Finished",
-      "people": "people"
+      "people": "people",
+      "bountyList": {
+        "item1": "Smart contract debugging tool"
+      }
     },
     "longTerm": {
       "title": "Long-term Effective",
@@ -104,8 +106,10 @@
       "highRisk": "High-risk Vulnerabilities",
       "mediumRisk": "Medium-risk Vulnerabilities",
       "lowRisk": "Low-risk Vulnerabilities",
-      "mainNet": "Main Net & Test Net ",
-      "tools": "Contract Development Tools"
+      "longTerm": {
+        "item1": "Main Net & Test Net",
+        "item2": "Contract Development Tools"
+      }
     }
   },
   "developer": {
