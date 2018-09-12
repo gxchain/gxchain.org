@@ -1,5 +1,5 @@
 <template>
-   <div class="col-md-12 content-margin-top" v-show="show">
+   <div class="col-md-12 content-margin-top">
     <div class="row">
       <div class="timeline timeline-line-dotted">
         <div v-for="(item,index) in roadMap" :key="index" class="timeline-item" :class="{'timeline-text-algin':index%2 == 0}">
@@ -18,27 +18,18 @@
   </div>
 </template>
 <script>
-import "~/assets/css/timeline.css";
 export default {
-  data() {
-    return {
-      timer: null,
-      show: false
-    };
-  },
   props: {
     roadMap: {
       type: Array,
       required: true
     }
-  },
-  created() {
-    this.timer = setTimeout(() => {
-      this.show = true;
-    }, 300);
   }
 };
 </script>
+<style  scoped>
+@import "../assets/css/timeline.css";
+</style>
 
   
 

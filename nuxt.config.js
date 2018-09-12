@@ -29,6 +29,23 @@ module.exports = {
   loading: {
     color: '#6699ff'
   },
+  /**
+   * modules
+   */
+  modules: [
+    'bootstrap-vue/nuxt',
+  ],
+  loader: [{
+    test: /\.less$/,
+    loaders: 'style-loader!css-loader!less-loader'
+  }],
+  /**
+   * plugins
+   */
+  plugins: [
+    '~/plugins/i18n.js'
+  ],
+  css: ['~assets/css/common.less'],
   /*
    ** Build configuration
    */
@@ -49,34 +66,7 @@ module.exports = {
         })
       }
     },
-    loaders: [{
-      test: /\.less$/,
-      exclude: /node_modules/,
-      use: [
-        'style-loader',
-        {
-          loader: 'css-loader',
-          options: {
-            importLoaders: 1
-          }
-        },
-        'less-loader'
-      ]
-    }]
   },
-
-  /**
-   * modules
-   */
-  modules: [
-    'bootstrap-vue/nuxt'
-  ],
-  /**
-   * plugins
-   */
-  plugins: [
-    '~/plugins/i18n.js'
-  ],
   router: {
     scrollBehavior(to, from, savedPosition) {
       // savedPosition is only available for popstate navigations (back button)
@@ -89,7 +79,6 @@ module.exports = {
       }
     },
     middleware: 'i18n'
-  },
-  css: ['~assets/css/common.less']
+  }
 
 }
