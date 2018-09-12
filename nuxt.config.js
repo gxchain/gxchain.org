@@ -5,10 +5,15 @@ module.exports = {
   head: {
     title: 'gxchain.org',
     link: [{
-      rel: 'icon',
-      type: 'image/x-icon',
-      href: '/favicon.ico'
-    }],
+        rel: 'icon',
+        type: 'image/x-icon',
+        href: '/favicon.ico'
+      },
+      {
+        rel: 'stylesheet',
+        href: '//at.alicdn.com/t/font_835228_dxdsagyvm6o.css'
+      }
+    ],
     meta: [{
         charset: 'utf-8'
       },
