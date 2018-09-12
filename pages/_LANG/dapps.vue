@@ -9,7 +9,7 @@
                 </div>
                 <div class="col-lg-4 text-center">
                   <img src="~static/dapps/bc_qr.png" alt="">
-                  <a href="https://docs.gxchain.org" target="_blank" class="btn btn-lg btn-theme">{{$t('dApps.bc.btn')}}</a>
+                  <a href="https://blockcity.gxb.io/download/" target="_blank" class="btn btn-lg btn-theme">{{$t('dApps.bc.btn')}}</a>
                 </div>
             </div>
         </div>
@@ -29,19 +29,19 @@
           <li class="media my-4">
              <div class="app-logo text-center mr-3">
               <img class="w_7rem mb-3" src="~static/dapps/wlm.png" alt="Generic placeholder image">
-                <h6>{{$t('dApps.wlm.name')}}</h6>
+                <h6>{{$t('dApps.coinGet.name')}}</h6>
             </div>
             <div class="media-body align-self-center">
-              {{$t('dApps.wlm.des')}}
+              {{$t('dApps.coinGet.des')}}
             </div>
           </li>
           <li class="media">
              <div class="app-logo text-center mr-3">
                <img class="w_7rem mb-3" src="~static/dapps/prophet.png" alt="Generic placeholder image">
-              <h6>{{$t('dApps.prophet.name')}}</h6>
+              <h6>{{$t('dApps.coinGet.name')}}</h6>
              </div>  
             <div class="media-body align-self-center">
-            {{$t('dApps.prophet.des')}}
+            {{$t('dApps.coinGet.des')}}
             </div>
           </li>
         </ul>

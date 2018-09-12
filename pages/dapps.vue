@@ -9,7 +9,7 @@
                 </div>
                 <div class="col-lg-4 text-center">
                   <img src="~static/dapps/bc_qr.png" alt="">
-                  <a href="https://docs.gxchain.org" target="_blank" class="btn btn-lg btn-theme">{{$t('dApps.bc.btn')}}</a>
+                  <a href="https://blockcity.gxb.io/download/" target="_blank" class="btn btn-lg btn-theme">{{$t('dApps.bc.btn')}}</a>
                 </div>
             </div>
         </div>

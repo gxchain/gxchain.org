@@ -3,27 +3,43 @@
         <div class="container">
           <h2>{{$t('footer.contactUs')}}</h2>
           <div class="social-list list-wrap">
-            <a class="wechat" href=""></a>
-            <a class="github" href=""></a>
-            <a class="redit" href=""></a>
-            <a class="slack" href=""></a>
-            <a class="weibo" href=""></a>
-            <a class="twitter" href=""></a>
+            <a class="wechat" href="javascript:void(0)">
+              <img src="~static/footer/social/wechat.png" alt="">
+              <div>
+                  <img src="~static/footer/qrcode.png" width="120">
+                  <span>微信公众号</span>
+              </div>
+            </a>
+            <a class="github" href="https://github.com/gxchain/" target="_blank">
+              <img src="~static/footer/social/github.png" alt="">
+            </a>
+            <a class="redit" href="https://www.reddit.com/r/GXS/">
+              <img src="~static/footer/social/github.png" alt="">
+            </a>
+            <a class="weibo" href="http://weibo.com/gongxinbao" target="_blank">
+               <img src="~static/footer/social/weibo.png" alt="">
+            </a>
+            <a class="twitter" href="https://twitter.com/gongxinbao" target="_blank">
+               <img src="~static/footer/social/twitter.png" alt="">
+            </a>
+            <a class="telegram" href="https://t.me/GXB_China" target="_blank">
+               <img src="~static/footer/social/telegram.png" alt="">
+            </a>
+            <a class="facebook" href="https://www.facebook.com/GXChain/" target="_blank">
+               <img src="~static/footer/social/facebook.png" alt="">
+            </a>
           </div>
-          <ul class="other-list list-wrap">
-            <a href="">常见问题</a>
+          <div class="other-list list-wrap">
+            <!-- <a href="">常见问题</a> -->
             <a href="">客服联系 kefu@gxb.io </a>
-            <a href="">浙公网安备 33010602008310号</a>
-            <a href="">浙ICP备16042060号-1</a>                 
-          </ul>
+            <a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=33010602008310">浙公网安备 33010602008310号</a>
+            <a href="http://www.miitbeian.gov.cn/">浙ICP备16042060号-1</a>                 
+          </div>
           <p class="copyright">© 2018 GXS Foundation Ltd.</p>
         </div>
     </div>
 </template>
 <style lang="less" scoped>
-.social-logo {
-  background: url("~static/index/social_icon.png");
-}
 .footer {
   padding-top: 50px;
   text-align: center;
@@ -50,28 +66,20 @@
       }
     }
     a.wechat {
-      .social-logo;
+      position: relative;
       background-position: 0 -3px;
-    }
-    a.github {
-      .social-logo;
-      background-position: -78px -1px;
-    }
-    a.redit {
-      .social-logo;
-      background-position: -159px -1px;
-    }
-    a.slack {
-      .social-logo;
-      background-position: -237px -1px;
-    }
-    a.weibo {
-      .social-logo;
-      background-position: -313px 0;
-    }
-    a.twitter {
-      .social-logo;
-      background-position: -389px -1px;
+      div {
+        display: none;
+        position: absolute;
+        top: -144px;
+        left: -31px;
+        background-color: #fff;
+      }
+      &:hover {
+        div {
+          display: block;
+        }
+      }
     }
   }
   .other-list {

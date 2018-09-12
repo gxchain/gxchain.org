@@ -167,10 +167,14 @@
       "mac": "Mac版本",
       "win32": "Win32版",
       "win64": "Win64版",
+      "download": "下载",
       "address": {
         "leafFor": "前往",
         "java": "Jave",
-        "node": "Node"
+        "node": "Node",
+        "php": "PHP",
+        "ide": "IDE",
+        "server": "合约编译服务"
       },
       "codeAddrList": {
         "item1": {
@@ -198,12 +202,12 @@
           "des": "GXChain资产管理PC客户端"
         },
         "item7": {
-          "title": "主链核心gxb-core",
-          "des": "GXChain核心模块"
+          "title": "智能合约",
+          "des": "基于GXChain的智能合约开发工具集"
         },
         "item8": {
-          "title": "主链核心gxb-core",
-          "des": "GXChain核心模块"
+          "title": "区块浏览器",
+          "des": "区块查询，交易查询，账户查询，资产查询"
         }
       }
     }

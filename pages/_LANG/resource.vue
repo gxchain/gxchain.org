@@ -11,8 +11,7 @@
                   <div class="color-666">{{$t('resource.gxsWallet.des')}}</div>
                 </div>
                 <div class="item-download">
-                   <a href="https://docs.gxchain.org" target="_blank" class="btn btn-theme">{{$t('resource.github.ios')}}</a> 
-                   <a href="https://docs.gxchain.org" target="_blank" class="btn btn-theme">{{$t('resource.github.android')}}</a> 
+                   <a href="http://blockcity.gxb.io/download/" target="_blank" class="btn btn-theme">{{$t('resource.github.download')}}</a> 
                 </div>
               </div>
                <div class="item pc-wallet">
@@ -22,9 +21,9 @@
                   <div class="color-666">{{$t('resource.client.pcWallet.des')}}</div>
                 </div>
                 <div class="item-download">
-                   <a href="https://docs.gxchain.org" target="_blank" class="btn btn-theme">{{$t('resource.github.win32')}}</a> 
-                   <a href="https://docs.gxchain.org" target="_blank" class="btn btn-theme">{{$t('resource.github.win32')}}</a> 
-                   <a href="https://docs.gxchain.org" target="_blank" class="btn btn-theme">{{$t('resource.github.mac')}}</a> 
+                   <a href="hhttp://gxb-package.oss-cn-hangzhou.aliyuncs.com/gxb-light_2.0.180606(32bit).exe" target="_blank" class="btn btn-theme">{{$t('resource.github.win32')}}</a> 
+                   <a href="http://gxb-package.oss-cn-hangzhou.aliyuncs.com/gxb-light_2.0.180606.exe" target="_blank" class="btn btn-theme">{{$t('resource.github.win64')}}</a> 
+                   <a href="http://gxb-package.oss-cn-hangzhou.aliyuncs.com/gxb-light_2.0.180606.dmg" target="_blank" class="btn btn-theme">{{$t('resource.github.mac')}}</a> 
                 </div>
               </div>
                <div class="item agreement-ide">
@@ -34,9 +33,7 @@
                   <div class="color-666">{{$t('resource.client.ide.des')}}</div>
                 </div>
                 <div class="item-download">
-                   <a href="https://docs.gxchain.org" target="_blank" class="btn btn-theme">{{$t('resource.github.win32')}}</a> 
-                   <a href="https://docs.gxchain.org" target="_blank" class="btn btn-theme">{{$t('resource.github.win32')}}</a> 
-                   <a href="https://docs.gxchain.org" target="_blank" class="btn btn-theme">{{$t('resource.github.mac')}}</a> 
+                   <a href="https://github.com/gxchain/gxchain-alpha/releases/tag/v0.0.3" target="_blank" class="btn btn-theme">{{$t('resource.github.download')}}</a> 
                 </div>
               </div>
             </div>
@@ -72,7 +69,7 @@ export default {
           address: {
             leafFor: {
               txt: "前往",
-              path: "https://open.blockcity.gxb.io/#/"
+              path: "https://github.com/gxchain/gxb-core"
             }
           }
         },
@@ -82,7 +79,7 @@ export default {
           des: "GXChain核心模块",
           address: {
             leafFor: {
-              path: "https://open.blockcity.gxb.io/#/"
+              path: "https://github.com/gxchain/gxchain-light"
             }
           }
         },
@@ -102,10 +99,10 @@ export default {
           des: "主链交互Client,封装了账户注册，转账，区块查询等常用API",
           address: {
             java: {
-              path: "https://open.blockcity.gxb.io/#/"
+              path: "https://github.com/gxchain/baas-sdk-java"
             },
             node: {
-              path: "https://open.blockcity.gxb.io/#/"
+              path: "https://github.com/gxchain/gxclient-node"
             }
           }
         },
@@ -115,10 +112,7 @@ export default {
           des: "基于GXChain等数据存储+存证SDK",
           address: {
             java: {
-              path: "https://open.blockcity.gxb.io/#/"
-            },
-            node: {
-              path: "https://open.blockcity.gxb.io/#/"
+              path: "https://github.com/gxchain/baas-sdk-java"
             }
           }
         },
@@ -127,8 +121,37 @@ export default {
           name: "DES客户端",
           des: "GXChain资产管理PC客户端",
           address: {
+            java: {
+              path: "https://github.com/gxchain/des-sdk-java"
+            },
+            node: {
+              path: "https://github.com/gxchain/des-sdk-node"
+            },
+            php: {
+              path: "https://github.com/gxchain/des-sdk-php"
+            }
+          }
+        },
+        {
+          ikey: "item7",
+          name: "智能合约",
+          des: "基于GXChain的智能合约开发工具集",
+          address: {
+            ide: {
+              path: "https://github.com/gxchain/gxchain-alpha"
+            },
+            server: {
+              path: "https://github.com/gxchain/gxx-server"
+            }
+          }
+        },
+        {
+          ikey: "item8",
+          name: "区块浏览器",
+          des: "区块查询，交易查询，账户查询，资产查询",
+          address: {
             leafFor: {
-              path: "https://open.blockcity.gxb.io/#/"
+              path: "https://block.gxb.io"
             }
           }
         }

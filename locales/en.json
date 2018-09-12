@@ -106,7 +106,7 @@
       "highRisk": "High-risk Vulnerabilities",
       "mediumRisk": "Medium-risk Vulnerabilities",
       "lowRisk": "Low-risk Vulnerabilities",
-      "longTerm": {
+      "longTermList": {
         "item1": "Main Net & Test Net",
         "item2": "Contract Development Tools"
       }
@@ -146,7 +146,7 @@
   },
   "resource": {
     "client": {
-      "title": "客户端",
+      "title": "Client",
       "gxsWallet": {
         "title": "GXS Wallet",
         "des": "GXChain Wallet is a decentralized application which can manage your GXS assets and know latest news from GXChain. "
@@ -167,14 +167,18 @@
       "mac": "Mac",
       "win32": "Win32",
       "win64": "Win64",
+      "download": "download",
       "address": {
-        "leafFor": "前往",
+        "leafFor": "Leave For",
         "java": "Jave",
-        "node": "Node"
+        "node": "Node",
+        "php": "PHP",
+        "ide": "IDE",
+        "server": "Contract compilation service"
       },
       "codeAddrList": {
         "item1": {
-          "title": "主链核心gxb-core",
+          "title": "gxb-core",
           "des": "GXChain Kernel Module"
         },
         "item2": {
@@ -198,12 +202,12 @@
           "des": "Smart Contract"
         },
         "item7": {
-          "title": "主链核心gxb-core",
-          "des": "GXChain核心模块"
+          "title": "Smart Contract",
+          "des": " GXChain Based Smart Contract Development Tools"
         },
         "item8": {
-          "title": "主链核心gxb-core",
-          "des": "GXChain核心模块"
+          "title": "Block Explorer",
+          "des": "Block Query, Transaction Query, Account Query, Asset Query"
         }
       }
 

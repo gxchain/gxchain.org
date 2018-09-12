@@ -3,8 +3,8 @@
     <section class="bounty section-padding">
       <div class="container">
         <h2 class="gxc-border-left padding-left-w color-666">{{$t('bounty.development.title')}}</h2>
-        <p class="rule"><a  href="">[{{$t('bounty.development.rules')}}]</a></p>
-        <div class="row">
+        <!-- <p class="rule"><a  href="">[{{$t('bounty.development.rules')}}]</a></p> -->
+        <div class="row content-margin-top">
           <div class="col-lg-3" v-for="(item,index) in bountyList" :key="index">
             <div class="card bounty-item text-center">
               <h6 class="card-title">{{$t('bounty.development.bountyList.'+item.ikey)}}</h6>
@@ -39,22 +39,22 @@
                 <div class="media-body">
                   <h5 class="mt-0 mb-1">{{$t('bounty.longTerm.security')}}</h5>
                   <p>{{$t('bounty.longTerm.dec')}}</p>
-                  <div class="row">
-                    <span class="degree-item col-md-12">
-                      <span class="degree-tag en high">{{$t('bounty.longTerm.highRisk')}}</span>
+                  <div class="degree-list">
+                    <div class="degree-item">
+                      <span class="degree-tag high">{{$t('bounty.longTerm.highRisk')}}</span>
                       <span class="bounty-val">150</span>
                       <span class="color-999">GXS+</span>
-                    </span>
-                    <span class="degree-item col-md-12">
-                      <span class="degree-tag en middle">{{$t('bounty.longTerm.mediumRisk')}}</span>
+                    </div>
+                    <div class="degree-item">
+                      <span class="degree-tag middle">{{$t('bounty.longTerm.mediumRisk')}}</span>
                       <span class="bounty-val">150</span>
                       <span class="color-999">GXS+</span>
-                    </span>
-                     <span class="degree-item  col-md-12">
-                      <span class="degree-tag en low">{{$t('bounty.longTerm.lowRisk')}}</span>
+                    </div>
+                     <div class="degree-item">
+                      <span class="degree-tag low">{{$t('bounty.longTerm.lowRisk')}}</span>
                       <span class="bounty-val">150</span>
                       <span class="color-999">GXS+</span>
-                    </span>
+                    </div>
                   </div>
                 </div>
               </li>
@@ -173,6 +173,10 @@ export default {
   }
   .project {
     margin-bottom: 80px;
+    .degree-list {
+      display: flex;
+      flex-wrap: wrap;
+    }
     .degree-item {
       margin-right: 25px;
     }
@@ -209,18 +213,21 @@ export default {
     .bounty-item {
       width: 100%;
     }
-  }
-  .project {
-    .degree-item {
-      display: block;
-    }
-    .media-body {
-      border-right: none;
-    }
-    .degree-tag {
-      width: 100%;
-      padding: 3px 5px !important;
-      display: inline-block;
+    .project {
+      .degree-item {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        margin-right: 0;
+      }
+      .media-body {
+        border-right: none;
+      }
+      .degree-tag.en {
+        width: 100%;
+        padding: 3px 5px !important;
+        display: inline-block;
+      }
     }
   }
 }
