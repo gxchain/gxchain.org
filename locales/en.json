@@ -162,39 +162,51 @@
     },
     "github": {
       "title": "GitHub Open Source",
-      "leaveFor": "Leave For",
-      "source1": {
-        "title": "主链核心gxb-core",
-        "des": "GXChain Kernel Module"
+      "ios": "IOS",
+      "android": "Android",
+      "mac": "Mac",
+      "win32": "Win32",
+      "win64": "Win64",
+      "address": {
+        "leafFor": "前往",
+        "java": "Jave",
+        "node": "Node"
       },
-      "source2": {
-        "title": "Light Wallet",
-        "des": "GXChain Assets Management PC Client"
-      },
-      "source3": {
-        "title": "Mobile Wallet",
-        "des": "GXChain Assets Management PC Client"
-      },
-      "source4": {
-        "title": "Main Chain-Cli",
-        "des": "The main chain interactive Client encapsulates general API such as account registration, account transfer and block query"
-      },
-      "source5": {
-        "title": "BaaS-Cli",
-        "des": "GXChain Based Data Exchange SDK"
-      },
-      "source6": {
-        "title": "DES-Cli",
-        "des": "Smart Contract"
-      },
-      "source7": {
-        "title": "主链核心gxb-core",
-        "des": "GXChain核心模块"
-      },
-      "source8": {
-        "title": "主链核心gxb-core",
-        "des": "GXChain核心模块"
+      "codeAddrList": {
+        "item1": {
+          "title": "主链核心gxb-core",
+          "des": "GXChain Kernel Module"
+        },
+        "item2": {
+          "title": "Light Wallet",
+          "des": "GXChain Assets Management PC Client"
+        },
+        "item3": {
+          "title": "Mobile Wallet",
+          "des": "GXChain Assets Management PC Client"
+        },
+        "item4": {
+          "title": "Main Chain-Cli",
+          "des": "The main chain interactive Client encapsulates general API such as account registration, account transfer and block query"
+        },
+        "item5": {
+          "title": "BaaS-Cli",
+          "des": "GXChain Based Data Exchange SDK"
+        },
+        "item6": {
+          "title": "DES-Cli",
+          "des": "Smart Contract"
+        },
+        "item7": {
+          "title": "主链核心gxb-core",
+          "des": "GXChain核心模块"
+        },
+        "item8": {
+          "title": "主链核心gxb-core",
+          "des": "GXChain核心模块"
+        }
       }
+
     }
   },
   "footer": {

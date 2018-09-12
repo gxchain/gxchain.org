@@ -1,7 +1,7 @@
 <template>
    <div class="footer">
         <div class="container">
-          <p class="title">{{$t('footer.contactUs')}}</p>
+          <h2>{{$t('footer.contactUs')}}</h2>
           <div class="social-list list-wrap">
             <a class="wechat" href=""></a>
             <a class="github" href=""></a>
@@ -29,14 +29,11 @@
   text-align: center;
   border-top: 1px solid #e5e9ef;
   color: #666666;
-  .title {
-    font-size: 2rem;
-  }
   .list-wrap {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    margin-bottom: 15px;
+    margin: 30px 0 15px 0;
   }
   .social-list {
     a {

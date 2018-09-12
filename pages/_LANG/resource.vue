@@ -8,11 +8,11 @@
                 <div class="item-logo"><img src="~static/resource/gxs_wallet.png" alt=""></div>
                 <div class="item-des">
                   <h4 class="color-333">{{$t('resource.client.gxsWallet.title')}}</h4>
-                  <div class="color-666">{{$t('resource.client.gxsWallet.des')}}</div>
+                  <div class="color-666">{{$t('resource.gxsWallet.des')}}</div>
                 </div>
                 <div class="item-download">
-                   <a href="https://docs.gxchain.org" target="_blank" class="btn btn-theme">IOS</a> 
-                   <a href="https://docs.gxchain.org" target="_blank" class="btn btn-theme">安卓版</a> 
+                   <a href="https://docs.gxchain.org" target="_blank" class="btn btn-theme">{{$t('resource.github.ios')}}</a> 
+                   <a href="https://docs.gxchain.org" target="_blank" class="btn btn-theme">{{$t('resource.github.android')}}</a> 
                 </div>
               </div>
                <div class="item pc-wallet">
@@ -22,9 +22,9 @@
                   <div class="color-666">{{$t('resource.client.pcWallet.des')}}</div>
                 </div>
                 <div class="item-download">
-                   <a href="https://docs.gxchain.org" target="_blank" class="btn btn-theme">Win32版</a> 
-                   <a href="https://docs.gxchain.org" target="_blank" class="btn btn-theme">Win32版</a> 
-                   <a href="https://docs.gxchain.org" target="_blank" class="btn btn-theme">mac版</a> 
+                   <a href="https://docs.gxchain.org" target="_blank" class="btn btn-theme">{{$t('resource.github.win32')}}</a> 
+                   <a href="https://docs.gxchain.org" target="_blank" class="btn btn-theme">{{$t('resource.github.win32')}}</a> 
+                   <a href="https://docs.gxchain.org" target="_blank" class="btn btn-theme">{{$t('resource.github.mac')}}</a> 
                 </div>
               </div>
                <div class="item agreement-ide">
@@ -34,80 +34,109 @@
                   <div class="color-666">{{$t('resource.client.ide.des')}}</div>
                 </div>
                 <div class="item-download">
-                   <a href="https://docs.gxchain.org" target="_blank" class="btn btn-theme">Win32版</a> 
-                   <a href="https://docs.gxchain.org" target="_blank" class="btn btn-theme">Win32版</a> 
-                   <a href="https://docs.gxchain.org" target="_blank" class="btn btn-theme">mac版</a> 
+                   <a href="https://docs.gxchain.org" target="_blank" class="btn btn-theme">{{$t('resource.github.win32')}}</a> 
+                   <a href="https://docs.gxchain.org" target="_blank" class="btn btn-theme">{{$t('resource.github.win32')}}</a> 
+                   <a href="https://docs.gxchain.org" target="_blank" class="btn btn-theme">{{$t('resource.github.mac')}}</a> 
                 </div>
               </div>
             </div>
         </div>
      </section>
-     <section class="code-addr section-padding">
+     <section class="code-address section-padding">
          <div class="container">
            <h2 class="gxc-border-left padding-left-w color-666">{{$t('resource.github.title')}}</h2>
            <div class="content row content-margin-top">
-             <div class="col-md-4">
+             <div class="col-md-4" v-for="(item,index) in codeAddrList" :key="index">
                <div class="item">
-                  <h4 class="color-666">{{$t('resource.github.source1.title')}}</h4>
-                  <h6 class="color-999">{{$t('resource.github.source1.des')}}</h6> 
-                  <div><a href="">{{$t('resource.github.leaveFor')}}</a></div>
+                  <h4 class="color-666">{{$t(('resource.github.codeAddrList.'+item.ikey)).title}}</h4>
+                  <h6 class="color-999">{{$t(('resource.github.codeAddrList.'+item.ikey)).des}}</h6> 
+                  <div>
+                    <a v-for="(address,key) in item.address" :key="key" target="_blank" :href="address.path">{{$t('resource.github.address.'+key)}}</a>
+                  </div>
                </div>
              </div>
-              <div class="col-md-4">
-                <div class="item">
-                  <h4 class="color-666">{{$t('resource.github.source2.title')}}</h4>
-                  <h6 class="color-999">{{$t('resource.github.source2.des')}}</h6> 
-                  <div><a href="">{{$t('resource.github.leaveFor')}}</a></div>
-                </div>
-             </div>
-              <div class="col-md-4">
-                <div class="item">
-                  <h4 class="color-666">{{$t('resource.github.source3.title')}}</h4>
-                  <h6 class="color-999">{{$t('resource.github.source3.des')}}</h6> 
-                  <div><a href="">{{$t('resource.github.leaveFor')}}</a></div>
-                </div>
-             </div>
-             <div class="col-md-4">
-               <div class="item">
-                  <h4 class="color-666">{{$t('resource.github.source4.title')}}</h4>
-                  <h6 class="color-999">{{$t('resource.github.source4.des')}}</h6> 
-                   <div><a href="">Jave</a> <a href="">Node</a></div>
-               </div>
-             </div>
-             <div class="col-md-4">
-                <div class="item">
-                 <h4 class="color-666">{{$t('resource.github.source5.title')}}</h4>
-                 <h6 class="color-999">{{$t('resource.github.source5.des')}}</h6> 
-                <div><a href="">Jave</a> <a href="">Node</a></div>
-               </div>
-             </div>
-              <div class="col-md-4">
-                <div class="item">
-                 <h4 class="color-666">{{$t('resource.github.source6.title')}}</h4>
-                 <h6 class="color-999">{{$t('resource.github.source6.des')}}</h6> 
-                 <div><a href="">{{$t('resource.github.leaveFor')}}</a></div>
-                </div>
-              </div>
-              <div class="col-md-4">
-                <div class="item">
-                  <h4 class="color-666">{{$t('resource.github.source7.title')}}</h4>
-                  <h6 class="color-999">{{$t('resource.github.source7.des')}}</h6> 
-                  <div><a href="">{{$t('resource.github.leaveFor')}}</a></div>
-                </div>
-               </div>
-              <div class="col-md-4">
-                <div class="item">
-                  <h4 class="color-666">{{$t('resource.github.source8.title')}}</h4>
-                  <h6 class="color-999">{{$t('resource.github.source8.des')}}</h6> 
-                  <div><a href="">{{$t('resource.github.leaveFor')}}</a></div>
-                </div>
-              </div>
            </div>
          </div>
      </section>
    </div>
 </template>
-
+<script>
+export default {
+  data() {
+    return {
+      codeAddrList: [
+        {
+          ikey: "item1",
+          name: "主链核心gxb-core",
+          des: "GXChain核心模块",
+          address: {
+            leafFor: {
+              txt: "前往",
+              path: "https://open.blockcity.gxb.io/#/"
+            }
+          }
+        },
+        {
+          ikey: "item2",
+          name: "轻钱包",
+          des: "GXChain核心模块",
+          address: {
+            leafFor: {
+              path: "https://open.blockcity.gxb.io/#/"
+            }
+          }
+        },
+        {
+          ikey: "item3",
+          name: "手机钱包",
+          des: "GXChain资产管理手机端",
+          address: {
+            leafFor: {
+              path: "https://open.blockcity.gxb.io/#/"
+            }
+          }
+        },
+        {
+          ikey: "item4",
+          name: "主链客户端",
+          des: "主链交互Client,封装了账户注册，转账，区块查询等常用API",
+          address: {
+            java: {
+              path: "https://open.blockcity.gxb.io/#/"
+            },
+            node: {
+              path: "https://open.blockcity.gxb.io/#/"
+            }
+          }
+        },
+        {
+          ikey: "item5",
+          name: "BaaS客户端",
+          des: "基于GXChain等数据存储+存证SDK",
+          address: {
+            java: {
+              path: "https://open.blockcity.gxb.io/#/"
+            },
+            node: {
+              path: "https://open.blockcity.gxb.io/#/"
+            }
+          }
+        },
+        {
+          ikey: "item6",
+          name: "DES客户端",
+          des: "GXChain资产管理PC客户端",
+          address: {
+            leafFor: {
+              path: "https://open.blockcity.gxb.io/#/"
+            }
+          }
+        }
+      ]
+    };
+  }
+};
+</script>
 <style lang="less" scoped>
 .section {
   padding-top: 50px;
@@ -137,7 +166,7 @@
     }
   }
 }
-.code-addr {
+.code-address {
   .item {
     padding: 36px;
     background: #f5f6f9;
@@ -146,6 +175,9 @@
     a {
       color: #70bc55;
       margin-right: 25px;
+    }
+    h6 {
+      min-height: 2.5rem;
     }
   }
 }

@@ -2,7 +2,7 @@
   <div class="developer-page">
     <section class="developer-begin text-center">
        <div class="container">
-        <h1 class="slogen color-666">{{$t('developer.slogen')}}</h1>
+        <div class="slogen color-666">{{$t('developer.slogen')}}</div>
         <p>
           <a href="https://docs.gxchain.org" target="_blank" class="btn btn-lg btn-theme"><img src="~static/index/start.png" alt=""></a>
         </p>
@@ -21,7 +21,7 @@
               <img class="item-bg" src="~static/developer/github.png" alt="">
               <h3>{{$t('developer.visit.title')}}</h3>
               <p>{{$t('developer.visit.des')}}</p>
-              <a href="https://docs.gxchain.org" target="_blank" class="btn btn-lg btn-theme">{{$t('developer.apply.btn')}}</a> 
+              <a href="https://docs.gxchain.org" target="_blank" class="btn btn-lg btn-theme">{{$t('developer.visit.btn')}}</a> 
            </div>
          </div>
        </div>
@@ -34,6 +34,7 @@
     padding: 10rem 0;
   }
   .slogen {
+    padding: 0 5px;
     font-size: 4rem;
     margin-bottom: 6rem;
   }
@@ -88,6 +89,11 @@
   }
 }
 @media (max-width: 768px) {
+  .developer-begin {
+    .slogen {
+      font-size: 3rem;
+    }
+  }
   .apply-entrance {
     .item-bg {
       width: 80%;

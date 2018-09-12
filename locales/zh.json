@@ -162,38 +162,49 @@
     },
     "github": {
       "title": "GitHub开源代码",
-      "leaveFor": "前往",
-      "source1": {
-        "title": "主链核心gxb-core",
-        "des": "GXChain核心模块"
+      "ios": "IOS版",
+      "android": "安卓版",
+      "mac": "Mac版本",
+      "win32": "Win32版",
+      "win64": "Win64版",
+      "address": {
+        "leafFor": "前往",
+        "java": "Jave",
+        "node": "Node"
       },
-      "source2": {
-        "title": "轻钱包",
-        "des": "GXChain资产管理PC客户端"
-      },
-      "source3": {
-        "title": "手机钱包",
-        "des": "GXChain资产管理手机端"
-      },
-      "source4": {
-        "title": "主链客户端",
-        "des": "主链交互Client,封装了账户注册，转账，区块查询等常用API"
-      },
-      "source5": {
-        "title": "BaaS客户端",
-        "des": "基于GXChain等数据存储+存证SDK"
-      },
-      "source6": {
-        "title": "DES客户端",
-        "des": "GXChain资产管理PC客户端"
-      },
-      "source7": {
-        "title": "主链核心gxb-core",
-        "des": "GXChain核心模块"
-      },
-      "source8": {
-        "title": "主链核心gxb-core",
-        "des": "GXChain核心模块"
+      "codeAddrList": {
+        "item1": {
+          "title": "主链核心gxb-core",
+          "des": "GXChain核心模块"
+        },
+        "item2": {
+          "title": "轻钱包",
+          "des": "GXChain资产管理PC客户端"
+        },
+        "item3": {
+          "title": "手机钱包",
+          "des": "GXChain资产管理手机端"
+        },
+        "item4": {
+          "title": "主链客户端",
+          "des": "主链交互Client,封装了账户注册，转账，区块查询等常用API"
+        },
+        "item5": {
+          "title": "BaaS客户端",
+          "des": "基于GXChain等数据存储+存证SDK"
+        },
+        "item6": {
+          "title": "DES客户端",
+          "des": "GXChain资产管理PC客户端"
+        },
+        "item7": {
+          "title": "主链核心gxb-core",
+          "des": "GXChain核心模块"
+        },
+        "item8": {
+          "title": "主链核心gxb-core",
+          "des": "GXChain核心模块"
+        }
       }
     }
   },
