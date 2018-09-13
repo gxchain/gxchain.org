@@ -31,12 +31,12 @@
 <style lang="less" scoped>
 .developer-begin {
   .container {
-    padding: 10rem 0;
+    padding: 6rem 0;
   }
   .slogen {
     padding: 0 5px;
     font-size: 4rem;
-    margin-bottom: 6rem;
+    margin-bottom: 4rem;
   }
 }
 .apply-entrance {

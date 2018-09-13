@@ -1,26 +1,23 @@
 <template>
-  <b-navbar class="fixed-top" toggleable="md">
-
-    <b-navbar-brand :href="logoRedirect($i18n.locale)"><img class="logo" src="/gxchain.org.png"></b-navbar-brand>
-    
-    <b-navbar-toggle target="nav_collapse"></b-navbar-toggle>
-    <b-collapse is-nav id="nav_collapse">
-
-      <!-- Right aligned nav items -->
-      <b-navbar-nav class="ml-auto">
-  
-         <b-nav-item v-for="(item,index) in navList" :key="index" :target="item.target" :href="item.path[$store.state.locale]" :class="{'active':navActive(item.name)}">{{$t('links.'+item.name)}}</b-nav-item>
-        <!-- <b-button variant="outline-info" size="sm" class="info" type="submit">登录</b-button> -->
-
-        <b-nav-item-dropdown :text="$t('links.'+$i18n.locale)" right>
-          <b-dropdown-item href="#" @click="switchLanguage('zh')"><img class="flag-img" src="~static/zh.png" alt="">中文
-          </b-dropdown-item>
-          <b-dropdown-item href="#" @click="switchLanguage('en')"><img class="flag-img" src="~static/en.png" alt="">English
-          </b-dropdown-item>
-        </b-nav-item-dropdown>
-      </b-navbar-nav>
-    </b-collapse>
-  </b-navbar>
+  <div class="nav-container fixed-top">
+    <b-navbar class="" toggleable="md">
+      <b-navbar-brand :href="logoRedirect($i18n.locale)"><img class="logo" src="/gxchain.org.png"></b-navbar-brand>    
+      <b-navbar-toggle target="nav_collapse"></b-navbar-toggle>
+      <b-collapse is-nav id="nav_collapse">
+        <!-- Right aligned nav items -->
+        <b-navbar-nav class="ml-auto">
+          <b-nav-item v-for="(item,index) in navList" :key="index" :target="item.target" :href="item.path[$store.state.locale]" :class="{'active':navActive(item.name)}">{{$t('links.'+item.name)}}</b-nav-item>
+          <!-- <b-button variant="outline-info" size="sm" class="info" type="submit">登录</b-button> -->
+          <b-nav-item-dropdown :text="$t('links.'+$i18n.locale)" right>
+            <b-dropdown-item href="#" @click="switchLanguage('zh')"><img class="flag-img" src="~static/zh.png" alt="">中文
+            </b-dropdown-item>
+            <b-dropdown-item href="#" @click="switchLanguage('en')"><img class="flag-img" src="~static/en.png" alt="">English
+            </b-dropdown-item>
+          </b-nav-item-dropdown>
+        </b-navbar-nav>
+      </b-collapse>
+    </b-navbar>
+  </div>
 </template>
 <script>
 export default {
@@ -101,12 +98,16 @@ export default {
 };
 </script>
 <style scoped>
+.nav-container {
+  border-bottom: 1px solid #e5e9ef;
+  background: #fff;
+}
 .logo {
   height: 1.6rem;
 }
 .navbar {
-  border-bottom: 1px solid #e5e9ef;
-  background: #fff;
+  max-width: 1400px;
+  margin: 0 auto;
 }
 .navbar-nav li {
   margin-left: 0.5rem;
@@ -122,6 +123,11 @@ export default {
 .flag-img {
   width: 20px;
   margin-right: 10px;
+}
+@media (min-width: 768px) {
+  .navbar {
+    height: 80px;
+  }
 }
 @media (max-width: 768px) {
   .navbar-nav li {
