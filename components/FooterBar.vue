@@ -54,6 +54,7 @@
     .socail-icon.wechat {
       position: relative;
       background-position: 0 -3px;
+      z-index: -1;
       .qrcode-wrap {
         display: none;
         position: absolute;
