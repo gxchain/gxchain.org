@@ -96,16 +96,19 @@
       "finished": "Finished",
       "people": "people",
       "bountyList": {
-        "item1": "Smart contract debugging tool"
+        "item1": "Smart contract IDE optimization",
+        "item2": "Block explorer optimization",
+        "item3": "GXClient multilingual implementation"
       }
     },
     "longTerm": {
       "title": "Long-term Effective",
       "security": "Security",
       "dec": "Discover security vulnerabilities and safeguard assets security",
-      "highRisk": "High-risk Vulnerabilities",
-      "mediumRisk": "Medium-risk Vulnerabilities",
-      "lowRisk": "Low-risk Vulnerabilities",
+      "critical": "Critical",
+      "highRisk": "High-risk",
+      "mediumRisk": "Medium-risk",
+      "lowRisk": "Low-risk",
       "longTermList": {
         "item1": "Main Net & Test Net",
         "item2": "Contract Development Tools"

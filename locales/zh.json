@@ -96,19 +96,23 @@
       "finished": "已结束",
       "people": "人",
       "bountyList": {
-        "item1": "智能合约调试工具"
+        "item1": "智能合约IDE优化",
+        "item2": "区块浏览器优化",
+        "item3": "GXClient多语言实现"
       }
     },
     "longTerm": {
       "title": "持续项目",
       "security": "安全",
       "dec": "发现安全漏洞，守护GXChain链上资产安全",
+      "critical": "严重",
       "highRisk": "高危",
       "mediumRisk": "中危",
       "lowRisk": "低危",
       "longTermList": {
-        "item1": "主网和测试网",
-        "item2": "合约开发工具"
+        "item1": "智能合约IDE优化",
+        "item2": "区块浏览器优化",
+        "item3": "GXClient多语言实现"
       }
     }
   },
