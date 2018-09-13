@@ -61,9 +61,7 @@
             </ul>
           </div>
           <div class="col-lg-4">
-            <ul class="project-list row text-center">
-              <li class="col-sm-4" v-for="(item,index) in longTermList" :key="index">{{$t('bounty.longTerm.longTermList.'+item.ikey)}}</li>
-            </ul>
+            <a href="/resource">GitHub开源代码</a>
           </div>
         </div>
      </div>
@@ -101,16 +99,6 @@ export default {
           time: "2018.09.10-2018.11.01",
           status: 2,
           number: 15
-        }
-      ],
-      longTermList: [
-        {
-          ikey: "item1",
-          name: "主网和测试网"
-        },
-        {
-          ikey: "item2",
-          name: "合约开发工具"
         }
       ]
     };

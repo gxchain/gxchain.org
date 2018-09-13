@@ -39,7 +39,7 @@
             </div>
         </div>
      </section>
-     <section class="code-address section-padding">
+     <section class="code-address section-padding" id="githubSource">
          <div class="container">
            <h2 class="gxc-border-left padding-left-w color-666">{{$t('resource.github.title')}}</h2>
            <div class="content row content-margin-top">
