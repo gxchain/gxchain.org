@@ -2,7 +2,7 @@
   <div class="home-page">
     <section class="header m-center">
       <div class="container">
-        <img src="/gxchain.org.png">
+        <img src="/gxchain.org.png" alt="GXChain">
         <h1 class="slogen lead color-theme">{{$t('index.slogen')}}</h1>
         <p>
           <a href="https://docs.gxchain.org" target="_blank" class="btn btn-lg btn-theme-lg"><img src="~static/index/start.png" alt=""></a>

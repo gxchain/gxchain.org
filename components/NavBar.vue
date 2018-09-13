@@ -1,7 +1,7 @@
 <template>
   <div class="nav-container fixed-top">
     <b-navbar class="" toggleable="md">
-      <b-navbar-brand :href="logoRedirect($i18n.locale)"><img class="logo" src="/gxchain.org.png"></b-navbar-brand>    
+      <b-navbar-brand :href="logoRedirect($i18n.locale)"><img class="logo" src="/gxchain.org.png" alt="GXChain" ></b-navbar-brand>    
       <b-navbar-toggle target="nav_collapse"></b-navbar-toggle>
       <b-collapse is-nav id="nav_collapse">
         <!-- Right aligned nav items -->
