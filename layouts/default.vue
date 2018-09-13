@@ -18,7 +18,12 @@ export default {
 </script>
 <style>
 body {
-  padding-top: 3.6rem;
+  padding-top: 3.8rem;
+}
+@media (max-width: 768px) {
+  body {
+    padding-top: 3.6rem;
+  }
 }
 </style>
 

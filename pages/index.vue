@@ -5,7 +5,7 @@
         <img src="/gxchain.org.png">
         <h1 class="slogen zh lead color-theme">{{$t('index.slogen')}}</h1>
         <p>
-          <a href="https://docs.gxchain.org" target="_blank" class="btn btn-lg btn-theme"><img src="~static/index/start.png" alt=""></a>
+          <a href="https://docs.gxchain.org" target="_blank" class="btn btn-lg btn-theme-lg"><img src="~static/index/start.png" alt=""></a>
         </p>
       </div>
     </section>
