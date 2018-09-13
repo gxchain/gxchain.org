@@ -167,10 +167,11 @@
       "mac": "Mac版本",
       "win32": "Win32版",
       "win64": "Win64版",
+      "linux": "Linux版",
       "download": "下载",
       "address": {
         "leafFor": "前往",
-        "java": "Jave",
+        "java": "Java",
         "node": "Node",
         "php": "PHP",
         "ide": "IDE",

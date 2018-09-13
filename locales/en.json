@@ -167,10 +167,11 @@
       "mac": "Mac",
       "win32": "Win32",
       "win64": "Win64",
-      "download": "download",
+      "linux": "Linux",
+      "download": "Download",
       "address": {
         "leafFor": "Leave For",
-        "java": "Jave",
+        "java": "Java",
         "node": "Node",
         "php": "PHP",
         "ide": "IDE",
