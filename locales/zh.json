@@ -7,8 +7,8 @@
     "resource": "资源",
     "dapps": "Dapps",
     "blockExplorer": "区块浏览器",
-    "english": "英文",
-    "chinese": "中文"
+    "en": "英文",
+    "zh": "中文"
   },
   "index": {
     "slogen": "下一代大数据公链 ",
@@ -213,6 +213,7 @@
     }
   },
   "footer": {
-    "contactUs": "联系我们"
+    "contactUs": "联系我们",
+    "kefu": "联系客服"
   }
 }

@@ -16,7 +16,9 @@ export default {
   }
 };
 </script>
-
 <style>
+body {
+  padding-top: 3.6rem;
+}
 </style>
 

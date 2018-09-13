@@ -65,7 +65,7 @@
     </section>
     <section class="resource section-padding">
         <div class="container">
-          <img src="~static/index/stellate_en.png" alt="">
+          <img src="~static/index/stellate.png" alt="">
           <div class="look-over">
             <div class="down-load">
               <p>{{$t('index.resource.txt1')}}</p><p>{{$t('index.resource.txt2')}}</p>
@@ -85,6 +85,7 @@
 
 <script>
 import TimeLine from "~/components/TimeLine.vue";
+
 export default {
   components: {
     TimeLine
@@ -141,174 +142,7 @@ export default {
   }
 };
 </script>
-<style lang="less" scoped>
-.home-page {
-  img {
-    height: auto;
-    max-width: 90%;
-  }
-}
-.header {
-  height: 93vh;
-  padding: 0;
-  .slogen {
-    font-size: 4rem;
-    margin: 2rem;
-  }
-  .slogen.zh {
-    letter-spacing: 3rem;
-  }
-}
-.introduction {
-  background: #434750;
-  min-height: 31rem;
-  color: #fff;
-  .content {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: flex-end;
-  }
-  a {
-    text-decoration: none;
-  }
-  h2 {
-    border-color: #fff;
-  }
-  .left-content {
-    width: 38rem;
-    line-height: 2rem;
-    h5 {
-      line-height: 2rem;
-    }
-    .des {
-      margin-top: 20px;
-      font-size: 14px;
-    }
-  }
-  .white-paper {
-    width: 13rem;
-    height: 13rem;
-    padding: 50px 10px;
-    text-align: center;
-    border: solid 2px #ffffff;
-    color: #fff;
-    cursor: pointer;
-    img {
-      margin-bottom: 40px;
-    }
-    &:hover {
-      background-color: #6699ff;
-      border-color: #6699ff;
-    }
-  }
-}
-.advantages {
-  .item {
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-  }
-  .item:nth-child(even) {
-    flex-direction: row-reverse;
-  }
-  .item-txt,
-  .item-img {
-    width: 50%;
-  }
-  .item-txt {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    font-size: 16px;
-  }
-  .entrance {
-    margin-top: 20px;
-  }
-}
-.resource {
-  background: #434750;
-  min-height: 420px;
-  color: #fff;
-  .container {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
-  }
-  .look-over {
-    text-align: center;
-  }
-  .down-load {
-    margin-bottom: 35px;
-    background: #000;
-    padding: 15px;
-    p {
-      margin: 0;
-    }
-    p:nth-child(1) {
-      padding-top: 5px;
-      border-top: 1px solid #ddd;
-    }
-    p:nth-child(2) {
-      padding-bottom: 5px;
-      border-bottom: 1px solid #ddd;
-    }
-  }
-}
-.road-map {
-  padding-bottom: 100px;
-  .container {
-    overflow: hidden;
-  }
-}
-@media (max-width: 1080px) {
-  .introduction {
-    .content {
-      justify-content: center;
-    }
-    .white-paper {
-      margin: 35px 0 45px 0;
-    }
-  }
-}
-@media (max-width: 768px) {
-  .header {
-    .slogen {
-      font-size: 3rem;
-    }
-    .slogen.zh {
-      letter-spacing: 0;
-    }
-  }
-  .advantages {
-    .item {
-      width: 100%;
-      display: block;
-      text-align: center;
-      margin-bottom: 40px;
-    }
-    .item-img {
-      margin-bottom: 20px;
-    }
-    .item-txt,
-    .item-img {
-      width: 100%;
-      font-size: 14px;
-    }
-  }
-  .resource {
-    display: block;
-    text-align: center;
-    img,
-    .look-over {
-      margin: 0 auto;
-    }
-    .look-over {
-      margin-top: 50px;
-    }
-  }
-}
+<style lang='less' scoped>
+@import "../../assets/css/index.less";
 </style>
-
 

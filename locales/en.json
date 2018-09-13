@@ -7,8 +7,8 @@
     "resource": "Resources",
     "dapps": "Dapps",
     "blockExplorer": "Block Explorer",
-    "english": "English",
-    "chinese": "Chinese"
+    "en": "English",
+    "zh": "Chinese"
   },
   "index": {
     "slogen": "Next Generation Bigdata Public Blockchain ",
@@ -214,6 +214,7 @@
     }
   },
   "footer": {
-    "contactUs": "Contact Us"
+    "contactUs": "Contact Us",
+    "kefu": "contact"
   }
 }

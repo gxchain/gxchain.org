@@ -1,9 +1,8 @@
 <template>
-  <b-navbar toggleable="md">
+  <b-navbar class="fixed-top" toggleable="md">
 
-    <b-navbar-brand v-if="$i18n.locale === 'zh'"  href="/"><img style="height:30px" src="/gxchain.org.png"></b-navbar-brand>
-    <b-navbar-brand v-else  href="/en/"><img style="height:30px" src="/gxchain.org.png"></b-navbar-brand>
-
+    <b-navbar-brand :href="logoRedirect($i18n.locale)"><img class="logo" src="/gxchain.org.png"></b-navbar-brand>
+    
     <b-navbar-toggle target="nav_collapse"></b-navbar-toggle>
     <b-collapse is-nav id="nav_collapse">
 
@@ -13,7 +12,7 @@
          <b-nav-item v-for="(item,index) in navList" :key="index" :target="item.target" :href="item.path[$store.state.locale]" :class="{'active':navActive(item.name)}">{{$t('links.'+item.name)}}</b-nav-item>
         <!-- <b-button variant="outline-info" size="sm" class="info" type="submit">登录</b-button> -->
 
-        <b-nav-item-dropdown :text="$i18n.locale === 'zh' ? $t('links.chinese') : $t('links.english')" right>
+        <b-nav-item-dropdown :text="$t('links.'+$i18n.locale)" right>
           <b-dropdown-item href="#" @click="switchLanguage('zh')"><img class="flag-img" src="~static/zh.png" alt="">中文
           </b-dropdown-item>
           <b-dropdown-item href="#" @click="switchLanguage('en')"><img class="flag-img" src="~static/en.png" alt="">English
@@ -85,13 +84,37 @@ export default {
           this.$router.push(`${this.$route.fullPath.replace(/^\/[^\/]+/, "")}`);
         }
       }
+    },
+    logoRedirect(locale) {
+      let _href;
+      switch (locale) {
+        case "zh":
+          _href = "/";
+          break;
+        case "en":
+          _href = "/en/";
+          break;
+      }
+      return _href;
     }
   }
 };
 </script>
 <style scoped>
+.logo {
+  height: 1.6rem;
+}
 .navbar {
   border-bottom: 1px solid #e5e9ef;
+  background: #fff;
+}
+.navbar-nav li {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+.navbar-nav li .nav-link {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
 }
 .navbar-nav li.active {
   border-bottom: 2px solid #6699ff;
@@ -101,6 +124,9 @@ export default {
   margin-right: 10px;
 }
 @media (max-width: 768px) {
+  .navbar-nav li {
+    text-align: center;
+  }
   .navbar-nav li.active {
     border-bottom: none;
   }
