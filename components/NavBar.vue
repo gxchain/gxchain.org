@@ -108,6 +108,8 @@ export default {
 .navbar {
   max-width: 1400px;
   margin: 0 auto;
+  font-family: PingFang-SC-Heavy;
+  color: #666666;
 }
 .navbar-nav li {
   margin-left: 0.5rem;
