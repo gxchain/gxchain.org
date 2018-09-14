@@ -3,7 +3,7 @@
     <section class="header m-center">
       <div class="container">
         <img src="/gxchain.org.png" alt="GXChain">
-        <h1 class="slogen zh lead color-theme">{{$t('index.slogen')}}</h1>
+        <h1 class="slogen ping-regular zh lead color-theme">{{$t('index.slogen')}}</h1>
         <p>
           <a href="https://docs.gxchain.org" target="_blank" class="btn btn-lg btn-theme-lg"><img src="~static/index/start.png" alt=""></a>
         </p>
@@ -15,7 +15,7 @@
         <div class="content content-margin-top">
           <div class="left-content">
             <h5>{{$t('index.introduction.content1')}}</h5>
-            <div class="des">{{$t('index.introduction.content2')}}</div>
+            <div class="des ping-regular">{{$t('index.introduction.content2')}}</div>
           </div>
             <a href="https://github.com/gxchain/whitepaper/blob/master/zh/whitepaper.md" target="_blank" >
               <div class="white-paper">
@@ -59,7 +59,7 @@
             </div>
           </div>
           <p class="text-center entrance">
-             <a href="" target="_blank" class="btn btn-lg btn-theme">{{$t('index.advantages.developerCenter')}} </a>
+             <a href="" target="_blank" class="btn btn-lg btn-theme-lg">{{$t('index.advantages.developerCenter')}} </a>
           </p>
        </div>
     </section>
@@ -70,7 +70,7 @@
             <div class="down-load">
               <p>{{$t('index.resource.txt1')}}</p><p>{{$t('index.resource.txt2')}}</p>
             </div>
-            <a href="https://github.com/gxchain" target="_blank" class="btn btn-lg btn-theme">{{$t('index.resource.txt3')}} </a> 
+            <a href="https://github.com/gxchain" target="_blank" class="btn btn-lg btn-theme-lg">{{$t('index.resource.txt3')}} </a> 
           </div>
         </div>
     </section>
