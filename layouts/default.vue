@@ -1,7 +1,7 @@
 <template>
   <div>
     <nav-bar></nav-bar>
-    <nuxt/>
+    <nuxt class="main"/>
     <footer-bar></footer-bar>
   </div>
 </template>
@@ -17,11 +17,11 @@ export default {
 };
 </script>
 <style>
-body {
+.main {
   padding-top: 5rem;
 }
 @media (max-width: 768px) {
-  body {
+  .main {
     padding-top: 3.6rem;
   }
 }
