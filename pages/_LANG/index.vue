@@ -70,7 +70,7 @@
             <div class="down-load">
               <p>{{$t('index.resource.txt1')}}</p><p>{{$t('index.resource.txt2')}}</p>
             </div>
-            <a href="https://github.com/gxchain" target="_blank" class="btn btn-lg btn-theme-lg">{{$t('index.resource.txt3')}} </a> 
+            <a href="https://github.com/gxchain" target="_blank" class="btn-resource">{{$t('index.resource.txt3')}} </a> 
           </div>
         </div>
     </section>
