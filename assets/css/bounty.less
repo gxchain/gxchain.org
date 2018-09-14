@@ -9,14 +9,24 @@
       color: #7188a9;
     }
   }
+  .card{
+    border:none;
+  }
   .bounty-item {
     width: 13rem;
     padding-top: 20px;
     border-radius: 10px;
     margin-right: 25px;
     margin-bottom: 25px;
+    img{
+      width: 50%;
+      margin:0 auto;
+    }
     &:hover{
       box-shadow: 0 0 15px #ccc;
+    }
+    .currency{
+      font-size: 2rem;
     }
   }
   .card-title {
@@ -62,6 +72,7 @@
       flex-wrap: wrap;
     }
     .degree-item {
+      min-width: 250px;
       margin-right: 25px;
     }
     .degree-tag {
@@ -99,6 +110,9 @@
   .bounty-page {
     .bounty-item {
       width: 100%;
+      img{
+        width: 25%;
+      }
     }
     .project {
       .degree-item {

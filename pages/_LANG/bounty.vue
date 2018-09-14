@@ -8,9 +8,9 @@
           <div class="col-lg-3" v-for="(item,index) in bountyList" :key="index">
             <div class="card bounty-item text-center">
               <h6 class="card-title">{{$t('bounty.development.bountyList.'+item.ikey)}}</h6>
-              <img class="card-img-top " :src="setImgSrc(index+1)"  alt="" style="width: 50%; margin: 0 auto;">
+              <img class="card-img-top" :src="setImgSrc(index+1)"  alt="">
               <div class="card-body">
-                <h5 class="currency">{{item.bounty}}<span >{{item.currency}}+</span></h5>
+                <h5 class="currency">{{item.bounty}}<span >{{item.currency}}</span></h5>
                 <p class="card-text">{{item.time}}</p>
               </div>
               <div class="act-status started" v-if="item.status == 0">
@@ -41,23 +41,23 @@
                   <div class="degree-list">
                     <div class="degree-item">
                       <span class="degree-tag critical">{{$t('bounty.longTerm.critical')}}</span>
-                      <span class="bounty-val">800～1,000</span>
-                      <span class="color-999">GXS+</span>
+                      <span class="bounty-val">800~1,000</span>
+                      <span class="color-999">GXS</span>
                     </div>
                     <div class="degree-item">
                       <span class="degree-tag high">{{$t('bounty.longTerm.highRisk')}}</span>
-                      <span class="bounty-val">500～800</span>
-                      <span class="color-999">GXS+</span>
+                      <span class="bounty-val">500~800</span>
+                      <span class="color-999">GXS</span>
                     </div>
                     <div class="degree-item">
                       <span class="degree-tag middle">{{$t('bounty.longTerm.mediumRisk')}}</span>
-                      <span class="bounty-val">200～500</span>
-                      <span class="color-999">GXS+</span>
+                      <span class="bounty-val">200~500</span>
+                      <span class="color-999">GXS</span>
                     </div>
                      <div class="degree-item">
                       <span class="degree-tag low">{{$t('bounty.longTerm.lowRisk')}}</span>
-                      <span class="bounty-val">50～200</span>
-                      <span class="color-999">GXS+</span>
+                      <span class="bounty-val">50~200</span>
+                      <span class="color-999">GXS</span>
                     </div>
                   </div>
                 </div>
@@ -80,7 +80,7 @@ export default {
         {
           ikey: "item1",
           name: "智能合约IDE优化",
-          bounty: "10～100",
+          bounty: "10~100",
           currency: "GXS",
           time: "",
           status: 0,
@@ -89,7 +89,7 @@ export default {
         {
           ikey: "item2",
           name: "区块浏览器优化",
-          bounty: "10～100",
+          bounty: "10~100",
           currency: "GXS",
           time: "",
           status: 0,
@@ -98,7 +98,7 @@ export default {
         {
           ikey: "item3",
           name: "GXClient多语言实现",
-          bounty: "100～200",
+          bounty: "100~200",
           currency: "GXS",
           time: "",
           status: 0,
