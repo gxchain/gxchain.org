@@ -4,11 +4,11 @@
         <div class="container bottom-line padding-bottom-3">
             <h2 class="gxc-border-left padding-left-w color-666">{{$t('dApps.bc.title')}}</h2>
             <div class="content row">
-                <div class="margin-top-4 col-lg-8 color-666 line-h-2">
+                <div class="col-lg-6 margin-top-4 color-666 line-h-2">
                    <p>{{$t('dApps.bc.des')}}</p>
                 </div>
-                <div class="col-lg-4 text-center">
-                  <img src="~static/dapps/bc_qr.png" alt="">
+                <div class="text-center">
+                  <div><img src="~static/dapps/bc_qr.png" alt="blockcity" style="width:85%"></div>
                   <a href="https://blockcity.gxb.io/download/" target="_blank" class="btn btn-lg btn-theme-md">{{$t('dApps.bc.btn')}}</a>
                 </div>
             </div>
@@ -18,7 +18,7 @@
        <div class="container">
         <ul class="list-unstyled color-666">
           <li class="media margin-b-3">
-            <div class="app-logo text-center mr-3">
+            <div class="app-logo text-center">
                <img class="w_7rem mb-3" src="~static/dapps/bide.png" alt="Generic placeholder image">
                <h6>{{$t('dApps.coinGet.name')}}</h6>
             </div>
@@ -27,7 +27,7 @@
             </div>
           </li>
           <li class="media my-4">
-             <div class="app-logo text-center mr-3">
+             <div class="app-logo text-center">
               <img class="w_7rem mb-3" src="~static/dapps/wlm.png" alt="Generic placeholder image">
                 <h6>{{$t('dApps.wlm.name')}}</h6>
             </div>
@@ -36,7 +36,7 @@
             </div>
           </li>
           <li class="media">
-             <div class="app-logo text-center mr-3">
+             <div class="app-logo text-center">
                <img class="w_7rem mb-3" src="~static/dapps/prophet.png" alt="Generic placeholder image">
               <h6>{{$t('dApps.prophet.name')}}</h6>
              </div>  
@@ -49,5 +49,7 @@
     </section>
   </div>
 </template>
-
+<style  lang="less" scoped>
+@import "../assets/css/dapps.less";
+</style>
   
