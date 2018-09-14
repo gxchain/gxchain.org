@@ -5,7 +5,7 @@
         <img src="/gxchain.org.png" alt="GXChain">
         <h1 class="slogen ping-regular lead color-theme">{{$t('index.slogen')}}</h1>
         <p>
-          <a href="https://docs.gxchain.org" target="_blank" class="btn btn-lg btn-theme-lg"><img src="~static/index/start.png" alt=""></a>
+          <a :href="$i18n.locale == 'zh' ? 'https://docs.gxchain.org/zh/': 'https://docs.gxchain.org'" target="_blank" class="btn btn-lg btn-theme-lg"><img src="~static/index/start.png" alt=""></a>
         </p>
       </div>
     </section>

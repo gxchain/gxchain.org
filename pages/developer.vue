@@ -4,7 +4,7 @@
        <div class="container">
         <div class="slogen color-666">{{$t('developer.slogen')}}</div>
         <p>
-          <a href="https://developer.gxb.io/login.html#/" target="_blank" class="btn btn-lg btn-theme-lg"><img src="~static/index/start.png" alt=""></a>
+          <a :href="$i18n.locale == 'zh' ? 'https://docs.gxchain.org/zh/': 'https://docs.gxchain.org'" target="_blank" class="btn btn-lg btn-theme-lg"><img src="~static/index/start.png" alt=""></a>
         </p>
       </div>  
     </section>
