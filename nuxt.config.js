@@ -74,6 +74,9 @@ module.exports = {
   },
   router: {
     middleware: 'i18n'
+  },
+  generate: {
+    routes: ['/', '/bounty', 'developer','resource','dapps','/en', '/en/bounty', '/en/developer','/en/resource','/en/dapps']
   }
 
 }
