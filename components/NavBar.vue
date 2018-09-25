@@ -97,11 +97,6 @@ export default {
   }
 };
 </script>
-<style>
-.dropdown-toggle::after {
-  display: none;
-}
-</style>
 <style scoped>
 .nav-container {
   border-bottom: 1px solid #e5e9ef;
