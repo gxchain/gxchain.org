@@ -57,6 +57,14 @@ export default {
           target: "_self"
         },
         {
+          name: "foundation",
+          path: {
+            zh: "/foundation",
+            en: "/en/foundation"
+          },
+          target: "_self"
+        },
+        {
           name: "blockExplorer",
           path: {
             zh: "https://block.gxb.io",
