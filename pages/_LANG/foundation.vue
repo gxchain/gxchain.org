@@ -50,7 +50,7 @@
                     </b-nav>
                 </nav>
             </div>
-            <b-col cols="9">
+            <b-col cols="9" class="scrollspy-wrap">
                 <div class="container" ref="content" id="scrollspy-nested" style="position:relative">
                     <!--item-1-->
                     <div>

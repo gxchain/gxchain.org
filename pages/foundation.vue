@@ -50,7 +50,7 @@
                     </b-nav>
                 </nav>
             </div>
-            <b-col cols="9">
+            <b-col cols="9" class="scrollspy-wrap">
                 <div class="container" ref="content" id="scrollspy-nested" style="position:relative">
                     <!--item-1-->
                     <div>
@@ -650,71 +650,71 @@
     </b-container>
 </template>
 <script>
-    import { scrollTo, offsetTop } from '~/utils'
+import { scrollTo, offsetTop } from '~/utils'
 
-    export default {
-        data () {
-            return {
-                cates: []
-            };
-        },
-        mounted () {
-            if (process.client) {
-                //this.getTitleCates();
-            }
-        },
-        methods: {
-            isArray (arg) {
-                return Object.prototype.toString.call (arg) === '[object Array]';
-            },
-            scrollIntoView (e) {
-                e.preventDefault ();
-                e.stopPropagation ();
-                const href = e.target.getAttribute ('href');
-                const el = href ? document.querySelector (href) : null;
-                if (el) {
-                    // Get the document scrolling element
-                    const scroller =
-                        document.scrollingElement ||
-                        document.documentElement ||
-                        document.body
-                    // scroll heading into view (minus offset to account for nav top height
-                    scrollTo(scroller, offsetTop(el) - 85, 100, () => {
-                        // Set a tab index so we can focus header for a11y support
-                        el.tabIndex = -1
-                        // Focus the heading
-                        el.focus()
-                    })
-                }
-            },
-            getTitleCates () {
-                let that = this;
-                let idx = 0;
-                let i = 0;
-                document
-                    .querySelectorAll ('h4,h5')
-                    .forEach (tag => {
-                        tag.id = 'id' + i++;
-                        i++;
-                        if (tag.tagName.toUpperCase () == 'H4') {
-                            that.cates.push ({
-                                label: tag.innerHTML,
-                                href: '#' + tag.id
-                            });
-                            idx = that.cates.length;
-                        } else if (tag.tagName.toUpperCase () == 'H5') {
-                            that.cates[idx] = that.cates[idx] || [];
-                            that.cates[idx].push ({
-                                label: tag.innerHTML,
-                                href: '#' + tag.id
-                            });
-                        }
-                    });
-                console.dir (that.cates);
-            }
+export default {
+    data () {
+        return {
+            cates: []
+        };
+    },
+    mounted () {
+        if (process.client) {
+            //this.getTitleCates();
         }
-    };
+    },
+    methods: {
+        isArray (arg) {
+            return Object.prototype.toString.call(arg) === '[object Array]';
+        },
+        scrollIntoView (e) {
+            e.preventDefault();
+            e.stopPropagation();
+            const href = e.target.getAttribute('href');
+            const el = href ? document.querySelector(href) : null;
+            if (el) {
+                // Get the document scrolling element
+                const scroller =
+                    document.scrollingElement ||
+                    document.documentElement ||
+                    document.body
+                // scroll heading into view (minus offset to account for nav top height
+                scrollTo(scroller, offsetTop(el) - 85, 100, () => {
+                    // Set a tab index so we can focus header for a11y support
+                    el.tabIndex = -1
+                    // Focus the heading
+                    el.focus()
+                })
+            }
+        },
+        getTitleCates () {
+            let that = this;
+            let idx = 0;
+            let i = 0;
+            document
+                .querySelectorAll('h4,h5')
+                .forEach(tag => {
+                    tag.id = 'id' + i++;
+                    i++;
+                    if (tag.tagName.toUpperCase() == 'H4') {
+                        that.cates.push({
+                            label: tag.innerHTML,
+                            href: '#' + tag.id
+                        });
+                        idx = that.cates.length;
+                    } else if (tag.tagName.toUpperCase() == 'H5') {
+                        that.cates[idx] = that.cates[idx] || [];
+                        that.cates[idx].push({
+                            label: tag.innerHTML,
+                            href: '#' + tag.id
+                        });
+                    }
+                });
+            console.dir(that.cates);
+        }
+    }
+};
 </script>
 <style lang="less" scoped>
-    @import '../assets/css/foundation.less';
+@import '../assets/css/foundation.less';
 </style>
