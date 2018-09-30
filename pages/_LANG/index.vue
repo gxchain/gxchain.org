@@ -3,7 +3,7 @@
     <section class="header m-center">
       <div class="container">
         <img src="/gxchain.org.png" alt="GXChain">
-        <h1 class="slogen ping-regular lead color-theme">{{$t('index.slogen')}}</h1>
+        <h1 class="slogan ping-regular lead color-theme">{{$t('index.slogan')}}</h1>
         <p>
           <a :href="$i18n.locale == 'zh' ? 'https://docs.gxchain.org/zh/': 'https://docs.gxchain.org'" target="_blank" class="btn btn-lg btn-theme-lg"><img src="~static/index/start.png" alt=""></a>
         </p>
@@ -39,7 +39,7 @@
                 <p class="color-999">{{$t('index.advantages.list1.content')}}</p>
              </div>
             </div>
-            <div class="item">  
+            <div class="item">
               <div class="item-img text-center">
                 <img src="~static/index/home_2.png" alt="">
              </div>
@@ -70,7 +70,7 @@
             <div class="down-load">
               <p>{{$t('index.resource.txt1')}}</p><p>{{$t('index.resource.txt2')}}</p>
             </div>
-            <a href="/en/resource/" target="_blank" class="btn-resource">{{$t('index.resource.txt3')}} </a> 
+            <a href="/en/resource/" target="_blank" class="btn-resource">{{$t('index.resource.txt3')}} </a>
           </div>
         </div>
     </section>
