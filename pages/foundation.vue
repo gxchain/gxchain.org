@@ -3,7 +3,7 @@
         <b-row>
             <div class="d-none d-xl-block bd-toc pt-4 col-xl-3">
                 <nav aria-label="Page table of contents">
-                    <b-nav vertical v-b-scrollspy.70 class="m-toc section-nav">
+                    <b-nav vertical v-b-scrollspy.90 class="m-toc section-nav">
                         <b-nav-item href="#item-1" @click="scrollIntoView">1. 治理架构与机制</b-nav-item>
                         <b-nav class="flex-column">
                             <b-nav-item class="ml-3" href="#item-1-1" @click="scrollIntoView">1.1. 链上治理</b-nav-item>
