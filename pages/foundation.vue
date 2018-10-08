@@ -4,47 +4,47 @@
             <div class="d-none d-xl-block bd-toc pt-4 col-xl-3">
                 <nav aria-label="Page table of contents">
                     <b-nav vertical v-b-scrollspy.90 class="m-toc section-nav">
-                        <b-nav-item href="#item-1" @click="scrollIntoView">1. 治理架构与机制</b-nav-item>
+                        <b-nav-item href="#item-1" @click="scrollIntoView">1. {{$t('foundation.nav.item1')}}</b-nav-item>
                         <b-nav class="flex-column">
-                            <b-nav-item class="ml-3" href="#item-1-1" @click="scrollIntoView">1.1. 链上治理</b-nav-item>
-                            <b-nav-item class="ml-3" href="#item-1-2" @click="scrollIntoView">1.2. 链下治理</b-nav-item>
+                            <b-nav-item class="ml-3" href="#item-1-1" @click="scrollIntoView">1.1. {{$t('foundation.nav.item1-1')}}</b-nav-item>
+                            <b-nav-item class="ml-3" href="#item-1-2" @click="scrollIntoView">1.2. {{$t('foundation.nav.item1-2')}}</b-nav-item>
                         </b-nav>
-                        <b-nav-item href="#item-2" @click="scrollIntoView">2. 链上治理—GXChain理事会和公信节点</b-nav-item>
+                        <b-nav-item href="#item-2" @click="scrollIntoView">2. {{$t('foundation.nav.item2')}}</b-nav-item>
                         <b-nav class="flex-column">
-                            <b-nav-item class="ml-3" href="#item-2-1" @click="scrollIntoView">2.1. GXChain理事会和公信节点
+                            <b-nav-item class="ml-3" href="#item-2-1" @click="scrollIntoView">2.1. {{$t('foundation.nav.item2-1')}}
                             </b-nav-item>
-                            <b-nav-item class="ml-3" href="#item-2-2" @click="scrollIntoView">2.2. 公信节点竞选规则</b-nav-item>
-                            <b-nav-item class="ml-3" href="#item-2-3" @click="scrollIntoView">2.3. 节点收益</b-nav-item>
-                            <b-nav-item class="ml-3" href="#item-2-4" @click="scrollIntoView">2.4. 公信节点投票产生方式
+                            <b-nav-item class="ml-3" href="#item-2-2" @click="scrollIntoView">2.2. {{$t('foundation.nav.item2-2')}}</b-nav-item>
+                            <b-nav-item class="ml-3" href="#item-2-3" @click="scrollIntoView">2.3. {{$t('foundation.nav.item2-3')}}</b-nav-item>
+                            <b-nav-item class="ml-3" href="#item-2-4" @click="scrollIntoView">2.4. {{$t('foundation.nav.item2-4')}}
                             </b-nav-item>
                         </b-nav>
-                        <b-nav-item href="#item-3" @click="scrollIntoView">3. 链下治理—GXChain基金会</b-nav-item>
+                        <b-nav-item href="#item-3" @click="scrollIntoView">3. {{$t('foundation.nav.item3')}}</b-nav-item>
                         <b-nav class="flex-column">
-                            <b-nav-item class="ml-3" href="#item-3-1" @click="scrollIntoView">3.1. GXChain基金会的设立
+                            <b-nav-item class="ml-3" href="#item-3-1" @click="scrollIntoView">3.1. {{$t('foundation.nav.item3-1')}}
                             </b-nav-item>
-                            <b-nav-item class="ml-3" href="#item-3-2" @click="scrollIntoView">3.2. GXChain基金会的组织架构
+                            <b-nav-item class="ml-3" href="#item-3-2" @click="scrollIntoView">3.2. {{$t('foundation.nav.item3-2')}}
                             </b-nav-item>
-                            <b-nav-item class="ml-3" href="#item-3-3" @click="scrollIntoView">3.3. 决策委员会</b-nav-item>
-                            <b-nav-item class="ml-3" href="#item-3-4" @click="scrollIntoView">3.4. 顾问委员会</b-nav-item>
-                            <b-nav-item class="ml-3" href="#item-3-5" @click="scrollIntoView">3.5. 执行委员会</b-nav-item>
-                            <b-nav-item class="ml-3" href="#item-3-6" @click="scrollIntoView">3.6. 下属专门委员会</b-nav-item>
+                            <b-nav-item class="ml-3" href="#item-3-3" @click="scrollIntoView">3.3. {{$t('foundation.nav.item3-3')}}</b-nav-item>
+                            <b-nav-item class="ml-3" href="#item-3-4" @click="scrollIntoView">3.4. {{$t('foundation.nav.item3-4')}}</b-nav-item>
+                            <b-nav-item class="ml-3" href="#item-3-5" @click="scrollIntoView">3.5. {{$t('foundation.nav.item3-5')}}</b-nav-item>
+                            <b-nav-item class="ml-3" href="#item-3-6" @click="scrollIntoView">3.6. {{$t('foundation.nav.item3-6')}}</b-nav-item>
                         </b-nav>
-                        <b-nav-item href="#item-4" @click="scrollIntoView">4. GXChain团队</b-nav-item>
-                        <b-nav-item href="#item-5" @click="scrollIntoView">5. GXChain基金会的经济</b-nav-item>
+                        <b-nav-item href="#item-4" @click="scrollIntoView">4. {{$t('foundation.nav.item4')}}</b-nav-item>
+                        <b-nav-item href="#item-5" @click="scrollIntoView">5. {{$t('foundation.nav.item5')}}</b-nav-item>
                         <b-nav class="flex-column">
-                            <b-nav-item class="ml-3" href="#item-5-1" @click="scrollIntoView">5.1. 资金使用的限制条款
+                            <b-nav-item class="ml-3" href="#item-5-1" @click="scrollIntoView">5.1. {{$t('foundation.nav.item5-1')}}
                             </b-nav-item>
-                            <b-nav-item class="ml-3" href="#item-5-2" @click="scrollIntoView">5.2. 财务管理</b-nav-item>
-                            <b-nav-item class="ml-3" href="#item-5-3" @click="scrollIntoView">5.3. 钱包管理</b-nav-item>
-                            <b-nav-item class="ml-3" href="#item-5-4" @click="scrollIntoView">5.4. 披露事项</b-nav-item>
+                            <b-nav-item class="ml-3" href="#item-5-2" @click="scrollIntoView">5.2. {{$t('foundation.nav.item5-2')}}</b-nav-item>
+                            <b-nav-item class="ml-3" href="#item-5-3" @click="scrollIntoView">5.3. {{$t('foundation.nav.item5-3')}}</b-nav-item>
+                            <b-nav-item class="ml-3" href="#item-5-4" @click="scrollIntoView">5.4. {{$t('foundation.nav.item5-4')}}</b-nav-item>
                         </b-nav>
-                        <b-nav-item href="#item-6" @click="scrollIntoView">6. GXChain基金会的风控机制</b-nav-item>
+                        <b-nav-item href="#item-6" @click="scrollIntoView">6. {{$t('foundation.nav.item6')}}</b-nav-item>
                         <b-nav class="flex-column">
-                            <b-nav-item class="ml-3" href="#item-6-1" @click="scrollIntoView">6.1. 重大事项的风险评估与决策机制
+                            <b-nav-item class="ml-3" href="#item-6-1" @click="scrollIntoView">6.1. {{$t('foundation.nav.item6-1')}}
                             </b-nav-item>
-                            <b-nav-item class="ml-3" href="#item-6-2" @click="scrollIntoView">6.2. 定期检查、评估与舆情监督、汇报机制
+                            <b-nav-item class="ml-3" href="#item-6-2" @click="scrollIntoView">6.2. {{$t('foundation.nav.item6-1')}}
                             </b-nav-item>
-                            <b-nav-item class="ml-3" href="#item-6-3" @click="scrollIntoView">6.3. 突发事项的紧急评估与决策机制
+                            <b-nav-item class="ml-3" href="#item-6-3" @click="scrollIntoView">6.3. {{$t('foundation.nav.item6-1')}}
                             </b-nav-item>
                         </b-nav>
                     </b-nav>
