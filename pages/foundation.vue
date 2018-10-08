@@ -42,9 +42,9 @@
                         <b-nav class="flex-column">
                             <b-nav-item class="ml-3" href="#item-6-1" @click="scrollIntoView">6.1. {{$t('foundation.nav.item6-1')}}
                             </b-nav-item>
-                            <b-nav-item class="ml-3" href="#item-6-2" @click="scrollIntoView">6.2. {{$t('foundation.nav.item6-1')}}
+                            <b-nav-item class="ml-3" href="#item-6-2" @click="scrollIntoView">6.2. {{$t('foundation.nav.item6-2')}}
                             </b-nav-item>
-                            <b-nav-item class="ml-3" href="#item-6-3" @click="scrollIntoView">6.3. {{$t('foundation.nav.item6-1')}}
+                            <b-nav-item class="ml-3" href="#item-6-3" @click="scrollIntoView">6.3. {{$t('foundation.nav.item6-3')}}
                             </b-nav-item>
                         </b-nav>
                     </b-nav>
