@@ -54,46 +54,44 @@
                 <div class="container" ref="content" id="scrollspy-nested" style="position:relative">
                     <!--item-1-->
                     <div>
-                        <h4 id="item-1">1. 治理架构与机制</h4>
-                        <p class="text-indent">
-                            “治理”是公链的核心命题，一个去中心化治理的公链才会有最长久的生命力。GXChain通过链上与链下治理的结合将人与代码同时引入到公链的复杂治理体系中去，从而在实现治理的去中心化的同时保证治理的有效性。每一位GXChain资产持有者都有参与去中心化治理的权利。公链生态中的运营和发展方向，都会由全体GXC持有者以协商投票的方式来决定。</p>
-                        <p class="text-indent">
-                            GXChain的链上治理结构由理事会(Committee)和公信节点(TrustNode)构成。链上理事会由11名成员组成，可以提议修改GXChain的动态全局参数。公信节点由21名节点成员组成，负责GXChain网络的交易记账、交易验证、区块打包和确认等工作。</p>
+                        <h4 id="item-1">1. {{$t('foundation.item1.title')}}</h4>
+                        <p class="text-indent">{{$t('foundation.item1.p1')}}</p>
+                        <p class="text-indent">{{$t('foundation.item1.p2')}}</p>
                         <div class="govern-con">
-                            <h5 id="item-1-1">1.1. 链上治理</h5>
+                            <h5 id="item-1-1">1.1. {{$t('foundation.item1.item1.title')}}</h5>
                             <ul>
                                 <li>
                                     <div class="l-item">
                                         <img src="~static/foundation/1.png" alt="">
-                                        <p>理事会 Committee</p>
+                                        <p>{{$t('foundation.item1.item1.item1.title')}}</p>
                                     </div>
                                     <div class="r-item">
-                                        <p>○ 相当于链上的董事会，负责 GXChain 区块、交易、手续费等全局参数的 提案发起和投票</p>
-                                        <p>○ 由 11 名成员组成，每名成员必须是公信节点之一</p>
+                                        <p>○ {{$t('foundation.item1.item1.item1.li1')}}</p>
+                                        <p>○ {{$t('foundation.item1.item1.item1.li2')}}</p>
                                     </div>
                                 </li>
                                 <li>
                                     <div class="l-item">
                                         <img src="~static/foundation/2.png" alt="">
-                                        <p>公信节点 TrustNode</p>
+                                        <p>{{$t('foundation.item1.item1.item2.title')}}e</p>
                                     </div>
                                     <div class="r-item">
-                                        <p>○ 矿工，负责 GXChain 的交易记账、交易验证、区块打包和确认等工作</p>
-                                        <p>○ 至少由 21 名节点成员组成，前 11 个公信节点自动成为理事会成员</p>
+                                        <p>○ {{$t('foundation.item1.item1.item2.li1')}}</p>
+                                        <p>○ {{$t('foundation.item1.item1.item2.li2')}}</p>
                                     </div>
                                 </li>
                             </ul>
-                            <h5 id="item-1-2">1.2. 链下治理</h5>
+                            <h5 id="item-1-2">1.2. {{$t('foundation.item1.item2.title')}}</h5>
                             <ul>
                                 <li>
                                     <div class="l-item">
                                         <img src="~static/foundation/3.png" alt="">
-                                        <p>GXChain 基金会</p>
+                                        <p>{{$t('foundation.item1.item2.item1.title')}}</p>
                                     </div>
                                     <div class="r-item">
-                                        <p>○ 注册于新加坡的非盈利性组织</p>
-                                        <p>○ 由决策委员会，顾问委员会、执行委员会、生态建设委员会等 7 个部门组成</p>
-                                        <p>○ 负责 GXChain 的重大决策、技术开发、全球推广、财务管理和会议组织</p>
+                                        <p>○ {{$t('foundation.item1.item2.item1.li1')}}</p>
+                                        <p>○ {{$t('foundation.item1.item2.item1.li2')}}</p>
+                                        <p>○ {{$t('foundation.item1.item2.item1.li3')}}</p>
                                     </div>
                                 </li>
                             </ul>
@@ -101,316 +99,289 @@
                     </div>
                     <!--item-2-->
                     <div>
-                        <h4 id="item-2">2. 链上治理—GXChain理事会和公信节点</h4>
-                        <p class="text-indent">
-                             GXChain的链上治理是通过GXChain理事会和公信节点为载体去实现的。GXC持币人可通过公信节点去方便、快捷地行使GXChain的治理权。GXChain的生态内有21个公信节点，为GXChain提供网络、储和计算等基础设施。GXChain鼓励每一个公信节点构建自身的社区，使得每一个公信节点的社区都能在相互竞争中共同发展，壮大GXChain生态。公信节点按得票数的前11名当选为GXChain理事会成员，它是GXChain社区的核心链上治理组织。</p>
+                        <h4 id="item-2">2. {{$t('foundation.item2.title')}}</h4>
+                        <p class="text-indent">{{$t('foundation.item2.p1')}}</p>
                         <div>
-                            <h5 id="item-2-1">2.1.GXChain理事会和公信节点</h5>
-                            <p>在GXChain的治理生态中有如下三个角色：</p>
+                            <h5 id="item-2-1">2.1. {{$t('foundation.item2.item1.title')}}</h5>
+                            <p>{{$t('foundation.item2.item1.p1')}}</p>
                             <dl>
-                                <dd>1) 持币者：持有任意数量GXC的个体或机构。</dd>
-                                <dd>2) 公信节点: 由全体GXC持币者投票选举出的个体或机构，每1小时统计一次投票，共有21个公信节点。21个节点由投票前20名节点以及一个随机节点构成。
-                                    公信节点负责GXChain网络的交易验证、交易记账、区块打包和确认等工作，成功打包区块将获得对应的奖励。公信节点接受GXChain社区的监督。
-                                </dd>
-                                <dd>3) GXChain理事会: 公信节点按得票数的前11名当选为GXChain理事会成员。</dd>
-                                <dd>GXChain理事会是GXChain社区的核心链上治理组织，主要职责是设定合理的公链全局参数，以此促进GXChain长期的健康发展。其中包括：</dd>
+                                <dd>1) {{$t('foundation.item2.item1.li1')}}</dd>
+                                <dd>2) {{$t('foundation.item2.item1.li2')}}</dd>
+                                <dd>3) {{$t('foundation.item2.item1.li3.p1')}}</dd>
+                                <dd>{{$t('foundation.item2.item1.li3.p2')}}</dd>
                                 <dd class="text-indent">
-                                    <p>1) 修改区块链的动态参数，比如区块大小、区块间隔等；</p>
-                                    <p>2) 公信节点出块奖励、公信节点数量和活跃理事会成员数量等；</p>
-                                    <p>3) 转账、发行资产及各类交易手续费；</p>
-                                    <p>4) 智能合约的创建和调用费率等。</p>
+                                    <p>1) {{$t('foundation.item2.item1.li3.li1')}}</p>
+                                    <p>2) {{$t('foundation.item2.item1.li3.li2')}}</p>
+                                    <p>3) {{$t('foundation.item2.item1.li3.li3')}}</p>
+                                    <p>4) {{$t('foundation.item2.item1.li3.li4')}}</p>
                                 </dd>
                             </dl>
                         </div>
                         <div>
-                            <h5 id="item-2-2">2.2. 公信节点竞选规则</h5>
-                            <p class="text-indent">
-                                每一位GXC持币者都可成为公信节点的竞选者。竞选者需要向系统抵押1万GXC(具体金额由理事会投票决定)，退出竞选时可在30天后(系统动态参数，可由理事会投票调整)取回。若节点作恶，其抵押的GXC可由理事会投票处理。为了保障节点竞选的高效进行，
-                                GXChain针对公信节点候选人制定了一系列的标准和规则。由GXChain基金会的生态建设委员会(GXChain-ECO)根据标准和规则对候选节点进行审核。公信节点候选人必须符合以下基本条件：</p>
+                            <h5 id="item-2-2">2.2. {{$t('foundation.item2.item2.title')}}</h5>
+                            <p class="text-indent">{{$t('foundation.item2.item2.p1')}}</p>
                             <div class="text-indent">
-                                <p>1) 具有合法设立的组织主体，且拥有官网及社交账号；</p>
-                                <p>2) 具有可供社区成员测试的节点；</p>
-                                <p>3) 拥有可运行节点的服务器和节点运维技术；</p>
-                                <p>4）创建公信节点，需要抵押一定数量的GXC，z若取回抵押的GXC，则视为退出竞;</p>
-                                <p>5) 已制定未来三年的预算支持，技术方案，硬件扩容以及社区支持计划；</p>
-                                <p>6) 拥有一定规模的社区用户。</p>
+                                <p>1) {{$t('foundation.item2.item2.li1')}}</p>
+                                <p>2) {{$t('foundation.item2.item2.li2')}}</p>
+                                <p>3) {{$t('foundation.item2.item2.li3')}}</p>
+                                <p>4) {{$t('foundation.item2.item2.li4')}}</p>
+                                <p>5) {{$t('foundation.item2.item2.li5')}}</p>
+                                <p>6) {{$t('foundation.item2.item2.li6')}}</p>
                             </div>
                         </div>
                         <div>
-                            <h5 id="item-2-3">2.3. 节点收益</h5>
-                            <p class="text-indent">
-                                公信节点的收益主要来自出块奖励，由理事会投票决定出块奖励金额。在每一次区块打包完成之后，公信节点将获得相应的出块奖励。出块奖励池子由转账手续费以及基金会捐赠节点奖励两部分构成。为激励公信节点在GXChain生态中做出的积极贡献，GXChain基金会将捐赠400万枚GXC注入系统资金池作为节点出块奖励，奖励分8年发放，每年释放50万枚。</p>
+                            <h5 id="item-2-3">2.3. {{$t('foundation.item2.item3.title')}}</h5>
+                            <p class="text-indent">{{$t('foundation.item2.item3.p1')}}</p>
                         </div>
                         <div>
-                            <h5 id="item-2-4">2.4. 公信节点投票产生方式</h5>
-                            <p class="text-indent">
-                                每一个GXC视为一票，可为多个候选节点投票。参与公信节点投票的GXC将被质押在自己的钱包，如果资产转出，则视为撤票。累计票数排名前20名节点自动当选为公信节点，第21个节点从剩余的备选节点中随机产生。
-                                投票途径主要有3种：</p>
+                            <h5 id="item-2-4">2.4. {{$t('foundation.item2.item4.title')}}</h5>
+                            <p class="text-indent">{{$t('foundation.item2.item4.p1')}}</p>
                             <div class="text-indent">
-                                <p>1) 布洛克城投票</p>
-                                <p>在布洛克城钱包中的GXC，可通过布洛克城的投票通道进行公信节点的投票。</p>
-                                <p>2) 手机钱包和PC钱包投票</p>
-                                <p>在GXChain手机钱包和PC钱包中的GXC可进行公信节点的投票。 </p>
-                                <p>3) 交易所投票</p>
-                                <p>如果用户的GXC在交易所钱包里，且该交易所支持GXChain的公信节点投票，便可以采用此方式进行投票。</p>
+                                <p>1){{$t('foundation.item2.item4.li1.dt')}}</p>
+                                <p>{{$t('foundation.item2.item4.li1.dd')}}</p>
+                                <p>2){{$t('foundation.item2.item4.li2.dt')}}</p>
+                                <p>{{$t('foundation.item2.item4.li2.dd')}} </p>
+                                <p>3) {{$t('foundation.item2.item4.li3.dt')}}</p>
+                                <p>{{$t('foundation.item2.item4.li3.dd')}}</p>
                             </div>
                         </div>
                     </div>
                     <!--item-3-->
                     <div>
-                        <h4 id="item-3">3. 链下治理—GXChain基金会</h4>
+                        <h4 id="item-3">3. {{$t('foundation.item3.title')}}</h4>
                         <div>
-                            <h5 id="item-3-1">3.1. GXChain基金会的设立</h5>
-                            <p class="text-indent">GXChain基金会于2017年11月在新加坡正式成立，全称为GXChain foundation
-                                LTD.，旨在通过科学、合理、有效的治理机制推动并维系基金会及GXChain生态的建设和健康发展，为GXC持币者提供合适的保护和平等权利，构建GXC持币者、社区、节点、DApp
-                                开发者等不同角色之间的高效沟通渠道。</p>
-                            <p class="text-indent">
-                                GXChain基金会每年将向社区披露GXChain的开发情况、运营情况、GXC的使用情况等，并将引入第三方审计机构，监督项目的财务运作，审计报告将在年度信息披露中公告。</p>
+                            <h5 id="item-3-1">3.1. {{$t('foundation.item3.item1.title')}}</h5>
+                            <p class="text-indent">{{$t('foundation.item3.item1.p1')}}</p>
+                            <p class="text-indent">{{$t('foundation.item3.item1.p2')}}</p>
                         </div>
                         <div>
-                            <h5 id="item-3-2">3.2. GXChain基金会的组织架构</h5>
+                            <h5 id="item-3-2">3.2. {{$t('foundation.item3.item2.title')}}</h5>
                             <div class="text-center" style="margin:4rem 0">
                                 <img src="~static/foundation/4.png" alt="" class="decision-img">
-                                <p>图 3.1 GXChain 基金会组织架构</p>
+                                <p>图 3.1 {{$t('foundation.item3.item2.title')}}</p>
                             </div>
                         </div>
                         <div>
-                            <h5 id="item-3-3">3.3. 决策委员会</h5>
+                            <h5 id="item-3-3">3.3. {{$t('foundation.item3.item3.title')}}</h5>
                             <dl>
-                                <dt>3.3.1.简介</dt>
-                                <dd>决策委员会是GXChain基金会的决策机构。</dd>
+                                <dt>3.3.1. {{$t('foundation.item3.item3.item1.title')}}</dt>
+                                <dd>{{$t('foundation.item3.item3.item1.p1')}}</dd>
                             </dl>
                             <dl>
-                                <dt>3.3.2.人员组成</dt>
-                                <dd>决策委员会由11名成员组成，包含主要发起人、开发者代表、投资者代表及社区代表，设主席、副主席、执行总裁各一人，从决策委员会成员中选举产生，其他代表名额不固定。</dd>
+                                <dt>3.3.2. {{$t('foundation.item3.item3.item2.title')}}</dt>
+                                <dd>{{$t('foundation.item3.item3.item2.p1')}}</dd>
                             </dl>
                             <dl>
-                                <dt>3.3.3.人员介绍</dt>
-                            </dl>
-                            <table class="table table-bordered table-hover">
-                                <tbody>
-                                <tr>
-                                    <td>主席</td>
-                                    <td>黄敏强，GXChain创始人</td>
-                                </tr>
-                                <tr>
-                                    <td>副主席</td>
-                                    <td>涂国君，GXChain联合创始人</td>
-                                </tr>
-                                <tr>
-                                    <td>执行总裁</td>
-                                    <td>黄敏强，GXChain创始人</td>
-                                </tr>
-                                <tr>
-                                    <td rowspan="4">其他成员</td>
-                                    <td>王成，GXChain首席技术官</td>
-                                </tr>
-                                <tr>
-                                    <td>蓝昊翔，GXChain区块链研发总监</td>
-                                </tr>
-                                <tr>
-                                    <td>朱礼廷，GXChain区块链架构师</td>
-                                </tr>
-                                <tr>
-                                    <td>许潇鹏，GXChain运营总监</td>
-                                </tr>
-                                </tbody>
-                            </table>
-                            <dl>
-                                <dt>3.3.4.议事规则</dt>
-                                <dd>
-                                    决策委员会至少每年召开一次会议，由决策委员会主席负责召集并主持，于会议召开30日前通知全体成员，决策委员会会议需由1/2以上的成员出席方可举行。决策委员会会议中，一般事项的决议须经出席成员2/3以上表决通过，特殊事项还须经决策委员会主席投赞成票方为有效。任何需决策委员会决议的事项，如决策委员会成员以书面形式一致表示同意的，可以不召开决策委员会会议，直接作出决定，并由全体成员在决定文件上签名。
-                                </dd>
-                            </dl>
-                            <dl>
-                                <dt>3.3.5.主要职权</dt>
-                                <dd> 决策委员会主要行使下列职权：</dd>
-                                <dd>（1）制定、修改基金会治理机制；</dd>
-                                <dd>（2）选举、罢免主席或副主席；</dd>
-                                <dd>（3）根据主席的提名选举执行总裁、副总裁和其他执行委员会成员；</dd>
-                                <dd>（4）决定基金会的经营计划和投资方案；</dd>
-                                <dd>（5）年度收支预算、决算及资金分配方案审定；</dd>
-                                <dd>（6）通过授予荣誉职务（包括聘请名誉主席和顾问），增减顾问委员会成员；</dd>
-                                <dd>（7）决定设立办事机构、分支机构、代表机构；</dd>
-                                <dd>（8）听取、审议主席所做的工作报告，检查执行总裁的工作；</dd>
-                                <dd>（9）决定基金会的分立、合并或终止；</dd>
-                                <dd>（10 决定其他重大事项。</dd>
-                                <dd>其中，有关第(1)、(4)、(5)、(9)项的决议属于特殊事项。</dd>
-                            </dl>
-                            <dl>
-                                <dt>3.3.6.任职资格</dt>
-                                <dd>决策委员会成员需具备下列条件：</dd>
-                                <dd>（1）有加入基金会的较强意愿，认同基金会的宗旨；</dd>
-                                <dd>（2）在基金会的业务领域或社区内，具有一定影响力；</dd>
-                                <dd>（3）对基金会的发展壮大，有所帮助或有所贡献者；</dd>
-                                <dd>（4）无任何违法犯罪记录。</dd>
-                            </dl>
-                            <dl>
-                                <dt>3.3.7.人员的产生和罢免</dt>
-                                <dd>（1）第一届决策委员会成员由主要发起人、开发者代表、投资者代表分别提名并共同协商确定；。</dd>
-                                <dd>
-                                    （2）决策委员会换届改选时，由决策委员会提前60日发布公告公布成员资格条件及改选规则等事项，面向全体GXC持有人征集候选人，最终由GXC持有人进行投票，选举产生新一届决策委员会成员；。
-                                </dd>
-                                <dd>（3）决策委员会成员需在任职期间接受授信调查，并公开薪酬情况。。</dd>
-                                <dd>（4）任何成员因违反基金会制度、损害基金会声誉或给基金会事业造成损失等，经决策委员会审议后终止任职；。</dd>
-                                <dd>
-                                    （5）任何成员因违法、违纪受到处理，职务即时终止；任何成员因涉嫌犯罪被起诉或接受调查，决策委员会合理地认为该成员继续担任职务可能影响基金会声誉或形象的，经决策委员会审议后终止任职；。
-                                </dd>
-                                <dd>（6）任何成员自动请辞，死亡或因疾病、意外事故等丧失工作能力的，经决策委员会审议后终止任职。</dd>
-                            </dl>
-                            <dl>
-                                <dt>3.3.8.任期</dt>
-                                <dd>决策委员会成员每届任期为2年，任期届满，连选可以连任。</dd>
-                            </dl>
-                            <dl>
-                                <dt>3.3.9.主席、副主席主要职权</dt>
-                                <dd>决策委员会主席主要行使下列职权：</dd>
-                                <dd>（1）召集和主持决策委员会会议并组织实施；</dd>
-                                <dd>（2）提议召开临时决策委员会会议；</dd>
-                                <dd>（3）代表基金会签署重要文件，检查决策委员会决议的落实情况；</dd>
-                                <dd>（4）对重大突发事件进行紧急决策；</dd>
-                                <dd>（5）提名执行总裁、副总裁和其他执行委员会成员的候选人，各项职务应至少提名2位候选人供决策委员会选定。</dd>
-                                <dd>副主席在主席领导下开展工作，经主席书面授权可代主席行使相关职权。</dd>
-                            </dl>
-                        </div>
-                        <div>
-                            <h5 id="item-3-4">3.4.顾问委员会</h5>
-                            <dl>
-                                <dt>3.4.1.简介</dt>
-                                <dd>
-                                    顾问委员会是GXChain基金会的专家顾问团，由决策委员会挑选业务相关专业领域内较具有影响力的人员组成，包括但不限于技术专家、资深投资人、资深律师等，为基金会运营管理事务提供咨询与指导
-                                </dd>
-                            </dl>
-                            <dl>
-                                <dt>3.4.2.人员组成</dt>
-                                <dd>不超过7名，由决策委员会选定。</dd>
-                            </dl>
-                            <dl>
-                                <dt>3.4.3.人员介绍</dt>
+                                <dt>3.3.3. {{$t('foundation.item3.item3.item3.title')}}</dt>
                             </dl>
                             <table class="table table-bordered table-hover">
                                 <tbody>
                                 <tr>
-                                    <td>韩锋，华为中央研究院区块链顾问，亚洲区块链DACA协会秘书长，亦来云基金会联合创始人</td>
+                                    <td>{{$t('foundation.item3.item3.item3.tr1.td1')}}</td>
+                                    <td>{{$t('foundation.item3.item3.item3.tr1.td2')}}</td>
                                 </tr>
                                 <tr>
-                                    <td>李笑来，INBlockchain创始人</td>
+                                    <td>{{$t('foundation.item3.item3.item3.tr2.td1')}}</td>
+                                    <td>{{$t('foundation.item3.item3.item3.tr2.td2')}}</td>
                                 </tr>
                                 <tr>
-                                    <td>沈波，分布式资本合伙人</td>
+                                    <td>{{$t('foundation.item3.item3.item3.tr3.td1')}}</td>
+                                    <td>{{$t('foundation.item3.item3.item3.tr3.td2')}}</td>
                                 </tr>
                                 <tr>
-                                    <td>元道，世纪互联数据中心的创始人、董事长，中关村区块链联盟理事长</td>
+                                    <td rowspan="4">{{$t('foundation.item3.item3.item3.tr4.td1')}}</td>
+                                    <td>{{$t('foundation.item3.item3.item3.tr4.td2')}}</td>
+                                </tr>
+                                <tr>
+                                    <td>{{$t('foundation.item3.item3.item3.tr4.td3')}}</td>
+                                </tr>
+                                <tr>
+                                    <td>{{$t('foundation.item3.item3.item3.tr4.td4')}}</td>
+                                </tr>
+                                <tr>
+                                    <td>{{$t('foundation.item3.item3.item3.tr4.td5')}}</td>
                                 </tr>
                                 </tbody>
                             </table>
                             <dl>
-                                <dt>3.4.4.主要职权</dt>
-                                <dd>顾问委员会主要行使下列职权：</dd>
-                                <dd>（1）为基金会运营管理事务提供咨询与指导。</dd>
-                                <dd>（2）受决策委员会邀请可列席决策委员会会议，但不具备投票权。</dd>
+                                <dt>3.3.4. {{$t('foundation.item3.item3.item4.title')}}</dt>
+                                <dd>{{$t('foundation.item3.item3.item4.p1')}}</dd>
                             </dl>
                             <dl>
-                                <dt>3.4.5.任职资格</dt>
-                                <dd>顾问委员会人员需具备下列条件：</dd>
-                                <dd>（1）在基金会的业务相关专业领域内，具有一定影响力；</dd>
-                                <dd>（2）无任何违法犯罪记录。</dd>
+                                <dt>3.3.5. {{$t('foundation.item3.item3.item5.title')}}</dt>
+                                <dd> {{$t('foundation.item3.item3.item5.p1')}}</dd>
+                                <dd>（1）{{$t('foundation.item3.item3.item5.li1')}}</dd>
+                                <dd>（2）{{$t('foundation.item3.item3.item5.li2')}}</dd>
+                                <dd>（3）{{$t('foundation.item3.item3.item5.li3')}}</dd>
+                                <dd>（4）{{$t('foundation.item3.item3.item5.li4')}}</dd>
+                                <dd>（5）{{$t('foundation.item3.item3.item5.li5')}}</dd>
+                                <dd>（6）{{$t('foundation.item3.item3.item5.li6')}}</dd>
+                                <dd>（7）{{$t('foundation.item3.item3.item5.li7')}}</dd>
+                                <dd>（8）{{$t('foundation.item3.item3.item5.li8')}}</dd>
+                                <dd>（9）{{$t('foundation.item3.item3.item5.li9')}}</dd>
+                                <dd>（10 {{$t('foundation.item3.item3.item5.li10')}}</dd>
+                                <dd>{{$t('foundation.item3.item3.item5.li11')}}</dd>
                             </dl>
                             <dl>
-                                <dt>3.4.6.人员的产生和罢免</dt>
-                                <dd>（1）由决策委员会挑选并授予荣誉职务，包括聘请名誉主席、顾问等。</dd>
-                                <dd>（2）因违反基金会制度、损害基金会声誉或给基金会事业造成损失等，经决策委员会审议后终止任职。</dd>
-                                <dd>（3）因违法、违纪受到处理，职务即时终止；因涉嫌犯罪被起诉或接受调查，决策委员会合理地认为该人员继续担任职务可能影响基金会声誉或形象的，经决策委员会审议后终止任职；
-                                </dd>
-                                <dd>（4）自动请辞，死亡或因疾病、意外事故等丧失工作能力的，经决策委员会审议后终止任职。</dd>
+                                <dt>3.3.6. {{$t('foundation.item3.item3.item6.title')}}</dt>
+                                <dd>{{$t('foundation.item3.item3.item6.p1')}}</dd>
+                                <dd>（1）{{$t('foundation.item3.item3.item6.li1')}}</dd>
+                                <dd>（2）{{$t('foundation.item3.item3.item6.li2')}}</dd>
+                                <dd>（3）{{$t('foundation.item3.item3.item6.li3')}}</dd>
+                                <dd>（4）{{$t('foundation.item3.item3.item6.li4')}}</dd>
+                            </dl>
+                            <dl>
+                                <dt>3.3.7. {{$t('foundation.item3.item3.item7.title')}}</dt>
+                                <dd>（1）{{$t('foundation.item3.item3.item7.li1')}}</dd>
+                                <dd>（2）{{$t('foundation.item3.item3.item7.li2')}}</dd>
+                                <dd>（3）{{$t('foundation.item3.item3.item7.li3')}}</dd>
+                                <dd>（4）{{$t('foundation.item3.item3.item7.li4')}}</dd>
+                                <dd>（5）{{$t('foundation.item3.item3.item7.li5')}}</dd>
+                                <dd>（6）{{$t('foundation.item3.item3.item7.li6')}}</dd>
+                            </dl>
+                            <dl>
+                                <dt>3.3.8. {{$t('foundation.item3.item3.item8.title')}}</dt>
+                                <dd>{{$t('foundation.item3.item3.item8.p1')}}</dd>
+                            </dl>
+                            <dl>
+                                <dt>3.3.9. {{$t('foundation.item3.item3.item9.title')}}</dt>
+                                <dd>{{$t('foundation.item3.item3.item9.p1')}}</dd>
+                                <dd>（1）{{$t('foundation.item3.item3.item9.li1')}}</dd>
+                                <dd>（2）{{$t('foundation.item3.item3.item9.li2')}}</dd>
+                                <dd>（3）{{$t('foundation.item3.item3.item9.li3')}}</dd>
+                                <dd>（4）{{$t('foundation.item3.item3.item9.li4')}}</dd>
+                                <dd>（5）{{$t('foundation.item3.item3.item9.li5')}}</dd>
+                                <dd>{{$t('foundation.item3.item3.item9.li6')}}</dd>
                             </dl>
                         </div>
                         <div>
-                            <h5 id="item-3-5">3.5. 执行委员会</h5>
+                            <h5 id="item-3-4">3.4. {{$t('foundation.item3.item4.title')}}</h5>
                             <dl>
-                                <dt>3.5.1.简介</dt>
-                                <dd>
-                                    执行委员会是GXChain基金会的执行机构，负责基金会日常运营管理事务的具体执行，设执行总裁一人，其他执行委员会成员在执行总裁领导下开展工作，指导并管理下属专门委员会工作。
-                                </dd>
+                                <dt>3.4.1. {{$t('foundation.item3.item4.item1.title')}} </dt>
+                                <dd>{{$t('foundation.item3.item4.item1.p1')}} </dd>
                             </dl>
                             <dl>
-                                <dt>3.5.2.人员组成</dt>
-                                <dd>执行总裁、副总裁、秘书及各专门委员会负责人</dd>
+                                <dt>3.4.2. {{$t('foundation.item3.item4.item2.title')}} </dt>
+                                <dd>{{$t('foundation.item3.item4.item2.p1')}} </dd>
                             </dl>
                             <dl>
-                                <dt>3.5.3.人员介绍</dt>
+                                <dt>3.4.3. {{$t('foundation.item3.item4.item3.title')}} </dt>
                             </dl>
                             <table class="table table-bordered table-hover">
                                 <tbody>
                                 <tr>
-                                    <td>执行总裁</td>
-                                    <td>黄敏强，GXChain创始人</td>
+                                    <td>{{$t('foundation.item3.item4.item3.tr1')}} </td>
                                 </tr>
                                 <tr>
-                                    <td>副总裁</td>
-                                    <td>涂国君，GXChain联合创始人</td>
+                                    <td>{{$t('foundation.item3.item4.item3.tr2')}} </td>
                                 </tr>
                                 <tr>
-                                    <td>执行总裁</td>
-                                    <td>黄敏强，GXChain创始人</td>
+                                    <td>{{$t('foundation.item3.item4.item3.tr3')}} </td>
                                 </tr>
                                 <tr>
-                                    <td>秘书</td>
-                                    <td>许潇鹏，GXChain运营总监</td>
+                                    <td>{{$t('foundation.item3.item4.item3.tr4')}} </td>
                                 </tr>
                                 </tbody>
                             </table>
                             <dl>
-                                <dt>3.5.4.主要职权</dt>
-                                <dd>执行委员会主要行使下列职权：</dd>
-                                <dd>（1）执行决策委员会的各项决议；</dd>
-                                <dd>（2）指导下属专门委员会开展工作；</dd>
-                                <dd>（3）决定下属专门委员会人员的聘用与解聘，包括决定其报酬事项；</dd>
-                                <dd>应对基金会紧急事件，拟定应对方案供决策委员会主席决策。</dd>
+                                <dt>3.4.4. {{$t('foundation.item3.item4.item4.title')}}</dt>
+                                <dd>{{$t('foundation.item3.item4.item4.p1')}}</dd>
+                                <dd>（1）{{$t('foundation.item3.item4.item4.li1')}}</dd>
+                                <dd>（2）{{$t('foundation.item3.item4.item4.li2')}}</dd>
                             </dl>
                             <dl>
-                                <dt>3.5.5.人员的产生和罢免</dt>
-                                <dd>（1）由决策委员会主席提名，经决策委员会审议后选定；</dd>
-                                <dd>（2）因违反基金会制度、损害基金会声誉或给基金会事业造成损失等，经决策委员会审议后终止任职；</dd>
-                                <dd>（3）因违法、违纪受到处理，职务即时终止；因涉嫌犯罪被起诉或接受调查，决策委员会合理地认为该人员继续担任职务可能影响基金会声誉或形象的，经决策委员会审议后终止任职；
-                                </dd>
-                                <dd>（4）自动请辞，死亡或因疾病、意外事故等丧失工作能力的，经决策委员会审议后终止任职。</dd>
+                                <dt>3.4.5. {{$t('foundation.item3.item4.item5.title')}}</dt>
+                                <dd>{{$t('foundation.item3.item4.item5.p1')}}</dd>
+                                <dd>（1）{{$t('foundation.item3.item4.item5.li1')}}</dd>
+                                <dd>（2）{{$t('foundation.item3.item4.item5.li2')}}</dd>
                             </dl>
                             <dl>
-                                <dt>3.5.6.任期</dt>
-                                <dd>每届任期为2年，任期届满，连选可以连任。</dd>
-                            </dl>
-                            <dl>
-                                <dt>3.5.7.执行总裁主要职权</dt>
-                                <dd>执行总裁主要行使下列职权：</dd>
-                                <dd>（1）主持开展基金会日常工作，组织实施年度运营计划，并向决策委员会汇报工作情况;</dd>
-                                <dd>（2）拟订基金会的内部管理规章制度，报决策委员会审批；</dd>
-                                <dd>协调各下属专门委员会、分支机构开展工作。</dd>
+                                <dt>3.4.6. {{$t('foundation.item3.item4.item6.title')}}</dt>
+                                <dd>（1）{{$t('foundation.item3.item4.item6.li1')}}</dd>
+                                <dd>（2）{{$t('foundation.item3.item4.item6.li2')}}</dd>
+                                <dd>（3）{{$t('foundation.item3.item4.item6.li3')}}</dd>
+                                <dd>（4）{{$t('foundation.item3.item4.item6.li4')}}</dd>
                             </dl>
                         </div>
                         <div>
-                            <h5 id="item-3-6">3.6.下属专门委员会</h5>
+                            <h5 id="item-3-5">3.5. {{$t('foundation.item3.item5.title')}}</h5>
                             <dl>
-                                <dt>3.6.1.生态建设委员会</dt>
-                                <dd class="text-indent">
-                                    生态建设委员会负责GXChain生态建设相关事宜，包括对GXChain上开发者项目的投资、孵化，为构建GXChain生态筛选合作伙伴，进行尽职调查并负责后续合作对接工作。
+                                <dt>3.5.1. {{$t('foundation.item3.item5.item1.title')}}</dt>
+                                <dd>{{$t('foundation.item3.item5.item1.p1')}}</dd>
+                            </dl>
+                            <dl>
+                                <dt>3.5.2. {{$t('foundation.item3.item5.item2.title')}}</dt>
+                                <dd>{{$t('foundation.item3.item5.item2.p1')}}</dd>
+                            </dl>
+                            <dl>
+                                <dt>3.5.3. {{$t('foundation.item3.item5.item3.title')}}</dt>
+                            </dl>
+                            <table class="table table-bordered table-hover">
+                                <tbody>
+                                <tr>
+                                    <td>{{$t('foundation.item3.item5.item3.tr1.td1')}}</td>
+                                    <td>{{$t('foundation.item3.item5.item3.tr1.td2')}}</td>
+                                </tr>
+                                <tr>
+                                    <td>{{$t('foundation.item3.item5.item3.tr2.td1')}}</td>
+                                    <td>{{$t('foundation.item3.item5.item3.tr2.td2')}}</td>
+                                </tr>
+                                <tr>
+                                    <td>{{$t('foundation.item3.item5.item3.tr3.td1')}}</td>
+                                    <td>{{$t('foundation.item3.item5.item3.tr3.td2')}}</td>
+                                </tr>
+                                <tr>
+                                    <td>{{$t('foundation.item3.item5.item3.tr4.td1')}}</td>
+                                    <td>{{$t('foundation.item3.item5.item3.tr4.td2')}}</td>
+                                </tr>
+                                </tbody>
+                            </table>
+                            <dl>
+                                <dt>3.5.4. {{$t('foundation.item3.item5.item4.title')}}</dt>
+                                <dd>{{$t('foundation.item3.item5.item4.p1')}}</dd>
+                                <dd>（1）{{$t('foundation.item3.item5.item4.li1')}}</dd>
+                                <dd>（2）{{$t('foundation.item3.item5.item4.li2')}}</dd>
+                                <dd>（3）{{$t('foundation.item3.item5.item4.li3')}}</dd>
+                                <dd>{{$t('foundation.item3.item5.item4.li4')}}</dd>
+                            </dl>
+                            <dl>
+                                <dt>3.5.5. {{$t('foundation.item3.item5.item5.title')}}</dt>
+                                <dd>（1）{{$t('foundation.item3.item5.item5.li1')}}</dd>
+                                <dd>（2）{{$t('foundation.item3.item5.item5.li2')}}</dd>
+                                <dd>（3）{{$t('foundation.item3.item5.item5.li3')}}</dd>
+                                <dd>（4）{{$t('foundation.item3.item5.item5.li4')}}</dd>
+                            </dl>
+                            <dl>
+                                <dt>3.5.6. {{$t('foundation.item3.item5.item6.title')}}</dt>
+                                <dd>{{$t('foundation.item3.item5.item6.p1')}}</dd>
+                            </dl>
+                            <dl>
+                                <dt>3.5.7. {{$t('foundation.item3.item5.item7.title')}}</dt>
+                                <dd>{{$t('foundation.item3.item5.item7.p1')}}</dd>
+                                <dd>（1）{{$t('foundation.item3.item5.item7.li1')}}</dd>
+                                <dd>（2）{{$t('foundation.item3.item5.item7.li2')}}</dd>
+                                <dd>{{$t('foundation.item3.item5.item7.li3')}}</dd>
+                            </dl>
+                        </div>
+                        <div>
+                            <h5 id="item-3-6">3.6. {{$t('foundation.item3.item6.title')}}</h5>
+                            <dl>
+                                <dt>3.6.1. {{$t('foundation.item3.item6.item1.title')}}</dt>
+                                <dd class="text-indent">{{$t('foundation.item3.item6.item1.p1')}}</dd>
+                            </dl>
+                            <dl>
+                                <dt>3.6.2. {{$t('foundation.item3.item6.item2.title')}}</dt>
+                                <dd class="text-indent">{{$t('foundation.item3.item6.item2.p1')}}</dd>
+                                <dd>{{$t('foundation.item3.item6.item2.github')}} <a href="https://www.github.com/gxchain" target="_blank">https://www.github.com/gxchain</a>
                                 </dd>
                             </dl>
                             <dl>
-                                <dt>3.6.2.代码评审委员会</dt>
-                                <dd class="text-indent">
-                                    代码评审委员会负责GXChain底层技术构建、API服务开发、开发者代码评审、代码合并与Github发布等工作。同时，代码评审委员会人员通过定期分享会、不定期交流会等形式保持技术团队紧跟行业趋势，积极研究最新区块链技术。 
-                                </dd>
-                                <dd>Github地址 <a href="https://www.github.com/gxchain" target="_blank">https://www.github.com/gxchain</a>
-                                </dd>
+                                <dt>3.6.3. {{$t('foundation.item3.item6.item3.title')}}</dt>
+                                <dd class="text-indent">{{$t('foundation.item3.item6.item3.p1')}}</dd>
                             </dl>
                             <dl>
-                                <dt>3.6.3.市场公关委员会</dt>
-                                <dd class="text-indent">市场公关委员会负责基金会形象的建立与维护及社区的运营与推广，以及危机公关等工作。</dd>
-                            </dl>
-                            <dl>
-                                <dt>3.6.4.综合职能委员会</dt>
-                                <dd class="text-indent">综合职能委员会负责基金会日常资金使用的审核与管理、基金会内部人事管理、行政事务管理及法律事务管理等事项。</dd>
+                                <dt>3.6.4. {{$t('foundation.item3.item6.item4.title')}}</dt>
+                                <dd class="text-indent">{{$t('foundation.item3.item6.item4.p1')}}</dd>
                             </dl>
                         </div>
                     </div>
@@ -492,7 +463,7 @@
                     </div>
                     <!--item-5-->
                     <div class="fourth-container">
-                        <h4 id="item-5">5. GXChain基金会的经济</h4>
+                        <h4 id="item-5">5. {{$t('foundation.item5.title')}}</h4>
                         <div>
                             <div class="text-center" style="margin:4rem 0">
                                 <img src="~static/foundation/5.png" alt="" class="decision-img">
@@ -502,61 +473,57 @@
                         <table class="table table-bordered">
                             <thead>
                             <tr class="text-center">
-                                <th scope="col" width="33.3%" colspan="2">比例</th>
-                                <th scope="col" width="33.3%">分配方案</th>
-                                <th scope="col" width="33.3%">详细说明</th>
+                                <th scope="col" width="33.3%" colspan="2">{{$t('foundation.item5.table.thead.th1')}}</th>
+                                <th scope="col" width="33.3%">{{$t('foundation.item5.table.thead.th2')}}</th>
+                                <th scope="col" width="33.3%">{{$t('foundation.item5.table.thead.th3')}}</th>
                             </tr>
                             </thead>
                             <tbody>
                             <tr>
-                                <td colspan="2">10%</td>
-                                <td>早期投资人</td>
-                                <td>用于发放给最早期的投资人</td>
+                                <td colspan="2">{{$t('foundation.item5.table.tr1.td1')}}</td>
+                                <td>{{$t('foundation.item5.table.tr1.td2')}}</td>
+                                <td>{{$t('foundation.item5.table.tr1.td3')}}</td>
                             </tr>
                             <tr>
-                                <td colspan="2">24.51%</td>
-                                <td>首次公开发行</td>
-                                <td>用于发放首次公开发行的投资人</td>
+                                <td colspan="2">{{$t('foundation.item5.table.tr2.td1')}}</td>
+                                <td>{{$t('foundation.item5.table.tr2.td2')}}</td>
+                                <td>{{$t('foundation.item5.table.tr2.td3')}}</td>
                             </tr>
                             <tr>
-                                <td colspan="2">5%</td>
-                                <td>布洛克城宝池</td>
-                                <td>作为布洛克城挖宝奖励投放至布洛克城宝池，激励用户进行可信数据上链</td>
+                                <td colspan="2">{{$t('foundation.item5.table.tr3.td1')}}</td>
+                                <td>{{$t('foundation.item5.table.tr3.td2')}}</td>
+                                <td>{{$t('foundation.item5.table.tr3.td3')}}</td>
                             </tr>
                             <tr>
-                                <td colspan="2">9.49%</td>
-                                <td>开发者扶持基金</td>
-                                <td>作为开发者扶持基金， 用于扶持基于GXChain开发的DApps</td>
+                                <td colspan="2">{{$t('foundation.item5.table.tr4.td1')}}</td>
+                                <td>{{$t('foundation.item5.table.tr4.td2')}}</td>
+                                <td>{{$t('foundation.item5.table.tr4.td3')}}</td>
                             </tr>
                             <tr>
                                 <td rowspan="5">51%</td>
-                                <td>21%</td>
-                                <td class="vh-center">创始团队</td>
-                                <td>发放GXC以回报创始团队在 GXChain筹备期、开发初期投入的 大量的人力、物力等资源，以及为 GXChain的技术和运营等各个方面 所做出的重大贡献，同时激励其
-                                    之后在GXChain发展过程中继续发 力
-                                </td>
+                                <td>{{$t('foundation.item5.table.tr5.td1')}}</td>
+                                <td class="vh-center">{{$t('foundation.item5.table.tr5.td2')}}</td>
+                                <td>{{$t('foundation.item5.table.tr5.td3')}}</td>
                             </tr>
                             <tr>
-                                <td>10%</td>
-                                <td>GXChain公链生态建设</td>
-                                <td>用于公链生态建设、公链开发与开 发者社区培育，用于支付合作费用 、扶持开发者项目、举办技术竞赛 等，推动GXChain技术的应用与生 态的建设，展现并提升商业价值
-                                </td>
+                                <td>{{$t('foundation.item5.table.tr6.td1')}}</td>
+                                <td>{{$t('foundation.item5.table.tr6.td2')}}</td>
+                                <td>{{$t('foundation.item5.table.tr6.td3')}}</td>
                             </tr>
                             <tr>
-
-                                <td>6%</td>
-                                <td>市场公关</td>
-                                <td>用于GXChain全球性的市场宣传、 品牌营销及社区运营等工作</td>
+                                <td>{{$t('foundation.item5.table.tr7.td1')}}</td>
+                                <td>{{$t('foundation.item5.table.tr7.td2')}}</td>
+                                <td>{{$t('foundation.item5.table.tr7.td3')}}</td>
                             </tr>
                             <tr>
-                                <td>4%</td>
-                                <td>公信节点</td>
-                                <td>公信节点出块奖励，共21个节点</td>
+                                <td>{{$t('foundation.item5.table.tr8.td1')}}</td>
+                                <td>{{$t('foundation.item5.table.tr8.td2')}}</td>
+                                <td>{{$t('foundation.item5.table.tr8.td3')}}</td>
                             </tr>
                             <tr>
-                                <td>10%</td>
-                                <td>日常经营</td>
-                                <td>作为GXChain基金会的日常经营资 金，用于支付员工工资、行政采购 费用、外聘会计师服务费用等日常 经营性开支</td>
+                                <td>{{$t('foundation.item5.table.tr9.td1')}}%</td>
+                                <td>{{$t('foundation.item5.table.tr9.td2')}}</td>
+                                <td>{{$t('foundation.item5.table.tr9.td3')}}</td>
                             </tr>
                             </tbody>
                         </table>

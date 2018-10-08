@@ -1,225 +1,506 @@
 {
-  "links": {
-    "home": "Home",
-    "about": "About",
-    "bounty": "Bounties",
-    "developer": "Developers",
-    "resource": "Resources",
-    "dapps": "Dapps",
-    "foundation": "foundation",
-    "blockExplorer": "Block Explorer",
-    "en": "English",
-    "zh": "Chinese"
-  },
-  "index": {
-    "slogan": "Next Generation Bigdata Public Blockchain ",
-    "introduction": {
-      "title": "About Us",
-      "content1": "GXChain is a big-data public blockchain that supports application development and smart contract. Based on Graphene technology and DPoS consensus mechanism",
-      "content2": "GXChain has many powerful functions, including G-ID, GVM, blockchain as a service(BaaS), and Blockcity Pay. On top of GXChain, two killer applications were launched: decentralized data exchange (To Business), that supports P2P data trading and sharing, currently serving more than 100 renowned companies, Blockcity (To Customers), a personal data consolidation Dapp with millions real-name verified users, providing abundant data resources for partners and applications on GXChain. GXChain ensures a secure, credible, high-throughput data transaction ecosystem via blockchain. GXChain was self-developed by the GXChain team and launched in June of 2017.",
-      "getWhitepaper": "GXChain Whitepaper"
+    "links": {
+        "home": "Home",
+        "about": "About",
+        "bounty": "Bounties",
+        "developer": "Developers",
+        "resource": "Resources",
+        "dapps": "Dapps",
+        "foundation": "foundation",
+        "blockExplorer": "Block Explorer",
+        "en": "English",
+        "zh": "Chinese"
     },
-    "advantages": {
-      "title": "Our Advantages",
-      "list1": {
-        "title": "Higher performance",
-        "content": "Graphene based DPoS consensus and second level transaction confirmation provide Dapp users well experience like using centralized applications."
-      },
-      "list2": {
-        "title": "Smart Contract",
-        "content": "Accomplishes a faster & better VM solution and provides a contract development tool – IDE which supports C++ and other popular languages to develop, debug, deploy and call directly so as to develop smart contract efficiently and conveniently."
-      },
-      "list3": {
-        "title": "General Digital Identity G-ID",
-        "content": "G-ID is the unique identity of GXChain ecosystem. Currently, more than millions of real name digital identity users bring rich traffic for Dapps which greatly reduce the customer acquisition cost and facilitate the development of Dapps. "
-      },
-      "developerCenter": "Developer Center"
+    "index": {
+        "slogan": "Next Generation Bigdata Public Blockchain ",
+        "introduction": {
+            "title": "About Us",
+            "content1": "GXChain is a big-data public blockchain that supports application development and smart contract. Based on Graphene technology and DPoS consensus mechanism",
+            "content2": "GXChain has many powerful functions, including G-ID, GVM, blockchain as a service(BaaS), and Blockcity Pay. On top of GXChain, two killer applications were launched: decentralized data exchange (To Business), that supports P2P data trading and sharing, currently serving more than 100 renowned companies, Blockcity (To Customers), a personal data consolidation Dapp with millions real-name verified users, providing abundant data resources for partners and applications on GXChain. GXChain ensures a secure, credible, high-throughput data transaction ecosystem via blockchain. GXChain was self-developed by the GXChain team and launched in June of 2017.",
+            "getWhitepaper": "GXChain Whitepaper"
+        },
+        "advantages": {
+            "title": "Our Advantages",
+            "list1": {
+                "title": "Higher performance",
+                "content": "Graphene based DPoS consensus and second level transaction confirmation provide Dapp users well experience like using centralized applications."
+            },
+            "list2": {
+                "title": "Smart Contract",
+                "content": "Accomplishes a faster & better VM solution and provides a contract development tool – IDE which supports C++ and other popular languages to develop, debug, deploy and call directly so as to develop smart contract efficiently and conveniently."
+            },
+            "list3": {
+                "title": "General Digital Identity G-ID",
+                "content": "G-ID is the unique identity of GXChain ecosystem. Currently, more than millions of real name digital identity users bring rich traffic for Dapps which greatly reduce the customer acquisition cost and facilitate the development of Dapps. "
+            },
+            "developerCenter": "Developer Center"
+        },
+        "resource": {
+            "txt1": "Multiple available clients",
+            "txt2": "Open source code for multiple core components",
+            "txt3": "View Resources Page"
+        },
+        "roadMap": {
+            "title": "Roadmap",
+            "map1": {
+                "year": "2019",
+                "event": "Comprehensively upgrade GXChain data economy ecosystem"
+            },
+            "map2": {
+                "year": "2018.Q3-Q4",
+                "event": "Smart contract 2.0 launched, supported WebAssembly"
+            },
+            "map3": {
+                "year": "Jun. 2018",
+                "event": "Decentralized data marketplace upgraded DES to serve hundreds of IT-FIN enterprises"
+            },
+            "map4": {
+                "year": "May. 2018",
+                "event": "基BaaS-Storage which is GXChain based storage and witness service launched"
+            },
+            "map5": {
+                "year": "Mar. 2018",
+                "event": "More than 1,000,000 users"
+            },
+            "map6": {
+                "year": "Jan. 2018",
+                "event": "The first Dapp of GXChain - Blockcity launched, with more than 100,000 users in 24 hours"
+            },
+            "map7": {
+                "year": "Nov. 2017",
+                "event": "Whitepaper upgraded, focused on 'CBD' ecosystem and positioned GXChain as the next generation big data public blockchain"
+            },
+            "map8": {
+                "year": "Sep. 2017",
+                "event": "Decentralized data marketplace officially commercialized"
+            },
+            "map9": {
+                "year": "Aug. 2017",
+                "event": "Main chain code open source"
+            },
+            "map10": {
+                "year": "Jun. 2017",
+                "event": "The Main chain launched, decentralized data marketplace 1.0 launched"
+            },
+            "map11": {
+                "year": "Feb. 2017",
+                "event": "GXChain whitepaper released"
+            }
+        }
+    },
+    "bounty": {
+        "development": {
+            "title": "Development Bounties Program",
+            "rules": "Rules & Processing",
+            "signUp": "Sign Up",
+            "progressing": "Progressing",
+            "finished": "Finished",
+            "people": "people",
+            "bountyList": {
+                "item1": "Smart contract IDE optimization",
+                "item2": "Block explorer optimization",
+                "item3": "GXClient multilingual implementation"
+            }
+        },
+        "longTerm": {
+            "title": "Long-term Effective",
+            "security": "Security",
+            "dec": "Discover security vulnerabilities and safeguard assets security",
+            "critical": "Critical",
+            "highRisk": "High-risk",
+            "mediumRisk": "Medium-risk",
+            "lowRisk": "Low-risk",
+            "longTermList": {
+                "item1": "Main Net & Test Net",
+                "item2": "Contract Development Tools"
+            }
+        }
+    },
+    "developer": {
+        "slogan": "Developers? Getting Started!",
+        "apply": {
+            "title": "Apply GXS for Test",
+            "des": "If you are developing the project and need GXS for test, please fill and submit application form. You will receive email notification once approved.",
+            "btn": "Apply"
+        },
+        "visit": {
+            "title": "GitHub",
+            "des": "Visit GXChain Open Source ",
+            "btn": "Visit"
+        }
+    },
+    "dApps": {
+        "bc": {
+            "title": "Blockcity",
+            "des": "Blockcity launched on Jan 12, 2018 and is the first mobile app based on GXChain, aiming for assisting data management and sharing. Blockcity helps users to take control of their data, it has a lot of incentive to encourage users to authorize their identity and information. Blockcity does not cache data and protects the privacy of the users.",
+            "btn": "Download"
+        },
+        "coinGet": {
+            "name": "CoinGet",
+            "des": "CoinGet is a GXChain-based decentralized entertainment platform which solves dissymmetry and trust problems through “blockchain+smart contract” technology, ensures a fair, just and open gaming environment, and creates a comprehensive entertainment ecology integrating lucky crowdfunding, guessing game, digital auction and customized contract. Besides, CoinGet also makes use of its advantages in technology and resources to introduce corporate services and public welfare projects and"
+        },
+        "wlm": {
+            "name": "Moneyhorse",
+            "des": "Moneyhorse is the first blockchain development game on the basis of Unitopia platform. Based on the characteristics of 'fairness, openness and tamper resistance'  of blockchain, a new game model is created. Each horse is unique, value-added, collectible and tradable."
+        },
+        "prophet": {
+            "name": "Prophet",
+            "des": "Prophet is a decentralized social prediction market platform built on the GXChain. This platform fully harnesses the technology of distributed open ledgers to enhance the transparency and equality of prediction markets. We incentivize developers releasing prediction events through digital token economy, to share your own wisdom with the community, to provide different types of prediction events for the users, and to gather wisdom from all users to predict the future effectively."
+        }
     },
     "resource": {
-      "txt1": "Multiple available clients",
-      "txt2": "Open source code for multiple core components",
-      "txt3": "View Resources Page"
+        "client": {
+            "title": "Client",
+            "gxsWallet": {
+                "title": "GXS Wallet",
+                "des": "GXChain Wallet is a decentralized application which can manage your GXS assets and know latest news from GXChain. "
+            },
+            "pcWallet": {
+                "title": "PC Wallet",
+                "des": "PC Wallet is a decentralized application which can manage your GXS assets and know latest news from GXChain."
+            },
+            "ide": {
+                "title": "Smart Contract IDE",
+                "des": "Smart contract IDE is a tool from GXChain which help users develop and deploy DApps and call contracts. "
+            }
+        },
+        "github": {
+            "title": "GitHub Open Source",
+            "ios": "IOS",
+            "android": "Android",
+            "mac": "Mac",
+            "win32": "Win32",
+            "win64": "Win64",
+            "linux": "Linux",
+            "download": "Download",
+            "address": {
+                "leafFor": "Leave For",
+                "java": "Java",
+                "node": "Node",
+                "php": "PHP",
+                "ide": "IDE",
+                "server": "Contract compilation service"
+            },
+            "codeAddrList": {
+                "item1": {
+                    "title": "gxb-core",
+                    "des": "GXChain Kernel Module"
+                },
+                "item2": {
+                    "title": "Light Wallet",
+                    "des": "GXChain Assets Management PC Client"
+                },
+                "item3": {
+                    "title": "Mobile Wallet",
+                    "des": "GXChain Assets Management PC Client"
+                },
+                "item4": {
+                    "title": "Main Chain-Cli",
+                    "des": "The main chain interactive Client encapsulates general API such as account registration, account transfer and block query"
+                },
+                "item5": {
+                    "title": "BaaS-Cli",
+                    "des": "GXChain Based Data Exchange SDK"
+                },
+                "item6": {
+                    "title": "DES-Cli",
+                    "des": "Smart Contract"
+                },
+                "item7": {
+                    "title": "Smart Contract",
+                    "des": " GXChain Based Smart Contract Development Tools"
+                },
+                "item8": {
+                    "title": "Block Explorer",
+                    "des": "Block Query, Transaction Query, Account Query, Asset Query"
+                }
+            }
+
+        }
     },
-    "roadMap": {
-      "title": "Roadmap",
-      "map1": {
-        "year": "2019",
-        "event": "Comprehensively upgrade GXChain data economy ecosystem"
-      },
-      "map2": {
-        "year": "2018.Q3-Q4",
-        "event": "Smart contract 2.0 launched, supported WebAssembly"
-      },
-      "map3": {
-        "year": "Jun. 2018",
-        "event": "Decentralized data marketplace upgraded DES to serve hundreds of IT-FIN enterprises"
-      },
-      "map4": {
-        "year": "May. 2018",
-        "event": "基BaaS-Storage which is GXChain based storage and witness service launched"
-      },
-      "map5": {
-        "year": "Mar. 2018",
-        "event": "More than 1,000,000 users"
-      },
-      "map6": {
-        "year": "Jan. 2018",
-        "event": "The first Dapp of GXChain - Blockcity launched, with more than 100,000 users in 24 hours"
-      },
-      "map7": {
-        "year": "Nov. 2017",
-        "event": "Whitepaper upgraded, focused on 'CBD' ecosystem and positioned GXChain as the next generation big data public blockchain"
-      },
-      "map8": {
-        "year": "Sep. 2017",
-        "event": "Decentralized data marketplace officially commercialized"
-      },
-      "map9": {
-        "year": "Aug. 2017",
-        "event": "Main chain code open source"
-      },
-      "map10": {
-        "year": "Jun. 2017",
-        "event": "The Main chain launched, decentralized data marketplace 1.0 launched"
-      },
-      "map11": {
-        "year": "Feb. 2017",
-        "event": "GXChain whitepaper released"
-      }
-    }
-  },
-  "bounty": {
-    "development": {
-      "title": "Development Bounties Program",
-      "rules": "Rules & Processing",
-      "signUp": "Sign Up",
-      "progressing": "Progressing",
-      "finished": "Finished",
-      "people": "people",
-      "bountyList": {
-        "item1": "Smart contract IDE optimization",
-        "item2": "Block explorer optimization",
-        "item3": "GXClient multilingual implementation"
-      }
-    },
-    "longTerm": {
-      "title": "Long-term Effective",
-      "security": "Security",
-      "dec": "Discover security vulnerabilities and safeguard assets security",
-      "critical": "Critical",
-      "highRisk": "High-risk",
-      "mediumRisk": "Medium-risk",
-      "lowRisk": "Low-risk",
-      "longTermList": {
-        "item1": "Main Net & Test Net",
-        "item2": "Contract Development Tools"
-      }
-    }
-  },
-  "developer": {
-    "slogan": "Developers? Getting Started!",
-    "apply": {
-      "title": "Apply GXS for Test",
-      "des": "If you are developing the project and need GXS for test, please fill and submit application form. You will receive email notification once approved.",
-      "btn": "Apply"
-    },
-    "visit": {
-      "title": "GitHub",
-      "des": "Visit GXChain Open Source ",
-      "btn": "Visit"
-    }
-  },
-  "dApps": {
-    "bc": {
-      "title": "Blockcity",
-      "des": "Blockcity launched on Jan 12, 2018 and is the first mobile app based on GXChain, aiming for assisting data management and sharing. Blockcity helps users to take control of their data, it has a lot of incentive to encourage users to authorize their identity and information. Blockcity does not cache data and protects the privacy of the users.",
-      "btn": "Download"
-    },
-    "coinGet": {
-      "name": "CoinGet",
-      "des": "CoinGet is a GXChain-based decentralized entertainment platform which solves dissymmetry and trust problems through “blockchain+smart contract” technology, ensures a fair, just and open gaming environment, and creates a comprehensive entertainment ecology integrating lucky crowdfunding, guessing game, digital auction and customized contract. Besides, CoinGet also makes use of its advantages in technology and resources to introduce corporate services and public welfare projects and"
-    },
-    "wlm": {
-      "name": "Moneyhorse",
-      "des": "Moneyhorse is the first blockchain development game on the basis of Unitopia platform. Based on the characteristics of 'fairness, openness and tamper resistance'  of blockchain, a new game model is created. Each horse is unique, value-added, collectible and tradable."
-    },
-    "prophet": {
-      "name": "Prophet",
-      "des": "Prophet is a decentralized social prediction market platform built on the GXChain. This platform fully harnesses the technology of distributed open ledgers to enhance the transparency and equality of prediction markets. We incentivize developers releasing prediction events through digital token economy, to share your own wisdom with the community, to provide different types of prediction events for the users, and to gather wisdom from all users to predict the future effectively."
-    }
-  },
-  "resource": {
-    "client": {
-      "title": "Client",
-      "gxsWallet": {
-        "title": "GXS Wallet",
-        "des": "GXChain Wallet is a decentralized application which can manage your GXS assets and know latest news from GXChain. "
-      },
-      "pcWallet": {
-        "title": "PC Wallet",
-        "des": "PC Wallet is a decentralized application which can manage your GXS assets and know latest news from GXChain."
-      },
-      "ide": {
-        "title": "Smart Contract IDE",
-        "des": "Smart contract IDE is a tool from GXChain which help users develop and deploy DApps and call contracts. "
-      }
-    },
-    "github": {
-      "title": "GitHub Open Source",
-      "ios": "IOS",
-      "android": "Android",
-      "mac": "Mac",
-      "win32": "Win32",
-      "win64": "Win64",
-      "linux": "Linux",
-      "download": "Download",
-      "address": {
-        "leafFor": "Leave For",
-        "java": "Java",
-        "node": "Node",
-        "php": "PHP",
-        "ide": "IDE",
-        "server": "Contract compilation service"
-      },
-      "codeAddrList": {
+    "foundation": {
         "item1": {
-          "title": "gxb-core",
-          "des": "GXChain Kernel Module"
+            "title": "Governance",
+            "p1": "Governance is the key part of a public blockchain. GXChain combines “on-chain” and “off-chain” governance, simultaneously putting people and computational code into the governance system, realizing decentralization, robustness, and efficiency. Every GXChain asset holder has the right to participate in the decentralized governances. All GXC holders could vote to determine the future direction, strategy, and operation of the GXChain ecosystem.",
+            "p2": "GXChain “on-chain” governance is comprised of the Committee and TrustNodes. The committee constitutes 11 members, who can propose to vote for the modification of global parameters of GXChain. The TrustNodes constitute 21 members, who are in charge of the transaction verification, production, and broadcast of blocks.",
+            "item1": {
+                "title": "On-chain Governance",
+                "item1": {
+                    "title": "GXChain Committee",
+                    "li1": "The GXChain Committee is similar to the blockchain board, which is responsible for proposing and voting for the modification of global parameters of GXChain.",
+                    "li2": "The committee is comprised of the 11 top ranked members in the TrustNodes voting. "
+                },
+                "item2": {
+                    "title": "GXChain TrustNodes",
+                    "li1": "The TrustNodes are comprised of the miners of GXChain, responsible for transaction verification, production, and broadcast of blocks.",
+                    "li2": "The minimum number of TrustNodes is 21."
+                }
+            },
+            "item2": {
+                "title": "Off-chain Governance",
+                "item1": {
+                    "title": "GXChain Foundation",
+                    "li1": "The foundation is a nonprofit organization registered in Singapore.",
+                    "li2": "Comprised of the Policy Committee, Advisor Committee, Execution Committee, Ecosystem panel, Code evaluation panel, Marketing panel, and Administration panel. ",
+                    "li3": "Responsible for decision making, research & development, global marketing, fund management, and other operations."
+                }
+            }
         },
         "item2": {
-          "title": "Light Wallet",
-          "des": "GXChain Assets Management PC Client"
+            "title": "“On-chain” governance- GXChain Committee and TrustNodes",
+            "p1": "The governance on the blockchain is via the GXChain committee and TrustNodes. The TrustNode delegates GXC holders to participate in the governance of GXChain. There are 21 TrustNodes in the GXChain ecosystem, which support the infrastructure of GXChain, including internet, storage, computation, etc. We encourage all TrustNode members to take the lead to build and develop their community, the competition to be a TrustNode strengthens each participant in the community and makes the GXChain ecosystem better. The top 11 of the 21 TrustNodes constitute the GXChain committee, who act as the governors of the ecosystem.",
+            "item1": {
+                "title": "GXChain Committee and TrustNodes",
+                "p1": "There are three roles in GXChain governance.",
+                "li1": "The GXC holder, who holds any amount of GXC. ",
+                "li2": "公信节点: 由全体GXC持币者投票选举出的个体或机构，每1小时统计一次投票，共有21个公信节点。21个节点由投票前20名节点以及一个随机节点构成。 公信节点负责GXChain网络的交易验证、交易记账、区块打包和确认等工作，成功打包区块将获得对应的奖励。公信节点接受GXChain社区的监督。",
+                "li3": {
+                    "p1": "GXChain理事会: 公信节点按得票数的前11名当选为GXChain理事会成员。",
+                    "p2": "GXChain TrustNodes, elected by all GXC holders, the voting is conducted every hour, there are 21 TrustNodes. The TrustNodes are comprised of members ranked top 20 in votes and one random member. The TrustNodes are in charge of transaction verification, production, and broadcast of blocks. Moreover, the TrustNodes will be rewarded using the transaction fees on the GXChain. The TrustNodes are open to the supervision of the GXChain community.",
+                    "li1": "GXChain Committee, comprised of the 11 TrustNode members with the most votes. The committee acts as the governors of the GXChain community. The major role of the committee is to optimize and set up reasonable global parameters of GXChain, and foster the long-term development of the GXChain community. For example, the committee could propose a vote to change the block size, block time, block reward, number of TrustNodes, number of committee members, and fees in the GXChain ecosystem."
+                }
+            },
+            "item2": {
+                "title": "TrustNodes competition terms",
+                "p1": "Participants need to stake and lock 10000 GXC, when they want to cancel the competition, the locked GXC will return after 30 days. To promote efficiency, we made some terms to determine if the candidates are qualified to be a TrustNode member. These terms are approved by the ecosystem development panel of the GXChain foundation.",
+                "li1": "Should be a legal entity with a website and social media. ",
+                "li2": "Must have nodes that are open to public testing.",
+                "li3": "Have necessary hardware and be able to maintain the server for the node.",
+                "li4": "Must stake and lock 10000 GXC. Withdrawal will be regarded as ceding from the competition.",
+                "li5": "Have a budget plan for the next three years, supporting potential hardware upgrades and community development.",
+                "li6": "Have community of a certain minimum size."
+            },
+            "item3": {
+                "title": "TrustNode Rewards",
+                "p1": "The income of a TrustNode comes from production and broadcast of blocks. The amount of income is determined and voted for approval by the GXChain committee. A block reward is comprised of transaction fees and a reward from GXChain Foundation. GXChain Foundation will contribute 500,000 GXC to reward TrustNodes every year, for eight years."
+            },
+            "item4": {
+                "title": "TrustNode election and ballot",
+                "p1": "Ballot to GXC = 1:1, and GXC holders can vote for multiple nodes. The GXC for voting will be staked at the wallet, transfer of the staked GXC out of the wallet will cancel the voting procedure. Members ranked top 20 in votes will automatically be elected as TrustNodes, and one TrustNode will be selected randomly. There are three methods to vote. ",
+                "li1": {
+                    "dt": "Vote through Blockcity",
+                    "dd": "在布洛克城钱包中的GXC，可通过布洛克城的投票通道进行公信节点的投票。"
+                },
+                "li2": {
+                    "dt": "Vote through mobile or PC wallet.",
+                    "dd": "在GXChain手机钱包和PC钱包中的GXC可进行公信节点的投票。"
+                },
+                "li3": {
+                    "dt": "Vote through exchanges (requires support by exchanges).",
+                    "dd": "如果用户的GXC在交易所钱包里，且该交易所支持GXChain的公信节点投票，便可以采用此方式进行投票。"
+                }
+            }
         },
         "item3": {
-          "title": "Mobile Wallet",
-          "des": "GXChain Assets Management PC Client"
-        },
-        "item4": {
-          "title": "Main Chain-Cli",
-          "des": "The main chain interactive Client encapsulates general API such as account registration, account transfer and block query"
-        },
-        "item5": {
-          "title": "BaaS-Cli",
-          "des": "GXChain Based Data Exchange SDK"
-        },
-        "item6": {
-          "title": "DES-Cli",
-          "des": "Smart Contract"
-        },
-        "item7": {
-          "title": "Smart Contract",
-          "des": " GXChain Based Smart Contract Development Tools"
-        },
-        "item8": {
-          "title": "Block Explorer",
-          "des": "Block Query, Transaction Query, Account Query, Asset Query"
+            "title": "“Off-chain” Governance—GXChain Foundation",
+            "item1": {
+                "title": "Governance—GXChain Foundation",
+                "p1": "The GXChain Foundation established on November 2017 in Singapore. The foundation aims to facilitate sound and efficient development of the GXChain ecosystem and protect the rights of GXC holders. Also, the foundation is responsible for fostering communication among GXC holders, the GXChain community, TrustNodes, and developers.",
+                "p2": "The GXChain Foundation will disclose the development and operation progress of GXChain annually. In particular, the foundation will disclose the use of funds annually, and introduce third-party auditing for supervision. Auditing reports will be disclosed in the annual financial statements. "
+            },
+            "item2": {
+                "title": "GXChain基金会的组织架构"
+            },
+            "item3": {
+                "title": "Policy Committee",
+                "item1": {
+                    "title": "Introduction",
+                    "p1": "The Policy Committee is the decision marker of the GXChain foundation"
+                },
+                "item2": {
+                    "title": "Composition",
+                    "p1": "The Policy Committee is comprised of 11 members, including project founders, developer lead, investor lead, and community lead. The committee will elect one president, one vice president, and one executive officer from the 11 members. Introduction of members will be disclosed at gxchain.org."
+                },
+                "item3": {
+                    "title": "Staff introduction",
+                    "tr1": {
+                        "td1": "主席",
+                        "td2": "黄敏强，GXChain创始人"
+                    },
+                    "tr2": {
+                        "td1": "副主席",
+                        "td2": "涂国君，GXChain联合创始人"
+                    },
+                    "tr3": {
+                        "td1": "执行总裁",
+                        "td2": "黄敏强，GXChain创始人"
+                    },
+                    "tr4": {
+                        "td1": "其他成员",
+                        "td2": "王成，GXChain首席技术官",
+                        "td3": "蓝昊翔，GXChain区块链研发总监",
+                        "td4": "朱礼廷，GXChain区块链架构师",
+                        "td5": "许潇鹏，GXChain运营总监"
+                    }
+                },
+                "item4": {
+                    "title": "Rules of procedure",
+                    "p1": "At least one meeting will be held by the president annually. Notification for the meeting will be sent out 30 days in advance, and the meeting cannot proceed until more than half of the members are present at the meeting. A proposal cannot pass until two-thirds of the members vote in favor of it, and the essential proposal must get approval by the president. The proposal can pass if all members vote in favor of it in written form, without calling for a meeting. "
+                },
+                "item5": {
+                    "title": "Responsibility",
+                    "p1": "The policy committee is responsible for the following affairs:",
+                    "li1": "Set and change the governance of GXChain Foundation**.",
+                    "li2": "Elect and dismiss president and vice president.",
+                    "li3": "Elect other committee members.",
+                    "li4": "Decide the operations and investment strategy of GXChain Foundation**.",
+                    "li5": "Budgeting**.",
+                    "li6": "Add or reduce committee members.",
+                    "li7": "Review performances of presidents and executive officers.",
+                    "li8": "听取、审议主席所做的工作报告，检查执行总裁的工作；",
+                    "li9": "Determine to split, merge, and cease the foundation**.",
+                    "li10": "Other important affairs not listed.",
+                    "li11": "其中，有关第(1)、(4)、(5)、(9)项的决议属于特殊事项。"
+                },
+                "item6": {
+                    "title": "Qualifications",
+                    "p1": "Have strong aspiration to join the committee and acknowledge the foundation terms. ",
+                    "li1": "Have strong aspiration to join the committee and acknowledge the foundation terms.",
+                    "li2": "Have influence in a related community or business scope.",
+                    "li3": "Have contributed to the development of GXChain Foundation.",
+                    "li4": "No criminal record."
+                },
+                "item7": {
+                    "title": "Election and Dismissal",
+                    "li1": "The Founders, developer lead, and investor lead will nominate and determine the members for the first round. ",
+                    "li2": "The qualification and terms for the next round of the election will be announced 60 days in advance; all GXC holders can participate in the election, and the votes for the election will be cast by the rest of the GXC holders.",
+                    "li3": "The salary of the policy committee members is open and under supervision by the community. ",
+                    "li4": "The policy committee can terminate the position of a committee member after investigation if the member violates the terms or harms the reputation of the foundation.",
+                    "li5": "The policy committee can terminate the position of a committee member after investigation if the member commits a crime. ",
+                    "li6": "The policy committee can terminate the position of a committee member after investigation if the member resigns voluntarily or is unable to serve the foundation anymore."
+                },
+                "item8": {
+                    "title": "Term of Office",
+                    "p1": "Two years and may be reappointed consecutively."
+                },
+                "item9": {
+                    "title": "The Responsibility of the President and Vice President",
+                    "p1": "Summon and conduct committee meetings.",
+                    "li1": "Summon and conduct committee meetings.",
+                    "li2": "Propose to hold a temporary policy committee meeting.",
+                    "li3": "Sign important documents and supervise the execution of approved proposals.",
+                    "li4": "Decide for emergency events.",
+                    "li5": "Nominate a candidate for other committee members",
+                    "li6": "The Vice President can execute the rights of the president with a written form of authorization from the president. "
+                }
+            },
+            "item4": {
+                "title": "Advisory Committee",
+                "item1": {
+                    "title": "Introduction",
+                    "p1": "The advisory committee is comprised of experts in blockchain related fields, including technical experts, professors, investors, and lawyers. "
+                },
+                "item2": {
+                    "title": "Composition",
+                    "p1": "The policy committee selects advisors, and the maximum number of advisors is 7. The members will be disclosed at gxchain.org."
+                },
+                "item3": {
+                    "title": "Staff introduction",
+                    "tr1": "韩锋，华为中央研究院区块链顾问，亚洲区块链DACA协会秘书长，亦来云基金会联合创始人",
+                    "tr2": "李笑来，INBlockchain创始人",
+                    "tr3": "沈波，分布式资本合伙人",
+                    "tr4": "元道，世纪互联数据中心的创始人、董事长，中关村区块链联盟理事长"
+                },
+                "item4": {
+                    "title": "Responsibility ",
+                    "p1": "The Advisory Board mainly exercises the following powers:",
+                    "li1": "Advise and make suggestions for the operations and development of the GXChain foundation.",
+                    "li2": "Advisors can participate in the policy committee meeting, but an advisor cannot vote."
+                },
+                "item5": {
+                    "title": "Qualifications",
+                    "p1": "The advisory board personnel are required to meet the following conditions:",
+                    "li1": "Professional in blockchain or a related field.",
+                    "li2": "No criminal record."
+                },
+                "item6": {
+                    "title": "Election and dismissal",
+                    "li1": "The policy committee selects advisors.",
+                    "li2": "After investigation, the policy committee can terminate an advisor, if he/she violates the terms or harms the reputation of the foundation.",
+                    "li3": "After investigation, the policy committee can terminate an advisor, if he/she commits a crime. ",
+                    "li4": "After investigation, the policy committee can terminate an advisor, if he/she resigns voluntarily or is unable to serve the foundation anymore."
+                }
+            },
+            "item5": {
+                "title": "Execution Committee",
+                "item1": {
+                    "title": "Introduction",
+                    "p1": "The execution committee is in charge of the daily operations of the foundation. The committee is headed by an execution officer, who leads and manages most work of the foundation and manages the other subdivisions."
+                },
+                "item2": {
+                    "title": "Composition",
+                    "p1": "The committee comprises the execution officer, vice execution officer, secretary, and head of panels. The members will be disclosed at gxchain.org. "
+                },
+                "item3": {
+                    "title": "Staff introduction",
+                    "tr1": {
+                        "td1": "执行总裁",
+                        "td2": "黄敏强，GXChain创始人"
+                    },
+                    "tr2": {
+                        "td1": "副总裁",
+                        "td2": "涂国君，GXChain联合创始人"
+                    },
+                    "tr3": {
+                        "td1": "执行总裁",
+                        "td2": "黄敏强，GXChain创始人"
+                    },
+                    "tr4": {
+                        "td1": "秘书",
+                        "td2": "许潇鹏，GXChain运营总监"
+                    }
+                },
+                "item4": {
+                    "title": "Responsibility",
+                    "p1": "The Executive Committee mainly exercises the following powers:",
+                    "li1": "Execute approved proposals.",
+                    "li2": "Advise works of subsidiaries.",
+                    "li3": "Decide to hire or dismiss the staff of subsidiaries, determine the salary of staff.",
+                    "li4": "Develop proposal and plans for unexpected emergencies."
+                },
+                "item5": {
+                    "title": "Election and dismissal",
+                    "li1": "Advisors are selected by the policy committee.",
+                    "li2": "After investigation, the policy committee can terminate an advisor, if he/she violates the terms or harms the reputation of the foundation.",
+                    "li3": "After investigation, the policy committee can terminate an advisor, if he/she commits a crime.",
+                    "li4": "After investigation, the policy committee can terminate an advisor, if he/she resigns voluntarily or is unable to serve the foundation anymore."
+                },
+                "item6": {
+                    "title": "Term of office",
+                    "p1": "Two years and may be reappointed consecutively."
+                },
+                "item7": {
+                    "title": "执行总裁主要职权",
+                    "p1": "执行总裁主要行使下列职权：",
+                    "li1": "（1）主持开展基金会日常工作，组织实施年度运营计划，并向决策委员会汇报工作情况;",
+                    "li2": "（2）拟订基金会的内部管理规章制度，报决策委员会审批；",
+                    "li3": "协调各下属专门委员会、分支机构开展工作。"
+                }
+            },
+            "item6": {
+                "title": "Subsidiaries",
+                "item1": {
+                    "title": "Ecosystem Panel",
+                    "p1": "The ecosystem panel is in charge of the ecosystem development of GXChain, including investment and incubation of projects and dApps on GXChain. The ecosystem panel is also responsible for screening collaboration patterners, business development, and performing due diligence investigations."
+                },
+                "item2": {
+                    "title": "Code Evaluation Panel",
+                    "p1": "The code evaluation panel is in charge of research and development of GXChain projects, including GXChain, APIs, and reviewing code of community developers. Moreover, the panel will hold code sharing, presentations, and discussions to make sure the core developers keep their pace with the bleeding edge of blockchain technologies. ",
+                    "github": "Github"
+                },
+                "item3": {
+                    "title": "Marketing Panel",
+                    "p1": "The marketing panel is in charge of brand building, and brand maintenance of GXChain, as well as community development and public relations. "
+                },
+                "item4": {
+                    "title": "Administration Panel",
+                    "p1": "The administration panel is in charge of the accounting, fund management, human resources, legal affairs, and other administrations."
+                }
+            }
         }
-      }
-
+    },
+    "footer": {
+        "contactUs": "Contact Us",
+        "kefu": "contact"
     }
-  },
-  "footer": {
-    "contactUs": "Contact Us",
-    "kefu": "contact"
-  }
 }
