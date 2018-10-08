@@ -524,6 +524,65 @@
                     "p1": "The administration panel is in charge of the accounting, fund management, human resources, legal affairs, and other administrations."
                 }
             }
+        },
+        "item4": {
+            "title": "GXChain team",
+            "p1": "GXChain团队具有多年的区块链技术、互联网金融和社区运营等方面的专业背景和经验，主要以技术为导向，形成了由黄敏强带领的、共有40多名核心开发人员的GXChain开发团队。至今已完成GXChain主网、智能合约2.0的开发。GXChain主要团队成员及经历如下："
+        },
+        "item5": {
+            "title": "GXChain基金会的经济",
+            "table": {
+                "thead": {
+                    "th1": "Ratio",
+                    "th2": "Distribution",
+                    "th3": "Details"
+                },
+                "tr1": {
+                    "td1": "10%",
+                    "td2": "Early Investors",
+                    "td3": "Distributed to the earliest investors"
+                },
+                "tr2": {
+                    "td1": "24.51%",
+                    "td2": "Token Sale",
+                    "td3": "Sold to a public investor in March 2017"
+                },
+                "tr3": {
+                    "td1": "5%",
+                    "td2": "Blockcity Mining Pool",
+                    "td3": "The incentive for users to use Blockcity dApp, and authorize their data "
+                },
+                "tr4": {
+                    "td1": "9.49%%",
+                    "td2": "Community Developer Fund",
+                    "td3": "Fund to incubate developers to build dApps based on GXChain"
+                },
+                "tr5": {
+                    "td1": "21%",
+                    "td2": "Founding Developers",
+                    "td3": "Will be used as a bonus for GXChain developers. Also, can be used for people who contribute significantly to the project."
+                },
+                "tr6": {
+                    "td1": "10%",
+                    "td2": "GXChain Ecosystem",
+                    "td3": "Will use for the construction of GXChain data ecosystems, such as developer community growth, Hackathon, competition, and conference"
+                },
+                "tr7": {
+                    "td1": "6%",
+                    "td2": "Marketing",
+                    "td3": "Will be used for community operation, global press release and broadcast"
+                },
+                "tr8": {
+                    "td1": "4%",
+                    "td2": "TrustNode Rewards",
+                    "td3": "Incentive for TrustNodes,"
+                },
+                "tr9": {
+                    "td1": "10%",
+                    "td2": "Operations",
+                    "td3": "Daily Operations, partial employee salary, accounting fees"
+                }
+            }
         }
     },
     "footer": {
