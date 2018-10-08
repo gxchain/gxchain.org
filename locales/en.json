@@ -219,6 +219,33 @@
         }
     },
     "foundation": {
+        "nav":{
+            "item1":"Governance",
+            "item1-1":"On-chain Governance",
+            "item1-2":"Off-chain Governance",
+            "item2":"On-chain” governance- GXChain Committee and TrustNodes",
+            "item2-1":"GXChain Committee and TrustNodes",
+            "item2-2":"TrustNodes competition terms",
+            "item2-3":"TrustNode Rewards",
+            "item2-4":"TrustNode election and ballot",
+            "item3":"“Off-chain” Governance—GXChain Foundation",
+            "item3-1":"Establishment of the GXChain Foundation",
+            "item3-2":"Organizational structure of the GXChain Foundation",
+            "item3-3":"Policy Committee",
+            "item3-4":"Advisory Committee",
+            "item3-5":"Execution Committee",
+            "item3-6":"Subsidiaries",
+            "item4":"GXChain team",
+            "item5":"GXChain基金会的经济",
+            "item5-1":"资金使用的限制条款",
+            "item5-2":"财务管理",
+            "item5-3":"钱包管理",
+            "item5-4":"披露事项",
+            "item6":"GXChain基金会的风控机制",
+            "item6-1":"重大事项的风险评估与决策机制",
+            "item6-2":"定期检查、评估与舆情监督、汇报机制",
+            "item6-3":"6.3. 突发事项的紧急评估与决策机制"
+        },
         "item1": {
             "title": "Governance",
             "p1": "Governance is the key part of a public blockchain. GXChain combines “on-chain” and “off-chain” governance, simultaneously putting people and computational code into the governance system, realizing decentralization, robustness, and efficiency. Every GXChain asset holder has the right to participate in the decentralized governances. All GXC holders could vote to determine the future direction, strategy, and operation of the GXChain ecosystem.",
@@ -294,12 +321,12 @@
         "item3": {
             "title": "“Off-chain” Governance—GXChain Foundation",
             "item1": {
-                "title": "Governance—GXChain Foundation",
+                "title": "Establishment of the GXChain Foundation",
                 "p1": "The GXChain Foundation established on November 2017 in Singapore. The foundation aims to facilitate sound and efficient development of the GXChain ecosystem and protect the rights of GXC holders. Also, the foundation is responsible for fostering communication among GXC holders, the GXChain community, TrustNodes, and developers.",
                 "p2": "The GXChain Foundation will disclose the development and operation progress of GXChain annually. In particular, the foundation will disclose the use of funds annually, and introduce third-party auditing for supervision. Auditing reports will be disclosed in the annual financial statements. "
             },
             "item2": {
-                "title": "GXChain基金会的组织架构"
+                "title": "Organizational structure of the GXChain Foundation"
             },
             "item3": {
                 "title": "Policy Committee",
