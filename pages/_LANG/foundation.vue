@@ -5,10 +5,6 @@
                 <nav aria-label="Page table of contents">
                     <b-nav vertical v-b-scrollspy.90 class="m-toc section-nav">
                         <b-nav-item href="#item-1" @click="scrollIntoView">1. {{$t('foundation.nav.item1')}}</b-nav-item>
-                        <b-nav class="flex-column">
-                            <b-nav-item class="ml-3" href="#item-1-1" @click="scrollIntoView">1.1. {{$t('foundation.nav.item1-1')}}</b-nav-item>
-                            <b-nav-item class="ml-3" href="#item-1-2" @click="scrollIntoView">1.2. {{$t('foundation.nav.item1-2')}}</b-nav-item>
-                        </b-nav>
                         <b-nav-item href="#item-2" @click="scrollIntoView">2. {{$t('foundation.nav.item2')}}</b-nav-item>
                         <b-nav class="flex-column">
                             <b-nav-item class="ml-3" href="#item-2-1" @click="scrollIntoView">2.1. {{$t('foundation.nav.item2-1')}}
@@ -58,7 +54,7 @@
                         <p class="text-indent">{{$t('foundation.item1.p1')}}</p>
                         <p class="text-indent">{{$t('foundation.item1.p2')}}</p>
                         <div class="govern-con">
-                            <h5 id="item-1-1">1.1. {{$t('foundation.item1.item1.title')}}</h5>
+                            <h5 id="item-1-1">{{$t('foundation.item1.item1.title')}}</h5>
                             <ul>
                                 <li>
                                     <div class="l-item">
@@ -73,7 +69,7 @@
                                 <li>
                                     <div class="l-item">
                                         <img src="~static/foundation/2.png" alt="">
-                                        <p>{{$t('foundation.item1.item1.item2.title')}}e</p>
+                                        <p>{{$t('foundation.item1.item1.item2.title')}}</p>
                                     </div>
                                     <div class="r-item">
                                         <p>○ {{$t('foundation.item1.item1.item2.li1')}}</p>
@@ -81,7 +77,7 @@
                                     </div>
                                 </li>
                             </ul>
-                            <h5 id="item-1-2">1.2. {{$t('foundation.item1.item2.title')}}</h5>
+                            <h5 id="item-1-2">{{$t('foundation.item1.item2.title')}}</h5>
                             <ul>
                                 <li>
                                     <div class="l-item">
@@ -107,14 +103,7 @@
                             <dl>
                                 <dd>1) {{$t('foundation.item2.item1.li1')}}</dd>
                                 <dd>2) {{$t('foundation.item2.item1.li2')}}</dd>
-                                <dd>3) {{$t('foundation.item2.item1.li3.p1')}}</dd>
-                                <dd>{{$t('foundation.item2.item1.li3.p2')}}</dd>
-                                <dd class="text-indent">
-                                    <p>1) {{$t('foundation.item2.item1.li3.li1')}}</p>
-                                    <p>2) {{$t('foundation.item2.item1.li3.li2')}}</p>
-                                    <p>3) {{$t('foundation.item2.item1.li3.li3')}}</p>
-                                    <p>4) {{$t('foundation.item2.item1.li3.li4')}}</p>
-                                </dd>
+                                <dd>3) {{$t('foundation.item2.item1.li3')}}</dd>
                             </dl>
                         </div>
                         <div>
@@ -138,11 +127,8 @@
                             <p class="text-indent">{{$t('foundation.item2.item4.p1')}}</p>
                             <div class="text-indent">
                                 <p>1){{$t('foundation.item2.item4.li1.dt')}}</p>
-                                <p>{{$t('foundation.item2.item4.li1.dd')}}</p>
                                 <p>2){{$t('foundation.item2.item4.li2.dt')}}</p>
-                                <p>{{$t('foundation.item2.item4.li2.dd')}} </p>
-                                <p>3) {{$t('foundation.item2.item4.li3.dt')}}</p>
-                                <p>{{$t('foundation.item2.item4.li3.dd')}}</p>
+                                <p>3){{$t('foundation.item2.item4.li3.dt')}}</p>
                             </div>
                         </div>
                     </div>
@@ -157,8 +143,8 @@
                         <div>
                             <h5 id="item-3-2">3.2. {{$t('foundation.item3.item2.title')}}</h5>
                             <div class="text-center" style="margin:4rem 0">
-                                <img src="~static/foundation/4.png" alt="" class="decision-img">
-                                <p>图 3.1 {{$t('foundation.item3.item2.title')}}</p>
+                                <img src="~static/foundation/4_en.png" alt="" class="decision-img">
+                                <p>3.1 {{$t('foundation.item3.item2.title')}}</p>
                             </div>
                         </div>
                         <div>
@@ -210,34 +196,33 @@
                             <dl>
                                 <dt>3.3.5. {{$t('foundation.item3.item3.item5.title')}}</dt>
                                 <dd> {{$t('foundation.item3.item3.item5.p1')}}</dd>
-                                <dd>（1）{{$t('foundation.item3.item3.item5.li1')}}</dd>
-                                <dd>（2）{{$t('foundation.item3.item3.item5.li2')}}</dd>
-                                <dd>（3）{{$t('foundation.item3.item3.item5.li3')}}</dd>
-                                <dd>（4）{{$t('foundation.item3.item3.item5.li4')}}</dd>
-                                <dd>（5）{{$t('foundation.item3.item3.item5.li5')}}</dd>
-                                <dd>（6）{{$t('foundation.item3.item3.item5.li6')}}</dd>
-                                <dd>（7）{{$t('foundation.item3.item3.item5.li7')}}</dd>
-                                <dd>（8）{{$t('foundation.item3.item3.item5.li8')}}</dd>
-                                <dd>（9）{{$t('foundation.item3.item3.item5.li9')}}</dd>
-                                <dd>（10 {{$t('foundation.item3.item3.item5.li10')}}</dd>
-                                <dd>{{$t('foundation.item3.item3.item5.li11')}}</dd>
+                                <dd>(1) {{$t('foundation.item3.item3.item5.li1')}}</dd>
+                                <dd>(2）{{$t('foundation.item3.item3.item5.li2')}}</dd>
+                                <dd>(3) {{$t('foundation.item3.item3.item5.li3')}}</dd>
+                                <dd>(4) {{$t('foundation.item3.item3.item5.li4')}}</dd>
+                                <dd>(5) {{$t('foundation.item3.item3.item5.li5')}}</dd>
+                                <dd>(6) {{$t('foundation.item3.item3.item5.li6')}}</dd>
+                                <dd>(7) {{$t('foundation.item3.item3.item5.li7')}}</dd>
+                                <dd>(8) {{$t('foundation.item3.item3.item5.li8')}}</dd>
+                                <dd>(9) {{$t('foundation.item3.item3.item5.li9')}}</dd>
+                                <dd>{{$t('foundation.item3.item3.item5.li10')}}</dd>
                             </dl>
                             <dl>
                                 <dt>3.3.6. {{$t('foundation.item3.item3.item6.title')}}</dt>
                                 <dd>{{$t('foundation.item3.item3.item6.p1')}}</dd>
-                                <dd>（1）{{$t('foundation.item3.item3.item6.li1')}}</dd>
-                                <dd>（2）{{$t('foundation.item3.item3.item6.li2')}}</dd>
-                                <dd>（3）{{$t('foundation.item3.item3.item6.li3')}}</dd>
-                                <dd>（4）{{$t('foundation.item3.item3.item6.li4')}}</dd>
+                                <dd>(1) {{$t('foundation.item3.item3.item6.li1')}}</dd>
+                                <dd>(2) {{$t('foundation.item3.item3.item6.li2')}}</dd>
+                                <dd>(3) {{$t('foundation.item3.item3.item6.li3')}}</dd>
+                                <dd>(4) {{$t('foundation.item3.item3.item6.li4')}}</dd>
                             </dl>
                             <dl>
                                 <dt>3.3.7. {{$t('foundation.item3.item3.item7.title')}}</dt>
-                                <dd>（1）{{$t('foundation.item3.item3.item7.li1')}}</dd>
-                                <dd>（2）{{$t('foundation.item3.item3.item7.li2')}}</dd>
-                                <dd>（3）{{$t('foundation.item3.item3.item7.li3')}}</dd>
-                                <dd>（4）{{$t('foundation.item3.item3.item7.li4')}}</dd>
-                                <dd>（5）{{$t('foundation.item3.item3.item7.li5')}}</dd>
-                                <dd>（6）{{$t('foundation.item3.item3.item7.li6')}}</dd>
+                                <dd>(1) {{$t('foundation.item3.item3.item7.li1')}}</dd>
+                                <dd>(2) {{$t('foundation.item3.item3.item7.li2')}}</dd>
+                                <dd>(3) {{$t('foundation.item3.item3.item7.li3')}}</dd>
+                                <dd>(4) {{$t('foundation.item3.item3.item7.li4')}}</dd>
+                                <dd>(5) {{$t('foundation.item3.item3.item7.li5')}}</dd>
+                                <dd>(6) {{$t('foundation.item3.item3.item7.li6')}}</dd>
                             </dl>
                             <dl>
                                 <dt>3.3.8. {{$t('foundation.item3.item3.item8.title')}}</dt>
@@ -245,12 +230,11 @@
                             </dl>
                             <dl>
                                 <dt>3.3.9. {{$t('foundation.item3.item3.item9.title')}}</dt>
-                                <dd>{{$t('foundation.item3.item3.item9.p1')}}</dd>
-                                <dd>（1）{{$t('foundation.item3.item3.item9.li1')}}</dd>
-                                <dd>（2）{{$t('foundation.item3.item3.item9.li2')}}</dd>
-                                <dd>（3）{{$t('foundation.item3.item3.item9.li3')}}</dd>
-                                <dd>（4）{{$t('foundation.item3.item3.item9.li4')}}</dd>
-                                <dd>（5）{{$t('foundation.item3.item3.item9.li5')}}</dd>
+                                <dd>(1) {{$t('foundation.item3.item3.item9.li1')}}</dd>
+                                <dd>(2) {{$t('foundation.item3.item3.item9.li2')}}</dd>
+                                <dd>(3) {{$t('foundation.item3.item3.item9.li3')}}</dd>
+                                <dd>(4) {{$t('foundation.item3.item3.item9.li4')}}</dd>
+                                <dd>(5) {{$t('foundation.item3.item3.item9.li5')}}</dd>
                                 <dd>{{$t('foundation.item3.item3.item9.li6')}}</dd>
                             </dl>
                         </div>
@@ -286,21 +270,21 @@
                             <dl>
                                 <dt>3.4.4. {{$t('foundation.item3.item4.item4.title')}}</dt>
                                 <dd>{{$t('foundation.item3.item4.item4.p1')}}</dd>
-                                <dd>（1）{{$t('foundation.item3.item4.item4.li1')}}</dd>
-                                <dd>（2）{{$t('foundation.item3.item4.item4.li2')}}</dd>
+                                <dd>(1) {{$t('foundation.item3.item4.item4.li1')}}</dd>
+                                <dd>(2) {{$t('foundation.item3.item4.item4.li2')}}</dd>
                             </dl>
                             <dl>
                                 <dt>3.4.5. {{$t('foundation.item3.item4.item5.title')}}</dt>
                                 <dd>{{$t('foundation.item3.item4.item5.p1')}}</dd>
-                                <dd>（1）{{$t('foundation.item3.item4.item5.li1')}}</dd>
-                                <dd>（2）{{$t('foundation.item3.item4.item5.li2')}}</dd>
+                                <dd>(1) {{$t('foundation.item3.item4.item5.li1')}}</dd>
+                                <dd>(2) {{$t('foundation.item3.item4.item5.li2')}}</dd>
                             </dl>
                             <dl>
                                 <dt>3.4.6. {{$t('foundation.item3.item4.item6.title')}}</dt>
-                                <dd>（1）{{$t('foundation.item3.item4.item6.li1')}}</dd>
-                                <dd>（2）{{$t('foundation.item3.item4.item6.li2')}}</dd>
-                                <dd>（3）{{$t('foundation.item3.item4.item6.li3')}}</dd>
-                                <dd>（4）{{$t('foundation.item3.item4.item6.li4')}}</dd>
+                                <dd>(1) {{$t('foundation.item3.item4.item6.li1')}}</dd>
+                                <dd>(2) {{$t('foundation.item3.item4.item6.li2')}}</dd>
+                                <dd>(3) {{$t('foundation.item3.item4.item6.li3')}}</dd>
+                                <dd>(4) {{$t('foundation.item3.item4.item6.li4')}}</dd>
                             </dl>
                         </div>
                         <div>
@@ -335,17 +319,17 @@
                             <dl>
                                 <dt>3.5.4. {{$t('foundation.item3.item5.item4.title')}}</dt>
                                 <dd>{{$t('foundation.item3.item5.item4.p1')}}</dd>
-                                <dd>（1）{{$t('foundation.item3.item5.item4.li1')}}</dd>
-                                <dd>（2）{{$t('foundation.item3.item5.item4.li2')}}</dd>
-                                <dd>（3）{{$t('foundation.item3.item5.item4.li3')}}</dd>
+                                <dd>(1) {{$t('foundation.item3.item5.item4.li1')}}</dd>
+                                <dd>(2) {{$t('foundation.item3.item5.item4.li2')}}</dd>
+                                <dd>(3) {{$t('foundation.item3.item5.item4.li3')}}</dd>
                                 <dd>{{$t('foundation.item3.item5.item4.li4')}}</dd>
                             </dl>
                             <dl>
                                 <dt>3.5.5. {{$t('foundation.item3.item5.item5.title')}}</dt>
-                                <dd>（1）{{$t('foundation.item3.item5.item5.li1')}}</dd>
-                                <dd>（2）{{$t('foundation.item3.item5.item5.li2')}}</dd>
-                                <dd>（3）{{$t('foundation.item3.item5.item5.li3')}}</dd>
-                                <dd>（4）{{$t('foundation.item3.item5.item5.li4')}}</dd>
+                                <dd>(1) {{$t('foundation.item3.item5.item5.li1')}}</dd>
+                                <dd>(2) {{$t('foundation.item3.item5.item5.li2')}}</dd>
+                                <dd>(3) {{$t('foundation.item3.item5.item5.li3')}}</dd>
+                                <dd>(4) {{$t('foundation.item3.item5.item5.li4')}}</dd>
                             </dl>
                             <dl>
                                 <dt>3.5.6. {{$t('foundation.item3.item5.item6.title')}}</dt>
@@ -353,9 +337,8 @@
                             </dl>
                             <dl>
                                 <dt>3.5.7. {{$t('foundation.item3.item5.item7.title')}}</dt>
-                                <dd>{{$t('foundation.item3.item5.item7.p1')}}</dd>
-                                <dd>（1）{{$t('foundation.item3.item5.item7.li1')}}</dd>
-                                <dd>（2）{{$t('foundation.item3.item5.item7.li2')}}</dd>
+                                <dd>(1) {{$t('foundation.item3.item5.item7.li1')}}</dd>
+                                <dd>(2) {{$t('foundation.item3.item5.item7.li2')}}</dd>
                                 <dd>{{$t('foundation.item3.item5.item7.li3')}}</dd>
                             </dl>
                         </div>
@@ -389,7 +372,7 @@
                             <thead>
                             <tr class="text-center">
                                 <th scope="col" width="20%">{{$t('foundation.item4.table.thead.th1')}}</th>
-                                <th scope="col">简要经历</th>
+                                <th scope="col">{{$t('foundation.item4.table.thead.th2')}}</th>
                             </tr>
                             </thead>
                             <tbody>
@@ -445,8 +428,8 @@
                         <h4 id="item-5">5. {{$t('foundation.item5.title')}}</h4>
                         <div>
                             <div class="text-center" style="margin:4rem 0">
-                                <img src="~static/foundation/5.png" alt="" class="decision-img">
-                                <p>图 5.1 GXChain 基金会组织架构</p>
+                                <img src="~static/foundation/5_en.png" alt="" class="decision-img">
+                                <p>5.1 GXChain Foundation Organizational Structure</p>
                             </div>
                         </div>
                         <table class="table table-bordered">
@@ -500,7 +483,7 @@
                                 <td>{{$t('foundation.item5.table.tr8.td3')}}</td>
                             </tr>
                             <tr>
-                                <td>{{$t('foundation.item5.table.tr9.td1')}}%</td>
+                                <td>{{$t('foundation.item5.table.tr9.td1')}}</td>
                                 <td>{{$t('foundation.item5.table.tr9.td2')}}</td>
                                 <td>{{$t('foundation.item5.table.tr9.td3')}}</td>
                             </tr>
@@ -519,8 +502,6 @@
                         <div>
                             <h5 id="item-5-2">5.2. {{$t('foundation.item5.item2.title')}}</h5>
                             <p class="text-indent">{{$t('foundation.item5.item2.li1')}}</p>
-                            <p class="text-indent">{{$t('foundation.item5.item2.li2')}}</p>
-                            <p class="text-indent">{{$t('foundation.item5.item2.li3')}}</p>
                         </div>
                         <div>
                             <h5 id="item-5-3">5.3. {{$t('foundation.item5.item3.title')}}</h5>
@@ -561,8 +542,6 @@
                         </div>
                         <div>
                             <h5 id="item-6-3">6.3. {{$t('foundation.item6.item3.title')}}</h5>
-                            <p>{{$t('foundation.item6.item3.p1')}}</p>
-                            <p>{{$t('foundation.item6.item3.p2')}}</p>
                             <dl>
                                 <dd>
                                     <p>6.3.1. {{$t('foundation.item6.item3.item1.p1')}}</p>
@@ -571,7 +550,7 @@
                                     <p>6.3.2. {{$t('foundation.item6.item3.item2.p1')}}</p>
                                     <p class="text-indent">1) {{$t('foundation.item6.item3.item2.li1')}}</p>
                                     <p class="text-indent">2) {{$t('foundation.item6.item3.item2.li2')}}</p>
-                                    <p class="text-indent">3){{$t('foundation.item6.item3.item2.li3')}}</p>
+                                    <p class="text-indent">3) {{$t('foundation.item6.item3.item2.li3')}}</p>
                                 </dd>
                             </dl>
                         </div>

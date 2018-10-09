@@ -221,9 +221,9 @@
     "foundation": {
         "nav": {
             "item1": "Governance",
-            "item1-1": "On-chain Governance",
-            "item1-2": "Off-chain Governance",
-            "item2": "On-chain” governance- GXChain Committee and TrustNodes",
+            "item1-1": "“On-chain” Governance",
+            "item1-2": "“Off-chain” Governance",
+            "item2": "“On-chain” governance- GXChain Committee and TrustNodes",
             "item2-1": "GXChain Committee and TrustNodes",
             "item2-2": "TrustNodes competition terms",
             "item2-3": "TrustNode Rewards",
@@ -258,7 +258,7 @@
                     "li2": "The committee is comprised of the 11 top ranked members in the TrustNodes voting. "
                 },
                 "item2": {
-                    "title": "GXChain TrustNodes",
+                    "title": "GXChain TrustNode",
                     "li1": "The TrustNodes are comprised of the miners of GXChain, responsible for transaction verification, production, and broadcast of blocks.",
                     "li2": "The minimum number of TrustNodes is 21."
                 }
@@ -280,12 +280,8 @@
                 "title": "GXChain Committee and TrustNodes",
                 "p1": "There are three roles in GXChain governance.",
                 "li1": "The GXC holder, who holds any amount of GXC. ",
-                "li2": "公信节点: 由全体GXC持币者投票选举出的个体或机构，每1小时统计一次投票，共有21个公信节点。21个节点由投票前20名节点以及一个随机节点构成。 公信节点负责GXChain网络的交易验证、交易记账、区块打包和确认等工作，成功打包区块将获得对应的奖励。公信节点接受GXChain社区的监督。",
-                "li3": {
-                    "p1": "GXChain理事会: 公信节点按得票数的前11名当选为GXChain理事会成员。",
-                    "p2": "GXChain TrustNodes, elected by all GXC holders, the voting is conducted every hour, there are 21 TrustNodes. The TrustNodes are comprised of members ranked top 20 in votes and one random member. The TrustNodes are in charge of transaction verification, production, and broadcast of blocks. Moreover, the TrustNodes will be rewarded using the transaction fees on the GXChain. The TrustNodes are open to the supervision of the GXChain community.",
-                    "li1": "GXChain Committee, comprised of the 11 TrustNode members with the most votes. The committee acts as the governors of the GXChain community. The major role of the committee is to optimize and set up reasonable global parameters of GXChain, and foster the long-term development of the GXChain community. For example, the committee could propose a vote to change the block size, block time, block reward, number of TrustNodes, number of committee members, and fees in the GXChain ecosystem."
-                }
+                "li2": "GXChain TrustNodes, elected by all GXC holders, the voting is conducted every hour, there are 21 TrustNodes. The TrustNodes are comprised of members ranked top 20 in votes and one random member. The TrustNodes are in charge of transaction verification, production, and broadcast of blocks. Moreover, the TrustNodes will be rewarded using the transaction fees on the GXChain. The TrustNodes are open to the supervision of the GXChain community.",
+                "li3": "GXChain Committee, comprised of the 11 TrustNode members with the most votes. The committee acts as the governors of the GXChain community. The major role of the committee is to optimize and set up reasonable global parameters of GXChain, and foster the long-term development of the GXChain community. For example, the committee could propose a vote to change the block size, block time, block reward, number of TrustNodes, number of committee members, and fees in the GXChain ecosystem. "
             },
             "item2": {
                 "title": "TrustNodes competition terms",
@@ -293,7 +289,7 @@
                 "li1": "Should be a legal entity with a website and social media. ",
                 "li2": "Must have nodes that are open to public testing.",
                 "li3": "Have necessary hardware and be able to maintain the server for the node.",
-                "li4": "Must stake and lock 10000 GXC. Withdrawal will be regarded as ceding from the competition.",
+                "li4": "Must stake and lock some GXC. Withdrawal will be regarded as ceding from the competition.",
                 "li5": "Have a budget plan for the next three years, supporting potential hardware upgrades and community development.",
                 "li6": "Have community of a certain minimum size."
             },
@@ -306,15 +302,15 @@
                 "p1": "Ballot to GXC = 1:1, and GXC holders can vote for multiple nodes. The GXC for voting will be staked at the wallet, transfer of the staked GXC out of the wallet will cancel the voting procedure. Members ranked top 20 in votes will automatically be elected as TrustNodes, and one TrustNode will be selected randomly. There are three methods to vote. ",
                 "li1": {
                     "dt": "Vote through Blockcity",
-                    "dd": "在布洛克城钱包中的GXC，可通过布洛克城的投票通道进行公信节点的投票。"
+                    "dd": "Vote through Blockcity"
                 },
                 "li2": {
                     "dt": "Vote through mobile or PC wallet.",
-                    "dd": "在GXChain手机钱包和PC钱包中的GXC可进行公信节点的投票。"
+                    "dd": "Vote through mobile or PC wallet."
                 },
                 "li3": {
                     "dt": "Vote through exchanges (requires support by exchanges).",
-                    "dd": "如果用户的GXC在交易所钱包里，且该交易所支持GXChain的公信节点投票，便可以采用此方式进行投票。"
+                    "dd": "Vote through exchanges (requires support by exchanges)."
                 }
             }
         },
@@ -336,17 +332,17 @@
                 },
                 "item2": {
                     "title": "Composition",
-                    "p1": "The Policy Committee is comprised of 11 members, including project founders, developer lead, investor lead, and community lead. The committee will elect one president, one vice president, and one executive officer from the 11 members. Introduction of members will be disclosed at gxchain.org."
+                    "p1": "The Policy Committee is comprised of 11 members, including project founders, developer lead, investor lead, and community lead. The committee will elect one president, one vice president, and one executive officer from the 11 members."
                 },
                 "item3": {
                     "title": "Introduction",
                     "tr1": {
-                        "td1": "Chairman",
+                        "td1": "President",
                         "td2": "Minqiang Huang ，Founder of GXChain"
                     },
                     "tr2": {
-                        "td1": "Vice chairman",
-                        "td2": "Guojun Tu, Vice President of GXChain"
+                        "td1": "Vice President ",
+                        "td2": "Guojun Tu, Co-founder of GXChain"
                     },
                     "tr3": {
                         "td1": "Executive Officer",
@@ -374,10 +370,9 @@
                     "li5": "Budgeting**.",
                     "li6": "Add or reduce committee members.",
                     "li7": "Review performances of presidents and executive officers.",
-                    "li8": "听取、审议主席所做的工作报告，检查执行总裁的工作；",
-                    "li9": "Determine to split, merge, and cease the foundation**.",
-                    "li10": "Other important affairs not listed.",
-                    "li11": "其中，有关第(1)、(4)、(5)、(9)项的决议属于特殊事项。"
+                    "li8": "Determine to split, merge, and cease the foundation**.",
+                    "li9": "Other important affairs not listed.",
+                    "li10": "**Essential proposal and requires approval by the president."
                 },
                 "item6": {
                     "title": "Qualifications",
@@ -465,8 +460,8 @@
                         "td2": "Minqiang Huang，Founder of GXChain"
                     },
                     "tr2": {
-                        "td1": "Executive Vice President",
-                        "td2": "Guojun Tu, Vice President of GXChain"
+                        "td1": "Vice President",
+                        "td2": "Guojun Tu, Co-founder of GXChain"
                     },
                     "tr3": {
                         "td1": "Secretary",
@@ -599,7 +594,7 @@
                     "td3": "The incentive for users to use Blockcity dApp, and authorize their data "
                 },
                 "tr4": {
-                    "td1": "9.49%%",
+                    "td1": "9.49%",
                     "td2": "Community Developer Fund",
                     "td3": "Fund to incubate developers to build dApps based on GXChain"
                 },
@@ -681,7 +676,7 @@
                     "p1": "Execution Committee will make standard to define the degree of emergency and plan accordingly. Upon approval, Executive officer leads other panels for implementation. Execution Committee should evaluate and categorize the degree of risks and emergencies."
                 },
                 "item2": {
-                    "p1": "按照前述紧急评估结果，相应基本突发事项的决策人员如下：",
+                    "p1": "According to the above emergency assessment results, the decision makers of the corresponding basic emergencies are as follows",
                     "li1": " For moderate risk, Execution Officer in charge of decision making.",
                     "li2": "For intermediate risk, Execution Committee should make plans and solutions and submit to the president of the policy committee for approval.",
                     "li3": "For high risk and emergency, president of the policy committee should summon policy committee meeting and report to all members. For an urgent event, the president may decide, however, the president must submit a written report and make an explanation to all members at policy committee."

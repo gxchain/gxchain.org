@@ -5,10 +5,6 @@
                 <nav aria-label="Page table of contents">
                     <b-nav vertical v-b-scrollspy.90 class="m-toc section-nav">
                         <b-nav-item href="#item-1" @click="scrollIntoView">1. {{$t('foundation.nav.item1')}}</b-nav-item>
-                        <b-nav class="flex-column">
-                            <b-nav-item class="ml-3" href="#item-1-1" @click="scrollIntoView">1.1. {{$t('foundation.nav.item1-1')}}</b-nav-item>
-                            <b-nav-item class="ml-3" href="#item-1-2" @click="scrollIntoView">1.2. {{$t('foundation.nav.item1-2')}}</b-nav-item>
-                        </b-nav>
                         <b-nav-item href="#item-2" @click="scrollIntoView">2. {{$t('foundation.nav.item2')}}</b-nav-item>
                         <b-nav class="flex-column">
                             <b-nav-item class="ml-3" href="#item-2-1" @click="scrollIntoView">2.1. {{$t('foundation.nav.item2-1')}}
@@ -58,7 +54,7 @@
                         <p class="text-indent">{{$t('foundation.item1.p1')}}</p>
                         <p class="text-indent">{{$t('foundation.item1.p2')}}</p>
                         <div class="govern-con">
-                            <h5 id="item-1-1">1.1. {{$t('foundation.item1.item1.title')}}</h5>
+                            <h5 id="item-1-1">{{$t('foundation.item1.item1.title')}}</h5>
                             <ul>
                                 <li>
                                     <div class="l-item">
@@ -73,7 +69,7 @@
                                 <li>
                                     <div class="l-item">
                                         <img src="~static/foundation/2.png" alt="">
-                                        <p>{{$t('foundation.item1.item1.item2.title')}}e</p>
+                                        <p>{{$t('foundation.item1.item1.item2.title')}}</p>
                                     </div>
                                     <div class="r-item">
                                         <p>○ {{$t('foundation.item1.item1.item2.li1')}}</p>
@@ -81,7 +77,7 @@
                                     </div>
                                 </li>
                             </ul>
-                            <h5 id="item-1-2">1.2. {{$t('foundation.item1.item2.title')}}</h5>
+                            <h5 id="item-1-2">{{$t('foundation.item1.item2.title')}}</h5>
                             <ul>
                                 <li>
                                     <div class="l-item">
@@ -500,7 +496,7 @@
                                 <td>{{$t('foundation.item5.table.tr8.td3')}}</td>
                             </tr>
                             <tr>
-                                <td>{{$t('foundation.item5.table.tr9.td1')}}%</td>
+                                <td>{{$t('foundation.item5.table.tr9.td1')}}</td>
                                 <td>{{$t('foundation.item5.table.tr9.td2')}}</td>
                                 <td>{{$t('foundation.item5.table.tr9.td3')}}</td>
                             </tr>
