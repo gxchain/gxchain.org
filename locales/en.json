@@ -342,7 +342,7 @@
                     "title": "Staff introduction",
                     "tr1": {
                         "td1": "主席",
-                        "td2": "黄敏强，GXChain创始人"
+                        "td2": "Minqiang Huang ，GXChain创始人"
                     },
                     "tr2": {
                         "td1": "副主席",
@@ -580,7 +580,7 @@
             }
         },
         "item5": {
-            "title": "GXChain基金会的经济",
+            "title": "GXChain Foundation's economy",
             "table": {
                 "thead": {
                     "th1": "Ratio",
@@ -632,6 +632,28 @@
                     "td2": "Operations",
                     "td3": "Daily Operations, partial employee salary, accounting fees"
                 }
+            },
+            "item1": {
+                "title": "Fund Usage and Terms",
+                "p1": "GXChain Foundation will strictly comply with the distribution terms above and commit to maintaining the transparency of fund usage and allocation. ",
+                "p2": "Policy for fund usage:",
+                "li1": "Approval from Panel Head is required for expenditure above 20,000 USD.",
+                "li2": "Approval from Execution Committee is required for expenditure above 50,000 USD.",
+                "li3": "Approval from Policy Committee is required for expenditure above 200,000 USD."
+            },
+            "item2": {
+                "title": "Fund Management",
+                "li1": "Administration Panel oversees daily fund management, including salary, renting, and other expenses. Execution committee will assign professionals to manage digital assets of GXChain foundation. Multisignature will be used to ensure the fund security. Fiat currency income will be used to buy cryptocurrency and store at foundation digital wallet.",
+                "li2": "由执行委员会授权人员负责管理GXChain基金会的数字资产。采取多重签名确保资产的安全性和准确性。如果有法币收入，所收取的法币，及时转为数字货币，并存入数字钱包（非个人账户），且每日做交易记录记账。",
+                "li3": "每季度由综合职能委员会对上一季度的财务执行情况进行总结，制作书面财务报告并向执行委员会汇报。"
+            },
+            "item3": {
+                "title": "Wallet Management",
+                "p1": "Digital currencies collected by the GXChain foundation will store at the cold wallet. For a small amount, 2of3 multisignature will be used. The private keys will be held by multiple people in the policy committee. Alteration of signature number requires the approval of the policy committee."
+            },
+            "item4": {
+                "title": "Disclosure",
+                "p1": "The GXChain Foundation will disclose the development and operation progress of GXChain annually. The foundation will disclose the use of funds annually, and the audit will be used for supervision. Auditing reports will disclose in the annual financial statements."
             }
         }
     },

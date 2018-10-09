@@ -511,32 +511,28 @@
                             </tbody>
                         </table>
                         <div>
-                            <h5 id="item-5-1">5.1. 资金使用的限制条款</h5>
-                            <p>GXChain基金会将严格遵循上述分配机制进行资金的使用，并承诺保持资金分配与使用情况的公开透明，定期向GXC持有人进行信息披露。</p>
-                            <p> GXChain基金会资金的使用原则:</p>
+                            <h5 id="item-5-1">5.1. {{$t('foundation.item5.item1.title')}}</h5>
+                            <p>{{$t('foundation.item5.item1.p1')}}</p>
+                            <p>{{$t('foundation.item5.item1.p2')}}</p>
                             <div class="text-indent">
-                                <p>1) 超过2万美元的支出，需要经过相应专门委员会负责人审批; </p>
-                                <p>2) 超过5万美元的支出，需要经过执行委员会审批；</p>
-                                <p>3) 超过20万美元的支出，需要经过决策委员会审批。</p>
+                                <p>1) {{$t('foundation.item5.item1.li1')}} </p>
+                                <p>2) {{$t('foundation.item5.item1.li2')}}</p>
+                                <p>3) {{$t('foundation.item5.item1.li3')}}</p>
                             </div>
                         </div>
                         <div>
-                            <h5 id="item-5-2">5.2.财务管理</h5>
-                            <p class="text-indent">由综合职能专门委员会负责日常财务管理，包括人员薪酬、房屋租赁、日常费用等。 </p>
-                            <p class="text-indent">
-                                由执行委员会授权人员负责管理GXChain基金会的数字资产。采取多重签名确保资产的安全性和准确性。如果有法币收入，所收取的法币，及时转为数字货币，并存入数字钱包（非个人账户），且每日做交易记录记账。</p>
-                            <p class="text-indent">每季度由综合职能委员会对上一季度的财务执行情况进行总结，制作书面财务报告并向执行委员会汇报。</p>
+                            <h5 id="item-5-2">5.2. {{$t('foundation.item5.item2.title')}}</h5>
+                            <p class="text-indent">{{$t('foundation.item5.item2.li1')}}</p>
+                            <p class="text-indent">{{$t('foundation.item5.item2.li2')}}</p>
+                            <p class="text-indent">{{$t('foundation.item5.item2.li3')}}</p>
                         </div>
                         <div>
-                            <h5 id="item-5-3">5.3.钱包管理</h5>
-                            <p class="text-indent">
-                                GXChain基金会通过私募、捐赠、活动收费以及交易手续费等筹集到的数字资产若为大额则进行冷钱包存储，若为小额则采用多重签名的方式。基于独立性原则，GXChain基金会的钱包采取
-                                2/3多重签名，私钥由决策委员会成员等多人持有。若增加或减少签名，须经过执行委员会审批。</p>
+                            <h5 id="item-5-3">5.3. {{$t('foundation.item5.item3.title')}}</h5>
+                            <p class="text-indent">{{$t('foundation.item5.item3.p1')}}</p>
                         </div>
                         <div>
-                            <h5 id="item-5-4">5.4.披露事项</h5>
-                            <p class="text-indent">
-                                GXChain基金会每年将向社区披露GXChain的开发情况、运营情况、GXC的使用情况等，并将引入第三方审计机构，监督项目的财务运作，审计报告将在年度信息披露中公告。</p>
+                            <h5 id="item-5-4">5.4. {{$t('foundation.item5.item4.title')}}</h5>
+                            <p class="text-indent">{{$t('foundation.item5.item4.p1')}}</p>
                         </div>
                     </div>
                     <!--item-6-->
