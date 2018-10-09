@@ -219,32 +219,32 @@
         }
     },
     "foundation": {
-        "nav":{
-            "item1":"Governance",
-            "item1-1":"On-chain Governance",
-            "item1-2":"Off-chain Governance",
-            "item2":"On-chain” governance- GXChain Committee and TrustNodes",
-            "item2-1":"GXChain Committee and TrustNodes",
-            "item2-2":"TrustNodes competition terms",
-            "item2-3":"TrustNode Rewards",
-            "item2-4":"TrustNode election and ballot",
-            "item3":"“Off-chain” Governance—GXChain Foundation",
-            "item3-1":"Establishment of the GXChain Foundation",
-            "item3-2":"Organizational structure of the GXChain Foundation",
-            "item3-3":"Policy Committee",
-            "item3-4":"Advisory Committee",
-            "item3-5":"Execution Committee",
-            "item3-6":"Subsidiaries",
-            "item4":"GXChain team",
-            "item5":"GXChain基金会的经济",
-            "item5-1":"资金使用的限制条款",
-            "item5-2":"财务管理",
-            "item5-3":"钱包管理",
-            "item5-4":"披露事项",
-            "item6":"GXChain基金会的风控机制",
-            "item6-1":"重大事项的风险评估与决策机制",
-            "item6-2":"定期检查、评估与舆情监督、汇报机制",
-            "item6-3":"突发事项的紧急评估与决策机制"
+        "nav": {
+            "item1": "Governance",
+            "item1-1": "On-chain Governance",
+            "item1-2": "Off-chain Governance",
+            "item2": "On-chain” governance- GXChain Committee and TrustNodes",
+            "item2-1": "GXChain Committee and TrustNodes",
+            "item2-2": "TrustNodes competition terms",
+            "item2-3": "TrustNode Rewards",
+            "item2-4": "TrustNode election and ballot",
+            "item3": "“Off-chain” Governance—GXChain Foundation",
+            "item3-1": "Establishment of the GXChain Foundation",
+            "item3-2": "Organizational structure of the GXChain Foundation",
+            "item3-3": "Policy Committee",
+            "item3-4": "Advisory Committee",
+            "item3-5": "Execution Committee",
+            "item3-6": "Subsidiaries",
+            "item4": "GXChain team",
+            "item5": "GXChain基金会的经济",
+            "item5-1": "资金使用的限制条款",
+            "item5-2": "财务管理",
+            "item5-3": "钱包管理",
+            "item5-4": "披露事项",
+            "item6": "GXChain基金会的风控机制",
+            "item6-1": "重大事项的风险评估与决策机制",
+            "item6-2": "定期检查、评估与舆情监督、汇报机制",
+            "item6-3": "突发事项的紧急评估与决策机制"
         },
         "item1": {
             "title": "Governance",
@@ -527,7 +527,57 @@
         },
         "item4": {
             "title": "GXChain team",
-            "p1": "GXChain团队具有多年的区块链技术、互联网金融和社区运营等方面的专业背景和经验，主要以技术为导向，形成了由黄敏强带领的、共有40多名核心开发人员的GXChain开发团队。至今已完成GXChain主网、智能合约2.0的开发。GXChain主要团队成员及经历如下："
+            "p1": "GXChain team has many professionals range from blockchain and financial technology, to community development and marketing. Lead by Minqiang Huang and formed more than 40 technology-oriented developers and engineers. The team achieved development of GXChain main net and smart contract 2.0. Major people of the GXChain Foundation is shown as follows: ",
+            "table": {
+                "thead": {
+                    "th1": "name",
+                    "th2": "Introduction"
+                },
+                "tr1": {
+                    "td1": "Minqiang Huang",
+                    "td2": "Minqiang has over ten years’ experience in data exchange, financial technology, and blockchain, he dived into cryptocurrency in 2012 and initiated several projects since then. He used to be CTO at Hakim Unique Internet Co Ltd (SHE: 300300), and Director at financial services of HAKIM UNIQUE. Besides blockchain technology, Minqiang is an enthusiast in ultramarathon, trail running, and mountain biking. "
+                },
+                "tr2": {
+                    "td1": "Guojun Tu",
+                    "td2": "Guojun was a senior executive at several public traded companies, including Powerise Information Technology Co., Ltd and IIN International Ltd. He is a serial entrepreneur and has more than 21 years' experience in the field of information security, payment, and IT. Startup headed by Guojun received investment from IDG."
+                },
+                "tr3": {
+                    "td1": "Cheng Wang",
+                    "td2": "Cheng used to work as a full stack engineer at 51.com. Before 51 he worked at treefinance.com and Vobile Info Tech Co., Ltd. as a core developer. He is proficient in data collection, desensitization, modeling, system architecture, internet security, and cryptography. He had more than six years’ experiences for leading a technical team and made many breakthrough contributions."
+                },
+                "tr4": {
+                    "td1": "Xiaopeng Xu",
+                    "td2": "Xu has six years’ experience of sales and marketing. He used to be a marketing project manager at Zhejiang Media Group, Simei Media (SHE: 002712), and NetEase, Inc. (NASDAQ: NTES). Xu has abundant experiences in branding strategy and internet marketing."
+                },
+                "tr5": {
+                    "td1": "Shuang Guo",
+                    "td2": "Shuang has two years’ experience in distributed ledger technology and cryptocurrency. He researched and analyzed hundreds of blockchain projects. He has two years of experience in technology transfer, specifically in market assessment, patentability assessment, business development, and CRM."
+                },
+                "tr6": {
+                    "td1": "Haoxiang Lan",
+                    "td2": "Haoxiang is a full stack engineer and blockchain expert. He had over five years’ experience in the financial industry and used to work at State Street Corp (NYSE: STT), 51.com, and treefinance.com. Moreover, Haoxiang started blockchain research in 2013, and actively contribute codes for Graphene community. He has great knowledge in cryptography, database, server-side and mobile app development. "
+                },
+                "tr7": {
+                    "td1": "Junjie Zhang",
+                    "td2": "Junjie is a full stack engineer and proficient in UI design, frontend/backend development. He is proficient in node.js and python. He used to lead front-end development of several renowned financial technology companies, besides that, he also participated in application development based on the blockchain."
+                },
+                "tr8": {
+                    "td1": "Liting Zhu",
+                    "td2": "BS in Mathematics, and Master in Computer Science. Liting has over six years’ experience in software development and actively contribute codes for Graphene community. He is proficient in P2P web development, C/C++, Python, Shell, he used to be core developer at Vobile Info Tech Co., Ltd. "
+                },
+                "tr9": {
+                    "td1": "Lei Xu",
+                    "td2": "Lei is a full stack engineer and expert in frontend development. He is proficient in PHP, Node.js, and Python. He has many experiences in the cross end and data visualization product development. Lei used to work as a frontend developer at ZhejiangDailyMedia and tops001.com."
+                },
+                "tr10": {
+                    "td1": "Jun Yao",
+                    "td2": "Senior JAVA engineer, Jun used to work at treefinance.com as a core developer, and he is proficient in data collection, data mining, and data analysis. "
+                },
+                "tr11": {
+                    "td1": "Liyu Wu",
+                    "td2": "Liyu used to work as a senior product manager at NetEase, Inc.(NASDAQ: NTES), before NetEase, he was a product manager at Hithink Flush Information Network Co Ltd(SHE: 300033) and weidai.com.cn. He has abundant experiences in both business-oriented and customer-oriented products. As a blockchain technology believer since 2015, he leads the blockchain product development and commercialization of GXChain. "
+                }
+            }
         },
         "item5": {
             "title": "GXChain基金会的经济",

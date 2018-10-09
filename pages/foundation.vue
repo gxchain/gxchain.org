@@ -387,77 +387,60 @@
                     </div>
                     <!--item-4-->
                     <div>
-                        <h4 id="item-4">4. GXChain团队</h4>
-                        <p class="text-indent">
-                            GXChain团队具有多年的区块链技术、互联网金融和社区运营等方面的专业背景和经验，主要以技术为导向，形成了由黄敏强带领的、共有40多名核心开发人员的GXChain开发团队。至今已完成GXChain主网、智能合约2.0的开发。GXChain主要团队成员及经历如下：</p>
+                        <h4 id="item-4">4. {{$t('foundation.item4.title')}}</h4>
+                        <p class="text-indent">{{$t('foundation.item4.p1')}}</p>
                         <table class="table table-bordered table-hover">
                             <thead>
                             <tr class="text-center">
-                                <th scope="col" width="20%">姓名</th>
+                                <th scope="col" width="20%">{{$t('foundation.item4.table.thead.th1')}}</th>
                                 <th scope="col">简要经历</th>
                             </tr>
                             </thead>
                             <tbody>
-                            <tr>
-                                <td class="text-center">黄敏强</td>
-                                <td>前汉鼎宇佑(股票代码300300)
-                                    CTO、前汉鼎宇佑⾦融服务公司总经理、前浙⼤⽹新互联⽹副总经理。在数据交换、互联网金融和区块链领域有超过10年的从业和研究经验。从2012年开始研究数字货币和区块链，参与并发起多个区块链项目，对区块链产品设计和数字货币经济模型设计有深度研究和实践，同时也是超级马拉松、越野跑、山地自行车等耐力运动爱好者。
-                                </td>
-                            </tr>
-                            <tr>
-                                <td class="text-center">涂国君</td>
-                                <td>
-                                    先后在创智软件、国讯国际等上市IT公司担任⾼管职务，创建过多家科技公司，并获得IDG等机构的投资，拥有多年的软件开发、互联⽹、⽀付、信息安全等⾏业的从业经验，区块链深度研究者。
-                                </td>
-                            </tr>
-                            <tr>
-                                <td class="text-center">王成</td>
-                                <td>
-                                    国内顶尖数据技术专家，前51信⽤卡架构师，深度区块链技术爱好者，实践者。先后任职Vobile，51信用卡，大树金融担任核心角色。在数据采集，衍生数据挖掘，数据建模，系统架构，密码学，网络安全有丰富的经验。精通从底层系统到上层业务系统的全栈领域技术，6年以上技术团队管理经验，曾多次领导团队实现从0到1的突破。
-                                </td>
-                            </tr>
-                            <tr>
-                                <td class="text-center">许潇鹏</td>
-                                <td>6年市场营销经验，历任浙江广电集团、思美传媒、网易市场负责人，负责过大量产品和各种行业的品牌传播和市场活动，对互联网营销、品牌策略经验丰富。</td>
-                            </tr>
-                            <tr>
-                                <td class="text-center">郭爽</td>
-                                <td>在分布式账本技术、区块链、密码货币以及50多个项目的尽职调查领域有两年的经验；在市场评估、专利评估、业务发展和CRM方面有两年的经验。</td>
-                            </tr>
-                            <tr>
-                                <td class="text-center">蓝昊翔</td>
-                                <td>全栈开发工程师,
-                                    精通区块链技术，Graphene社区活跃成员和代码贡献者，5年金融领域从业经验，13年接触区块链，并持续从事区块链技术的研究和应用，曾就职于美国道富、51信用卡、大树金融，在密码学、数据库、服务端和移动端等多个领域都有丰富的实践经验。
-                                </td>
-                            </tr>
-                            <tr>
-                                <td class="text-center">张俊杰</td>
-                                <td>
-                                    全栈⼯程师，擅⻓UI设计，前端开发，后端开发；精通node.js，python，负责过某外企、国内知名互联⽹⾦融公司前端开发架构⼯作，参与过基于区块链应⽤的开发⼯作。
-                                </td>
-                            </tr>
-                            <tr>
-                                <td class="text-center">朱礼廷</td>
-                                <td>
-                                    数学学⼠和计算机硕⼠，6年软件开发经验，Graphene社区代码贡献者，熟悉区块链底层技术开发，拥有丰富的P2P⽹络开发经验，精通C/C++、Python、Shell，曾就职于Vobile⾩博通担任资深开发⼯程师。
-                                </td>
-                            </tr>
-                            <tr>
-                                <td class="text-center">徐磊</td>
-                                <td>
-                                    全栈工程师，熟悉各种前端技术，具备跨终端的前端开发能力和拥有数据可视化产品设计开发经验，精通PHP、Node、Python，曾任浙报集团、房产销冠核心前端开发工程师。
-                                </td>
-                            </tr>
-                            <tr>
-                                <td class="text-center">尧俊</td>
-                                <td>资深java工程师，前大树网络核心开发工程师，拥有丰富的互联网开发经验，对于大数据采集、分析、挖掘有相当丰富的经验。</td>
-                            </tr>
-                            <tr>
-                                <td class="text-center">吴立宇</td>
-                                <td>
-                                    原网易高级产品经理，曾先后在同花顺、微贷网等公司负责产品设计工作。深耕互联网金融行业，在C端和B端产品上均有丰富的产品经验。从15年开始就已成为区块链技术的虔诚信仰者，并且坚信分布式去中心化的存储技术将颠覆诸多既定领域的业务形态。知行合一，目前已主导公信宝一系列区块链产品的上线落地工作，正逐步让区块链技术的“理想照进现实”。
-                                </td>
-                            </tr>
+                                <tr>
+                                    <td class="vh-center">{{$t('foundation.item4.table.tr1.td1')}}</td>
+                                    <td>{{$t('foundation.item4.table.tr1.td2')}}</td>
+                                </tr>
+                                <tr>
+                                    <td class="vh-center">{{$t('foundation.item4.table.tr2.td1')}}</td>
+                                    <td>{{$t('foundation.item4.table.tr2.td2')}}</td>
+                                </tr>
+                                <tr>
+                                    <td class="vh-center">{{$t('foundation.item4.table.tr3.td1')}}</td>
+                                    <td>{{$t('foundation.item4.table.tr3.td2')}}</td>
+                                </tr>
+                                <tr>
+                                    <td class="vh-center">{{$t('foundation.item4.table.tr4.td1')}}</td>
+                                    <td>{{$t('foundation.item4.table.tr4.td2')}}</td>
+                                </tr>
+                                <tr>
+                                    <td class="vh-center">{{$t('foundation.item4.table.tr5.td1')}}</td>
+                                    <td>{{$t('foundation.item4.table.tr5.td2')}}</td>
+                                </tr>
+                                <tr>
+                                    <td class="vh-center">{{$t('foundation.item4.table.tr6.td1')}}</td>
+                                    <td>{{$t('foundation.item4.table.tr6.td2')}}</td>
+                                </tr>
+                                <tr>
+                                    <td class="vh-center">{{$t('foundation.item4.table.tr7.td1')}}</td>
+                                    <td>{{$t('foundation.item4.table.tr7.td2')}}</td>
+                                </tr>
+                                <tr>
+                                    <td class="vh-center">{{$t('foundation.item4.table.tr8.td1')}}</td>
+                                    <td>{{$t('foundation.item4.table.tr8.td2')}}</td>
+                                </tr>
+                                <tr>
+                                    <td class="vh-center">{{$t('foundation.item4.table.tr9.td1')}}</td>
+                                    <td>{{$t('foundation.item4.table.tr9.td2')}}</td>
+                                </tr>
+                                <tr>
+                                    <td class="vh-center">{{$t('foundation.item4.table.tr10.td1')}}</td>
+                                    <td>{{$t('foundation.item4.table.tr10.td2')}}</td>
+                                </tr>
+                                <tr>
+                                    <td class="vh-center">{{$t('foundation.item4.table.tr11.td1')}}</td>
+                                    <td>{{$t('foundation.item4.table.tr11.td2')}}</td>
+                                </tr>
                             </tbody>
                         </table>
                     </div>
