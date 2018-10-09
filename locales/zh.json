@@ -697,6 +697,7 @@
         }
     },
     "footer": {
+        "wechat":"微信公众号",
         "contactUs": "联系我们",
         "kefu": "联系客服"
     }

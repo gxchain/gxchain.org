@@ -6,7 +6,7 @@
             <a class="wechat socail-icon iconfont icon-weixin-copy" href="javascript:void(0)">
               <div class="qrcode-wrap">
                   <img src="~static/footer/qrcode.png" width="120">
-                  <span>微信公众号</span>
+                  <span>{{$t('footer.wechat')}} </span>
               </div>
             </a>
             <a class="socail-icon iconfont icon-github" href="https://github.com/gxchain/" target="_blank"></a>
