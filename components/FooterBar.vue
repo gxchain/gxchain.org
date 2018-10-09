@@ -18,7 +18,7 @@
           </div>
           <div class="other-list list-wrap">
             <!-- <a href="">常见问题</a> -->
-            <a href="mailto:kefu@gxb.io">{{$t('footer.kefu')}}kefu@gxb.io </a>
+            <a href="mailto:kefu@gxb.io">{{$t('footer.kefu')}} kefu@gxb.io </a>
             <a v-show="$i18n.locale === 'zh'" target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=33010602008310">浙公网安备 33010602008310号</a>
             <a v-show="$i18n.locale === 'zh'" href="http://www.miitbeian.gov.cn/">浙ICP备16042060号-1</a>                 
           </div>
