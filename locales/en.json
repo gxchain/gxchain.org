@@ -339,25 +339,25 @@
                     "p1": "The Policy Committee is comprised of 11 members, including project founders, developer lead, investor lead, and community lead. The committee will elect one president, one vice president, and one executive officer from the 11 members. Introduction of members will be disclosed at gxchain.org."
                 },
                 "item3": {
-                    "title": "Staff introduction",
+                    "title": "Introduction",
                     "tr1": {
-                        "td1": "主席",
-                        "td2": "Minqiang Huang ，GXChain创始人"
+                        "td1": "Chairman",
+                        "td2": "Minqiang Huang ，Founder of GXChain"
                     },
                     "tr2": {
-                        "td1": "副主席",
-                        "td2": "涂国君，GXChain联合创始人"
+                        "td1": "Vice chairman",
+                        "td2": "Guojun Tu, Vice President of GXChain"
                     },
                     "tr3": {
-                        "td1": "执行总裁",
-                        "td2": "黄敏强，GXChain创始人"
+                        "td1": "Executive Officer",
+                        "td2": "Minqiang Huang，Founder of GXChain"
                     },
                     "tr4": {
-                        "td1": "其他成员",
-                        "td2": "王成，GXChain首席技术官",
-                        "td3": "蓝昊翔，GXChain区块链研发总监",
-                        "td4": "朱礼廷，GXChain区块链架构师",
-                        "td5": "许潇鹏，GXChain运营总监"
+                        "td1": "Other members",
+                        "td2": "Cheng Wang，Chief Technology Officer of GXChain",
+                        "td3": "Haoxiang Lan，Blockchain R&D Director  of GXChain",
+                        "td4": "Liting Zhu，Blockchain Architect  of GXChain",
+                        "td5": "Xiaopeng Xu，Operations director of GXChain"
                     }
                 },
                 "item4": {
@@ -422,11 +422,11 @@
                     "p1": "The policy committee selects advisors, and the maximum number of advisors is 7. The members will be disclosed at gxchain.org."
                 },
                 "item3": {
-                    "title": "Staff introduction",
-                    "tr1": "韩锋，华为中央研究院区块链顾问，亚洲区块链DACA协会秘书长，亦来云基金会联合创始人",
-                    "tr2": "李笑来，INBlockchain创始人",
-                    "tr3": "沈波，分布式资本合伙人",
-                    "tr4": "元道，世纪互联数据中心的创始人、董事长，中关村区块链联盟理事长"
+                    "title": "Introduction",
+                    "tr1": "Feng Han, Visiting scholar & research associate at Columbia University Advisor at Huawei Central Institute, co-founder of Elastos",
+                    "tr2": "Xiaolai Li, Founder of INBlockchain.",
+                    "tr3": "Bo Shen, Founder of Fenbushi Capital.",
+                    "tr4": "Dao Yuan, Founder and president of 21Vianet Group (NASDAQ:VNET), president of ZOL Blockchain Industry Alliance,"
                 },
                 "item4": {
                     "title": "Responsibility ",
@@ -459,22 +459,18 @@
                     "p1": "The committee comprises the execution officer, vice execution officer, secretary, and head of panels. The members will be disclosed at gxchain.org. "
                 },
                 "item3": {
-                    "title": "Staff introduction",
+                    "title": "Introduction",
                     "tr1": {
-                        "td1": "执行总裁",
-                        "td2": "黄敏强，GXChain创始人"
+                        "td1": "Executive Officer",
+                        "td2": "Minqiang Huang，Founder of GXChain"
                     },
                     "tr2": {
-                        "td1": "副总裁",
-                        "td2": "涂国君，GXChain联合创始人"
+                        "td1": "Executive Vice President",
+                        "td2": "Guojun Tu, Vice President of GXChain"
                     },
                     "tr3": {
-                        "td1": "执行总裁",
-                        "td2": "黄敏强，GXChain创始人"
-                    },
-                    "tr4": {
-                        "td1": "秘书",
-                        "td2": "许潇鹏，GXChain运营总监"
+                        "td1": "Secretary",
+                        "td2": "Xiaopeng Xu, Operations director of GXChain"
                     }
                 },
                 "item4": {
@@ -580,7 +576,7 @@
             }
         },
         "item5": {
-            "title": "GXChain Foundation's economy",
+            "title": "Business Model of GXChain Foundation",
             "table": {
                 "thead": {
                     "th1": "Ratio",
@@ -655,6 +651,46 @@
                 "title": "Disclosure",
                 "p1": "The GXChain Foundation will disclose the development and operation progress of GXChain annually. The foundation will disclose the use of funds annually, and the audit will be used for supervision. Auditing reports will disclose in the annual financial statements."
             }
+        },
+        "item6": {
+            "title": "Risk Management",
+            "p1": "To protect the security of GXChain and interests of GXC holders, GXChain Foundation predicts and response risks in a multidimensional way, with multiple party participation.",
+            "item1": {
+                "title": "Risk Assessment and Decision-Making",
+                "p1": "Any significant issues will be determined and evaluated before making a decision. Here are the procedures:",
+                "li1": "Members of Execution committee lead other panels to perform risk assessment and take consideration of multiple aspects, including technical, marketing, policy, and compliance. Setup standards, conditions and establish plans for the risk. For essential projects and investment, a thorough due diligence analysis shall perform before further evaluations.",
+                "li2": "Execution Committee will conduct a comprehensive, and a written report shall submit to the policy committee. If necessary, the executive officer should consult the advisory committee before submitting the report.",
+                "li3": " Policy Committee will take proper consideration of the reports filed by Executive Officer, and decide according to related procedures."
+            },
+            "item2": {
+                "title": "Examination, Evaluation, Public Opinion Supervision, and Report ",
+                "item1": {
+                    "title": "Execution Committee will periodically examine and evaluate the technical progress and management of GXChain. ",
+                    "p1": "For technological development, the evaluation will focus on the progress of GXChain R&D, operations, applications, and security.",
+                    "p2": " For management, the review will focus on human resource, budgeting, investment, and other ethical issues. "
+                },
+                "item2": {
+                    "p1": "Besides periodically examination and evaluation, Execution Committee will advise other panels to supervise public opinion and report accordingly. Base on the report, Execution Committee may initiate assessment and decision-making for emergency, if necessary."
+                }
+            },
+            "item3": {
+                "title": "Evaluation and Decision-Making for Emergency",
+                "p1": "",
+                "p2": "基本框架如下：",
+                "item1": {
+                    "p1": "Execution Committee will make standard to define the degree of emergency and plan accordingly. Upon approval, Executive officer leads other panels for implementation. Execution Committee should evaluate and categorize the degree of risks and emergencies."
+                },
+                "item2": {
+                    "p1": "按照前述紧急评估结果，相应基本突发事项的决策人员如下：",
+                    "li1": " For moderate risk, Execution Officer in charge of decision making.",
+                    "li2": "For intermediate risk, Execution Committee should make plans and solutions and submit to the president of the policy committee for approval.",
+                    "li3": "For high risk and emergency, president of the policy committee should summon policy committee meeting and report to all members. For an urgent event, the president may decide, however, the president must submit a written report and make an explanation to all members at policy committee."
+                }
+            }
+        },
+        "item7": {
+            "title": "Other",
+            "p1": "To ensure the governance efficiency, salary can only be made to members who work exclusively at GXChain Foundation."
         }
     },
     "footer": {

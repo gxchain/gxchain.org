@@ -275,12 +275,12 @@
                                 <tr>
                                     <td>{{$t('foundation.item3.item4.item3.tr2')}} </td>
                                 </tr>
-                                <tr>
+                                <!-- <tr>
                                     <td>{{$t('foundation.item3.item4.item3.tr3')}} </td>
                                 </tr>
                                 <tr>
                                     <td>{{$t('foundation.item3.item4.item3.tr4')}} </td>
-                                </tr>
+                                </tr> -->
                                 </tbody>
                             </table>
                             <dl>
@@ -329,10 +329,6 @@
                                 <tr>
                                     <td>{{$t('foundation.item3.item5.item3.tr3.td1')}}</td>
                                     <td>{{$t('foundation.item3.item5.item3.tr3.td2')}}</td>
-                                </tr>
-                                <tr>
-                                    <td>{{$t('foundation.item3.item5.item3.tr4.td1')}}</td>
-                                    <td>{{$t('foundation.item3.item5.item3.tr4.td2')}}</td>
                                 </tr>
                                 </tbody>
                             </table>
