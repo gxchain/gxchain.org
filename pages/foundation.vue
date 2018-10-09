@@ -533,58 +533,53 @@
                     </div>
                     <!--item-6-->
                     <div>
-                        <h4 id="item-6">6. GXChain基金会的风控机制</h4>
-                        <p class="text-indent">
-                            GXChain基金会通过设置多角度切入、多部门联动的科学机制来预防、应对各类风险事项，以保证GXChain的安全、可持续发展，维护GXC持有人的利益。</p>
+                        <h4 id="item-6">6. {{$t('foundation.item6.title')}}</h4>
+                        <p class="text-indent">{{$t('foundation.item6.p1')}}</p>
                         <div>
-                            <h5 id="item-6-1">6.1.重大事项的风险评估与决策机制</h5>
-                            <p> 任何重大事项的决策均需经过充分的风险评估后方可作出，基本流程如下：</p>
+                            <h5 id="item-6-1">6.1. {{$t('foundation.item6.item1.title')}}</h5>
+                            <p>{{$t('foundation.item6.item1.p1')}}</p>
                             <div class="text-indent">
-                                <p>
-                                    1) 执行委员会成员领导相应下属专门委员会针对具体事项从技术、市场、政策等风险因素着手进行评估，就可能产生的风险设定风险界定标准与规则、制定处置预案，并形成书面报告。针对重大合作项目、投资项目等事项，相关人员应对合作方、目标公司或团队进行充分尽职调查后再行评估。</p>
-                                <p>
-                                    2) 执行总裁领导执行委员会对具体事项的书面报告进行综合分析、论证后，最终拟定书面风险评估报告提交决策委员会。必要时，执行总裁应引入顾问委员会，参考专家、顾问的意见最终确定风险评估报告。</p>
-                                <p>3) 决策委员会应将风险评估结果报告作为决策的重要依据，按照相应议事规则作出决议。</p>
+                                <p>1) {{$t('foundation.item6.item1.li1')}}</p>
+                                <p>2) {{$t('foundation.item6.item1.li2')}}</p>
+                                <p>3) {{$t('foundation.item6.item1.li3')}}</p>
                             </div>
                         </div>
                         <div>
-                            <h5 id="item-6-2">6.2.定期检查、评估与舆情监督、汇报机制</h5>
+                            <h5 id="item-6-2">6.2. {{$t('foundation.item6.item2.title')}}</h5>
                             <dl>
                                 <dd>
-                                    <p>6.2.1.执行委员会主要从技术和管理两方面着手进行定期检查与评估：</p>
+                                    <p>6.2.1. {{$t('foundation.item6.item2.item1.title')}}</p>
                                     <p class="text-indent">
-                                        1) 技术方面，包括GXChain技术研发进度、GXChain运行情况、项目应用实施等，检查技术研发进度与质量，全面排查安全漏洞，防范技术安全风险；</p>
+                                        1) {{$t('foundation.item6.item2.item1.p1')}}</p>
                                     <p class="text-indent">
-                                        2) 管理方面，包括人员的配备与资格、资金使用情况、项目投资情况等，全面检查现行管理制度的执行情况，避免人员缺位、沟通不畅等管理漏洞的长期存在，及时发现并应对信息泄露、资金挪用等内部人员道德风险。</p>
+                                        2) {{$t('foundation.item6.item2.item1.p2')}}</p>
                                 </dd>
                                 <dd>
-                                    6.2.2.除定期检查与评估外，执行委员会负责指导下属专门委员会进行舆情监督并制定相应汇报机制，根据监督与汇报结果在必要时启动突发事项的紧急评估与决策机制。
+                                    6.2.2. {{$t('foundation.item6.item2.item2.p1')}}
                                 </dd>
                             </dl>
                         </div>
                         <div>
-                            <h5 id="item-6-3">6.3.突发事项的紧急评估与决策机制</h5>
-                            <p>执行委员会应针对突发风险事项设定概括风险界定标准并确定决策机制，经决策委员会决议通过后，由执行总裁领导执行委员会负责遵照执行。</p>
-                            <p>基本框架如下：</p>
+                            <h5 id="item-6-3">6.3. {{$t('foundation.item6.item3.title')}}</h5>
+                            <p>{{$t('foundation.item6.item3.p1')}}</p>
+                            <p>{{$t('foundation.item6.item3.p2')}}</p>
                             <dl>
                                 <dd>
-                                    <p>
-                                        6.3.1.如发生突发事项，应由执行总裁领导执行委员会成员进行紧急评估，按照预定标准对风险进行级别分类，分为一般风险、较高风险及高风险三类（风险界定标准与规则待完善）。</p>
+                                    <p>6.3.1. {{$t('foundation.item6.item3.item1.p1')}}</p>
                                 </dd>
                                 <dd>
-                                    <p>6.3.2.按照前述紧急评估结果，相应基本突发事项的决策人员如下：</p>
-                                    <p class="text-indent">1) 一般风险事项由执行总裁直接决策；</p>
-                                    <p class="text-indent">2) 较高风险事项由执行总裁主持执行委员会成员拟定应对方案后报决策委员会主席决策；</p>
-                                    <p class="text-indent">3)
-                                        高风险事项应由决策委员会主席召开临时决策委员会会议，由主席领导执行总裁、执行委员会成员拟定应对方案后并在决策委员会会议上汇报以供决策。如该事项属紧急事项，则决策委员会主席可进行紧急决策，但应在决策后形成报告书面通知决策委员会成员。</p>
+                                    <p>6.3.2. {{$t('foundation.item6.item3.item2.p1')}}</p>
+                                    <p class="text-indent">1) {{$t('foundation.item6.item3.item2.li1')}}</p>
+                                    <p class="text-indent">2) {{$t('foundation.item6.item3.item2.li2')}}</p>
+                                    <p class="text-indent">3){{$t('foundation.item6.item3.item2.li3')}}</p>
                                 </dd>
                             </dl>
                         </div>
                     </div>
                     <!--item-6-->
                     <div style="margin-bottom:5rem;">
-                        <h4>其他</h4>
-                        <p class="text-indent">为保证GXChain基金会治理机制的有效运行，未在基金会担任专职工作的成员不得从基金会中获取报酬。</p>
+                        <h4>{{$t('foundation.item7.title')}}</h4>
+                        <p class="text-indent">{{$t('foundation.item7.p1')}}</p>
                     </div>
                 </div>
             </b-col>

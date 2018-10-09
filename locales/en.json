@@ -236,15 +236,15 @@
             "item3-5": "Execution Committee",
             "item3-6": "Subsidiaries",
             "item4": "GXChain team",
-            "item5": "GXChain基金会的经济",
-            "item5-1": "资金使用的限制条款",
-            "item5-2": "财务管理",
-            "item5-3": "钱包管理",
-            "item5-4": "披露事项",
-            "item6": "GXChain基金会的风控机制",
-            "item6-1": "重大事项的风险评估与决策机制",
-            "item6-2": "定期检查、评估与舆情监督、汇报机制",
-            "item6-3": "突发事项的紧急评估与决策机制"
+            "item5": "Business Model of GXChain Foundation",
+            "item5-1": "Fund Usage and Terms",
+            "item5-2": "Fund Management",
+            "item5-3": "Wallet Management",
+            "item5-4": "Disclosure",
+            "item6": "Risk Management",
+            "item6-1": "Risk Assessment and Decision-Making",
+            "item6-2": "Examination, Evaluation, Public Opinion Supervision, and Report",
+            "item6-3": "Evaluation and Decision-Making for Emergency"
         },
         "item1": {
             "title": "Governance",
@@ -493,11 +493,11 @@
                     "p1": "Two years and may be reappointed consecutively."
                 },
                 "item7": {
-                    "title": "执行总裁主要职权",
+                    "title": "Responsibility of the Executive Officer",
                     "p1": "执行总裁主要行使下列职权：",
-                    "li1": "（1）主持开展基金会日常工作，组织实施年度运营计划，并向决策委员会汇报工作情况;",
-                    "li2": "（2）拟订基金会的内部管理规章制度，报决策委员会审批；",
-                    "li3": "协调各下属专门委员会、分支机构开展工作。"
+                    "li1": "Direct the daily operation of GXChain Foundation, implement operation plans and report to the Policy Committee.",
+                    "li2": "Set up internal management regulations and submit to the Policy Committee. ",
+                    "li3": "Advise and coordinate works of subsidiaries."
                 }
             },
             "item6": {
@@ -663,7 +663,7 @@
                 "li3": " Policy Committee will take proper consideration of the reports filed by Executive Officer, and decide according to related procedures."
             },
             "item2": {
-                "title": "Examination, Evaluation, Public Opinion Supervision, and Report ",
+                "title": "Examination, Evaluation, Public Opinion Supervision, and Report",
                 "item1": {
                     "title": "Execution Committee will periodically examine and evaluate the technical progress and management of GXChain. ",
                     "p1": "For technological development, the evaluation will focus on the progress of GXChain R&D, operations, applications, and security.",
