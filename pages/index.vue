@@ -85,62 +85,62 @@
 <script>
 import TimeLine from "~/components/TimeLine.vue";
 export default {
-  components: {
-    TimeLine
-  },
-  data() {
-    return {
-      roadMap: [
-        {
-          name: "map1",
-          active: false
-        },
-        {
-          name: "map2",
-          active: true
-        },
-        {
-          name: "map3",
-          active: false
-        },
-        {
-          name: "map4",
-          active: false
-        },
-        {
-          name: "map5",
-          active: false
-        },
-        {
-          name: "map6",
-          active: false
-        },
-        {
-          name: "map7",
-          active: false
-        },
-        {
-          name: "map8",
-          active: false
-        },
-        {
-          name: "map9",
-          active: false
-        },
-        {
-          name: "map10",
-          active: false
-        },
-        {
-          name: "map11",
-          active: false
-        }
-      ]
-    };
-  }
+    components: {
+        TimeLine
+    },
+    data () {
+        return {
+            roadMap: [
+                {
+                    name: "map1",
+                    active: false
+                },
+                {
+                    name: "map2",
+                    active: true
+                },
+                {
+                    name: "map3",
+                    active: false
+                },
+                {
+                    name: "map4",
+                    active: false
+                },
+                {
+                    name: "map5",
+                    active: false
+                },
+                {
+                    name: "map6",
+                    active: false
+                },
+                {
+                    name: "map7",
+                    active: false
+                },
+                {
+                    name: "map8",
+                    active: false
+                },
+                {
+                    name: "map9",
+                    active: false
+                },
+                {
+                    name: "map10",
+                    active: false
+                },
+                {
+                    name: "map11",
+                    active: false
+                }
+            ]
+        };
+    }
 };
 </script>
 <style lang='less' scoped>
-@import "../assets/css/index.less";
+@import '../assets/css/index.less';
 </style>
 
