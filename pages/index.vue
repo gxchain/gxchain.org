@@ -17,7 +17,7 @@
             <h5>{{$t('index.introduction.content1')}}</h5>
             <div class="des ping-regular">{{$t('index.introduction.content2')}}</div>
           </div>
-            <a href="https://github.com/gxchain/whitepaper/blob/master/zh/whitepaper.md" target="_blank" >
+            <a href="https://static.gxb.io/files/GXChain_WhitePaper_v3.0_CN.pdf" target="_blank" >
               <div class="white-paper">
                 <img src="~static/index/white_paper.png" alt="">
                 <p>{{$t('index.introduction.getWhitepaper')}}</p>

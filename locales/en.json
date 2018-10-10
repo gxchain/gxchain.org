@@ -12,7 +12,7 @@
         "zh": "Chinese"
     },
     "index": {
-        "slogan": "Next Generation Bigdata Public Blockchain ",
+        "slogan": "A Trusted Data Internet of Value",
         "introduction": {
             "title": "About Us",
             "content1": "GXChain is a big-data public blockchain that supports application development and smart contract. Based on Graphene technology and DPoS consensus mechanism",
@@ -691,6 +691,6 @@
     "footer": {
         "wechat":"wechat",
         "contactUs": "Contact Us",
-        "kefu": ""
+        "kefu": "Contact"
     }
 }
