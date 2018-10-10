@@ -429,7 +429,7 @@
                         <div>
                             <div class="text-center" style="margin:4rem 0">
                                 <img src="~static/foundation/5_en.png" alt="" class="decision-img">
-                                <p>5.1 GXChain Foundation Organizational Structure</p>
+                                <p>5.1 Structure of GXChain Foundation</p>
                             </div>
                         </div>
                         <table class="table table-bordered">
