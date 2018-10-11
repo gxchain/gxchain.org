@@ -448,9 +448,9 @@
                         <table class="table table-bordered">
                             <thead>
                             <tr class="text-center">
-                                <th scope="col" width="33.3%" colspan="2">{{$t('foundation.item5.table.thead.th1')}}</th>
-                                <th scope="col" width="33.3%">{{$t('foundation.item5.table.thead.th2')}}</th>
-                                <th scope="col" width="33.3%">{{$t('foundation.item5.table.thead.th3')}}</th>
+                                <th scope="col" width="10%" colspan="2">{{$t('foundation.item5.table.thead.th1')}}</th>
+                                <th scope="col" width="25%">{{$t('foundation.item5.table.thead.th2')}}</th>
+                                <th scope="col" width="65%">{{$t('foundation.item5.table.thead.th3')}}</th>
                             </tr>
                             </thead>
                             <tbody>
