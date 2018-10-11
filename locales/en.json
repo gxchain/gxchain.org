@@ -15,8 +15,8 @@
         "slogan": "A Trusted Data Internet of Value",
         "introduction": {
             "title": "About Us",
-            "content1": "GXChain is a big-data public blockchain that supports application development and smart contract. Based on Graphene technology and DPoS consensus mechanism",
-            "content2": "GXChain has many powerful functions, including G-ID, GVM, blockchain as a service(BaaS), and Blockcity Pay. On top of GXChain, two killer applications were launched: decentralized data exchange (To Business), that supports P2P data trading and sharing, currently serving more than 100 renowned companies, Blockcity (To Customers), a personal data consolidation Dapp with millions real-name verified users, providing abundant data resources for partners and applications on GXChain. GXChain ensures a secure, credible, high-throughput data transaction ecosystem via blockchain. GXChain was self-developed by the GXChain team and launched in June of 2017.",
+            "content1": "GXChain is a basic-chain for the global data economy, designed to build a trusted data internet of value. ",
+            "content2": "Benefiting from DPoS based Graphene underlying architecture, GXChain possesses functions including G-ID, GVM, BaaS and Blockcity. GXChain based DApp - Blockcity has more than two million verified users and provides abundant data for other DApps and strategic partners. GXChain launched decentralized data marketplace as well which is serving hundreds of Chinese enterprises. GXChain is a forward thinking basic-chain directed to solving the issues of the data economy, based on decentralization, cryptography, and smart token design, GXChain provides a leading solution for the data economy. In the past two years, the team has developed multiple, trusted data modules to solve problems in the data economy, including ownership, security, authenticity, and lack of incentive. Data uploading, storage, computation, and exchange has been gradually realized with many commercialized applications.",
             "getWhitepaper": "GXChain Whitepaper"
         },
         "advantages": {
@@ -215,7 +215,6 @@
                     "des": "Block Query, Transaction Query, Account Query, Asset Query"
                 }
             }
-
         }
     },
     "foundation": {
