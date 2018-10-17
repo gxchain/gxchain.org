@@ -16,6 +16,7 @@
     "bootstrap-vue": "^2.0.0-rc.11",
     "jquery": "^3.3.1",
     "nuxt": "^1.0.0",
+    "scrollreveal": "^4.0.4",
     "vue-i18n": "^8.1.0"
   },
   "devDependencies": {

@@ -1,7 +1,7 @@
 <template>
     <b-navbar class="nav-top fluid" toggleable="md" sticky>
         <div class="container">
-            <b-navbar-brand :href="logoRedirect($i18n.locale)"><img class="logo" src="/gxchain.org.png" alt="GXChain">
+            <b-navbar-brand :href="logoRedirect($i18n.locale)"><img class="logo not-animate" src="/gxchain.org.png" alt="GXChain">
             </b-navbar-brand>
             <b-navbar-toggle target="nav_collapse"></b-navbar-toggle>
             <b-collapse is-nav id="nav_collapse">
@@ -13,10 +13,10 @@
                     </b-nav-item>
                     <!-- <b-button variant="outline-info" size="sm" class="info" type="submit">登录</b-button> -->
                     <b-nav-item-dropdown :text="$t('links.'+$i18n.locale)" right>
-                        <b-dropdown-item href="#" @click="switchLanguage('zh')"><img class="flag-img"
+                        <b-dropdown-item href="#" @click="switchLanguage('zh')"><img class="flag-img not-animate"
                                                                                      src="~static/zh.png" alt="">中文
                         </b-dropdown-item>
-                        <b-dropdown-item href="#" @click="switchLanguage('en')"><img class="flag-img"
+                        <b-dropdown-item href="#" @click="switchLanguage('en')"><img class="flag-img not-animate"
                                                                                      src="~static/en.png" alt="">English
                         </b-dropdown-item>
                     </b-nav-item-dropdown>
@@ -26,137 +26,137 @@
     </b-navbar>
 </template>
 <script>
-    export default {
-        data () {
-            return {
-                navList: [
-                    {
-                        name: "bounty",
-                        path: {
-                            zh: "/bounty",
-                            en: "/en/bounty"
-                        },
-                        target: "_self"
+export default {
+    data () {
+        return {
+            navList: [
+                {
+                    name: "bounty",
+                    path: {
+                        zh: "/bounty",
+                        en: "/en/bounty"
                     },
-                    {
-                        name: "developer",
-                        path: {
-                            zh: "/developer",
-                            en: "/en/developer"
-                        },
-                        target: "_self"
+                    target: "_self"
+                },
+                {
+                    name: "developer",
+                    path: {
+                        zh: "/developer",
+                        en: "/en/developer"
                     },
-                    {
-                        name: "resource",
-                        path: {
-                            zh: "/resource",
-                            en: "/en/resource"
-                        },
-                        target: "_self"
+                    target: "_self"
+                },
+                {
+                    name: "resource",
+                    path: {
+                        zh: "/resource",
+                        en: "/en/resource"
                     },
-                    {
-                        name: "dapps",
-                        path: {
-                            zh: "/dapps",
-                            en: "/en/dapps"
-                        },
-                        target: "_self"
+                    target: "_self"
+                },
+                {
+                    name: "dapps",
+                    path: {
+                        zh: "/dapps",
+                        en: "/en/dapps"
                     },
-                    {
-                        name: "foundation",
-                        path: {
-                            zh: "/foundation",
-                            en: "/en/foundation"
-                        },
-                        target: "_self"
+                    target: "_self"
+                },
+                {
+                    name: "foundation",
+                    path: {
+                        zh: "/foundation",
+                        en: "/en/foundation"
                     },
-                    {
-                        name: "blockExplorer",
-                        path: {
-                            zh: "https://block.gxb.io",
-                            en: "https://block.gxb.io"
-                        },
-                        target: "_blank"
-                    }
-                ]
-            };
+                    target: "_self"
+                },
+                {
+                    name: "blockExplorer",
+                    path: {
+                        zh: "https://block.gxb.io",
+                        en: "https://block.gxb.io"
+                    },
+                    target: "_blank"
+                }
+            ]
+        };
+    },
+    methods: {
+        navActive (navName) {
+            return this.$route.fullPath.indexOf(navName) != -1;
         },
-        methods: {
-            navActive (navName) {
-                return this.$route.fullPath.indexOf (navName) != -1;
-            },
-            switchLanguage (locale) {
-                if (this._i18n.locale === "zh") {
-                    if (locale === "en") {
-                        this.$router.push (`/en${this.$route.fullPath}`);
-                    }
-                } else {
-                    if (locale === "zh") {
-                        this.$router.push (`${this.$route.fullPath.replace (/^\/[^\/]+/, "")}`);
-                    }
+        switchLanguage (locale) {
+            if (this._i18n.locale === "zh") {
+                if (locale === "en") {
+                    this.$router.push(`/en${this.$route.fullPath}`);
                 }
-            },
-            logoRedirect (locale) {
-                let _href;
-                switch (locale) {
-                    case "zh":
-                        _href = "/";
-                        break;
-                    case "en":
-                        _href = "/en/";
-                        break;
+            } else {
+                if (locale === "zh") {
+                    this.$router.push(`${this.$route.fullPath.replace(/^\/[^\/]+/, "")}`);
                 }
-                return _href;
             }
+        },
+        logoRedirect (locale) {
+            let _href;
+            switch (locale) {
+                case "zh":
+                    _href = "/";
+                    break;
+                case "en":
+                    _href = "/en/";
+                    break;
+            }
+            return _href;
         }
-    };
+    }
+};
 </script>
 <style scoped>
-    .nav-top {
-        border-bottom: 1px solid #e5e9ef;
-        background: #fff;
-    }
+.nav-top {
+  border-bottom: 1px solid #e5e9ef;
+  background: #fff;
+}
 
-    .logo {
-        height: 1.6rem;
-    }
+.logo {
+  height: 1.6rem;
+}
 
-    .navbar {
-        color: #666666;
-    }
+.navbar {
+  color: #666666;
+}
 
-    .navbar-nav li {
-        margin-left: 0.5rem;
-        margin-right: 0.5rem;
-    }
+.navbar-nav li {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
 
-    .navbar-nav li .nav-link {
-        padding-left: 0 !important;
-        padding-right: 0 !important;
-    }
+.navbar-nav li .nav-link {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
 
-    .navbar-nav li.active {
-        border-bottom: 2px solid #6699ff;
-    }
+.navbar-nav li.active {
+  border-bottom: 2px solid #6699ff;
+}
 
-    .flag-img {
-        width: 20px;
-        margin-right: 10px;
-    }
+.flag-img {
+  width: 20px;
+  margin-right: 10px;
+}
 
-    @media (min-width: 768px) {
-        .navbar {
-            height: 80px;
-        }
-    }
+@media (min-width: 768px) {
+  .navbar {
+    height: 80px;
+  }
+}
 
-    @media (max-width: 768px) {
-        .navbar-nav li {
-            text-align: center;
-        }
+@media (max-width: 768px) {
+  .navbar-nav li {
+    text-align: center;
+  }
 
-        .navbar-nav li.active {
-            border-bottom: none;
-        }
-    }
+  .navbar-nav li.active {
+    border-bottom: none;
+  }
+}
 </style>

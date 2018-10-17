@@ -2,11 +2,13 @@
   <div class="home-page">
     <section class="header m-center">
       <div class="container">
-        <img src="/gxchain.org.png" alt="GXChain">
-        <h1 class="slogan ping-regular zh lead color-theme">{{$t('index.slogan')}}</h1>
-        <p>
-          <a :href="$i18n.locale == 'zh' ? 'https://docs.gxchain.org/zh/': 'https://docs.gxchain.org'" target="_blank" class="btn btn-lg btn-theme-lg"><img src="~static/index/start.png" alt=""></a>
-        </p>
+        <div class="fadeInUp2">
+            <img src="/gxchain.org.png" class="not-animate"  alt="GXChain">
+            <h1 class="slogan ping-regular zh lead color-theme">{{$t('index.slogan')}}</h1>
+            <p>
+            <a :href="$i18n.locale == 'zh' ? 'https://docs.gxchain.org/zh/': 'https://docs.gxchain.org'" target="_blank" class="btn btn-lg btn-theme-lg"><img class="not-animate" src="~static/index/start.png" alt=""></a>
+            </p>
+        </div>
       </div>
     </section>
     <section class="introduction section-padding">
@@ -15,10 +17,10 @@
         <div class="content content-margin-top">
           <div class="left-content">
             <h5>{{$t('index.introduction.content1')}}</h5>
-            <div class="des ping-regular">{{$t('index.introduction.content2')}}</div>
+            <div class="des ping-regular  in-animate">{{$t('index.introduction.content2')}}</div>
           </div>
             <a href="https://static.gxb.io/files/GXChain_WhitePaper_v3.0_CN.pdf" target="_blank" >
-              <div class="white-paper">
+              <div class="white-paper in-animate">
                 <img src="~static/index/white_paper.png" alt="">
                 <p>{{$t('index.introduction.getWhitepaper')}}</p>
               </div>
@@ -34,7 +36,7 @@
               <div class="item-img text-center">
                 <img src="~static/index/home_1.png" alt="">
               </div>
-              <div class="item-txt">
+              <div class="item-txt in-animate">
                 <h4 class="color-666">{{$t('index.advantages.list1.title')}}</h4>
                 <p class="color-999">{{$t('index.advantages.list1.content')}}</p>
              </div>
@@ -43,13 +45,13 @@
               <div class="item-img text-center">
                 <img src="~static/index/home_2.png" alt="">
              </div>
-              <div class="item-txt">
+              <div class="item-txt in-animate">
                 <h4 class="color-666">{{$t('index.advantages.list2.title')}}</h4>
                 <p class="color-999">{{$t('index.advantages.list2.content')}}</p>
              </div>
             </div>
             <div class="item">
-              <div class="item-img text-center">
+              <div class="item-img text-center in-animate">
                 <img src="~static/index/home_3.png" alt="">
               </div>
               <div class="item-txt">

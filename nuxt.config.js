@@ -49,7 +49,11 @@ module.exports = {
      * plugins
      */
     plugins: [
-        '~/plugins/i18n.js'
+        '~/plugins/i18n.js',
+        {
+            src: '~plugins/scrollreveal.js',
+            ssr: false
+        }
     ],
     css: ['~assets/css/common.less'],
     /*

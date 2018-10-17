@@ -7,8 +7,8 @@
                 <div class="col-lg-6 margin-top-4 color-666 line-h-2">
                    <p>{{$t('dApps.bc.des')}}</p>
                 </div>
-                <div class="text-center">
-                  <div><img src="~static/dapps/bc_qr.png" alt="blockcity" style="width:85%"></div>
+                <div class="text-center fadeIn">
+                  <div><img src="~static/dapps/bc_qr.png" alt="blockcity" style="width:85%" class="not-animate"></div>
                   <a href="https://blockcity.gxb.io/download/" target="_blank" class="btn btn-lg btn-theme-md">{{$t('dApps.bc.btn')}}</a>
                 </div>
             </div>
@@ -17,7 +17,7 @@
     <section class="section-padding">
        <div class="container">
         <ul class="list-unstyled color-666">
-          <li class="media margin-b-3">
+          <li class="media margin-b-3 in-animate">
             <div class="app-logo text-center">
                <img class="w_7rem mb-3" src="~static/dapps/bide.png" alt="Generic placeholder image">
                <h6>{{$t('dApps.coinGet.name')}}</h6>
@@ -26,7 +26,7 @@
               {{$t('dApps.coinGet.des')}}
             </div>
           </li>
-          <li class="media my-4">
+          <li class="media my-4 in-animate">
              <div class="app-logo text-center">
               <img class="w_7rem mb-3" src="~static/dapps/wlm.png" alt="Generic placeholder image">
                 <h6>{{$t('dApps.wlm.name')}}</h6>
@@ -35,7 +35,7 @@
               {{$t('dApps.wlm.des')}}
             </div>
           </li>
-          <li class="media">
+          <li class="media in-animate">
              <div class="app-logo text-center">
                <img class="w_7rem mb-3" src="~static/dapps/prophet.png" alt="Generic placeholder image">
               <h6>{{$t('dApps.prophet.name')}}</h6>
@@ -50,6 +50,6 @@
   </div>
 </template>
 <style  lang="less" scoped>
-@import "../../assets/css/dapps.less";
+@import '../../assets/css/dapps.less';
 </style>
   

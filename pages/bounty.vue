@@ -10,7 +10,7 @@
               <h6 class="card-title">{{$t('bounty.development.bountyList.'+item.ikey)}}</h6>
               <img class="card-img-top" :src="setImgSrc(index+1)"  alt="">
               <div class="card-body">
-                <h5 class="currency">{{item.bounty}}<span >{{item.currency}}</span></h5>
+                <h5 class="currency in-animate">{{item.bounty}}<span >{{item.currency}}</span></h5>
                 <p class="card-text">{{item.time}}</p>
               </div>
               <a target="_blank" :href="item.applyURL"><div class="act-status started" v-if="item.status == 0">
@@ -74,49 +74,49 @@
 </template>
 <script>
 export default {
-  data() {
-    return {
-      bountyList: [
-        {
-          ikey: "item1",
-          name: "智能合约IDE优化",
-          bounty: "10~100",
-          currency: "GXS",
-          time: "",
-          status: 0,
-          number: 15,
-          applyURL: "https://github.com/gxchain/gxchain-alpha"
-        },
-        {
-          ikey: "item2",
-          name: "区块浏览器优化",
-          bounty: "10~100",
-          currency: "GXS",
-          time: "",
-          status: 0,
-          number: 15,
-          applyURL: "https://github.com/gxchain/gxchain-explorer"
-        },
-        {
-          ikey: "item3",
-          name: "GXClient多语言实现",
-          bounty: "100~200",
-          currency: "GXS",
-          time: "",
-          status: 0,
-          number: 15,
-          applyURL: "http://github.com/gxchain/baas-sdk-java"
+    data () {
+        return {
+            bountyList: [
+                {
+                    ikey: "item1",
+                    name: "智能合约IDE优化",
+                    bounty: "10~100",
+                    currency: "GXS",
+                    time: "",
+                    status: 0,
+                    number: 15,
+                    applyURL: "https://github.com/gxchain/gxchain-alpha"
+                },
+                {
+                    ikey: "item2",
+                    name: "区块浏览器优化",
+                    bounty: "10~100",
+                    currency: "GXS",
+                    time: "",
+                    status: 0,
+                    number: 15,
+                    applyURL: "https://github.com/gxchain/gxchain-explorer"
+                },
+                {
+                    ikey: "item3",
+                    name: "GXClient多语言实现",
+                    bounty: "100~200",
+                    currency: "GXS",
+                    time: "",
+                    status: 0,
+                    number: 15,
+                    applyURL: "http://github.com/gxchain/baas-sdk-java"
+                }
+            ]
+        };
+    },
+    methods: {
+        setImgSrc (index) {
+            return `/bounty/b_${index}.png`;
         }
-      ]
-    };
-  },
-  methods: {
-    setImgSrc(index) {
-      return `/bounty/b_${index}.png`;
     }
-  }
 };
 </script>
 <style lang="less" scoped>
-@import "../assets/css/bounty.less";
+@import '../assets/css/bounty.less';
 </style>

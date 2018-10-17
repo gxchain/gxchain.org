@@ -5,7 +5,7 @@
           <div class="social-list list-wrap">
             <a class="wechat socail-icon iconfont icon-weixin-copy" href="javascript:void(0)">
               <div class="qrcode-wrap">
-                  <img src="~static/footer/qrcode.png" width="120">
+                  <img class="not-animate" src="~static/footer/qrcode.png" width="120">
                   <span>{{$t('footer.wechat')}} </span>
               </div>
             </a>
