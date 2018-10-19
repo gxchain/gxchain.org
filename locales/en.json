@@ -132,7 +132,7 @@
     "dApps": {
         "bc": {
             "title": "Blockcity",
-            "des": "Blockcity launched on Jan 12, 2018 and is the first mobile app based on GXChain, aiming for assisting data management and sharing. Blockcity helps users to take control of their data, it has a lot of incentive to encourage users to authorize their identity and information. Blockcity does not cache data and protects the privacy of the users.",
+            "des": "Blockcity is the entrance for users to experience the blockchain world. It is a large-scale mobile app, based on GXChain. Blockcity attracts millions of users through “Mining” incentive. Moreover, many great dApps are introduced to Blockcity, which provide various services. One of our targets is to make Blockcity the largest blockchain dApp platform worldwide and help dApps to easily commercialize and benefit everyone. In the future, Blockcity will work on the trusted data economy and help users take control of and earn from their data.",
             "btn": "Download"
         },
         "coinGet": {
