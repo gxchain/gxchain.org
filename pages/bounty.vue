@@ -42,22 +42,22 @@
                     <div class="degree-item">
                       <span class="degree-tag critical">{{$t('bounty.longTerm.critical')}}</span>
                       <span class="bounty-val">800~1,000</span>
-                      <span class="color-999">GXS</span>
+                      <span class="color-999">GXC</span>
                     </div>
                     <div class="degree-item">
                       <span class="degree-tag high">{{$t('bounty.longTerm.highRisk')}}</span>
                       <span class="bounty-val">500~800</span>
-                      <span class="color-999">GXS</span>
+                      <span class="color-999">GXC</span>
                     </div>
                     <div class="degree-item">
                       <span class="degree-tag middle">{{$t('bounty.longTerm.mediumRisk')}}</span>
                       <span class="bounty-val">200~500</span>
-                      <span class="color-999">GXS</span>
+                      <span class="color-999">GXC</span>
                     </div>
                      <div class="degree-item">
                       <span class="degree-tag low">{{$t('bounty.longTerm.lowRisk')}}</span>
                       <span class="bounty-val">50~200</span>
-                      <span class="color-999">GXS</span>
+                      <span class="color-999">GXC</span>
                     </div>
                   </div>
                 </div>
@@ -81,7 +81,7 @@ export default {
                     ikey: "item1",
                     name: "智能合约IDE优化",
                     bounty: "10~100",
-                    currency: "GXS",
+                    currency: "GXC",
                     time: "",
                     status: 0,
                     number: 15,
@@ -91,7 +91,7 @@ export default {
                     ikey: "item2",
                     name: "区块浏览器优化",
                     bounty: "10~100",
-                    currency: "GXS",
+                    currency: "GXC",
                     time: "",
                     status: 0,
                     number: 15,
@@ -101,7 +101,7 @@ export default {
                     ikey: "item3",
                     name: "GXClient多语言实现",
                     bounty: "100~200",
-                    currency: "GXS",
+                    currency: "GXC",
                     time: "",
                     status: 0,
                     number: 15,
