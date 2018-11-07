@@ -53,9 +53,13 @@ module.exports = {
         {
             src: '~plugins/scrollreveal.js',
             ssr: false
-        }
+        },
+        {
+            src: '~/plugins/swiper.js',
+            ssr: false
+        },
     ],
-    css: ['~assets/css/common.less'],
+    css: ['~assets/css/common.less', 'swiper/dist/css/swiper.css'],
     /*
      ** Build configuration
      */

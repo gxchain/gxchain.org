@@ -11,6 +11,14 @@
         </div>
       </div>
     </section>
+    <div v-swiper:mySwiper="swiperOption">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide" v-for="banner in banners" :key="banner">
+                <img :src="banner">
+            </div>
+        </div>
+        <div class="swiper-pagination swiper-pagination-bullets"></div>
+    </div>
     <section class="introduction section-padding">
       <div class="container">
         <h2 class="gxc-border-left padding-left-w">{{$t('index.introduction.title')}}</h2>
@@ -137,7 +145,30 @@ export default {
                     name: "map11",
                     active: false
                 }
-            ]
+            ],
+            banners: [
+                '/1.jpg',
+                '/2.jpg',
+                '/3.jpg'
+            ],
+            swiperOption: {
+                loop: true,
+                slidesPerView: 'auto',
+                centeredSlides: true,
+                spaceBetween: 30,
+                pagination: {
+                    el: '.swiper-pagination',
+                    dynamicBullets: true
+                },
+                on: {
+                    slideChange () {
+                        console.log('onSlideChangeEnd', this);
+                    },
+                    tap () {
+                        console.log('onTap', this);
+                    }
+                }
+            }
         };
     }
 };
