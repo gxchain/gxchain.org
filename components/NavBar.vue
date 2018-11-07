@@ -77,6 +77,14 @@ export default {
                         en: "https://block.gxb.io"
                     },
                     target: "_blank"
+                },
+                {
+                    name: "gxips",
+                    path: {
+                        zh: "https://github.com/gxchain/gxips",
+                        en: "https://github.com/gxchain/gxips"
+                    },
+                    target: "_blank"
                 }
             ]
         };

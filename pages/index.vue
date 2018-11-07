@@ -1,20 +1,22 @@
 <template>
   <div class="home-page">
-    <section class="header m-center">
-      <div class="container">
-        <div class="fadeInUp2">
-            <img src="/gxchain.org.png" class="not-animate"  alt="GXChain">
-            <h1 class="slogan ping-regular zh lead color-theme">{{$t('index.slogan')}}</h1>
-            <p>
-            <a :href="$i18n.locale == 'zh' ? 'https://docs.gxchain.org/zh/': 'https://docs.gxchain.org'" target="_blank" class="btn btn-lg btn-theme-lg"><img class="not-animate" src="~static/index/start.png" alt=""></a>
-            </p>
-        </div>
-      </div>
-    </section>
     <div v-swiper:mySwiper="swiperOption">
-        <div class="swiper-wrapper">
-            <div class="swiper-slide" v-for="banner in banners" :key="banner">
-                <img :src="banner">
+        <div class="swiper-wrapper" id="swiper-wrapper">
+            <div class="swiper-slide">
+                <section class="header m-center" style="background:#fff;">
+                    <div class="container">
+                        <div class="fadeInUp2">
+                            <img src="/gxchain.org.png" class="not-animate"  alt="GXChain">
+                            <h1 class="slogan ping-regular zh lead color-theme">{{$t('index.slogan')}}</h1>
+                            <p>
+                            <a :href="$i18n.locale == 'zh' ? 'https://docs.gxchain.org/zh/': 'https://docs.gxchain.org'" target="_blank" class="btn btn-lg btn-theme-lg"><img class="not-animate" src="~static/index/start.png" alt=""></a>
+                            </p>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <div class="swiper-slide">
+               <a target="_blank" href="https://github.com/gxchain/gxips"><div class="banner-node"></div></a>
             </div>
         </div>
         <div class="swiper-pagination swiper-pagination-bullets"></div>
@@ -100,80 +102,49 @@ export default {
     },
     data () {
         return {
-            roadMap: [
-                {
-                    name: "map1",
-                    active: false
-                },
-                {
-                    name: "map2",
-                    active: true
-                },
-                {
-                    name: "map3",
-                    active: false
-                },
-                {
-                    name: "map4",
-                    active: false
-                },
-                {
-                    name: "map5",
-                    active: false
-                },
-                {
-                    name: "map6",
-                    active: false
-                },
-                {
-                    name: "map7",
-                    active: false
-                },
-                {
-                    name: "map8",
-                    active: false
-                },
-                {
-                    name: "map9",
-                    active: false
-                },
-                {
-                    name: "map10",
-                    active: false
-                },
-                {
-                    name: "map11",
-                    active: false
-                }
-            ],
-            banners: [
-                '/1.jpg',
-                '/2.jpg',
-                '/3.jpg'
-            ],
+            roadMap: this.setRoadMap(11, 2),
             swiperOption: {
                 loop: true,
-                slidesPerView: 'auto',
-                centeredSlides: true,
-                spaceBetween: 30,
+                autoplay: {
+                    delay: 3000,
+                },
+                effect: 'fade',
+                fadeEffect: {
+                    crossFade: false,
+                },
                 pagination: {
                     el: '.swiper-pagination',
-                    dynamicBullets: true
-                },
-                on: {
-                    slideChange () {
-                        console.log('onSlideChangeEnd', this);
-                    },
-                    tap () {
-                        console.log('onTap', this);
-                    }
+                    dynamicBullets: true,
+                    clickable: true
                 }
             }
         };
+    },
+    mounted () {
+        let that = this;
+        setTimeout(() => {
+            let comtainer = document.getElementById('swiper-wrapper');
+            comtainer.onmouseenter = function () {
+                console.dir(that.mySwiper);
+            };
+            // comtainer.onmouseleave = function () { that.mySwiper.startAutoplay(); }
+        }, 3000)
+
+    },
+    methods: {
+        setRoadMap (n, currentIndex) {
+            let tempArr = [];
+            for (let i = 1; i <= n; i++) {
+                tempArr.push({
+                    name: `map${i}`,
+                    active: i == currentIndex
+                })
+            }
+            return tempArr;
+        }
     }
 };
 </script>
 <style lang='less' scoped>
 @import '../assets/css/index.less';
 </style>
-

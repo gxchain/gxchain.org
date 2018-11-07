@@ -1,181 +1,188 @@
+// 节点精选banner
+.banner-node {
+    width: 100%;
+    height: 94vh;
+    background: url('~static/index/banner_2.png') no-repeat;
+    background-size: 100% 100%;
+}
 .home-page {
-  img {
-    height: auto;
-    max-width: 90%;
-  }
+    img {
+        height: auto;
+        max-width: 90%;
+    }
 }
 .header {
-  height: 94vh;
-  padding: 0;
-  .slogan {
-    font-size: 4rem;
-    margin: 2.8rem;
-  }
-  .slogan.zh {
-    letter-spacing: 3rem;
-  }
-}
-.introduction {
-  background: #434750;
-  min-height: 31rem;
-  color: #fff;
-  .content {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: flex-end;
-  }
-  a {
-    text-decoration: none;
-  }
-  h2 {
-    border-color: #fff;
-  }
-  .left-content {
-    width: 39rem;
-    line-height: 2rem;
-    h5 {
-      line-height: 2rem;
-    }
-    .des {
-      margin-top: 20px;
-      font-size: 14px;
-    }
-  }
-  .white-paper {
-    width: 13rem;
-    height: 13rem;
-    padding: 50px 10px;
-    text-align: center;
-    border: solid 2px #ffffff;
-    color: #fff;
-    cursor: pointer;
-    img {
-      margin-bottom: 40px;
-    }
-    &:hover {
-      background-color: #6699ff;
-      border-color: #6699ff;
-    }
-  }
-}
-.advantages {
-  .item {
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-  }
-  .item:nth-child(even) {
-    flex-direction: row-reverse;
-  }
-  .item-txt,
-  .item-img {
-    width: 50%;
-  }
-  .item-txt {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    font-size: 16px;
-  }
-  .entrance {
-    margin-top: 40px;
-  }
-}
-.resource {
-  background: #434750;
-  min-height: 420px;
-  color: #fff;
-  .container {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
-  }
-  .look-over {
-    text-align: center;
-  }
-  .down-load {
-    margin-bottom: 35px;
-    background: #000;
-    padding: 15px;
-    p {
-      margin: 0;
-    }
-    p:nth-child(1) {
-      padding-top: 5px;
-      border-top: 1px solid #ddd;
-    }
-    p:nth-child(2) {
-      padding-bottom: 5px;
-      border-bottom: 1px solid #ddd;
-    }
-  }
-  .btn-resource{
-    display: inline-block;
-    width: 13rem;
-    height: 3.5rem;
-    line-height:  3.5rem;
-    border: solid 1px #ffffff;
-    color:#fff;
-    cursor: pointer;
-    text-decoration: none;
-    &:hover{
-      border-color:#6699ff;
-      background-color: #6699ff;
-    }
-  }
-}
-.road-map {
-  padding-bottom: 100px;
-  .container {
-    overflow: hidden;
-  }
-}
-@media (max-width: 1080px) {
-  .introduction {
-    .content {
-      justify-content: center;
-    }
-    .white-paper {
-      margin: 35px 0 45px 0;
-    }
-  }
-  .resource {
-    display: block;
-    text-align: center;
-    img,
-    .look-over {
-      margin: 0 auto;
-    }
-    .look-over {
-      margin-top: 50px;
-    }
-  }
-}
-@media (max-width: 768px) {
-  .header {
+    height: 94vh;
+    padding: 0;
     .slogan {
-      font-size: 3rem;
+        font-size: 4rem;
+        margin: 2.8rem;
     }
     .slogan.zh {
-      letter-spacing: 0;
+        letter-spacing: 3rem;
     }
-  }
-  .advantages {
+}
+.introduction {
+    background: #434750;
+    min-height: 31rem;
+    color: #fff;
+    .content {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: flex-end;
+    }
+    a {
+        text-decoration: none;
+    }
+    h2 {
+        border-color: #fff;
+    }
+    .left-content {
+        width: 39rem;
+        line-height: 2rem;
+        h5 {
+            line-height: 2rem;
+        }
+        .des {
+            margin-top: 20px;
+            font-size: 14px;
+        }
+    }
+    .white-paper {
+        width: 13rem;
+        height: 13rem;
+        padding: 50px 10px;
+        text-align: center;
+        border: solid 2px #ffffff;
+        color: #fff;
+        cursor: pointer;
+        img {
+            margin-bottom: 40px;
+        }
+        &:hover {
+            background-color: #6699ff;
+            border-color: #6699ff;
+        }
+    }
+}
+.advantages {
     .item {
-      width: 100%;
-      display: block;
-      text-align: center;
-      margin-bottom: 40px;
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
     }
-    .item-img {
-      margin-bottom: 20px;
+    .item:nth-child(even) {
+        flex-direction: row-reverse;
     }
     .item-txt,
     .item-img {
-      width: 100%;
-      font-size: 14px;
+        width: 50%;
     }
-  }
+    .item-txt {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        font-size: 16px;
+    }
+    .entrance {
+        margin-top: 40px;
+    }
+}
+.resource {
+    background: #434750;
+    min-height: 420px;
+    color: #fff;
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .look-over {
+        text-align: center;
+    }
+    .down-load {
+        margin-bottom: 35px;
+        background: #000;
+        padding: 15px;
+        p {
+            margin: 0;
+        }
+        p:nth-child(1) {
+            padding-top: 5px;
+            border-top: 1px solid #ddd;
+        }
+        p:nth-child(2) {
+            padding-bottom: 5px;
+            border-bottom: 1px solid #ddd;
+        }
+    }
+    .btn-resource {
+        display: inline-block;
+        width: 13rem;
+        height: 3.5rem;
+        line-height: 3.5rem;
+        border: solid 1px #ffffff;
+        color: #fff;
+        cursor: pointer;
+        text-decoration: none;
+        &:hover {
+            border-color: #6699ff;
+            background-color: #6699ff;
+        }
+    }
+}
+.road-map {
+    padding-bottom: 100px;
+    .container {
+        overflow: hidden;
+    }
+}
+@media (max-width: 1080px) {
+    .introduction {
+        .content {
+            justify-content: center;
+        }
+        .white-paper {
+            margin: 35px 0 45px 0;
+        }
+    }
+    .resource {
+        display: block;
+        text-align: center;
+        img,
+        .look-over {
+            margin: 0 auto;
+        }
+        .look-over {
+            margin-top: 50px;
+        }
+    }
+}
+@media (max-width: 768px) {
+    .header {
+        .slogan {
+            font-size: 3rem;
+        }
+        .slogan.zh {
+            letter-spacing: 0;
+        }
+    }
+    .advantages {
+        .item {
+            width: 100%;
+            display: block;
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        .item-img {
+            margin-bottom: 20px;
+        }
+        .item-txt,
+        .item-img {
+            width: 100%;
+            font-size: 14px;
+        }
+    }
 }
