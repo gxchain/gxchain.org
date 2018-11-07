@@ -21,10 +21,10 @@
                   <div class="color-666 in-animate">{{$t('resource.client.pcWallet.des')}}</div>
                 </div>
                 <div class="item-download col-md-4 in-animate">
-                   <a href="hhttp://gxb-package.oss-cn-hangzhou.aliyuncs.com/gxb-light_2.0.180606(32bit).exe" target="_blank" class="btn btn-theme-sm">{{$t('resource.github.win32')}}</a> 
-                   <a href="http://gxb-package.oss-cn-hangzhou.aliyuncs.com/gxb-light_2.0.180606.exe" target="_blank" class="btn btn-theme-sm">{{$t('resource.github.win64')}}</a> 
-                   <a href="http://gxb-package.oss-cn-hangzhou.aliyuncs.com/gxb-light_2.0.180606.dmg" target="_blank" class="btn btn-theme-sm">{{$t('resource.github.linux')}}</a> 
-                    <a href="http://gxb-package.oss-cn-hangzhou.aliyuncs.com/gxb-light_2.0.180606.dmg" target="_blank" class="btn btn-theme-sm">{{$t('resource.github.mac')}}</a> 
+                   <a href="hhttp://gxb-package.oss-cn-hangzhou.aliyuncs.com/gxb-light_2.0.181106(32bit).exe" target="_blank" class="btn btn-theme-sm">{{$t('resource.github.win32')}}</a> 
+                   <a href="http://gxb-package.oss-cn-hangzhou.aliyuncs.com/gxb-light_2.0.181106.exe" target="_blank" class="btn btn-theme-sm">{{$t('resource.github.win64')}}</a> 
+                   <a href="http://gxb-package.oss-cn-hangzhou.aliyuncs.com/gxb-light_2.0.181106.dmg" target="_blank" class="btn btn-theme-sm">{{$t('resource.github.linux')}}</a> 
+                    <a href="http://gxb-package.oss-cn-hangzhou.aliyuncs.com/gxb-light_2.0.181106.dmg" target="_blank" class="btn btn-theme-sm">{{$t('resource.github.mac')}}</a> 
                 </div>
               </div>
                <div class="item row">
