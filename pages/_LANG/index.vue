@@ -1,16 +1,26 @@
 <template>
   <div class="home-page">
-    <section class="header m-center">
-      <div class="container">
-        <div class="fadeInUp2">
-            <img src="/gxchain.org.png" class="not-animate" alt="GXChain">
-            <h1 class="slogan ping-regular lead color-theme">{{$t('index.slogan')}}</h1>
-            <p>
-            <a :href="$i18n.locale == 'zh' ? 'https://docs.gxchain.org/zh/': 'https://docs.gxchain.org'" target="_blank" class="btn btn-lg btn-theme-lg"><img class="not-animate" src="~static/index/start.png" alt=""></a>
-            </p>
+    <div v-swiper:mySwiper="swiperOption">
+        <div class="swiper-wrapper" id="swiper-wrapper">
+            <div class="swiper-slide">
+                <section class="header m-center" style="background:#fff;">
+                    <div class="container">
+                        <div class="fadeInUp2">
+                            <img src="/gxchain.org.png" class="not-animate"  alt="GXChain">
+                            <h1 :class="{'zh': $i18n.locale == 'zh'}" class="slogan ping-regular lead color-theme">{{$t('index.slogan')}}</h1>
+                            <p>
+                            <a :href="$i18n.locale == 'zh' ? 'https://docs.gxchain.org/zh/': 'https://docs.gxchain.org'" target="_blank" class="btn btn-lg btn-theme-lg"><img class="not-animate" src="~static/index/start.png" alt=""></a>
+                            </p>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <div class="swiper-slide">
+               <a target="_blank" :href="$i18n.locale == 'zh' ? 'https://static.gxb.io/files/TrustNodesCN.pdf': 'https://static.gxchain.org/files/TrustNodesEN.pdf'"><div class="banner-node" :class="{'zh': $i18n.locale == 'zh'}"></div></a>
+            </div>
         </div>
-      </div>
-    </section>
+        <div class="swiper-pagination swiper-pagination-bullets"></div>
+    </div>
     <section class="introduction section-padding">
       <div class="container">
         <h2 class="gxc-border-left padding-left-w">{{$t('index.introduction.title')}}</h2>
@@ -92,57 +102,86 @@ export default {
     },
     data () {
         return {
-            roadMap: [
-                {
-                    name: "map1",
-                    active: false
+            roadMap: this.setRoadMap(11, 2),
+            swiperOption: {
+                loop: true,
+                speed: 1500,
+                autoplay: {
+                    delay: 3000
                 },
-                {
-                    name: "map2",
-                    active: true
+                effect: 'fade',
+                fadeEffect: {
+                    crossFade: true,
                 },
-                {
-                    name: "map3",
-                    active: false
-                },
-                {
-                    name: "map4",
-                    active: false
-                },
-                {
-                    name: "map5",
-                    active: false
-                },
-                {
-                    name: "map6",
-                    active: false
-                },
-                {
-                    name: "map7",
-                    active: false
-                },
-                {
-                    name: "map8",
-                    active: false
-                },
-                {
-                    name: "map9",
-                    active: false
-                },
-                {
-                    name: "map10",
-                    active: false
-                },
-                {
-                    name: "map11",
-                    active: false
+                pagination: {
+                    el: '.swiper-pagination',
+                    clickable: true
                 }
-            ]
+            }
         };
+    },
+    mounted () {
+        let that = this;
+        setTimeout(() => {
+            let comtainer = document.getElementById('swiper-wrapper');
+            comtainer.onmouseenter = function () {
+                that.mySwiper.autoplay.stop();
+            };
+            comtainer.onmouseleave = function () {
+                that.mySwiper.autoplay.start();
+            }
+        }, 3000)
+
+    },
+    methods: {
+        setRoadMap (n, currentIndex) {
+            let tempArr = [];
+            for (let i = 1; i <= n; i++) {
+                tempArr.push({
+                    name: `map${i}`,
+                    active: i == currentIndex
+                })
+            }
+            return tempArr;
+        }
     }
 };
 </script>
 <style lang='less' scoped>
 @import '../../assets/css/index.less';
 </style>
-
+<style lang="less">
+// swiper
+.home-page {
+  .swiper-pagination {
+    bottom: 8% !important;
+  }
+  .swiper-pagination-bullet {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    opacity: 1;
+    border-radius: 50%;
+    margin: 0 3px;
+    cursor: pointer;
+    background: #555;
+    transition: width 0.3s ease-in-out;
+  }
+  .swiper-pagination-bullet-active {
+    width: 30px;
+    border-radius: 8px;
+    background: #5c98ff;
+  }
+  .swiper-pagination-bullet-active-prev,
+  .swiper-pagination-bullet-active-next {
+    transform: scale(1);
+  }
+}
+@media (max-width: 768px) {
+  .home-page {
+    .swiper-pagination {
+      bottom: 2% !important;
+    }
+  }
+}
+</style>

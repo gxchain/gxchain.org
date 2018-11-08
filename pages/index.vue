@@ -7,7 +7,7 @@
                     <div class="container">
                         <div class="fadeInUp2">
                             <img src="/gxchain.org.png" class="not-animate"  alt="GXChain">
-                            <h1 class="slogan ping-regular zh lead color-theme">{{$t('index.slogan')}}</h1>
+                            <h1 :class="{'zh': $i18n.locale == 'zh'}" class="slogan ping-regular zh lead color-theme">{{$t('index.slogan')}}</h1>
                             <p>
                             <a :href="$i18n.locale == 'zh' ? 'https://docs.gxchain.org/zh/': 'https://docs.gxchain.org'" target="_blank" class="btn btn-lg btn-theme-lg"><img class="not-animate" src="~static/index/start.png" alt=""></a>
                             </p>
@@ -16,7 +16,7 @@
                 </section>
             </div>
             <div class="swiper-slide">
-               <a target="_blank" href="https://github.com/gxchain/gxips"><div class="banner-node"></div></a>
+               <a target="_blank" :href="$i18n.locale == 'zh' ? 'https://static.gxb.io/files/TrustNodesCN.pdf': 'https://static.gxchain.org/files/TrustNodesEN.pdf'"><div class="banner-node" :class="{'zh': $i18n.locale == 'zh'}"></div></a>
             </div>
         </div>
         <div class="swiper-pagination swiper-pagination-bullets"></div>
@@ -105,16 +105,16 @@ export default {
             roadMap: this.setRoadMap(11, 2),
             swiperOption: {
                 loop: true,
+                speed: 1500,
                 autoplay: {
-                    delay: 3000,
+                    delay: 3000
                 },
                 effect: 'fade',
                 fadeEffect: {
-                    crossFade: false,
+                    crossFade: true,
                 },
                 pagination: {
                     el: '.swiper-pagination',
-                    dynamicBullets: true,
                     clickable: true
                 }
             }
@@ -125,9 +125,11 @@ export default {
         setTimeout(() => {
             let comtainer = document.getElementById('swiper-wrapper');
             comtainer.onmouseenter = function () {
-                console.dir(that.mySwiper);
+                that.mySwiper.autoplay.stop();
             };
-            // comtainer.onmouseleave = function () { that.mySwiper.startAutoplay(); }
+            comtainer.onmouseleave = function () {
+                that.mySwiper.autoplay.start();
+            }
         }, 3000)
 
     },
@@ -147,4 +149,39 @@ export default {
 </script>
 <style lang='less' scoped>
 @import '../assets/css/index.less';
+</style>
+<style lang="less">
+// swiper
+.home-page {
+  .swiper-pagination {
+    bottom: 8% !important;
+  }
+  .swiper-pagination-bullet {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    opacity: 1;
+    border-radius: 50%;
+    margin: 0 3px;
+    cursor: pointer;
+    background: #555;
+    transition: width 0.3s ease-in-out;
+  }
+  .swiper-pagination-bullet-active {
+    width: 30px;
+    border-radius: 8px;
+    background: #5c98ff;
+  }
+  .swiper-pagination-bullet-active-prev,
+  .swiper-pagination-bullet-active-next {
+    transform: scale(1);
+  }
+}
+@media (max-width: 768px) {
+  .home-page {
+    .swiper-pagination {
+      bottom: 2% !important;
+    }
+  }
+}
 </style>
