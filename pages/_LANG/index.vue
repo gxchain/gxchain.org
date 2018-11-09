@@ -16,7 +16,7 @@
                 </section>
             </div>
             <div class="swiper-slide">
-               <a target="_blank" :href="$i18n.locale == 'zh' ? 'https://static.gxb.io/files/TrustNodesCN.pdf': 'https://static.gxchain.org/files/TrustNodesEN.pdf'"><div class="banner-node" :class="{'zh': $i18n.locale == 'zh'}"></div></a>
+               <a target="_blank" :href="$i18n.locale == 'zh' ? 'https://static.gxchain.org/files/TrustNodesCN.pdf': 'https://static.gxchain.org/files/TrustNodesEN.pdf'"><div class="banner-node" :class="{'zh': $i18n.locale == 'zh'}"></div></a>
             </div>
         </div>
         <div class="swiper-pagination swiper-pagination-bullets"></div>
