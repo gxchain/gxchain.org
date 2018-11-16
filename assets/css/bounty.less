@@ -124,6 +124,7 @@
         flex-wrap: wrap;
         align-items: center;
         margin-right: 0;
+        margin-bottom: .5rem;
       }
       .media-body {
         border-right: none;
@@ -139,4 +140,25 @@
       }
     }
   }
+}
+@media (max-width: 414px) {
+    .project {
+        .media{
+            img{
+                width: 5rem;
+            }
+        }
+        .media-body {
+            border-right: none
+          }
+    }
+}
+@media (max-width: 375px) {
+    .project {
+        .media{
+            img{
+                width: 3rem;
+            }
+        }
+    }
 }

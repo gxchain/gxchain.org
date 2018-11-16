@@ -161,6 +161,7 @@ export default {
 @media (max-width: 768px) {
   .navbar-nav li {
     text-align: center;
+    font-size: 14px;
   }
 
   .navbar-nav li.active {
