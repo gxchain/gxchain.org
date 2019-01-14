@@ -16,7 +16,7 @@
                 </section>
             </div>
             <div class="swiper-slide">
-               <a :href="$i18n.locale == 'zh' ? '/bounty/': '/en/bounty/'"><div class="banner-node" :class="{'zh': $i18n.locale == 'zh'}"></div></a>
+               <a  target="_blank" :href="$i18n.locale == 'zh' ? 'https://mp.weixin.qq.com/s/U_RMX5TQJ1vnKBgbDjYphA': 'https://mp.weixin.qq.com/s/U_RMX5TQJ1vnKBgbDjYphA'"><div class="banner-node" :class="{'zh': $i18n.locale == 'zh'}"></div></a>
             </div>
         </div>
         <div class="swiper-pagination swiper-pagination-bullets"></div>
