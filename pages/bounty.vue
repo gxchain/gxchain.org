@@ -6,8 +6,8 @@
         <div class="row content-margin-top card-container">
             <div class="col-lg-4" v-for="(item,index) in bountyList" :key="index">
                 <div class="bounty-item-inner">
-                    <a target="_blank" :href="item.applyURL">
-                        <img :src="setImgSrc(index+1)"  alt="" style="width:100%;">
+                    <a :href="item.applyURL">
+                        <img :src="setImgSrc(index+1)"  alt="" class="not-animate fadeInUp" style="width:100%;">
                     </a>
                 </div>
             </div>
@@ -91,21 +91,26 @@ export default {
                 },
                 {
                     ikey: "item6",
+                    name: "文档翻译",
+                    applyURL: "https://github.com/gxchain/docs"
+                },
+                {
+                    ikey: "item7",
                     name: "硬件钱包",
                     applyURL: "javascript:void(0);"
                 },
                 {
-                    ikey: "item7",
+                    ikey: "item8",
                     name: "DEMO和教程",
                     applyURL: "javascript:void(0);"
                 },
                 {
-                    ikey: "item8",
+                    ikey: "item9",
                     name: "优化提案",
                     applyURL: "https://github.com/gxchain/gxips"
                 },
                 {
-                    ikey: "item9",
+                    ikey: "item10",
                     name: "代码贡献",
                     applyURL: "https://github.com/gxchain"
                 }
