@@ -117,7 +117,8 @@ export default {
                     el: '.swiper-pagination',
                     clickable: true
                 }
-            }
+            },
+            timer:null
         };
     },
     mounted () {
@@ -125,10 +126,10 @@ export default {
         // setTimeout(() => {
         //     let comtainer = document.getElementById('swiper-wrapper');
         //     comtainer.onmouseenter = function () {
-        //         that.mySwiper.autoplay.stop();
+        //         that.mySwiper && that.mySwiper.autoplay.stop();
         //     };
         //     comtainer.onmouseleave = function () {
-        //         that.mySwiper.autoplay.start();
+        //         that.mySwiper && that.mySwiper.autoplay.start();
         //     }
         // }, 3000)
 
@@ -143,6 +144,10 @@ export default {
                 })
             }
             return tempArr;
+        },
+        beforeDestroy () {
+            clearInterval(this.timer);
+            this.timer = null;
         }
     }
 };
