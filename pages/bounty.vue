@@ -6,7 +6,7 @@
         <div class="row content-margin-top card-container">
             <div class="col-lg-4" v-for="(item,index) in bountyList" :key="index">
                 <div class="bounty-item-inner">
-                    <a :href="item.applyURL">
+                    <a target='_blank' :href="item.applyURL">
                         <img :src="item.imgSrc"  alt="" class="not-animate fadeInUp" style="width:100%;">
                     </a>
                 </div>
