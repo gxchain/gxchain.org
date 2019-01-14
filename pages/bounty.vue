@@ -3,27 +3,14 @@
     <section class="bounty section-padding">
       <div class="container">
         <h2 class="gxc-border-left padding-left-w color-666">{{$t('bounty.development.title')}}</h2>
-        <!-- <p class="rule"><a  href="">[{{$t('bounty.development.rules')}}]</a></p> -->
-        <div class="row content-margin-top">
-          <div class="col-lg-3" v-for="(item,index) in bountyList" :key="index">
-            <div class="card bounty-item text-center">
-              <h6 class="card-title">{{$t('bounty.development.bountyList.'+item.ikey)}}</h6>
-              <img class="card-img-top" :src="setImgSrc(index+1)"  alt="">
-              <div class="card-body">
-                <h5 class="currency in-animate">{{item.bounty}}<span >{{item.currency}}</span></h5>
-                <p class="card-text">{{item.time}}</p>
-              </div>
-              <a target="_blank" :href="item.applyURL"><div class="act-status started" v-if="item.status == 0">
-                <span>{{$t('bounty.development.signUp')}}</span>
-              </div></a>
-              <div class="act-status pendding" v-if="item.status == 1">
-                {{$t('bounty.development.progressing')}}
-              </div>
-              <div class="act-status finished" v-if="item.status == 2">
-                {{$t('bounty.development.finished')}}
-              </div>
+        <div class="row content-margin-top card-container">
+            <div class="col-lg-4" v-for="(item,index) in bountyList" :key="index">
+                <div class="bounty-item-inner">
+                    <a target="_blank" :href="item.applyURL">
+                        <img :src="setImgSrc(index+1)"  alt="" style="width:100%;">
+                    </a>
+                </div>
             </div>
-          </div>
         </div>
       </div>  
     </section>
@@ -79,40 +66,55 @@ export default {
             bountyList: [
                 {
                     ikey: "item1",
-                    name: "智能合约IDE优化",
-                    bounty: "10~100",
-                    currency: "GXC",
-                    time: "",
-                    status: 0,
-                    number: 15,
-                    applyURL: "https://github.com/gxchain/gxchain-alpha"
+                    name: "浏览器插件",
+                    applyURL: "https://github.com/gxchain/GScatter"
                 },
                 {
                     ikey: "item2",
-                    name: "区块浏览器优化",
-                    bounty: "10~100",
-                    currency: "GXC",
-                    time: "",
-                    status: 0,
-                    number: 15,
-                    applyURL: "https://github.com/gxchain/gxchain-explorer"
+                    name: "智能合约IDE",
+                    applyURL: "https://github.com/gxchain/gxc-smart-contract-ide"
                 },
                 {
                     ikey: "item3",
+                    name: "手机钱包",
+                    applyURL: "https://github.com/gxchain/gxchain-wallet"
+                },
+                {
+                    ikey: "item4",
+                    name: "PC钱包",
+                    applyURL: "https://github.com/gxchain/gxchain-light"
+                },
+                {
+                    ikey: "item5",
                     name: "GXClient多语言实现",
-                    bounty: "100~200",
-                    currency: "GXC",
-                    time: "",
-                    status: 0,
-                    number: 15,
-                    applyURL: "http://github.com/gxchain/baas-sdk-java"
+                    applyURL: "https://github.com/gxchain/gxclient-node"
+                },
+                {
+                    ikey: "item6",
+                    name: "硬件钱包",
+                    applyURL: "javascript:void(0);"
+                },
+                {
+                    ikey: "item7",
+                    name: "DEMO和教程",
+                    applyURL: "javascript:void(0);"
+                },
+                {
+                    ikey: "item8",
+                    name: "优化提案",
+                    applyURL: "https://github.com/gxchain/gxips"
+                },
+                {
+                    ikey: "item9",
+                    name: "代码贡献",
+                    applyURL: "https://github.com/gxchain"
                 }
             ]
         };
     },
     methods: {
         setImgSrc (index) {
-            return `/bounty/b_${index}.png`;
+            return `/bounty/card/${index}.png`;
         }
     }
 };
