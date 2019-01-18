@@ -15,11 +15,11 @@
                     </div>
                 </section>
             </div>
-            <!-- <div class="swiper-slide">
-               <a target="_blank" :href="$i18n.locale == 'zh' ? '/bounty/': '/en/bounty/'"><div class="banner-node" :class="{'zh': $i18n.locale == 'zh'}"></div></a>
-            </div> -->
+            <div class="swiper-slide">
+               <a target="_blank" :href="$i18n.locale == 'zh' ? 'https://medium.com/@GXS/gxchain-developers-incentive-scheme-265885e732cc': 'https://medium.com/@GXS/gxchain-developers-incentive-scheme-265885e732cc'"><div class="banner-node" :class="{'zh': $i18n.locale == 'zh'}"></div></a>
+            </div>
         </div>
-        <!-- <div class="swiper-pagination swiper-pagination-bullets"></div> -->
+        <div class="swiper-pagination swiper-pagination-bullets"></div>
     </div>
     <section class="introduction section-padding">
       <div class="container">
@@ -122,16 +122,16 @@ export default {
         };
     },
     mounted () {
-        // let that = this;
-        // setTimeout(() => {
-        //     let comtainer = document.getElementById('swiper-wrapper');
-        //     comtainer.onmouseenter = function () {
-        //         that.mySwiper && that.mySwiper.autoplay.stop();
-        //     };
-        //     comtainer.onmouseleave = function () {
-        //         that.mySwiper && that.mySwiper.autoplay.start();
-        //     }
-        // }, 3000)
+        let that = this;
+        setTimeout(() => {
+            let comtainer = document.getElementById('swiper-wrapper');
+            comtainer.onmouseenter = function () {
+                that.mySwiper && that.mySwiper.autoplay.stop();
+            };
+            comtainer.onmouseleave = function () {
+                that.mySwiper && that.mySwiper.autoplay.start();
+            }
+        }, 3000)
 
     },
     methods: {
