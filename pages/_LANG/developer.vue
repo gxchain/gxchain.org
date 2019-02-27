@@ -15,7 +15,7 @@
               <img class="item-bg not-animate" src="~static/developer/gxb.png" alt="">
               <h3>{{$t('developer.apply.title')}}</h3>
               <p class="in-animate">{{$t('developer.apply.des')}}</p>
-              <a href="http://blockcity.mikecrm.com/2SVDb67" target="_blank" class="btn btn-lg btn-theme-md">{{$t('developer.apply.btn')}}</a>
+              <a href="https://docs.gxchain.org/advanced/testnet.html#_2-apply-token-on-testnet" target="_blank" class="btn btn-lg btn-theme-md">{{$t('developer.apply.btn')}}</a>
            </div>
            <div class="item gitbub-entrance">
               <img class="item-bg not-animate" src="~static/developer/github.png" alt="">
