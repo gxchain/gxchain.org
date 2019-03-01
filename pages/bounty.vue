@@ -2,7 +2,10 @@
   <div class="bounty-page">
     <section class="bounty section-padding">
       <div class="container">
-        <h2 class="gxc-border-left padding-left-w color-666">{{$t('bounty.development.title')}}</h2>
+        <h2 class="page-title gxc-border-left padding-left-w color-666">
+            <span>{{$t('bounty.development.title')}}</span>
+            <button type="button" class="btn btn-primary"><a target="_blank" href="http://blockcity.mikecrm.com/9ySzQZi">{{$t('bounty.development.receiveAward')}}</a></button>
+        </h2>
         <div class="row content-margin-top card-container">
             <div class="col-lg-4" v-for="(item,index) in bountyList" :key="index">
                 <div class="bounty-item-inner">
@@ -52,7 +55,12 @@
             </ul>
           </div>
           <div class="col-lg-4 longTerm-list">
-            <a style="color: #7188a9;" :href="$i18n.locale == 'zh' ? '/resource/' : '/'+$i18n.locale+'/resource'">{{$t('resource.github.title')}}</a>
+            <p>
+                <a style="color: #7188a9;" target="_blank"  href="https://slowmist.io/gxchain/index.html?utm_source=index&utm_medium=cpc&utm_campaign=gxchain">{{$t('bounty.longTerm.slowmistPlan')}}</a>
+            </p>
+            <p>
+                <a style="color: #7188a9;" :href="$i18n.locale == 'zh' ? '/resource/' : '/'+$i18n.locale+'/resource'">{{$t('resource.github.title')}}</a>
+            </p>
           </div>
         </div>
      </div>
@@ -98,7 +106,7 @@ export default {
                     ikey: "item6",
                     name: "文档翻译",
                     applyURL: "https://github.com/gxchain/docs",
-                    imgSrc:"https://raw.githubusercontent.com/gxchain/gxips/master/assets/images/task-docs.png"
+                    imgSrc: "https://raw.githubusercontent.com/gxchain/gxips/master/assets/images/task-docs.png"
                 },
                 {
                     ikey: "item7",
@@ -110,7 +118,7 @@ export default {
                     ikey: "item8",
                     name: "DEMO和教程",
                     applyURL: "javascript:void(0);",
-                    imgSrc:"https://raw.githubusercontent.com/gxchain/gxips/master/assets/images/task-demo.png"
+                    imgSrc: "https://raw.githubusercontent.com/gxchain/gxips/master/assets/images/task-demo.png"
                 },
                 {
                     ikey: "item9",
@@ -122,7 +130,7 @@ export default {
                     ikey: "item10",
                     name: "代码贡献",
                     applyURL: "https://github.com/gxchain",
-                    imgSrc:"https://raw.githubusercontent.com/gxchain/gxips/master/assets/images/task-code.png"
+                    imgSrc: "https://raw.githubusercontent.com/gxchain/gxips/master/assets/images/task-code.png"
                 }
             ]
         };

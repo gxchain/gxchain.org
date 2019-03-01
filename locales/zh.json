@@ -97,6 +97,7 @@
             "progressing": "进行中",
             "finished": "已结束",
             "people": "人",
+            "receiveAward":"领取奖励",
             "bountyList": {
                 "item1": "智能合约IDE优化",
                 "item2": "区块浏览器优化",
@@ -111,6 +112,7 @@
             "highRisk": "高危",
             "mediumRisk": "中危",
             "lowRisk": "低危",
+            "slowmistPlan":"慢雾赏金计划",
             "longTermList": {
                 "item1": "智能合约IDE优化",
                 "item2": "区块浏览器优化",

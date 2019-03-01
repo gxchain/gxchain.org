@@ -2,7 +2,10 @@
   <div class="bounty-page">
     <section class="bounty section-padding">
       <div class="container">
-        <h2 class="gxc-border-left padding-left-w color-666">{{$t('bounty.development.title')}}</h2>
+        <h2 class="page-title gxc-border-left padding-left-w color-666">
+            <span>{{$t('bounty.development.title')}}</span>
+            <button type="button" class="btn btn-primary"><a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSc5R-fCjS0JM7CZeEErqumBVg5vbvv5yzZhlrhG3kk2AFulVg/viewform">{{$t('bounty.development.receiveAward')}}</a></button>
+        </h2>
         <div class="row content-margin-top card-container">
             <div class="col-lg-4" v-for="(item,index) in bountyList" :key="index">
                 <div class="bounty-item-inner">
@@ -52,7 +55,12 @@
             </ul>
           </div>
           <div class="col-lg-4 longTerm-list">
-            <a style="color: #7188a9;" :href="$i18n.locale == 'zh' ? '/resource/' : '/'+$i18n.locale+'/resource'">{{$t('resource.github.title')}}</a>
+            <p>
+                <a style="color: #7188a9;" target="_blank"  href="https://slowmist.io/en/gxchain/index.html?utm_source=index&utm_medium=cpc&utm_campaign=gxchain">{{$t('bounty.longTerm.slowmistPlan')}}</a>
+            </p>
+            <p>
+                <a style="color: #7188a9;" :href="$i18n.locale == 'zh' ? '/resource/' : '/'+$i18n.locale+'/resource'">{{$t('resource.github.title')}}</a>
+            </p>
           </div>
         </div>
      </div>
