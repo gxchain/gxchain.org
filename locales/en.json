@@ -7,6 +7,7 @@
         "resource": "Resources",
         "dapps": "Dapps",
         "foundation": "Foundation",
+        "trustNode": "TrustNode",
         "blockExplorer": "Block Explorer",
         "gxips": "GXIPs",
         "en": "English",
@@ -97,7 +98,7 @@
             "progressing": "Progressing",
             "finished": "Finished",
             "people": "people",
-            "receiveAward":" Receive Award",
+            "receiveAward": " Receive Award",
             "bountyList": {
                 "item1": "Smart contract IDE optimization",
                 "item2": "Block explorer optimization",
@@ -112,7 +113,7 @@
             "highRisk": "High-risk",
             "mediumRisk": "Medium-risk",
             "lowRisk": "Low-risk",
-            "slowmistPlan":"Slowmist Bounty Plan",
+            "slowmistPlan": "Slowmist Bounty Plan",
             "longTermList": {
                 "item1": "Main Net & Test Net",
                 "item2": "Contract Development Tools"

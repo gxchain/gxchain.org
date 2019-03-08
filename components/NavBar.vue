@@ -71,6 +71,14 @@ export default {
                     target: "_self"
                 },
                 {
+                    name: "trustNode",
+                    path: {
+                        zh: "/trustNode",
+                        en: "/en/trustNode"
+                    },
+                    target: "_self"
+                },
+                {
                     name: "blockExplorer",
                     path: {
                         zh: "https://block.gxb.io",

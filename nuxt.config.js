@@ -90,7 +90,7 @@ module.exports = {
         middleware: 'i18n'
     },
     generate: {
-        routes: ['/', '/bounty', 'developer', 'resource', 'dapps', 'foundation', '/en', '/en/bounty', '/en/developer', '/en/resource', '/en/dapps', '/en/foundation']
+        routes: ['/', '/bounty', 'developer', 'resource', 'dapps', 'foundation', 'trustNode', '/en', '/en/bounty', '/en/developer', '/en/resource', '/en/dapps', '/en/foundation', '/en/trustNode']
     }
 
 }
