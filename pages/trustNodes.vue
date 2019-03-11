@@ -32,7 +32,7 @@ export default {
         return {
             workPlan: [
                 {
-                    name: '预言家Prophet',
+                    name: '预言家',
                     link: 'https://mp.weixin.qq.com/s/z38WcbxvDzOaSQE5s9VIHA',
                     other: ''
                 },
@@ -57,9 +57,9 @@ export default {
                     other: ''
                 },
                 {
-                    name: 'gf.network（分布式资本）',
+                    name: '分布式资本',
                     link: '',
-                    other: '见附件word。'
+                    other: ''
                 },
                 {
                     name: 'GXCLaoMao',
@@ -72,14 +72,14 @@ export default {
                     other: ''
                 },
                 {
-                    name: '石楠(moon)',
+                    name: 'GXCMoon',
                     link: 'https://mp.weixin.qq.com/s/E-PQfJhep47juJLYLLTLcg',
                     other: ''
                 },
                 {
                     name: '信来节点',
-                    link: '',
-                    other: '正在拟'
+                    link: 'https://mp.weixin.qq.com/s/jiq3QFNlS-UlXviE3tG4Xg',
+                    other: ''
                 },
                 {
                     name: 'GXFormulA',
@@ -94,7 +94,7 @@ export default {
                 {
                     name: '火币矿池',
                     link: '',
-                    other: '过几天'
+                    other: ''
                 },
                 {
                     name: '区块链研习社',
@@ -103,16 +103,31 @@ export default {
                 },
                 {
                     name: '引力矿池',
-                    link: '',
-                    other: '过几天'
+                    link: 'https://mp.weixin.qq.com/s/wvxvwZVSZeL_g2jCgIJHJA',
+                    other: ''
                 },
                 {
                     name: 'GenaroNetwork',
                     link: '',
-                    other: '没有反应'
+                    other: ''
                 },
                 {
                     name: 'LendChain',
+                    link: 'https://mp.weixin.qq.com/s/-Ll_OwMVDGhlY6WR9pe9bA',
+                    other: ''
+                },
+                {
+                    name: '全球石墨烯区块链应用中心',
+                    link: 'https://mp.weixin.qq.com/s/flFKIWMMGq6dudxfKsXoCA',
+                    other: ''
+                },
+                {
+                    name: 'BEPAL',
+                    link: 'https://mp.weixin.qq.com/s/1e84FcEfxfIRA2qpBBUNVg',
+                    other: ''
+                },
+                {
+                    name: 'GXHarvard',
                     link: 'https://justblockchainnews.com/2019/03/01/gxharvard节点季度工作计划/',
                     other: ''
                 },
@@ -122,9 +137,9 @@ export default {
                     other: ''
                 },
                 {
-                    name: 'Bit-Z集团',
+                    name: 'Bit-Z',
                     link: '',
-                    other: '没有反应'
+                    other: ''
                 },
                 {
                     name: 'LiuXuFei',
@@ -157,5 +172,6 @@ a {
 }
 .vh-center {
   vertical-align: middle;
+  text-align: center;
 }
 </style>

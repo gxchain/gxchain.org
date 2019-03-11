@@ -71,10 +71,10 @@ export default {
                     target: "_self"
                 },
                 {
-                    name: "trustNode",
+                    name: "trustNodes",
                     path: {
-                        zh: "/trustNode",
-                        en: "/en/trustNode"
+                        zh: "/trustNodes",
+                        en: "/en/trustNodes"
                     },
                     target: "_self"
                 },

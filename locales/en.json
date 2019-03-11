@@ -7,7 +7,7 @@
         "resource": "Resources",
         "dapps": "Dapps",
         "foundation": "Foundation",
-        "trustNode": "TrustNode",
+        "trustNodes": "TrustNode",
         "blockExplorer": "Block Explorer",
         "gxips": "GXIPs",
         "en": "English",
