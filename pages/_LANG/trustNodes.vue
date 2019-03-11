@@ -2,7 +2,7 @@
     <div class="trustNode-page">
         <section class="trustNode section-padding">
         <div class="container">
-            <h2 class="page-title gxc-border-left padding-left-w color-666">TrustNodes Q1 Work Scheme </h2>
+            <h2 class="page-title gxc-border-left padding-left-w color-666">TrustNodes 2019 Q1 Work Scheme </h2>
             <div class="content-margin-top">
                 <table class="table table-bordered table-hover">
                     <thead>
@@ -59,7 +59,7 @@ export default {
                 {
                     name: 'gf.network',
                     link: '',
-                    other: ''
+                    other: '--'
                 },
                 {
                     name: 'GXCLaoMao',
@@ -94,7 +94,7 @@ export default {
                 {
                     name: 'GXFormulA',
                     link: '',
-                    other: ''
+                    other: '--'
                 },
                 {
                     name: 'ChainClub',
@@ -109,7 +109,7 @@ export default {
                 {
                     name: 'GenaroNetwork',
                     link: '',
-                    other: ''
+                    other: '--'
                 },
                 {
                     name: 'LendChain',
@@ -139,7 +139,7 @@ export default {
                 {
                     name: 'Bit-Z',
                     link: '',
-                    other: ''
+                    other: '--'
                 },
                 {
                     name: 'LiuXuFei',

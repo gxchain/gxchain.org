@@ -2,7 +2,7 @@
     <div class="trustNode-page">
         <section class="trustNode section-padding">
         <div class="container">
-            <h2 class="page-title gxc-border-left padding-left-w color-666">公信节点第一季度工作计划</h2>
+            <h2 class="page-title gxc-border-left padding-left-w color-666">公信节点2019第一季度工作计划</h2>
             <div class="content-margin-top">
                 <table class="table table-bordered table-hover">
                     <thead>
@@ -59,7 +59,7 @@ export default {
                 {
                     name: '分布式资本',
                     link: '',
-                    other: ''
+                    other: '--'
                 },
                 {
                     name: 'GXCLaoMao',
@@ -94,7 +94,7 @@ export default {
                 {
                     name: '火币矿池',
                     link: '',
-                    other: ''
+                    other: '--'
                 },
                 {
                     name: '区块链研习社',
@@ -109,7 +109,7 @@ export default {
                 {
                     name: 'GenaroNetwork',
                     link: '',
-                    other: ''
+                    other: '--'
                 },
                 {
                     name: 'LendChain',
@@ -139,7 +139,7 @@ export default {
                 {
                     name: 'Bit-Z',
                     link: '',
-                    other: ''
+                    other: '--'
                 },
                 {
                     name: 'LiuXuFei',
