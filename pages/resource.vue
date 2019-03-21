@@ -80,7 +80,7 @@ export default {
                     des: "GXChain核心模块",
                     address: {
                         leafFor: {
-                            path: "https://github.com/gxchain/gxchain-light"
+                            path: "https://github.com/gxchain/gxchain-light/releases/tag/v1.3.0"
                         }
                     }
                 },
