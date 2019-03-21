@@ -173,6 +173,7 @@
             "ios": "IOS",
             "android": "Android",
             "mac": "Mac",
+            "win": "Win",
             "win32": "Win32",
             "win64": "Win64",
             "linux": "Linux",
