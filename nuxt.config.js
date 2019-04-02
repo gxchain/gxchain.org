@@ -4,7 +4,7 @@ module.exports = {
      ** Headers of the page
      */
     head: {
-        title: 'gxchain.org',
+        title: 'GXChain 可信数据的价值网络',
         link: [{
                 rel: 'icon',
                 type: 'image/x-icon',
@@ -25,7 +25,12 @@ module.exports = {
             {
                 hid: 'description',
                 name: 'description',
-                content: 'home page of gxchain.org'
+                content: '公信链GXChain是一条为全球数据经济服务的基础链，旨在打造可信数据的价值网络。'
+            },
+            {
+                hid: 'keyswords',
+                name: 'keyswords',
+                content: 'GXChain官网，公信宝，区块链，GXChain白皮书，可信数据计算'
             }
         ]
     },
