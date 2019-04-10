@@ -3,6 +3,9 @@
     <div v-swiper:mySwiper="swiperOption">
         <div class="swiper-wrapper" id="swiper-wrapper">
             <div class="swiper-slide">
+               <a  target="_blank" href="https://static.gxchain.org/files/GXChain_TCP_V1.0_CN.pdf"><div class="banner-white-paper" :class="{'zh': $i18n.locale == 'zh'}"></div></a>
+            </div>
+            <div class="swiper-slide">
                 <section class="header m-center" style="background:#fff;">
                     <div class="container">
                         <div class="fadeInUp2">
@@ -29,7 +32,7 @@
             <h5>{{$t('index.introduction.content1')}}</h5>
             <div class="des ping-regular  in-animate">{{$t('index.introduction.content2')}}</div>
           </div>
-            <a href="https://static.gxb.io/files/GXChain_WhitePaper_v3.0_CN.pdf" target="_blank" >
+            <a href="https://static.gxchain.org/files/GXChain_WhitePaper_v3.0_CN.pdf" target="_blank" >
               <div class="white-paper in-animate">
                 <img src="~static/index/white_paper.png" alt="">
                 <p>{{$t('index.introduction.getWhitepaper')}}</p>
@@ -131,7 +134,7 @@ export default {
             comtainer.onmouseleave = function () {
                 that.mySwiper && that.mySwiper.autoplay.start();
             }
-        }, 3000)
+        }, 5000)
 
     },
     methods: {

@@ -190,11 +190,11 @@
     width: 100%;
     height: 94vh;
     background: url('~static/index/bounties_en.png') no-repeat;
-    background-size: 100% 100%;
+    background-size: cover;
 }
 .banner-node.zh {
     background: url('~static/index/bounties.png') no-repeat;
-    background-size: 100% 100%;
+    background-size: cover;
 }
 @media (max-width: 768px) {
     .banner-node {
@@ -203,6 +203,28 @@
     }
     .banner-node.zh {
         background: url('~static/index/bounties_h5.png') no-repeat;
+        background-size: 100% 100%;
+    }
+}
+
+// Trusted Computing Protocol white Paper
+.banner-white-paper {
+    width: 100%;
+    height: 94vh;
+    background: url('~static/index/whitePaper/index_en.jpg') no-repeat;
+    background-size: cover;
+}
+.banner-white-paper.zh {
+    background: url('~static/index/whitePaper/index.jpg') no-repeat;
+    background-size: cover;
+}
+@media (max-width: 768px) {
+    .banner-white-paper {
+        background: url('~static/index/whitePaper/index_h5_en.jpg') no-repeat;
+        background-size: 100% 100%;
+    }
+    .banner-white-paper.zh {
+        background: url('~static/index/whitePaper/index_h5.jpg') no-repeat;
         background-size: 100% 100%;
     }
 }
