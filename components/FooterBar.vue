@@ -2,7 +2,7 @@
    <div class="footer">
         <div class="container">
           <h2 class="font-normal">{{$t('footer.contactUs')}}</h2>
-          <div class="social-list list-wrap">
+          <div class="social-list list-wrap" v-if="$i18n.locale === 'zh'">
             <a class="wechat socail-icon iconfont icon-weixin-copy" href="javascript:void(0)">
               <div class="qrcode-wrap">
                   <img class="not-animate" src="~static/footer/qrcode.png" width="120">
@@ -15,6 +15,20 @@
             <a class="socail-icon iconfont icon-twitter3" href="https://twitter.com/gongxinbao" target="_blank"></a>
             <a class="socail-icon iconfont icon-telegram" href="https://t.me/GXB_China" target="_blank"></a>
             <a class="socail-icon iconfont icon-facebookfacebook52" href="https://www.facebook.com/GXChain/" target="_blank"></a>
+          </div>
+          <div class="social-list list-wrap" v-if="$i18n.locale === 'en'">
+            <a class="wechat socail-icon iconfont icon-weixin-copy" href="javascript:void(0)">
+              <div class="qrcode-wrap">
+                  <img class="not-animate" src="~static/footer/qrcode.png" width="120">
+                  <span>{{$t('footer.wechat')}} </span>
+              </div>
+            </a>
+            <a class="socail-icon iconfont icon-github" href="https://github.com/gxchain/" target="_blank"></a>
+            <a class="socail-icon iconfont icon-reddit" href="https://www.reddit.com/r/GXS/"></a>
+            <a class="socail-icon iconfont icon-weibo" href="http://weibo.com/gongxinbao" target="_blank"></a>
+            <a class="socail-icon iconfont icon-twitter3" href="https://twitter.com/GXChainGlobal" target="_blank"></a>
+            <a class="socail-icon iconfont icon-telegram" href="https://t.me/GXChain_international" target="_blank"></a>
+            <a class="socail-icon iconfont icon-facebookfacebook52" href="https://www.facebook.com/gxchain.org" target="_blank"></a>
           </div>
           <div class="other-list list-wrap">
             <!-- <a href="">常见问题</a> -->
