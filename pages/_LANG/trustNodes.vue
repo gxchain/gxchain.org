@@ -22,7 +22,7 @@
                     </tbody>
                 </table>
             </div>
-        </div>  
+        </div>
         </section>
     </div>
 </template>
@@ -32,135 +32,120 @@ export default {
         return {
             workPlan: [
                 {
-                    name: 'Prophet',
-                    link: 'https://mp.weixin.qq.com/s/z38WcbxvDzOaSQE5s9VIHA',
-                    other: ''
+                    "name": "Prophet",
+                    "link": "https://mp.weixin.qq.com/s/X7-WTBYBUEmCmC53S15Rwg",
+                    "other": ""
                 },
                 {
-                    name: 'BlockCity',
-                    link: 'https://shimo.im/docs/rhd6YAzwAqIBhdtP/read',
-                    other: ''
+                    "name": "BlockCity",
+                    "link": "https://shimo.im/docs/0HoqlBUjNicAEDSL",
+                    "other": ""
                 },
                 {
-                    name: 'GXCDAC',
-                    link: 'https://mp.weixin.qq.com/s/2_O-YN4WktR5BdGmfIjEGw',
-                    other: ''
+                    "name": "GXCDAC",
+                    "link": "https://mp.weixin.qq.com/s/47IL0bFsDllXZVvZ5_5wFA",
+                    "other": ""
                 },
                 {
-                    name: 'GXC Pacific',
-                    link: 'https://mp.weixin.qq.com/s/MLHJLtqJJys3RRrb_0bLuw',
-                    other: ''
+                    "name": "GXC Pacific",
+                    "link": "https://mp.weixin.qq.com/s/Mwvqmakx6RS2Xb3mqdtmXg",
+                    "other": ""
                 },
                 {
-                    name: 'CertiK',
-                    link: 'https://mp.weixin.qq.com/s/wM6-crezG0nRTobnrMYYog',
-                    other: ''
+                    "name": "CertiK",
+                    "link": "https://mp.weixin.qq.com/s/4LqvYkD2_oI0hc1ziQ3Tlw",
+                    "other": ""
                 },
                 {
-                    name: 'gf.network',
-                    link: '',
-                    other: '--'
+                    "name": "gf.network",
+                    "link": "https://shimo.im/docs/KUhbz4siPPcJpBwq/ ",
+                    "other": ""
                 },
                 {
-                    name: 'GXCLaoMao',
-                    link: 'https://bihu.com/article/1052875060',
-                    other: ''
+                    "name": "GXCLaoMao",
+                    "link": "https://bihu.com/article/1332718736 ",
+                    "other": ""
                 },
                 {
-                    name: 'TLAB',
-                    link: 'https://mp.weixin.qq.com/s/rKPG_V34IQifxSJ2ERPUig',
-                    other: ''
+                    "name": "TLAB",
+                    "link": "https://mp.weixin.qq.com/s/JVazeAw08MSSFBEhQhQV8g",
+                    "other": ""
                 },
                 {
-                    name: 'GXCMoon',
-                    link: 'https://mp.weixin.qq.com/s/E-PQfJhep47juJLYLLTLcg',
-                    other: ''
+                    "name": "GXCMoon",
+                    "link": "https://mp.weixin.qq.com/s/ir-yELsfOZBRUA39PS7Lkw",
+                    "other": ""
                 },
                 {
-                    name: 'XinLai',
-                    link: 'https://mp.weixin.qq.com/s/jiq3QFNlS-UlXviE3tG4Xg',
-                    other: ''
+                    "name": "XinLai",
+                    "link": "https://mp.weixin.qq.com/s/hKx-g1kXRIjXp33Z5oVz8A",
+                    "other": ""
                 },
                 {
-                    name: 'GXFormulA',
-                    link: 'https://mp.weixin.qq.com/s/RMkEA7XqfX4tkokcXgvQGQ',
-                    other: ''
+                    "name": "GXBean",
+                    "link": "https://mp.weixin.qq.com/s/hkLJMVb_lIbNkxIJXlI2pw",
+                    "other": ""
                 },
                 {
-                    name: 'GXBean',
-                    link: 'https://mp.weixin.qq.com/s/Ofq3Cdx7t1YqWxicE8oVpg',
-                    other: ''
+                    "name": "Huobi-pool",
+                    "link": "",
+                    "other": "--"
                 },
                 {
-                    name: 'GXFormulA',
-                    link: '',
-                    other: '--'
+                    "name": "ChainClub",
+                    "link": "https://mp.weixin.qq.com/s/M2PNpT2KYG4hak09VoPH8Q",
+                    "other": ""
                 },
                 {
-                    name: 'ChainClub',
-                    link: 'https://mp.weixin.qq.com/s/M2PNpT2KYG4hak09VoPH8Q',
-                    other: ''
+                    "name": "Gravity-pool",
+                    "link": "https://mp.weixin.qq.com/s/u_wxmjaVTSjd-c3KU4cPBQ",
+                    "other": ""
                 },
                 {
-                    name: 'Gravity-pool',
-                    link: 'https://mp.weixin.qq.com/s/wvxvwZVSZeL_g2jCgIJHJA',
-                    other: ''
+                    "name": "LendChain",
+                    "link": "",
+                    "other": "--"
                 },
                 {
-                    name: 'GenaroNetwork',
-                    link: '',
-                    other: '--'
+                    "name": "GBAC-GXC",
+                    "link": "https://mp.weixin.qq.com/s/0uNjayAuxfc5ngR0jeL2ug",
+                    "other": ""
                 },
                 {
-                    name: 'LendChain',
-                    link: 'https://mp.weixin.qq.com/s/-Ll_OwMVDGhlY6WR9pe9bA',
-                    other: ''
+                    "name": "BEPAL",
+                    "link": "https://mp.weixin.qq.com/s/jjx_QINteMUOQz4M6BUNLg",
+                    "other": ""
                 },
                 {
-                    name: 'GBAC-GXC',
-                    link: 'https://mp.weixin.qq.com/s/flFKIWMMGq6dudxfKsXoCA',
-                    other: ''
+                    "name": "GXHarvard",
+                    "link": "https://justblockchainnews.com/2019/04/25/gxharvard-2019q2-%E5%B7%A5%E4%BD%9C%E8%AE%A1%E5%88%92/",
+                    "other": ""
                 },
                 {
-                    name: 'BEPAL',
-                    link: 'https://mp.weixin.qq.com/s/1e84FcEfxfIRA2qpBBUNVg',
-                    other: ''
+                    "name": "DAMO",
+                    "link": "https://mp.weixin.qq.com/s/6UJEXDPoNZZqk7jI_D4WxQ",
+                    "other": ""
                 },
                 {
-                    name: 'GXHarvard',
-                    link: 'https://justblockchainnews.com/2019/03/01/gxharvard节点季度工作计划/',
-                    other: ''
+                    "name": "GenaroNetwork",
+                    "link": "",
+                    "other": "--"
                 },
                 {
-                    name: 'DAMO',
-                    link: 'https://mp.weixin.qq.com/s/ipTFFYDu3AH6gEOk8acZ8g',
-                    other: ''
+                    "name": " Time-Stamp",
+                    "link": "https://mp.weixin.qq.com/s/JOmtv2s7EopUEsTPkjWmhA",
+                    "other": ""
                 },
                 {
-                    name: 'Bit-Z',
-                    link: '',
-                    other: '--'
+                    "name": "LiuXuFei",
+                    "link": "https://mp.weixin.qq.com/s/-5Q5lshbIMFxXeTXa-X5HQ",
+                    "other": ""
                 },
                 {
-                    name: 'LiuXuFei',
-                    link: 'https://mp.weixin.qq.com/s/rE8KNJzplI2ivAUkUZsG2g',
-                    other: ''
-                },
-                {
-                    name: 'vctech',
-                    link: 'https://mp.weixin.qq.com/s/CxnYIrJ0oAtn1PgFDkrlzw',
-                    other: ''
-                },
-                {
-                    name: 'IPFSMAIN',
-                    link: 'https://mp.weixin.qq.com/s/_Sl8qYKZ17VFrO93gpKFyQ',
-                    other: ''
-                },
-                {
-                    name: 'Lianchaguan',
-                    link: 'http://www.lianchaguan.com/archives/5925',
-                    other: ''
-                },
+                    "name": "IPFSMAIN",
+                    "link": "https://mp.weixin.qq.com/s/_Sl8qYKZ17VFrO93gpKFyQ",
+                    "other": ""
+                }
             ]
         }
     }
