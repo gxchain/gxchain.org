@@ -2,6 +2,26 @@
     <div class="trustNode-page">
         <section class="trustNode section-padding">
         <div class="container">
+            <h2 class="page-title gxc-border-left padding-left-w color-666">TrustNodes 2019 Q2 Work Scheme </h2>
+            <div class="content-margin-top">
+                <table class="table table-bordered table-hover">
+                    <thead>
+                    <tr class="text-center">
+                        <th scope="col" width="30%">TrustNodes</th>
+                        <th scope="col">Work Scheme Link</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr v-for="(item,index) in workPlan2" :key="index">
+                        <td class="vh-center">{{item.name}}</td>
+                        <td class="vh-center">
+                            <a  v-if="!item.other && item.link" :href="item.link" target="_blank">{{item.link}}</a>
+                            <span v-if="item.other">{{item.other}}</span>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
             <h2 class="page-title gxc-border-left padding-left-w color-666">TrustNodes 2019 Q1 Work Scheme </h2>
             <div class="content-margin-top">
                 <table class="table table-bordered table-hover">
@@ -12,7 +32,7 @@
                     </tr>
                     </thead>
                     <tbody>
-                        <tr v-for="(item,index) in workPlan" :key="index">
+                        <tr v-for="(item,index) in workPlan1" :key="index">
                             <td class="vh-center">{{item.name}}</td>
                             <td class="vh-center">
                                 <a  v-if="!item.other && item.link" :href="item.link" target="_blank">{{item.link}}</a>
@@ -30,7 +50,139 @@
 export default {
     data () {
         return {
-            workPlan: [
+            workPlan1: [
+                {
+                    name: 'Prophet',
+                    link: 'https://mp.weixin.qq.com/s/z38WcbxvDzOaSQE5s9VIHA',
+                    other: ''
+                },
+                {
+                    name: 'BlockCity',
+                    link: 'https://shimo.im/docs/rhd6YAzwAqIBhdtP/read',
+                    other: ''
+                },
+                {
+                    name: 'GXCDAC',
+                    link: 'https://mp.weixin.qq.com/s/2_O-YN4WktR5BdGmfIjEGw',
+                    other: ''
+                },
+                {
+                    name: 'GXC Pacific',
+                    link: 'https://mp.weixin.qq.com/s/MLHJLtqJJys3RRrb_0bLuw',
+                    other: ''
+                },
+                {
+                    name: 'CertiK',
+                    link: 'https://mp.weixin.qq.com/s/wM6-crezG0nRTobnrMYYog',
+                    other: ''
+                },
+                {
+                    name: 'gf.network',
+                    link: '',
+                    other: '--'
+                },
+                {
+                    name: 'GXCLaoMao',
+                    link: 'https://bihu.com/article/1052875060',
+                    other: ''
+                },
+                {
+                    name: 'TLAB',
+                    link: 'https://mp.weixin.qq.com/s/rKPG_V34IQifxSJ2ERPUig',
+                    other: ''
+                },
+                {
+                    name: 'GXCMoon',
+                    link: 'https://mp.weixin.qq.com/s/E-PQfJhep47juJLYLLTLcg',
+                    other: ''
+                },
+                {
+                    name: 'XinLai',
+                    link: 'https://mp.weixin.qq.com/s/jiq3QFNlS-UlXviE3tG4Xg',
+                    other: ''
+                },
+                {
+                    name: 'GXFormulA',
+                    link: 'https://mp.weixin.qq.com/s/RMkEA7XqfX4tkokcXgvQGQ',
+                    other: ''
+                },
+                {
+                    name: 'GXBean',
+                    link: 'https://mp.weixin.qq.com/s/Ofq3Cdx7t1YqWxicE8oVpg',
+                    other: ''
+                },
+                {
+                    name: 'GXFormulA',
+                    link: '',
+                    other: '--'
+                },
+                {
+                    name: 'ChainClub',
+                    link: 'https://mp.weixin.qq.com/s/M2PNpT2KYG4hak09VoPH8Q',
+                    other: ''
+                },
+                {
+                    name: 'Gravity-pool',
+                    link: 'https://mp.weixin.qq.com/s/wvxvwZVSZeL_g2jCgIJHJA',
+                    other: ''
+                },
+                {
+                    name: 'GenaroNetwork',
+                    link: '',
+                    other: '--'
+                },
+                {
+                    name: 'LendChain',
+                    link: 'https://mp.weixin.qq.com/s/-Ll_OwMVDGhlY6WR9pe9bA',
+                    other: ''
+                },
+                {
+                    name: 'GBAC-GXC',
+                    link: 'https://mp.weixin.qq.com/s/flFKIWMMGq6dudxfKsXoCA',
+                    other: ''
+                },
+                {
+                    name: 'BEPAL',
+                    link: 'https://mp.weixin.qq.com/s/1e84FcEfxfIRA2qpBBUNVg',
+                    other: ''
+                },
+                {
+                    name: 'GXHarvard',
+                    link: 'https://justblockchainnews.com/2019/03/01/gxharvard节点季度工作计划/',
+                    other: ''
+                },
+                {
+                    name: 'DAMO',
+                    link: 'https://mp.weixin.qq.com/s/ipTFFYDu3AH6gEOk8acZ8g',
+                    other: ''
+                },
+                {
+                    name: 'Bit-Z',
+                    link: '',
+                    other: '--'
+                },
+                {
+                    name: 'LiuXuFei',
+                    link: 'https://mp.weixin.qq.com/s/rE8KNJzplI2ivAUkUZsG2g',
+                    other: ''
+                },
+                {
+                    name: 'vctech',
+                    link: 'https://mp.weixin.qq.com/s/CxnYIrJ0oAtn1PgFDkrlzw',
+                    other: ''
+                },
+                {
+                    name: 'IPFSMAIN',
+                    link: 'https://mp.weixin.qq.com/s/_Sl8qYKZ17VFrO93gpKFyQ',
+                    other: ''
+                },
+                {
+                    name: 'Lianchaguan',
+                    link: 'http://www.lianchaguan.com/archives/5925',
+                    other: ''
+                },
+            ],
+            workPlan2: [
                 {
                     "name": "Prophet",
                     "link": "https://mp.weixin.qq.com/s/X7-WTBYBUEmCmC53S15Rwg",
