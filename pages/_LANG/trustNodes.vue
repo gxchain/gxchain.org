@@ -3,7 +3,7 @@
         <section class="trustNode section-padding">
         <div class="container">
             <h2 class="page-title gxc-border-left padding-left-w color-666">TrustNodes 2019 Q2 Work Scheme </h2>
-            <div class="content-margin-top">
+            <div class="content-margin-top margin-b-5">
                 <table class="table table-bordered table-hover">
                     <thead>
                     <tr class="text-center">
