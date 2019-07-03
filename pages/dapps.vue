@@ -19,20 +19,20 @@
         <ul class="list-unstyled color-666">
           <li class="media margin-b-3 in-animate">
             <div class="app-logo text-center">
-               <img class="w_7rem mb-3" src="~static/dapps/bide.png" alt="Generic placeholder image">
-               <h6>{{$t('dApps.coinGet.name')}}</h6>
+               <img class="w_7rem mb-3" src="~static/dapps/pirate.png" alt="Generic placeholder image">
+               <h6>{{$t('dApps.pirate.name')}}</h6>
             </div>
             <div class="media-body align-self-center line-h-2">
-              {{$t('dApps.coinGet.des')}}
+              {{$t('dApps.pirate.des')}}
             </div>
           </li>
           <li class="media my-4 in-animate">
              <div class="app-logo text-center">
-              <img class="w_7rem mb-3" src="~static/dapps/wlm.png" alt="Generic placeholder image">
-                <h6>{{$t('dApps.wlm.name')}}</h6>
+              <img class="w_7rem mb-3" src="~static/dapps/chaos.png" alt="Generic placeholder image">
+                <h6>{{$t('dApps.chaos.name')}}</h6>
             </div>
             <div class="media-body align-self-center line-h-2">
-              {{$t('dApps.wlm.des')}}
+              {{$t('dApps.chaos.des')}}
             </div>
           </li>
           <li class="media in-animate">

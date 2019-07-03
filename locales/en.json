@@ -150,6 +150,14 @@
         "prophet": {
             "name": "Prophet",
             "des": "Prophet is a decentralized social prediction market platform built on the GXChain. This platform fully harnesses the technology of distributed open ledgers to enhance the transparency and equality of prediction markets. We incentivize developers releasing prediction events through digital token economy, to share your own wisdom with the community, to provide different types of prediction events for the users, and to gather wisdom from all users to predict the future effectively."
+        },
+        "chaos":{
+            "name": "Chaos",
+            "des": "Chaos is a virtual world of multiple player war strategy based on block-chain technology. It is also a brand new, glorious history written by all users. Chaos has a very high degree of freedom in the world, and every act of the user affects the politics, economy and military of the Chaos world. Users participate in the operation of Chaos World through suggestions, proposals, voting, transactions, etc., and have the opportunity to get rich revenue."
+        },
+        "pirate":{
+            "name": "Block Pirate",
+            "des": "Block Pirate is the first DApp game combining tower defense and TCG. It is developed by  Block Kingdom, a North American blockchain game development team, based on GXChain. In the game, each player is the lord of an island leading their people to fight for Block Crystals (BLOCK) with their defensive and attack troop cards. The most fascinating feature of the game is its asynchronous PvP gameplay. Players have to first deploy their defensive army and then attack others’ preset defense. Besides, the adoption of the leaderboard and ranking matchmaking system make the game attractive."
         }
     },
     "resource": {
