@@ -37,7 +37,7 @@
           </li>
           <li class="media in-animate">
              <div class="app-logo text-center">
-               <img class="w_7rem mb-3" src="~static/dapps/pirate.png" alt="Generic placeholder image">
+               <img class="w_7rem mb-3" src="~static/dapps/prophet.png" alt="Generic placeholder image">
               <h6>{{$t('dApps.prophet.name')}}</h6>
              </div>  
             <div class="media-body align-self-center line-h-2">
