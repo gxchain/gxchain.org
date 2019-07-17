@@ -32,7 +32,12 @@ module.exports = {
                 name: 'keyswords',
                 content: 'GXChain官网，公信宝，区块链，GXChain白皮书，可信数据计算'
             }
-        ]
+        ],
+        script: [{
+            type: 'application/ld+json',
+            src: '/js/schma.json',
+            head: true
+        }]
     },
     /*
      ** Customize the progress bar color

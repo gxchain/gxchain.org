@@ -1,0 +1,47 @@
+{
+    "@context": "https://schema.org",
+    "@type": "NewsArticle",
+    "name": "GXChain",
+    "description": "公信链GXChain是一条为全球数据经济服务的基础链，旨在打造可信数据的价值网络,GXChain官网，公信宝，区块链，GXChain白皮书，可信数据计算,GXChain 可信数据的价值网络.",
+    "review": {
+        "@type": "Review",
+        "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "4",
+            "bestRating": "5"
+        },
+        "author": {
+            "@type": "Person",
+            "name": "GXChain"
+        }
+    },
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5",
+        "reviewCount": "89"
+    },
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.gxchain.org"
+    },
+    "headline": "Article headline",
+    "image": [
+        "https://www.gxchain.org/gxchain.org.png",
+        "https://www.gxchain.org/_nuxt/img/stellate.da2b42f.png"
+    ],
+    "datePublished": "2017-03-31T08:00:00+08:00",
+    "dateModified": "2019-02-19T09:20:00+08:00",
+    "author": {
+        "@type": "Person",
+        "name": "GXChain"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "GXChain",
+        "url": "https://www.gxchain.org",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.gxchain.org/gxchain.org.png"
+        }
+    }
+}
