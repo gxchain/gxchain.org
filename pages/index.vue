@@ -1,29 +1,56 @@
 <template>
   <div class="home-page">
-    <div v-swiper:mySwiper="swiperOption">
-        <div class="swiper-wrapper" id="swiper-wrapper">
-            <div class="swiper-slide">
-               <a  target="_blank" href="https://static.gxchain.org/files/GXChain_TCP_V1.0_CN.pdf"><div class="banner-white-paper" :class="{'zh': $i18n.locale == 'zh'}"></div></a>
-            </div>
-            <div class="swiper-slide">
-                <section class="header m-center" style="background:#fff;">
-                    <div class="container">
-                        <div class="fadeInUp2">
-                            <img src="/gxchain.org.png" class="not-animate"  alt="GXChain">
-                            <h1 :class="{'zh': $i18n.locale == 'zh'}" class="slogan ping-regular zh lead color-theme">{{$t('index.slogan')}}</h1>
-                            <p>
-                            <a :href="$i18n.locale == 'zh' ? 'https://docs.gxchain.org/zh/': 'https://docs.gxchain.org'" target="_blank" class="btn btn-lg btn-theme-lg"><img class="not-animate" src="~static/index/start.png" alt=""></a>
-                            </p>
-                        </div>
-                    </div>
-                </section>
-            </div>
-            <div class="swiper-slide">
-               <a  target="_blank" :href="$i18n.locale == 'zh' ? 'https://mp.weixin.qq.com/s/U_RMX5TQJ1vnKBgbDjYphA': 'https://mp.weixin.qq.com/s/U_RMX5TQJ1vnKBgbDjYphA'"><div class="banner-node" :class="{'zh': $i18n.locale == 'zh'}"></div></a>
+    <section class="header m-center" style="background:#fff;">
+        <div class="container">
+            <div class="fadeInUp2">
+                <img src="/gxchain.org.png" class="not-animate"  alt="GXChain">
+                <h1 :class="{'zh': $i18n.locale == 'zh'}" class="slogan ping-regular zh lead color-theme">{{$t('index.slogan')}}</h1>
+                <p>
+                <a :href="$i18n.locale == 'zh' ? 'https://docs.gxchain.org/zh/': 'https://docs.gxchain.org'" target="_blank" class="btn btn-lg btn-theme-lg"><img class="not-animate" src="~static/index/start.png" alt=""></a>
+                </p>
             </div>
         </div>
-        <div class="swiper-pagination swiper-pagination-bullets"></div>
-    </div>
+    </section>
+    <section class="recent-news section-padding">
+        <div class="container">
+            <h2 class="gxc-border-left padding-left-w">最新动态</h2>
+            <div class="row content content-margin-top news-list-wrap">
+                <div class="col-md-4">
+                    <a href="" target="_blank" class="news-item">
+                        <div class="new-img-wrap">
+                            <img src="~static/index/news/1.png" alt="" class="img-scale">
+                        </div>
+                        <div class="info">
+                            <div class="des">研究进展与技术分析</div>
+                            <i class="iconfont icon-jiantou"></i>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <a href="" target="_blank" class="news-item">
+                        <div class="new-img-wrap">
+                            <img src="~static/index/news/2.png" alt="" class="img-scale">
+                        </div>
+                        <div class="info">
+                            <div class="des">可信技术白皮书</div>
+                            <i class="iconfont icon-jiantou"></i>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <a href="" target="_blank" class="news-item">
+                        <div class="new-img-wrap">
+                            <img src="~static/index/news/3.png" alt="" class="img-scale">
+                        </div>
+                        <div class="info">
+                            <div class="des">激励计划正式上线</div>
+                            <i class="iconfont icon-jiantou"></i>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
     <section class="introduction section-padding">
       <div class="container">
         <h2 class="gxc-border-left padding-left-w">{{$t('index.introduction.title')}}</h2>
@@ -105,37 +132,8 @@ export default {
     },
     data () {
         return {
-            roadMap: this.setRoadMap(11, 2),
-            swiperOption: {
-                loop: true,
-                speed: 1500,
-                autoplay: {
-                    delay: 3000
-                },
-                effect: 'fade',
-                fadeEffect: {
-                    crossFade: true,
-                },
-                pagination: {
-                    el: '.swiper-pagination',
-                    clickable: true
-                }
-            },
-            timer:null
+            roadMap: this.setRoadMap(11, 2)
         };
-    },
-    mounted () {
-        let that = this;
-        that.timer = setTimeout(() => {
-            let comtainer = document.getElementById('swiper-wrapper');
-            comtainer.onmouseenter = function () {
-                that.mySwiper && that.mySwiper.autoplay.stop();
-            };
-            comtainer.onmouseleave = function () {
-                that.mySwiper && that.mySwiper.autoplay.start();
-            }
-        }, 5000)
-
     },
     methods: {
         setRoadMap (n, currentIndex) {
@@ -148,48 +146,9 @@ export default {
             }
             return tempArr;
         }
-    },
-    beforeDestroy () {
-        clearInterval(this.timer);
-        this.timer = null;
     }
 };
 </script>
 <style lang='less' scoped>
 @import '../assets/css/index.less';
-</style>
-<style lang="less">
-// swiper
-.home-page {
-  .swiper-pagination {
-    bottom: 8% !important;
-  }
-  .swiper-pagination-bullet {
-    display: inline-block;
-    width: 8px;
-    height: 8px;
-    opacity: 1;
-    border-radius: 50%;
-    margin: 0 3px;
-    cursor: pointer;
-    background: #555;
-    transition: width 0.3s ease-in-out;
-  }
-  .swiper-pagination-bullet-active {
-    width: 30px;
-    border-radius: 8px;
-    background: #5c98ff;
-  }
-  .swiper-pagination-bullet-active-prev,
-  .swiper-pagination-bullet-active-next {
-    transform: scale(1);
-  }
-}
-@media (max-width: 768px) {
-  .home-page {
-    .swiper-pagination {
-      bottom: 2% !important;
-    }
-  }
-}
 </style>

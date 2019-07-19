@@ -12,7 +12,7 @@ module.exports = {
             },
             {
                 rel: 'stylesheet',
-                href: '//at.alicdn.com/t/font_835228_dxdsagyvm6o.css'
+                href: '//at.alicdn.com/t/font_835228_cv4vzh2wed.css'
             }
         ],
         meta: [{

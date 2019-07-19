@@ -1,29 +1,50 @@
 <template>
   <div class="home-page">
-    <div v-swiper:mySwiper="swiperOption">
-        <div class="swiper-wrapper" id="swiper-wrapper">
-            <div class="swiper-slide">
-               <a  target="_blank" href="javascript:void(0);"><div class="banner-white-paper" :class="{'zh': $i18n.locale == 'zh'}"></div></a>
-            </div>
-            <div class="swiper-slide">
-                <section class="header m-center" style="background:#fff;">
-                    <div class="container">
-                        <div class="fadeInUp2">
-                            <img src="/gxchain.org.png" class="not-animate"  alt="GXChain">
-                            <h1 :class="{'zh': $i18n.locale == 'zh'}" class="slogan ping-regular lead color-theme">{{$t('index.slogan')}}</h1>
-                            <p>
-                            <a :href="$i18n.locale == 'zh' ? 'https://docs.gxchain.org/zh/': 'https://docs.gxchain.org'" target="_blank" class="btn btn-lg btn-theme-lg"><img class="not-animate" src="~static/index/start.png" alt=""></a>
-                            </p>
-                        </div>
-                    </div>
-                </section>
-            </div>
-            <div class="swiper-slide">
-               <a target="_blank" :href="$i18n.locale == 'zh' ? 'https://medium.com/@GXS/gxchain-developers-incentive-scheme-265885e732cc': 'https://medium.com/@GXS/gxchain-developers-incentive-scheme-265885e732cc'"><div class="banner-node" :class="{'zh': $i18n.locale == 'zh'}"></div></a>
+    <section class="header m-center" style="background:#fff;">
+        <div class="container">
+            <div class="fadeInUp2">
+                <img src="/gxchain.org.png" class="not-animate"  alt="GXChain">
+                <h1 :class="{'zh': $i18n.locale == 'zh'}" class="slogan ping-regular lead color-theme">{{$t('index.slogan')}}</h1>
+                <p>
+                <a :href="$i18n.locale == 'zh' ? 'https://docs.gxchain.org/zh/': 'https://docs.gxchain.org'" target="_blank" class="btn btn-lg btn-theme-lg"><img class="not-animate" src="~static/index/start.png" alt=""></a>
+                </p>
             </div>
         </div>
-        <div class="swiper-pagination swiper-pagination-bullets"></div>
-    </div>
+    </section>
+    <section class="recent-news section-padding">
+        <div class="container">
+            <h2 class="gxc-border-left padding-left-w">最新动态</h2>
+            <div class="row content content-margin-top news-list-wrap">
+                <div class="col-md-4">
+                    <div class="new-img-wrap">
+                        <!-- <img src="https://ont.io/uploads/20190703134025_519.jpg" alt=""> -->
+                    </div>
+                    <div class="info">
+                        <div class="des">成果汇报与新的承诺</div>
+                        <i class="iconfont icon-jiantou"></i>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="new-img-wrap">
+                        <!-- <img src="https://ont.io/uploads/20190703134025_519.jpg" alt=""> -->
+                    </div>
+                    <div class="info">
+                        <div class="des">成果汇报与新的承诺</div>
+                        <i class="iconfont icon-jiantou"></i>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="new-img-wrap">
+                        <!-- <img src="https://ont.io/uploads/20190703134025_519.jpg" alt=""> -->
+                    </div>
+                    <div class="info">
+                        <div class="des">成果汇报与新的承诺</div>
+                        <i class="iconfont icon-jiantou"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <section class="introduction section-padding">
       <div class="container">
         <h2 class="gxc-border-left padding-left-w">{{$t('index.introduction.title')}}</h2>
@@ -105,37 +126,8 @@ export default {
     },
     data () {
         return {
-            roadMap: this.setRoadMap(11, 2),
-            swiperOption: {
-                loop: true,
-                speed: 1500,
-                autoplay: {
-                    delay: 3000
-                },
-                effect: 'fade',
-                fadeEffect: {
-                    crossFade: true,
-                },
-                pagination: {
-                    el: '.swiper-pagination',
-                    clickable: true
-                }
-            },
-            timer:null
+            roadMap: this.setRoadMap(11, 2)
         };
-    },
-    mounted () {
-        let that = this;
-        setTimeout(() => {
-            let comtainer = document.getElementById('swiper-wrapper');
-            comtainer.onmouseenter = function () {
-                that.mySwiper && that.mySwiper.autoplay.stop();
-            };
-            comtainer.onmouseleave = function () {
-                that.mySwiper && that.mySwiper.autoplay.start();
-            }
-        }, 5000)
-
     },
     methods: {
         setRoadMap (n, currentIndex) {
@@ -147,10 +139,6 @@ export default {
                 })
             }
             return tempArr;
-        },
-        beforeDestroy () {
-            clearInterval(this.timer);
-            this.timer = null;
         }
     }
 };
