@@ -13,37 +13,38 @@
     </section>
     <section class="recent-news section-padding">
         <div class="container">
-            <h2 class="gxc-border-left padding-left-w">最新动态</h2>
+            <h2 class="gxc-border-left padding-left-w">{{$t('index.news.title')}}</h2>
             <div class="row content content-margin-top news-list-wrap">
-                <div class="col-md-4">
-                    <a href="" target="_blank" class="news-item">
-                        <div class="new-img-wrap">
-                            <img src="~static/index/news/1.png" alt="" class="img-scale">
+                <div class="col-md-4 news-item">
+                    <a href="https://static.gxchain.org/files/TCP_Progress_and_Analysis.pdf" target="_blank">
+                        <div class="img-wrap">
+                            <img src="~static/index/news/1.png" alt="" class="bg">
+                            <img src="~static/index/news/new.png" alt="" class="new">
                         </div>
                         <div class="info">
-                            <div class="des">研究进展与技术分析</div>
+                            <div class="des">{{$t('index.news.item1')}}</div>
                             <i class="iconfont icon-jiantou"></i>
                         </div>
                     </a>
                 </div>
-                <div class="col-md-4">
-                    <a href="" target="_blank" class="news-item">
-                        <div class="new-img-wrap">
-                            <img src="~static/index/news/2.png" alt="" class="img-scale">
+                <div class="col-md-4 news-item">
+                    <a href="https://static.gxchain.org/files/GXChain_TCP_V1.0_CN.pdf" target="_blank">
+                        <div class="img-wrap">
+                            <img src="~static/index/news/2.png" alt=""  class="bg">
                         </div>
                         <div class="info">
-                            <div class="des">可信技术白皮书</div>
+                            <div class="des">{{$t('index.news.item2')}}</div>
                             <i class="iconfont icon-jiantou"></i>
                         </div>
                     </a>
                 </div>
-                <div class="col-md-4">
-                    <a href="" target="_blank" class="news-item">
-                        <div class="new-img-wrap">
-                            <img src="~static/index/news/3.png" alt="" class="img-scale">
+                <div class="col-md-4 news-item">
+                    <a href="https://mp.weixin.qq.com/s/U_RMX5TQJ1vnKBgbDjYphA" target="_blank">
+                        <div class="img-wrap">
+                            <img src="~static/index/news/3.png" alt=""  class="bg">
                         </div>
                         <div class="info">
-                            <div class="des">激励计划正式上线</div>
+                            <div class="des">{{$t('index.news.item3')}}</div>
                             <i class="iconfont icon-jiantou"></i>
                         </div>
                     </a>
@@ -132,7 +133,7 @@ export default {
     },
     data () {
         return {
-            roadMap: this.setRoadMap(11, 2)
+            roadMap: this.setRoadMap(11, 1)
         };
     },
     methods: {

@@ -13,34 +13,41 @@
     </section>
     <section class="recent-news section-padding">
         <div class="container">
-            <h2 class="gxc-border-left padding-left-w">最新动态</h2>
-            <div class="row content content-margin-top news-list-wrap">
-                <div class="col-md-4">
-                    <div class="new-img-wrap">
-                        <!-- <img src="https://ont.io/uploads/20190703134025_519.jpg" alt=""> -->
-                    </div>
-                    <div class="info">
-                        <div class="des">成果汇报与新的承诺</div>
-                        <i class="iconfont icon-jiantou"></i>
-                    </div>
+            <h2 class="gxc-border-left padding-left-w">{{$t('index.news.title')}}</h2>
+              <div class="row content content-margin-top news-list-wrap">
+                <div class="col-md-4 news-item">
+                    <a href="https://static.gxchain.org/files/TCP_Progress_and_Analysis_en.pdf" target="_blank">
+                        <div class="img-wrap">
+                            <img src="~static/index/news/1_en.png" alt=""  class="bg">
+                            <img src="~static/index/news/new.png" alt="" class="new">
+                        </div>
+                        <div class="info">
+                            <div class="des">{{$t('index.news.item1')}}</div>
+                            <i class="iconfont icon-jiantou"></i>
+                        </div>
+                    </a>
                 </div>
-                <div class="col-md-4">
-                    <div class="new-img-wrap">
-                        <!-- <img src="https://ont.io/uploads/20190703134025_519.jpg" alt=""> -->
-                    </div>
-                    <div class="info">
-                        <div class="des">成果汇报与新的承诺</div>
-                        <i class="iconfont icon-jiantou"></i>
-                    </div>
+                <div class="col-md-4 news-item">
+                    <a href="javascript:void(0);" target="_blank">
+                        <div class="img-wrap">
+                            <img src="~static/index/news/2_en.png" alt=""  class="bg">
+                        </div>
+                        <div class="info">
+                            <div class="des">{{$t('index.news.item2')}}</div>
+                            <i class="iconfont icon-jiantou"></i>
+                        </div>
+                    </a>
                 </div>
-                <div class="col-md-4">
-                    <div class="new-img-wrap">
-                        <!-- <img src="https://ont.io/uploads/20190703134025_519.jpg" alt=""> -->
-                    </div>
-                    <div class="info">
-                        <div class="des">成果汇报与新的承诺</div>
-                        <i class="iconfont icon-jiantou"></i>
-                    </div>
+                <div class="col-md-4 news-item">
+                    <a href="https://medium.com/@GXS/gxchain-developers-incentive-scheme-265885e732cc" target="_blank">
+                        <div class="img-wrap">
+                            <img src="~static/index/news/3_en.png" alt=""  class="bg">
+                        </div>
+                        <div class="info">
+                            <div class="des">{{$t('index.news.item3')}}</div>
+                            <i class="iconfont icon-jiantou"></i>
+                        </div>
+                    </a>
                 </div>
             </div>
         </div>
@@ -126,7 +133,7 @@ export default {
     },
     data () {
         return {
-            roadMap: this.setRoadMap(11, 2)
+            roadMap: this.setRoadMap(11, 1)
         };
     },
     methods: {
