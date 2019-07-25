@@ -19,7 +19,7 @@
         <ul class="list-unstyled color-666">
           <li class="media margin-b-3 in-animate">
             <div class="app-logo text-center">
-               <img class="w_7rem mb-3" src="~static/dapps/pirate.png" alt="Generic placeholder image">
+               <img class="w_7rem mb-3" src="~static/dapps/pirate.png" alt="gxchain">
                <h6>{{$t('dApps.pirate.name')}}</h6>
             </div>
             <div class="media-body align-self-center line-h-2">
@@ -28,7 +28,7 @@
           </li>
           <li class="media my-4 in-animate">
              <div class="app-logo text-center">
-              <img class="w_7rem mb-3" src="~static/dapps/chaos.png" alt="Generic placeholder image">
+              <img class="w_7rem mb-3" src="~static/dapps/chaos.png" alt="gxchain">
                 <h6>{{$t('dApps.chaos.name')}}</h6>
             </div>
             <div class="media-body align-self-center line-h-2">
@@ -37,7 +37,7 @@
           </li>
           <li class="media in-animate">
              <div class="app-logo text-center">
-               <img class="w_7rem mb-3" src="~static/dapps/prophet.png" alt="Generic placeholder image">
+               <img class="w_7rem mb-3" src="~static/dapps/prophet.png" alt="gxchain">
               <h6>{{$t('dApps.prophet.name')}}</h6>
              </div>  
             <div class="media-body align-self-center line-h-2">

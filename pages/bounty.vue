@@ -24,7 +24,7 @@
           <div class="col-lg-8">
             <ul class="list-unstyled">
               <li class="media">
-                <img class="mr-3" src="~static/bounty/1.png" alt="Generic placeholder image">
+                <img class="mr-3" src="~static/bounty/1.png" alt="gxchain">
                 <div class="media-body">
                   <h5 class="mt-0 mb-1 color-666">{{$t('bounty.longTerm.security')}}</h5>
                   <p class="color-666">{{$t('bounty.longTerm.dec')}}</p>

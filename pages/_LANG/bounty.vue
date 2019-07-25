@@ -24,7 +24,7 @@
           <div class="col-lg-8">
             <ul class="list-unstyled">
               <li class="media">
-                <img class="mr-3" src="~static/bounty/1.png" alt="Generic placeholder image">
+                <img class="mr-3" src="~static/bounty/1.png" alt="gxchain">
                 <div class="media-body">
                   <h5 class="mt-0 mb-1 color-666">{{$t('bounty.longTerm.security')}}</h5>
                   <p class="color-666">{{$t('bounty.longTerm.dec')}}</p>
@@ -71,7 +71,7 @@
 export default {
     data () {
         return {
-               bountyList: [
+            bountyList: [
                 {
                     ikey: "item1",
                     name: "浏览器插件",
@@ -107,7 +107,7 @@ export default {
                     ikey: "item6",
                     name: "文档翻译",
                     applyURL: "https://github.com/gxchain/docs",
-                    imgSrc:"https://raw.githubusercontent.com/gxchain/gxips/master/assets/images/task-docs-en.png"
+                    imgSrc: "https://raw.githubusercontent.com/gxchain/gxips/master/assets/images/task-docs-en.png"
                 },
                 {
                     ikey: "item7",
@@ -119,7 +119,7 @@ export default {
                     ikey: "item8",
                     name: "DEMO和教程",
                     applyURL: "javascript:void(0);",
-                    imgSrc:"https://raw.githubusercontent.com/gxchain/gxips/master/assets/images/task-demo-en.png"
+                    imgSrc: "https://raw.githubusercontent.com/gxchain/gxips/master/assets/images/task-demo-en.png"
                 },
                 {
                     ikey: "item9",
@@ -131,7 +131,7 @@ export default {
                     ikey: "item10",
                     name: "代码贡献",
                     applyURL: "https://github.com/gxchain",
-                    imgSrc:"https://raw.githubusercontent.com/gxchain/gxips/master/assets/images/task-code-en.png"
+                    imgSrc: "https://raw.githubusercontent.com/gxchain/gxips/master/assets/images/task-code-en.png"
                 }
             ]
         };

@@ -75,7 +75,7 @@
           <div class="content content-margin-top">
             <div class="item">
               <div class="item-img text-center">
-                <img src="~static/index/home_1.png" alt="">
+                <img src="~static/index/home_1.png" alt="gxchain">
               </div>
               <div class="item-txt in-animate">
                 <h4 class="color-666">{{$t('index.advantages.list1.title')}}</h4>

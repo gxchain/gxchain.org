@@ -428,7 +428,7 @@
                         <h4 id="item-5">5. {{$t('foundation.item5.title')}}</h4>
                         <div>
                             <div class="text-center" style="margin:4rem 0">
-                                <img src="~static/foundation/5_en.png" alt="" class="decision-img">
+                                <img src="~static/foundation/5_en.png" alt="gxchain" class="decision-img">
                                 <p>5.1 Structure of GXChain Foundation</p>
                             </div>
                         </div>

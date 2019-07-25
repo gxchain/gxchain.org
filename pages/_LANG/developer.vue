@@ -12,7 +12,7 @@
        <div class="container">
          <div class="content text-center">
            <div class="item">
-              <img class="item-bg not-animate" src="~static/developer/gxb.png" alt="">
+              <img class="item-bg not-animate" src="~static/developer/gxb.png" alt="gxchain">
               <h3>{{$t('developer.apply.title')}}</h3>
               <p class="in-animate">{{$t('developer.apply.des')}}</p>
               <a href="https://docs.gxchain.org/advanced/testnet.html#_2-apply-token-on-testnet" target="_blank" class="btn btn-lg btn-theme-md">{{$t('developer.apply.btn')}}</a>
