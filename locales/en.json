@@ -709,6 +709,7 @@
     "footer": {
         "wechat": "wechat",
         "contactUs": "Contact Us",
-        "kefu": "Contact"
+        "kefu": "Contact",
+        "privacy_policy":"Privacy Policy"
     }
 }
