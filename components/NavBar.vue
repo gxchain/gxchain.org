@@ -81,8 +81,8 @@ export default {
                 {
                     name: "blockExplorer",
                     path: {
-                        zh: "https://block.gxb.io",
-                        en: "https://block.gxb.io"
+                        zh: "https://explorer.gxchain.org/#/",
+                        en: "https://explorer.gxchain.org/#/"
                     },
                     target: "_blank"
                 },
