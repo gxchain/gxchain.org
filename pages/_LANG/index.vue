@@ -16,7 +16,7 @@
             <h2 class="gxc-border-left padding-left-w">{{$t('index.news.title')}}</h2>
               <div class="row content content-margin-top news-list-wrap">
                 <div class="col-md-4 news-item">
-                    <a href="https://static.gxchain.org/files/TCP_Progress_and_Analysis_en.pdf" target="_blank">
+                    <a href="javascript:void(0);">
                         <div class="img-wrap">
                             <img src="~static/index/news/1_en.png" alt=""  class="bg">
                             <img src="~static/index/news/new.png" alt="" class="new">
@@ -28,7 +28,7 @@
                     </a>
                 </div>
                 <div class="col-md-4 news-item">
-                    <a href="javascript:void(0);" target="_blank">
+                    <a href="https://static.gxchain.org/files/TCP_Progress_and_Analysis_en.pdf" target="_blank">
                         <div class="img-wrap">
                             <img src="~static/index/news/2_en.png" alt=""  class="bg">
                         </div>
