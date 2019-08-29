@@ -68,6 +68,10 @@ module.exports = {
             src: '~/plugins/swiper.js',
             ssr: false
         },
+        {
+            src: '~plugins/device.js',
+            ssr: false
+        }
     ],
     css: ['~assets/css/common.less', 'swiper/dist/css/swiper.css'],
     /*
@@ -97,7 +101,7 @@ module.exports = {
         ]
     },
     router: {
-        middleware: 'i18n'
+        middleware: ['i18n']
     },
     generate: {
         routes: ['/', '/bounty', 'developer', 'resource', 'dapps', 'foundation', 'trustNodes', 'privacy', '/en', '/en/bounty', '/en/developer', '/en/resource', '/en/dapps', '/en/foundation', '/en/trustNodes', '/en/privacy']

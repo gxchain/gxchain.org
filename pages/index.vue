@@ -15,39 +15,21 @@
         <div class="container">
             <h2 class="gxc-border-left padding-left-w">{{$t('index.news.title')}}</h2>
             <div class="row content content-margin-top news-list-wrap">
-                <div class="col-md-4 news-item">
-                    <a href="https://static.gxchain.org/files/GXUniverse.pdf" target="_blank">
-                        <div class="img-wrap">
-                            <img src="~static/index/news/1.png" alt="" class="bg">
-                            <img src="~static/index/news/new.png" alt="" class="new">
+                <div v-swiper:mySwiper="swiperOption">
+                    <div class="swiper-wrapper">
+                        <div class="col-md-4 news-item swiper-slide" v-for="(item, index) in newsList" :key="index">
+                            <a :href="item.href ? item.href : 'javasript:void(0);'" :target="item.href ? '_blank' : ''"> 
+                                <div class="img-wrap">
+                                    <img :src="item.thumb" alt="" class="bg not-animate">
+                                    <img v-if="item.isNew" src="~static/index/news/new.png" alt="" class="new not-animate">
+                                </div>
+                                <div class="info">
+                                    <div class="des">{{$t(`index.news.${item.key}`)}}</div>
+                                    <i class="iconfont icon-jiantou"></i>
+                                </div>
+                            </a>
                         </div>
-                        <div class="info">
-                            <div class="des">{{$t('index.news.item1')}}</div>
-                            <i class="iconfont icon-jiantou"></i>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-md-4 news-item">
-                    <a href="https://static.gxchain.org/files/TCP_Progress_and_Analysis.pdf" target="_blank">
-                        <div class="img-wrap">
-                            <img src="~static/index/news/2.png" alt=""  class="bg">
-                        </div>
-                        <div class="info">
-                            <div class="des">{{$t('index.news.item2')}}</div>
-                            <i class="iconfont icon-jiantou"></i>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-md-4 news-item">
-                    <a href="https://static.gxchain.org/files/GXChain_TCP_V1.0_CN.pdf" target="_blank">
-                        <div class="img-wrap">
-                            <img src="~static/index/news/3.png" alt=""  class="bg">
-                        </div>
-                        <div class="info">
-                            <div class="des">{{$t('index.news.item3')}}</div>
-                            <i class="iconfont icon-jiantou"></i>
-                        </div>
-                    </a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -127,13 +109,24 @@
 </template>
 <script>
 import TimeLine from "~/components/TimeLine.vue";
+import { newsList } from "~/pageData/";
 export default {
     components: {
         TimeLine
     },
     data () {
         return {
-            roadMap: this.setRoadMap(11, 1)
+            roadMap: this.setRoadMap(11, 1),
+            swiperOption: {
+                loop: true,
+                speed: 2000,
+                slidesPerView: this.$store.state.platform == 'WEB' ? 3 : 1,
+                autoplay: {
+                    delay: 3000,
+                    stopOnLastSlide: false
+                }
+            },
+            newsList: newsList
         };
     },
     methods: {

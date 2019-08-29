@@ -17,9 +17,10 @@
         "slogan": "可信数据的价值网络",
         "news": {
             "title": "最新动态",
-            "item1": "GXChain繁星计划概论",
-            "item2": "可信计算 - 研究进展与技术分析",
-            "item3": "可信计算白皮书"
+            "GXUniverse": "GXChain繁星计划概论",
+            "TCP": "可信计算 - 研究进展与技术分析",
+            "WhitePaper": "可信计算白皮书",
+            "OpenFinance": "开放金融 - 发展现状与模型评估"
         },
         "introduction": {
             "title": "简介",
@@ -719,6 +720,6 @@
         "wechat": "微信公众号",
         "contactUs": "联系我们",
         "kefu": "联系客服",
-        "privacy_policy":"隐私政策"
+        "privacy_policy": "隐私政策"
     }
 }

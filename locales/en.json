@@ -17,9 +17,10 @@
         "slogan": "A Trusted Data Internet of Value",
         "news": {
             "title": "Latest News",
-            "item1": "GXUniverse Introduction",
-            "item2": "TCP - Research Progress and Technical Analysis",
-            "item3": "Trusted Computing Protocol White Paper"
+            "GXUniverse": "GXUniverse Introduction",
+            "TCP": "TCP - Research Progress and Technical Analysis",
+            "WhitePaper": "Trusted Computing Protocol White Paper",
+            "OpenFinance": "Open Finance - Development Status and Model Assessment"
         },
         "introduction": {
             "title": "About Us",
@@ -710,6 +711,6 @@
         "wechat": "wechat",
         "contactUs": "Contact Us",
         "kefu": "Contact",
-        "privacy_policy":"Privacy Policy"
+        "privacy_policy": "Privacy Policy"
     }
 }
