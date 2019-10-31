@@ -7,6 +7,7 @@
         "resource": "Resources",
         "dapps": "Dapps",
         "foundation": "Foundation",
+        "research": "Research",
         "trustNodes": "TrustNodes",
         "blockExplorer": "Block Explorer",
         "gxips": "GXIPs",
@@ -706,6 +707,37 @@
             "title": "Other",
             "p1": "To ensure the governance efficiency, salary can only be made to members who work exclusively at GXChain Foundation."
         }
+    },
+    "research": {
+        "description1": "CXChain Research focuses on the blockchain ecosystem, including basic technology, technology transfer and commercialization, regulation, white paper analysis, and investment. Target readers are blockchain enthusiasts, technology geeks, investors, as well as policymakers. CXChain Research is committed to building a leading blockchain research platform. The team is comprised of blockchain practitioners who graduated from Boston University, Stony Brook University, Washington State University, Chongqing University of Posts and Telecommunications and other universities, with master’s and doctor’s degrees. Team members have rich experience in scientific research and commercialization, with continuous and extensive research and practice in the fields of big data, cryptography, distributed systems, distributed computing, certificate economy, and network communication.",
+        "description2": "Currently, the blockchain industry is limited by nascent infrastructure with vague development directions. GXChain Research investigates the trend of blockchain technology concerning globalization, fundamental technologies and the ecosystem of blockchain, promoting technology implementation. Based on GXChain and data economy, we are eager to empower traditional industries as well as the economy, contributing global science, technology, and economic development.",
+        "teammember": "Member",
+        "member1":{
+            "name": "Qi Zhang",
+            "edu": "Ph.D.",
+            "description": "Ph.D. in Applied Mathematics of Stony Brook University, B.S. and M.Phil. degrees in both Mathematics and Economics from the Chinese University of Hong Kong. 5+ years crypto trading experience. Pro at Derivatives Trading, Quantitative Trading, Modeling, Systematic Volatility Trading. Research area in Markov decision process, simulation optimization, stochastic approximation algorithm, reinforcement learning, and related applications."
+        },
+        "member2":{
+            "name": "Jiahao(Jason) Liu",
+            "description": "Master in Finance at John Hopkins University. He has 6+ years of investing experience in fix income and equity market, and 5+ years cryptocurrency trading experience. Now working for Bank of American, used to work for Morgan Stanley ."
+        },
+        "member3":{
+            "name": "Ang Li",
+            "edu": "Ph.D.",
+            "description": "Ph.D. in Biomedical Engineering of Stony Brook University, M.S and bachelor's degree from Rice University and Huazhong University respectively. Current research area focuses on the development of deep neural network, high-speed parallel computing, imaging processing and optical imaging system to understand large-scale bioinformatics data. Pro at market prediction using state-of-arts computational methods including feature engineering, recurrent neural network, model ensemble and Bayesian optimization. "
+        },
+        "member4":{
+            "name": "Wayne Yip ",
+            "edu": "Ph.D.",
+            "description": "Years of hedge fund quantification research and trading experience, familiar with stock and digital currency asset management, general economics and philosophy. He has performed well in well-known quantitative hedge fund executives and research market neutral global stock market strategies. He was involved in the search for Higgs particles at the Fermi National Laboratory in the United States. Bachelor of Physics, Zhongke University, Ph.D. in Physics, State University of New York at Stony Brook."
+        },
+        "member5":{
+            "name": "Yunpeng Zhang",
+            "edu": "Ph.D.",
+            "description": "CEO of CryptoAlgoWheel, Ph.D. in Economics Boston University, MS in London School of Economics and Political Science, former Vice President of Quantitative Risk Management (VP) at State Street Model, he has more than 10 years experience of data modeling, risk control, and application of blockchain. His article was published in Hackernoon, Altcoin Magzine."
+        }
+
+
     },
     "footer": {
         "wechat": "wechat",

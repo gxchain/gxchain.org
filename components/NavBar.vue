@@ -71,6 +71,14 @@ export default {
                     target: "_self"
                 },
                 {
+                    name: "research",
+                    path: {
+                        zh: "/research",
+                        en: "/en/research"
+                    },
+                    target: "_self"
+                },
+                {
                     name: "trustNodes",
                     path: {
                         zh: "/trustNodes",
