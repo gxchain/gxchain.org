@@ -101,6 +101,14 @@ export default {
                         en: "https://github.com/gxchain/gxips"
                     },
                     target: "_blank"
+                },
+                {
+                    name: "blog",
+                    path: {
+                        zh: "https://blog.gxchain.org/",
+                        en: "https://blog.gxchain.org/"
+                    },
+                    target: "_blank"
                 }
             ]
         };
