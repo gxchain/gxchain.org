@@ -13,7 +13,7 @@
             <a class="socail-icon iconfont icon-reddit" href="https://www.reddit.com/r/GXS/"></a>
             <a class="socail-icon iconfont icon-weibo" href="http://weibo.com/gongxinbao" target="_blank"></a>
             <a class="socail-icon iconfont icon-twitter3" href="https://twitter.com/gongxinbao" target="_blank"></a>
-            <a class="socail-icon iconfont icon-telegram" href="https://t.me/GXB_China" target="_blank"></a>
+            <a class="socail-icon iconfont icon-telegram" href="https://t.me/GXChain_international" target="_blank"></a>
             <a class="socail-icon iconfont icon-facebookfacebook52" href="https://www.facebook.com/GXChain/" target="_blank"></a>
           </div>
           <div class="social-list list-wrap" v-if="$i18n.locale === 'en'">
@@ -35,7 +35,7 @@
             <a v-if="$i18n.locale === 'zh'" href="/privacy" target="_blank">{{$t('footer.privacy_policy')}}</a>
             <a v-if="$i18n.locale === 'en'" href="/en/privacy" target="_blank">{{$t('footer.privacy_policy')}}</a>
             <a v-show="$i18n.locale === 'zh'" target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=33010602008310">浙公网安备 33010602008310号</a>
-            <a v-show="$i18n.locale === 'zh'" href="http://www.miitbeian.gov.cn/">浙ICP备16042060号-1</a>                 
+            <a v-show="$i18n.locale === 'zh'" href="http://www.miitbeian.gov.cn/">浙ICP备16042060号-1</a>
           </div>
           <p class="copyright">© 2018-2019 GXChain Foundation Ltd.</p>
         </div>
