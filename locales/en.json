@@ -744,6 +744,23 @@
         "wechat": "wechat",
         "contactUs": "Contact Us",
         "kefu": "Contact",
-        "privacy_policy": "Privacy Policy"
+        "privacy_policy": "Privacy Policy",
+        "social": {
+            "english_international": "GXChain English International Community",
+            "russian": "GXChain Russian Community",
+            "Spanish": "GXChain Spanish Community",
+            "German": "GXChain German Community",
+            "Japanese": "GXChain Japanese Community",
+            "Brazil": "GXChain Brazil Community",
+            "Indian": "GXChain Indian Community",
+            "Philippines": "GXChain Philippines Community",
+            "Vietnamese": "GXChain Vietnamese Community",
+            "African": "GXChain African Community",
+            "Turkish": "GXChain Turkish Community",
+            "SriLanka": "GXChain Sri Lanka Community",
+            "Indonesian": "GXChain Indonesian Community",
+            "kokor1": "GXChain South Korea Community1",
+            "kokor2": "GXChain South Korea Community2"
+        }
     }
 }

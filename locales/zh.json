@@ -753,6 +753,23 @@
         "wechat": "微信公众号",
         "contactUs": "联系我们",
         "kefu": "联系客服",
-        "privacy_policy": "隐私政策"
+        "privacy_policy": "隐私政策",
+        "social": {
+            "english_international": "GXChain 英文国际社群",
+            "russian": "GXChain 俄罗斯社群",
+            "Spanish": "GXChain 西班牙语社群",
+            "German": "GXChain 德国社群",
+            "Japanese": "GXChain 日本社群",
+            "Brazil": "GXChain 巴西社群",
+            "Indian": "GXChain印度社群",
+            "Philippines": "GXChain 菲律宾社群",
+            "Vietnamese": "GXChain 越南社群",
+            "African": "GXChain 非洲社群",
+            "Turkish": "GXChain 土耳其社群",
+            "SriLanka": "GXChain 斯里兰卡社群",
+            "Indonesian": "GXChain 印尼社群",
+            "kokor1": "GXChain韩国社群1",
+            "kokor2": "GXChain韩国社群2"
+        }
     }
 }
