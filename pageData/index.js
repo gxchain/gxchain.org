@@ -1,5 +1,15 @@
 //Latest News
-export const newsList = [{
+export const newsList = [
+    {
+        name: 'GXChain Staking 投票激励指南',
+        key: 'Staking',
+        href: 'https://doc.gxb.io/staking/#/',
+        href_en: 'https://doc.gxb.io/staking/#/?lang=en',
+        thumb: '/index/news/Staking.png',
+        thumb_en: '/index/news/Staking_en.png',
+        isNew: true
+    },
+    {
         name: '开放金融',
         key: 'OpenFinance',
         href: 'https://static.gxchain.org/files/Open_Finance.pdf',
