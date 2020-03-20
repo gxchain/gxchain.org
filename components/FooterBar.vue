@@ -87,7 +87,7 @@
             <a v-if="$i18n.locale === 'zh'" href="/privacy" target="_blank">{{$t('footer.privacy_policy')}}</a>
             <a v-if="$i18n.locale === 'en'" href="/en/privacy" target="_blank">{{$t('footer.privacy_policy')}}</a>
             <a v-show="$i18n.locale === 'zh'" target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=33010602008310">浙公网安备 33010602008310号</a>
-            <a v-show="$i18n.locale === 'zh'" href="http://www.miitbeian.gov.cn/">浙ICP备16042060号-1</a>
+            <a v-show="$i18n.locale === 'zh'" href="http://www.beian.miit.gov.cn/">浙ICP备16042060号-1</a>
           </div>
           <p class="copyright">© 2018-2020 GXChain Foundation Ltd.</p>
         </div>
