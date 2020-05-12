@@ -11,7 +11,7 @@
                   <div class="color-666 in-animate">{{$t('resource.client.gxsWallet.des')}}</div>
                 </div>
                 <div class="item-download col-md-4 in-animate">
-                   <a href="http://blockcity.gxb.io/download/" target="_blank" class="btn btn-theme-sm">{{$t('resource.github.download')}}</a> 
+                   <a href="http://blockcity.gxb.io/download/" target="_blank" class="btn btn-theme-sm">{{$t('resource.github.download')}}</a>
                 </div>
               </div>
               <div class="item row">
@@ -21,9 +21,9 @@
                   <div class="color-666 in-animate">{{$t('resource.client.pcWallet.des')}}</div>
                 </div>
                 <div class="item-download col-md-4 in-animate">
-                   <a href="https://github.com/gxchain/gxchain-light/releases/download/v1.3.0/gxb-light-setup-1.3.0.exe" class="btn btn-theme-sm">{{$t('resource.github.win')}}</a> 
-                   <a href="https://github.com/gxchain/gxchain-light/releases/download/v1.3.0/gxb-light_1.3.0_amd64.deb" target="_blank" class="btn btn-theme-sm">{{$t('resource.github.linux')}}</a> 
-                    <a href="https://github.com/gxchain/gxchain-light/releases/download/v1.3.0/gxb-light-1.3.0.dmg" target="_blank" class="btn btn-theme-sm">{{$t('resource.github.mac')}}</a> 
+                   <a href="https://gxb-package.oss-cn-hangzhou.aliyuncs.com/gxb-light-setup-1.4.0.exe" class="btn btn-theme-sm">{{$t('resource.github.win')}}</a>
+                   <a href="https://gxb-package.oss-cn-hangzhou.aliyuncs.com/gxb-light_1.4.0_amd64.deb" target="_blank" class="btn btn-theme-sm">{{$t('resource.github.linux')}}</a>
+                    <a href="https://gxb-package.oss-cn-hangzhou.aliyuncs.com/gxb-light-1.4.0.dmg" target="_blank" class="btn btn-theme-sm">{{$t('resource.github.mac')}}</a>
                 </div>
               </div>
                <div class="item row">
@@ -33,7 +33,7 @@
                   <div class="color-666 in-animate">{{$t('resource.client.ide.des')}}</div>
                 </div>
                 <div class="item-download col-md-4 in-animate">
-                   <a href="https://github.com/gxchain/gxchain-alpha/releases/tag/v0.0.3" target="_blank" class="btn btn-theme-sm">{{$t('resource.github.download')}}</a> 
+                   <a href="https://github.com/gxchain/gxchain-alpha/releases/tag/v0.0.3" target="_blank" class="btn btn-theme-sm">{{$t('resource.github.download')}}</a>
                 </div>
               </div>
             </div>
@@ -46,7 +46,7 @@
              <div class="col-md-4" v-for="(item,index) in codeAddrList" :key="index">
                <div class="item">
                   <h4 class="color-666">{{$t(('resource.github.codeAddrList.'+item.ikey)).title}}</h4>
-                  <h6 class="color-999">{{$t(('resource.github.codeAddrList.'+item.ikey)).des}}</h6> 
+                  <h6 class="color-999">{{$t(('resource.github.codeAddrList.'+item.ikey)).des}}</h6>
                   <div>
                     <a v-for="(address,key) in item.address" :key="key" target="_blank" :href="address.path">{{$t('resource.github.address.'+key)}}</a>
                   </div>
