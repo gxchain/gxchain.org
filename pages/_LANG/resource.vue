@@ -21,9 +21,9 @@
                   <div class="color-666 in-animate">{{$t('resource.client.pcWallet.des')}}</div>
                 </div>
                 <div class="item-download col-md-4 in-animate">
-                    <a href="https://gxb-package.oss-cn-hangzhou.aliyuncs.com/gxb-light-setup-1.4.0.exe" class="btn btn-theme-sm">{{$t('resource.github.win')}}</a>
-                   <a href="https://gxb-package.oss-cn-hangzhou.aliyuncs.com/gxb-light_1.4.0_amd64.deb" target="_blank" class="btn btn-theme-sm">{{$t('resource.github.linux')}}</a>
-                    <a href="https://gxb-package.oss-cn-hangzhou.aliyuncs.com/gxb-light-1.4.0.dmg" target="_blank" class="btn btn-theme-sm">{{$t('resource.github.mac')}}</a>
+                    <a href="https://gxb-package.oss-cn-hangzhou.aliyuncs.com/gxb-light-setup-1.4.1.exe" class="btn btn-theme-sm">{{$t('resource.github.win')}}</a>
+                   <a href="https://gxb-package.oss-cn-hangzhou.aliyuncs.com/gxb-light_1.4.1_amd64.deb" target="_blank" class="btn btn-theme-sm">{{$t('resource.github.linux')}}</a>
+                    <a href="https://gxb-package.oss-cn-hangzhou.aliyuncs.com/gxb-light-1.4.1.dmg" target="_blank" class="btn btn-theme-sm">{{$t('resource.github.mac')}}</a>
                 </div>
               </div>
                <div class="item row">
