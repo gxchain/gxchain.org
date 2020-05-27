@@ -15,7 +15,7 @@
                 </div>
             </div>
         </div>
-      </div>  
+      </div>
     </section>
     <section class="project section-padding">
      <div class="container">
@@ -76,61 +76,61 @@ export default {
                     ikey: "item1",
                     name: "浏览器插件",
                     applyURL: "https://github.com/gxchain/GScatter",
-                    imgSrc: "https://raw.githubusercontent.com/gxchain/gxips/master/assets/images/task-extension.png"
+                    imgSrc: "https://static.gxchain.org/gxchain/assets/images/task-extension.png"
                 },
                 {
                     ikey: "item2",
                     name: "智能合约IDE",
                     applyURL: "https://github.com/gxchain/gxc-smart-contract-ide",
-                    imgSrc: "https://raw.githubusercontent.com/gxchain/gxips/master/assets/images/task-ide.png"
+                    imgSrc: "https://static.gxchain.org/gxchain/assets/images/task-ide.png"
                 },
                 {
                     ikey: "item3",
                     name: "手机钱包",
                     applyURL: "https://github.com/gxchain/gxchain-wallet",
-                    imgSrc: "https://raw.githubusercontent.com/gxchain/gxips/master/assets/images/task-mwallet.png"
+                    imgSrc: "https://static.gxchain.org/gxchain/assets/images/task-mwallet.png"
                 },
                 {
                     ikey: "item4",
                     name: "PC钱包",
                     applyURL: "https://github.com/gxchain/gxchain-light",
-                    imgSrc: "https://raw.githubusercontent.com/gxchain/gxips/master/assets/images/task-wallet.png"
+                    imgSrc: "https://static.gxchain.org/gxchain/assets/images/task-wallet.png"
                 },
                 {
                     ikey: "item5",
                     name: "GXClient多语言实现",
                     applyURL: "https://github.com/gxchain/gxclient-node",
-                    imgSrc: "https://raw.githubusercontent.com/gxchain/gxips/master/assets/images/task-gxclient.png"
+                    imgSrc: "https://static.gxchain.org/gxchain/assets/images/task-gxclient.png"
                 },
                 {
                     ikey: "item6",
                     name: "文档翻译",
                     applyURL: "https://github.com/gxchain/docs",
-                    imgSrc: "https://raw.githubusercontent.com/gxchain/gxips/master/assets/images/task-docs.png"
+                    imgSrc: "https://static.gxchain.org/gxchain/assets/images/task-docs.png"
                 },
                 {
                     ikey: "item7",
                     name: "硬件钱包",
                     applyURL: "javascript:void(0);",
-                    imgSrc: "https://raw.githubusercontent.com/gxchain/gxips/master/assets/images/task-hardware.png"
+                    imgSrc: "https://static.gxchain.org/gxchain/assets/images/task-hardware.png"
                 },
                 {
                     ikey: "item8",
                     name: "DEMO和教程",
                     applyURL: "javascript:void(0);",
-                    imgSrc: "https://raw.githubusercontent.com/gxchain/gxips/master/assets/images/task-demo.png"
+                    imgSrc: "https://static.gxchain.org/gxchain/assets/images/task-demo.png"
                 },
                 {
                     ikey: "item9",
                     name: "优化提案",
                     applyURL: "https://github.com/gxchain/gxips",
-                    imgSrc: "https://raw.githubusercontent.com/gxchain/gxips/master/assets/images/task-gxips.png"
+                    imgSrc: "https://static.gxchain.org/gxchain/assets/images/task-gxips.png"
                 },
                 {
                     ikey: "item10",
                     name: "代码贡献",
                     applyURL: "https://github.com/gxchain",
-                    imgSrc: "https://raw.githubusercontent.com/gxchain/gxips/master/assets/images/task-code.png"
+                    imgSrc: "https://static.gxchain.org/gxchain/assets/images/task-code.png"
                 }
             ]
         };
